@@ -1,0 +1,12 @@
+# Các thư viện bắt buộc cho đồ án Phát hiện Clickbait Đa phương thức
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.40.0
+pandas>=2.0.0
+numpy>=1.24.0
+pillow>=9.0.0
+scikit-learn>=1.2.0
+tqdm>=4.65.0
+requests>=2.28.0
+beautifulsoup4>=4.12.0
+streamlit>=1.30.0
