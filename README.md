@@ -1,111 +1,127 @@
-# ViClickbait Detector — Phát hiện Clickbait tiếng Việt
+# ViClickbait Detector — Phát hiện clickbait đa phương thức bằng học sâu
 
-Công cụ phát hiện **tiêu đề/bài báo clickbait tiếng Việt** bằng học sâu, kèm giao diện web cho phép dán link bài báo để phân tích và **giải thích vì sao** tiêu đề đó bị coi là clickbait.
+Khóa luận tốt nghiệp **CNTT-KLCN298**: phát hiện tiêu đề báo điện tử tiếng Việt mang tính *clickbait* bằng cách kết hợp **tiêu đề** (PhoBERT) và **ảnh thumbnail** (ViT) theo hướng **hợp nhất muộn** (late fusion), huấn luyện và đánh giá trên bộ dữ liệu **ViClickbait-2025**.
 
-Kết hợp 2 hướng tiếp cận:
+| | |
+|---|---|
+| Bài toán | Phân loại nhị phân `clickbait` / `non-clickbait` |
+| Văn bản | [`vinai/phobert-base`](https://huggingface.co/vinai/phobert-base), tách từ bằng `pyvi`, masked mean pooling |
+| Hình ảnh | [`google/vit-base-patch16-224`](https://huggingface.co/google/vit-base-patch16-224), mean pooling |
+| Hợp nhất | `concat` (nối đặc trưng) và `multimodal` (cross-attention văn bản → ảnh) |
+| Dữ liệu | 3.197 mẫu hợp lệ / 3.414 mẫu gốc, chia 70/15/15 phân tầng, 3 seed |
+| Đánh giá | Accuracy, Precision, Recall, F1 từng lớp, **Macro-F1**, ma trận nhầm lẫn |
+| Demo | Ứng dụng web Streamlit: dán link bài báo → dự đoán + giải thích |
 
-- **Mô hình học sâu**: PhoBERT (văn bản) + ViT (hình ảnh), ghép bằng Cross-Modal Attention.
-- **Luật ngôn ngữ**: nhận diện các dấu hiệu như "khoảng trống tò mò", câu hỏi, danh sách con số, viết hoa, gọi trực tiếp người đọc...
+## Kết quả chính
 
-## Tính năng
+Macro-F1 trên tập **test**, trung bình ± độ lệch chuẩn qua 3 seed (42, 43, 44). Chi tiết: [docs/experiments.md](docs/experiments.md).
 
-- 🔗 Dán link bài báo (VnExpress, Thanh Niên, ...) → tự lấy tiêu đề + ảnh bìa.
-- 📝 **Text only**: phân tích tiêu đề, highlight các cụm từ đáng ngờ.
-- 🖼️ **Image only**: phân tích ảnh bìa, xuất heatmap (Attention Rollout) cho biết mô hình đang nhìn vào đâu.
-- 🧠 **Multimodal**: dùng cả tiêu đề và ảnh.
-- ⚖️ **So sánh**: chạy cùng lúc cả 3 mô hình trên một bài báo.
-- 🕘 Lịch sử phân tích, chỉnh ngưỡng quyết định (mặc định 0.5).
+| Mô hình | Đầu vào | Accuracy | Macro-F1 | F1 (clickbait) |
+|---|---|---|---|---|
+| `text` | Tiêu đề | 0,8299 ± 0,0268 | 0,8029 ± 0,0346 | 0,7303 ± 0,0520 |
+| `image` | Ảnh | 0,7410 ± 0,0229 | 0,6675 ± 0,0456 | 0,5116 ± 0,0810 |
+| `concat` | Tiêu đề + ảnh | **0,8444 ± 0,0182** | **0,8194 ± 0,0209** | **0,7521 ± 0,0289** |
+| `multimodal` | Tiêu đề + ảnh (cross-attention) | 0,8410 ± 0,0219 | 0,8087 ± 0,0315 | 0,7304 ± 0,0499 |
 
 ## Cấu trúc thư mục
 
 ```
 ClickBaitKLTN/
-├── app.py                  # Giao diện Streamlit
-├── scraper.py              # Lấy tiêu đề / ảnh bìa từ link bài báo
-├── signals.py              # Phát hiện dấu hiệu clickbait theo luật
-├── text_utils.py           # Tách từ tiếng Việt (pyvi) cho PhoBERT
-├── train.py                # Huấn luyện mô hình
-├── evaluate.py             # Đánh giá trên tập validation
-├── download_images.py      # Tải ảnh thumbnail của dataset
-├── requirements.txt
+├── app.py                     # Demo Streamlit (streamlit run app.py)
+├── clickbait/                 # Thư viện dùng chung
+│   ├── dataset.py             #   mẫu hợp lệ, chia tập 70/15/15, Dataset PyTorch
+│   ├── models.py              #   4 kiến trúc: text, image, concat, multimodal
+│   ├── metrics.py             #   Accuracy / P / R / F1 / Macro-F1 / ma trận nhầm lẫn
+│   ├── text_utils.py          #   tách từ tiếng Việt (pyvi) cho PhoBERT
+│   ├── scraper.py             #   lấy tiêu đề + ảnh bìa từ link bài báo
+│   └── signals.py             #   dấu hiệu clickbait theo luật (để giải thích trên demo)
+├── scripts/                   # Các bước của pipeline (python -m scripts.<tên>)
+│   ├── download_images.py     #   1. tải ảnh thumbnail
+│   ├── prepare_data.py        #   2. lọc mẫu hợp lệ
+│   ├── train.py               #   3. huấn luyện một mode × seed
+│   ├── evaluate.py            #   4. đánh giá trên tập test (một lần)
+│   ├── run_all.py             #   3+4 cho mọi mode × seed
+│   └── summarize.py           #   5. gộp kết quả mean ± std
 ├── data/
-│   ├── text/clickbait_dataset_vietnamese.csv   # Dataset
-│   └── images/                                 # Ảnh thumbnail (tự tải, không push git)
-└── *.pth                   # Trọng số mô hình (không push git)
+│   ├── text/                  # dataset gốc + valid_samples.csv + exclusion_review.csv
+│   ├── splits/                # split_seed{42,43,44}.csv (id → train/val/test)
+│   └── images/                # ảnh thumbnail (tự tải, không đưa lên git)
+├── checkpoints/               # *.pth (không đưa lên git) + *.json meta huấn luyện
+├── results/                   # kết quả test từng lượt, summary.csv
+│   └── v1_no_warmup/          # lượt chạy đối chứng không warmup
+├── tests/                     # kiểm thử tự động (pytest)
+└── docs/                      # tài liệu dữ liệu, thực nghiệm, quy trình làm việc
 ```
-
-## Bộ dữ liệu ViClickbait-2025
-
-- **3.414** tiêu đề tin tức tiếng Việt, gán nhãn `clickbait` / `non-clickbait`.
-- Thu thập từ **8 trang báo lớn** (VnExpress, Thanh Niên, Dân Trí, ...).
-- Các cột chính: `id`, `url`, `title`, `lead_paragraph`, `category`, `publish_datetime`, `source`, `thumbnail_url`, `label`.
-
-> ⚠️ Dataset đang trong quá trình xem xét công bố, chưa có DOI. Thông tin trích dẫn sẽ được cập nhật sau khi bài báo khoa học được chấp nhận.
 
 ## Cài đặt
 
-Yêu cầu **Python 3.11** (khuyến nghị) và pip.
+Yêu cầu **Python 3.11**, GPU NVIDIA khuyến nghị (đã chạy trên RTX 3060 Laptop 6 GB).
 
-```bash
+```powershell
 python -m venv venv
-# Windows
 venv\Scripts\activate
-# Linux / macOS
-source venv/bin/activate
-
+# Cài PyTorch bản CUDA trước cho khớp driver
+pip install torch --index-url https://download.pytorch.org/whl/cu128
 pip install -r requirements.txt
 ```
 
-Nếu có GPU NVIDIA, nên cài PyTorch bản CUDA trước cho khớp driver:
+> Mọi lệnh bên dưới chạy từ **thư mục gốc** của repo.
 
-```bash
-pip install torch --index-url https://download.pytorch.org/whl/cu128
+## Tái lập thực nghiệm
+
+```powershell
+# 1. Tải ảnh thumbnail (~3.400 ảnh, lỗi ghi vào data/text/image_download_errors.csv)
+python -m scripts.download_images
+
+# 2. Lọc mẫu hợp lệ: xem báo cáo trước, rồi ghi data/text/valid_samples.csv
+python -m scripts.prepare_data
+python -m scripts.prepare_data --apply
+
+# 3–4. Huấn luyện + đánh giá 4 mode × 3 seed (bỏ qua lượt đã có kết quả)
+python -m scripts.run_all --seeds 42 43 44
+
+# 5. Gộp kết quả → results/summary.csv
+python -m scripts.summarize
 ```
 
-## Cách sử dụng
+Chạy riêng một lượt:
 
-**1. Tải ảnh của dataset** (chỉ cần chạy một lần, ~3000 ảnh):
-
-```bash
-python download_images.py
+```powershell
+python -m scripts.train --mode multimodal --seed 42      # → checkpoints/multimodal_seed42.pth + .json
+python -m scripts.evaluate --mode multimodal --seed 42   # → results/multimodal_seed42.json + _errors.csv
+python -m scripts.train --mode concat --limit 16 --epochs 1   # smoke test, không lưu checkpoint
 ```
 
-**2. Huấn luyện** (chọn 1 trong 3 chế độ):
+Siêu tham số mặc định: AdamW lr 2e-5, weight decay 0,01, 3 epoch, batch 4, FP16, warmup tuyến tính 10%, độ dài tiêu đề tối đa 48 token. Checkpoint được chọn theo **Macro-F1 trên tập validation**; tập test chỉ được đánh giá một lần (`evaluate.py` từ chối ghi đè nếu không có `--overwrite`).
 
-```bash
-python train.py --mode text
-python train.py --mode image
-python train.py --mode multimodal --epochs 5 --batch-size 4 --lr 2e-5
-```
+## Demo
 
-Trọng số tốt nhất được lưu thành `text_only_clickbait_model.pth`, `image_only_clickbait_model.pth`, `multimodal_clickbait_model.pth`.
-
-**3. Đánh giá** trên tập validation (80/20, seed 42):
-
-```bash
-python evaluate.py --mode multimodal
-```
-
-In ra Precision / Recall / F1, Macro F1 và ma trận nhầm lẫn.
-
-**4. Chạy giao diện web:**
-
-```bash
+```powershell
 streamlit run app.py
 ```
 
-Mở `http://localhost:8501`, dán link hoặc nhập tiêu đề (kèm ảnh nếu dùng mode Image / Multimodal) rồi bấm **Phân tích**.
+Mở <http://localhost:8501>, dán link bài báo hoặc nhập tiêu đề + tải ảnh. Demo dùng checkpoint seed 42 trong `checkpoints/`.
 
-## Lưu ý
+- 3 chế độ: **Text only**, **Image only** (kèm heatmap attention), **Multimodal**, và chế độ **So sánh** chạy cả 3 cùng lúc.
+- Tô màu các cụm từ mang dấu hiệu clickbait theo luật ngôn ngữ (`clickbait/signals.py`).
+- Chỉnh ngưỡng quyết định ở thanh bên, lưu lịch sử phân tích vào `analysis_history.json`.
 
-- Cần có file `.pth` tương ứng trong thư mục gốc, nếu không app sẽ cảnh báo và dùng **trọng số ngẫu nhiên** (kết quả vô nghĩa).
-- Mode **Image / Multimodal** bắt buộc phải có ảnh.
-- `data/images/` và các file `.pth` được đặt trong `.gitignore` vì quá nặng (hàng trăm MB → vài GB), không đẩy lên GitHub.
-- Lịch sử phân tích được lưu tự động vào `analysis_history.json`.
-- Một số trang báo chặn crawler hoặc đổi cấu trúc meta → khi lấy link lỗi, hãy nhập tiêu đề và upload ảnh thủ công.
+## Kiểm thử
 
-## Giấy phép
+```powershell
+python -m pytest              # toàn bộ (cần checkpoints/text_seed42.pth cho 1 test)
+python -m pytest -m "not slow"  # chỉ test nhanh, không cần checkpoint
+```
 
-Dự án phục vụ mục đích **học thuật và phi thương mại**. Dataset dự kiến phát hành theo giấy phép CC BY 4.0 sau khi được chấp thuận. Vui lòng ghi nguồn khi sử dụng.
+Kiểm tra: tập chia không giao nhau, đúng kích thước 2237/480/480, phân tầng, tái tạo được từ seed; masked mean pooling bỏ qua padding; chỉ số đánh giá; checkpoint khớp kiến trúc; luật nhận diện dấu hiệu.
 
-Mọi thắc mắc hoặc đề nghị hợp tác nghiên cứu, vui lòng liên hệ nhóm thực hiện.
+## Tài liệu
+
+- [docs/data.md](docs/data.md): bộ dữ liệu, quy tắc lọc mẫu, chia tập
+- [docs/experiments.md](docs/experiments.md): thiết lập, kết quả chi tiết, ablation warmup
+- [docs/git-workflow.md](docs/git-workflow.md): quy ước nhánh, commit, pull request của nhóm
+- [CHANGELOG.md](CHANGELOG.md): lịch sử thay đổi
+
+## Bộ dữ liệu và giấy phép
+
+ViClickbait-2025: 3.414 tiêu đề từ 8 trang báo (Báo Mới, VnExpress, Thanh Niên, 24h, VietNamNet, SaoStar, Tuổi Trẻ, Kênh14). Dataset đang trong quá trình xét duyệt công bố, chưa có DOI; dự kiến phát hành theo CC BY 4.0. Mã nguồn phục vụ mục đích học thuật, phi thương mại.
