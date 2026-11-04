@@ -35,3 +35,6 @@ streamlit>=1.36
 
 # --- Tiện ích ---
 tqdm>=4.66
+
+# --- Kiểm thử (python -m pytest) ---
+pytest>=8.0

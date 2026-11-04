@@ -14,15 +14,16 @@ import uuid
 from datetime import datetime
 
 import torch
-import torch.nn as nn
 import torch.nn.functional as F
 from PIL import Image
 import streamlit as st
-from transformers import AutoTokenizer, ViTImageProcessor, AutoModel, ViTModel
+from transformers import AutoTokenizer, ViTImageProcessor, ViTModel
 
-from scraper import fetch_article
-from signals import extract_signals, render_highlighted, summarize, CATEGORIES
-from text_utils import segment_text
+from clickbait.dataset import MAX_LENGTH
+from clickbait.models import MODEL_CLASSES, PHOBERT_NAME, VIT_NAME, checkpoint_path
+from clickbait.scraper import fetch_article
+from clickbait.signals import extract_signals, render_highlighted, summarize, CATEGORIES
+from clickbait.text_utils import segment_text
 
 if sys.platform == 'win32' and sys.stdout is not None:
     sys.stdout.reconfigure(encoding='utf-8')
@@ -32,60 +33,8 @@ st.set_page_config(page_title="ViClickbait Detector", page_icon="📰", layout="
 HISTORY_FILE = 'analysis_history.json'
 
 
-# ===================== Kiến trúc mô hình (giống hệt train.py) =====================
-class TextOnlyClickbaitModel(nn.Module):
-    def __init__(self, phobert_name="vinai/phobert-base"):
-        super().__init__()
-        self.text_encoder = AutoModel.from_pretrained(phobert_name)
-        hidden = self.text_encoder.config.hidden_size
-        self.classifier = nn.Sequential(
-            nn.Linear(hidden, 256), nn.ReLU(), nn.Dropout(0.3), nn.Linear(256, 1),
-        )
-
-    def forward(self, input_ids, attention_mask, pixel_values=None):
-        out = self.text_encoder(input_ids=input_ids, attention_mask=attention_mask)
-        return self.classifier(torch.mean(out.last_hidden_state, dim=1)).squeeze(1)
-
-
-class ImageOnlyClickbaitModel(nn.Module):
-    def __init__(self, vit_name="google/vit-base-patch16-224"):
-        super().__init__()
-        self.image_encoder = ViTModel.from_pretrained(vit_name)
-        hidden = self.image_encoder.config.hidden_size
-        self.classifier = nn.Sequential(
-            nn.Linear(hidden, 256), nn.ReLU(), nn.Dropout(0.3), nn.Linear(256, 1),
-        )
-
-    def forward(self, input_ids, attention_mask, pixel_values):
-        out = self.image_encoder(pixel_values=pixel_values)
-        return self.classifier(torch.mean(out.last_hidden_state, dim=1)).squeeze(1)
-
-
-class MultimodalClickbaitModel(nn.Module):
-    def __init__(self, phobert_name="vinai/phobert-base", vit_name="google/vit-base-patch16-224", num_heads=8):
-        super().__init__()
-        self.text_encoder = AutoModel.from_pretrained(phobert_name)
-        self.image_encoder = ViTModel.from_pretrained(vit_name)
-        text_h = self.text_encoder.config.hidden_size
-        image_h = self.image_encoder.config.hidden_size
-        self.image_projection = nn.Linear(image_h, text_h) if text_h != image_h else nn.Identity()
-        self.cross_attention = nn.MultiheadAttention(text_h, num_heads=num_heads, batch_first=True)
-        self.classifier = nn.Sequential(
-            nn.Linear(text_h * 2, 256), nn.ReLU(), nn.Dropout(0.3), nn.Linear(256, 1),
-        )
-
-    def forward(self, input_ids, attention_mask, pixel_values):
-        text_features = self.text_encoder(input_ids=input_ids, attention_mask=attention_mask).last_hidden_state
-        image_features = self.image_projection(self.image_encoder(pixel_values=pixel_values).last_hidden_state)
-        attn_output, _ = self.cross_attention(query=text_features, key=image_features, value=image_features)
-        combined = torch.cat(
-            (torch.mean(text_features, dim=1), torch.mean(attn_output, dim=1)), dim=1,
-        )
-        return self.classifier(combined).squeeze(1)
-
-
-MODEL_CLASSES = {'text': TextOnlyClickbaitModel, 'image': ImageOnlyClickbaitModel, 'multimodal': MultimodalClickbaitModel}
-CHECKPOINTS = {'text': 'text_only_clickbait_model.pth', 'image': 'image_only_clickbait_model.pth', 'multimodal': 'multimodal_clickbait_model.pth'}
+# Demo dùng checkpoint của seed 42 (kiến trúc mô hình nằm trong clickbait/models.py)
+DEMO_SEED = 42
 MODE_LABELS = {'text': '📝 Text only (PhoBERT)', 'image': '🖼️ Image only (ViT)', 'multimodal': '🧠 Multimodal (PhoBERT + ViT)'}
 
 
@@ -93,11 +42,11 @@ MODE_LABELS = {'text': '📝 Text only (PhoBERT)', 'image': '🖼️ Image only 
 @st.cache_resource(show_spinner="Đang tải mô hình...")
 def load_pipeline(mode):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base")
-    processor = ViTImageProcessor.from_pretrained("google/vit-base-patch16-224")
+    tokenizer = AutoTokenizer.from_pretrained(PHOBERT_NAME)
+    processor = ViTImageProcessor.from_pretrained(VIT_NAME)
     model = MODEL_CLASSES[mode]()
 
-    ckpt = CHECKPOINTS[mode]
+    ckpt = checkpoint_path(mode, DEMO_SEED)
     if os.path.exists(ckpt):
         model.load_state_dict(torch.load(ckpt, map_location=device, weights_only=True))
         status = f"✅ {ckpt}"
@@ -109,7 +58,7 @@ def load_pipeline(mode):
     if mode in ('image', 'multimodal'):
         # ViT bản eager để lấy attentions cho heatmap (sdpa không hỗ trợ output_attentions)
         eager_vit = ViTModel.from_pretrained(
-            "google/vit-base-patch16-224", attn_implementation='eager',
+            VIT_NAME, attn_implementation='eager',
         )
         eager_vit.load_state_dict(model.image_encoder.state_dict())
         eager_vit.to(device).eval()
@@ -121,7 +70,7 @@ def predict(mode, title, image, pipeline):
     model, tokenizer, processor, _, device, _ = pipeline
     with torch.no_grad():
         if mode in ('text', 'multimodal'):
-            enc = tokenizer(segment_text(title), max_length=256, padding='max_length', truncation=True, return_tensors='pt')
+            enc = tokenizer(segment_text(title), max_length=MAX_LENGTH, padding='max_length', truncation=True, return_tensors='pt')
             input_ids = enc['input_ids'].to(device)
             attention_mask = enc['attention_mask'].to(device)
         else:

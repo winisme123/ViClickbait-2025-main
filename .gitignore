@@ -22,8 +22,10 @@ virtualenv/
 *.onnx
 *.h5
 *.bin
-models/
-checkpoints/
+# Giữ lại file .json meta (siêu tham số + lịch sử huấn luyện) của checkpoint
+checkpoints/*
+!checkpoints/*.json
+checkpoints_v1_no_warmup/
 runs/
 wandb/
 lightning_logs/
@@ -43,6 +45,10 @@ st_err.txt
 .coverage
 .coverage.*
 htmlcov/
+
+# ===== File tạm để gửi / chia sẻ =====
+send/
+*.zip
 
 # ===== Bí mật / cấu hình cục bộ =====
 .env
