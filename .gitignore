@@ -1,6 +1,69 @@
-venv/
+# ===== Python =====
 __pycache__/
-*.pth
-images/
-.vscode/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+.python-version
+
+# ===== Jupyter =====
 .ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== Trọng số mô hình / checkpoint (rất nặng, không push) =====
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.bin
+# Giữ lại file .json meta (siêu tham số + lịch sử huấn luyện) của checkpoint
+checkpoints/*
+!checkpoints/*.json
+checkpoints_v1_no_warmup/
+runs/
+wandb/
+lightning_logs/
+
+# ===== Dữ liệu ảnh (hàng trăm MB, không push) =====
+images/
+data/images/
+
+# ===== Output / cache khi chạy app =====
+analysis_history.json
+st_out.txt
+st_err.txt
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ===== File tạm để gửi / chia sẻ =====
+send/
+*.zip
+
+# ===== Bí mật / cấu hình cục bộ =====
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.history/
+
+# ===== Hệ điều hành =====
+.DS_Store
+Thumbs.db
+desktop.ini
