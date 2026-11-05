@@ -86,6 +86,17 @@ Pipeline chính tránh lỗi này bằng các biện pháp sau:
 - Checkpoint được chọn chỉ theo tập validation. `scripts/evaluate.py` từ chối ghi đè kết quả test đã có.
 - Demo và tài liệu đọc số liệu từ `results/`, không nhập tay. `tests/test_inference.py` kiểm tra demo cho cùng xác suất với đường đánh giá.
 
+## Thí nghiệm bổ sung v3 (quy tắc chốt trước: `docs/protocol-v3.md`)
+
+| Thí nghiệm | Kết quả (Macro-F1) | Kết luận |
+|---|---|---|
+| A. Text-only vs Late Fusion, 8 seed (42–49) | 0,8085 ± 0,0239 vs **0,8192 ± 0,0143**; concat thắng 7/8; Wilcoxon p = 0,078; McNemar gộp p = 0,030 | Tốt hơn nhất quán về hướng, **chưa chứng minh được** theo tiêu chí chính (Wilcoxon p < 0,05) |
+| B. Thêm đoạn mở đầu (seed 42–44) | text 0,8029 → 0,8180 (2/3 seed tăng); concat 0,8194 → 0,8038 (0/3) | Không cải thiện nhất quán, demo giữ chỉ tiêu đề |
+| C. Ngưỡng chọn trên validation | concat 0,8192 → 0,8160; text 0,8085 → 0,8094; multimodal 0,8087 → 0,8128; image 0,6675 → 0,6676 | Không cải thiện nhất quán, giữ ngưỡng 0,5 |
+| D. TF-IDF + Logistic Regression, 8 seed | 0,7556 ± 0,0125 | PhoBERT cao hơn khoảng 5 điểm |
+
+File: `results/summary_8seeds.csv`, `results/summary_lead.csv`, `results/compare_*.json`, `results/threshold/`, `results/tfidf/`.
+
 ## Tái lập
 
 ```powershell

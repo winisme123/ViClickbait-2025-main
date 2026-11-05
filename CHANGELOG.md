@@ -1,5 +1,16 @@
 # Lịch sử thay đổi
 
+## [0.6.0] - 2026-11-05
+
+### Thêm
+- Thí nghiệm bổ sung theo `docs/protocol-v3.md` (chốt trước khi chạy): 8 seed cho Text-only/Late Fusion, mode `text_lead`/`concat_lead` (tiêu đề + đoạn mở đầu), chọn ngưỡng trên validation, baseline TF-IDF. Kết quả tóm tắt trong `docs/experiments.md`.
+- `scripts/compare_seeds.py` (Wilcoxon + McNemar), `scripts/tune_threshold.py`, `scripts/baseline_tfidf.py`.
+- `scripts/summarize.py`: tham số `--modes/--seeds/--out`; mặc định vẫn gộp seed 42–44 nên `results/summary.csv` không đổi.
+- `clickbait/text_utils.normalize_text`: chuẩn hóa NFC và bỏ ký tự vô hình cho đầu vào demo.
+
+### Quyết định
+- Demo giữ đầu vào chỉ tiêu đề và ngưỡng 0,5, vì đoạn mở đầu và ngưỡng chọn trên validation đều không cải thiện nhất quán.
+
 ## [0.5.0] - 2026-11-05
 
 ### Thay đổi
