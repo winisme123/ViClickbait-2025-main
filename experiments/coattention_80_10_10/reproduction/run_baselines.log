@@ -1,0 +1,176 @@
+W1105 14:24:23.807000 36972 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+[transformers] `ViTImageProcessor` requires torchvision (not installed); falling back to `ViTImageProcessorPil` for backward compatibility. Install torchvision to use the default backend, or import `ViTImageProcessorPil` directly to silence this warning.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Thiết bị sử dụng: cuda (NVIDIA GeForce RTX 3060 Laptop GPU)
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 24840.53it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: vinai/phobert-base
+Key                       | Status     |  | 
+--------------------------+------------+--+-
+lm_head.bias              | UNEXPECTED |  | 
+lm_head.decoder.weight    | UNEXPECTED |  | 
+lm_head.dense.weight      | UNEXPECTED |  | 
+lm_head.layer_norm.weight | UNEXPECTED |  | 
+lm_head.layer_norm.bias   | UNEXPECTED |  | 
+lm_head.decoder.bias      | UNEXPECTED |  | 
+lm_head.dense.bias        | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+====================================================================
+ >>> BẮT ĐẦU HUẤN LUYỆN: [TEXT-ONLY (PHOBERT)] (Số Epochs: 3)
+====================================================================
+
+Epoch 1/3:   0%|          | 0/683 [00:00<?, ?it/s]D:\KLTN\ClickBaitKLTN\experiments\coattention_80_10_10\run_baselines.py:151: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  scheduler.step()
+
+Epoch 1/3: 100%|██████████| 683/683 [02:34<00:00,  4.43it/s, loss=0.5012]
+ Epoch 1/3 -> Val Macro F1: 47.90%
+
+Epoch 2/3: 100%|██████████| 683/683 [02:33<00:00,  4.44it/s, loss=0.2822]
+ Epoch 2/3 -> Val Macro F1: 75.66%
+
+Epoch 3/3: 100%|██████████| 683/683 [02:32<00:00,  4.49it/s, loss=0.4531]
+ Epoch 3/3 -> Val Macro F1: 78.73%
+
+ >>> ĐANG ĐÁNH GIÁ [TEXT-ONLY (PHOBERT)] TRÊN TẬP TEST ĐỘC LẬP...
+ Kết quả [Text-only (PhoBERT)]: Accuracy = 80.41%, Macro F1 = 77.50%, Latency = 0.0406s
+
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]
+Loading weights:   7%|▋         | 13/198 [00:00<00:01, 117.04it/s]
+Loading weights:  26%|██▋       | 52/198 [00:00<00:00, 254.22it/s]
+Loading weights:  64%|██████▎   | 126/198 [00:00<00:00, 453.29it/s]
+Loading weights: 100%|██████████| 198/198 [00:00<00:00, 600.70it/s]
+[transformers] [1mViTModel LOAD REPORT[0m from: google/vit-base-patch16-224
+Key                 | Status     | 
+--------------------+------------+-
+classifier.bias     | UNEXPECTED | 
+classifier.weight   | UNEXPECTED | 
+pooler.dense.weight | MISSING    | 
+pooler.dense.bias   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+
+====================================================================
+ >>> BẮT ĐẦU HUẤN LUYỆN: [IMAGE-ONLY (VIT)] (Số Epochs: 3)
+====================================================================
+
+Epoch 1/3: 100%|██████████| 683/683 [02:18<00:00,  4.92it/s, loss=0.5145]
+ Epoch 1/3 -> Val Macro F1: 65.27%
+
+Epoch 2/3: 100%|██████████| 683/683 [02:22<00:00,  4.80it/s, loss=0.4692]
+ Epoch 2/3 -> Val Macro F1: 70.68%
+
+Epoch 3/3: 100%|██████████| 683/683 [02:20<00:00,  4.86it/s, loss=0.4423]
+ Epoch 3/3 -> Val Macro F1: 70.38%
+
+ >>> ĐANG ĐÁNH GIÁ [IMAGE-ONLY (VIT)] TRÊN TẬP TEST ĐỘC LẬP...
+ Kết quả [Image-only (ViT)]: Accuracy = 69.01%, Macro F1 = 63.58%, Latency = 0.0337s
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 28502.48it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: vinai/phobert-base
+Key                       | Status     |  | 
+--------------------------+------------+--+-
+lm_head.bias              | UNEXPECTED |  | 
+lm_head.decoder.weight    | UNEXPECTED |  | 
+lm_head.dense.weight      | UNEXPECTED |  | 
+lm_head.layer_norm.weight | UNEXPECTED |  | 
+lm_head.layer_norm.bias   | UNEXPECTED |  | 
+lm_head.decoder.bias      | UNEXPECTED |  | 
+lm_head.dense.bias        | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]
+Loading weights:  20%|██        | 40/198 [00:00<00:00, 345.22it/s]
+Loading weights:  42%|████▏     | 83/198 [00:00<00:00, 368.94it/s]
+Loading weights:  61%|██████    | 120/198 [00:00<00:00, 332.34it/s]
+Loading weights: 100%|██████████| 198/198 [00:00<00:00, 514.31it/s]
+[transformers] [1mViTModel LOAD REPORT[0m from: google/vit-base-patch16-224
+Key                 | Status     | 
+--------------------+------------+-
+classifier.bias     | UNEXPECTED | 
+classifier.weight   | UNEXPECTED | 
+pooler.dense.weight | MISSING    | 
+pooler.dense.bias   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+
+====================================================================
+ >>> BẮT ĐẦU HUẤN LUYỆN: [LATE FUSION (CONCAT)] (Số Epochs: 3)
+====================================================================
+
+Epoch 1/3: 100%|██████████| 683/683 [03:27<00:00,  3.29it/s, loss=0.5817]
+ Epoch 1/3 -> Val Macro F1: 74.80%
+
+Epoch 2/3: 100%|██████████| 683/683 [03:29<00:00,  3.27it/s, loss=0.3171]
+ Epoch 2/3 -> Val Macro F1: 77.32%
+
+Epoch 3/3: 100%|██████████| 683/683 [03:25<00:00,  3.32it/s, loss=0.4148]
+ Epoch 3/3 -> Val Macro F1: 79.49%
+
+ >>> ĐANG ĐÁNH GIÁ [LATE FUSION (CONCAT)] TRÊN TẬP TEST ĐỘC LẬP...
+ Kết quả [Late Fusion (Concat)]: Accuracy = 81.87%, Macro F1 = 79.61%, Latency = 0.0373s
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 21712.92it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: vinai/phobert-base
+Key                       | Status     |  | 
+--------------------------+------------+--+-
+lm_head.bias              | UNEXPECTED |  | 
+lm_head.decoder.weight    | UNEXPECTED |  | 
+lm_head.dense.weight      | UNEXPECTED |  | 
+lm_head.layer_norm.weight | UNEXPECTED |  | 
+lm_head.layer_norm.bias   | UNEXPECTED |  | 
+lm_head.decoder.bias      | UNEXPECTED |  | 
+lm_head.dense.bias        | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]
+Loading weights:  14%|█▍        | 28/198 [00:00<00:00, 252.24it/s]
+Loading weights:  40%|████      | 80/198 [00:00<00:00, 380.35it/s]
+Loading weights:  60%|██████    | 119/198 [00:00<00:00, 324.31it/s]
+Loading weights: 100%|██████████| 198/198 [00:00<00:00, 543.10it/s]
+[transformers] [1mViTModel LOAD REPORT[0m from: google/vit-base-patch16-224
+Key                 | Status     | 
+--------------------+------------+-
+classifier.bias     | UNEXPECTED | 
+classifier.weight   | UNEXPECTED | 
+pooler.dense.weight | MISSING    | 
+pooler.dense.bias   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+
+ >>> ĐANG ĐÁNH GIÁ [MULTIMODAL CO-ATTENTION (ĐỀ XUẤT)] TRÊN TẬP TEST ĐỘC LẬP...
+ Kết quả [Multimodal Co-Attention (Đề xuất)]: Accuracy = 81.58%, Macro F1 = 79.23%, Latency = 0.0367s
+
+=====================================================================================
+                    BẢNG TỔNG HỢP ABLATION STUDY & SO SÁNH BASELINE
+                      (Dùng đưa trực tiếp vào Báo cáo Khóa luận)
+=====================================================================================
+Mô hình                             | Accuracy   | Macro F1   | Precision  | Recall    
+-------------------------------------------------------------------------------------
+Text-only (PhoBERT)                 |    80.41% |    77.50% |    77.19% |    77.85%
+Image-only (ViT)                    |    69.01% |    63.58% |    63.74% |    63.45%
+Late Fusion (Concat)                |    81.87% |    79.61% |    78.87% |    80.70%
+Multimodal Co-Attention (Đề xuất)   |    81.58% |    79.23% |    78.54% |    80.23%
+=====================================================================================
+
+🔍 ĐỐI CHIẾU TIÊU CHÍ ABLATION STUDY (KPI KHÓA LUẬN):
+ 1. Bỏ ảnh (Text-only): F1 thấp hơn đề xuất 1.73 điểm (Yêu cầu >= 5) -> ⚠️ CHƯA ĐẠT
+ 2. Bỏ text (Image-only): F1 thấp hơn đề xuất 15.65 điểm (Yêu cầu >= 10) -> ✅ ĐẠT
+ 3. Bỏ Attention (Late Fusion): F1 thấp hơn đề xuất -0.37 điểm (Yêu cầu >= 2) -> ⚠️ CHƯA ĐẠT
+
+Đã lưu kết quả chi tiết vào tệp: ablation_study_results.csv

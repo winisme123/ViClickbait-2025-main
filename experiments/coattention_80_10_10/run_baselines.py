@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+import random
 import argparse
 import pandas as pd
 import numpy as np
@@ -16,7 +17,15 @@ from tqdm import tqdm
 # Cấu hình UTF-8 cho Windows Terminal
 sys.stdout.reconfigure(encoding='utf-8')
 
-from models import ViClickbaitDataset
+from models import ViClickbaitDataset, MultimodalCoAttentionModel
+
+
+def set_seed(seed):
+    """Cố định seed để lần chạy lại cho cùng kết quả."""
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
 
 # ==============================================================================
 # 1. ĐỊNH NGHĨA 3 KIẾN TRÚC BASELINE CHO ABLATION STUDY
@@ -171,10 +180,15 @@ def train_and_eval_model(model_name, model, train_loader, val_loader, test_loade
             torch.save(model.state_dict(), checkpoint_name)
 
     # Đánh giá chính thức trên tập Test độc lập (342 mẫu) với checkpoint tốt nhất
-    print(f"\n >>> ĐANG ĐÁNH GIÁ [{model_name.upper()}] TRÊN TẬP TEST ĐỘC LẬP...")
     if os.path.exists(checkpoint_name):
         model.load_state_dict(torch.load(checkpoint_name, map_location=device))
+    return evaluate_on_test(model_name, model, test_loader, device)
 
+
+def evaluate_on_test(model_name, model, test_loader, device):
+    """Đánh giá một mô hình đã nạp trọng số trên tập Test, trả về dict chỉ số (%)."""
+    print(f"\n >>> ĐANG ĐÁNH GIÁ [{model_name.upper()}] TRÊN TẬP TEST ĐỘC LẬP...")
+    model = model.to(device)
     model.eval()
     test_preds, test_labels = [], []
     start_t = time.time()
@@ -222,6 +236,9 @@ def main():
     parser = argparse.ArgumentParser(description="Chạy các mô hình Baseline & Ablation Study")
     parser.add_argument('--model', type=str, default='all', choices=['all', 'text_only', 'image_only', 'late_fusion'])
     parser.add_argument('--epochs', type=int, default=3, help='Số epoch huấn luyện mỗi baseline (mặc định 3)')
+    parser.add_argument('--seed', type=int, default=42, help='Seed cố định cho mỗi baseline (mặc định 42)')
+    parser.add_argument('--proposed_weights', type=str, default='best_multimodal_coattention_model.pth',
+                        help='Checkpoint Co-Attention do train.py tạo ra, được đánh giá trên cùng tập Test')
     args = parser.parse_args()
 
     # Tải dữ liệu đã split chuẩn
@@ -246,28 +263,35 @@ def main():
 
     results = []
 
-    models_to_run = {}
+    # Khởi tạo từng mô hình ngay trước khi huấn luyện, sau khi đặt seed,
+    # để trọng số khởi tạo của classifier và thứ tự trộn dữ liệu cố định
+    builders = {}
     if args.model in ['all', 'text_only']:
-        models_to_run['Text-only (PhoBERT)'] = TextOnlyModel()
+        builders['Text-only (PhoBERT)'] = TextOnlyModel
     if args.model in ['all', 'image_only']:
-        models_to_run['Image-only (ViT)'] = ImageOnlyModel()
+        builders['Image-only (ViT)'] = ImageOnlyModel
     if args.model in ['all', 'late_fusion']:
-        models_to_run['Late Fusion (Concat)'] = LateFusionModel()
+        builders['Late Fusion (Concat)'] = LateFusionModel
 
-    for name, model in models_to_run.items():
+    for name, build in builders.items():
+        set_seed(args.seed)
+        model = build()
         res = train_and_eval_model(name, model, train_loader, val_loader, test_loader, device, num_epochs=args.epochs)
         results.append(res)
+        del model
+        torch.cuda.empty_cache()
 
-    # Thêm mô hình Multimodal Attention (Đề xuất) đã test ở Bước 1 vào bảng tổng kết
-    # Dựa trên kết quả thực tế trên tập Test độc lập: Accuracy = 94.15%, Macro F1 = 92.93%
-    results.append({
-        'model_name': 'Multimodal Attention (Đề xuất)',
-        'accuracy': 94.15,
-        'macro_f1': 92.93,
-        'precision': 94.97,
-        'recall': 91.42,
-        'latency': 0.0194
-    })
+    # Mô hình đề xuất (Co-Attention) được ĐO trên cùng tập Test, không nhập tay.
+    # Checkpoint phải do train.py tạo ra (chỉ học train.csv, chọn theo val.csv).
+    proposed = None
+    if os.path.exists(args.proposed_weights):
+        model = MultimodalCoAttentionModel()
+        model.load_state_dict(torch.load(args.proposed_weights, map_location='cpu'))
+        proposed = evaluate_on_test('Multimodal Co-Attention (Đề xuất)', model, test_loader, device)
+        results.append(proposed)
+    else:
+        print(f"\n CẢNH BÁO: Không tìm thấy '{args.proposed_weights}'. Hãy chạy `python train.py` trước; "
+              "bảng tổng kết sẽ không có dòng mô hình đề xuất.")
 
     # In Bảng đối sánh hoàn chỉnh (Ablation Study)
     res_df = pd.DataFrame(results)
@@ -284,7 +308,10 @@ def main():
     print("="*85)
 
     # Đánh giá cam kết trong file Mục-tiêu-đề-tài.xlsx
-    prop_f1 = 92.93
+    if proposed is None:
+        print("\nĐã lưu kết quả chi tiết vào tệp: ablation_study_results.csv")
+        return
+    prop_f1 = proposed['macro_f1']
     print("\n🔍 ĐỐI CHIẾU TIÊU CHÍ ABLATION STUDY (KPI KHÓA LUẬN):")
     for r in results:
         name = r['model_name']
@@ -292,13 +319,13 @@ def main():
         diff = prop_f1 - f1
         if 'Text-only' in name:
             status = "✅ ĐẠT" if diff >= 5.0 else "⚠️ CHƯA ĐẠT"
-            print(f" 1. Bỏ ảnh (Text-only): Giảm {diff:.2f}% F1 (Yêu cầu giảm >= 5%) -> {status}")
+            print(f" 1. Bỏ ảnh (Text-only): F1 thấp hơn đề xuất {diff:.2f} điểm (Yêu cầu >= 5) -> {status}")
         elif 'Image-only' in name:
             status = "✅ ĐẠT" if diff >= 10.0 else "⚠️ CHƯA ĐẠT"
-            print(f" 2. Bỏ text (Image-only): Giảm {diff:.2f}% F1 (Yêu cầu giảm >= 10%) -> {status}")
+            print(f" 2. Bỏ text (Image-only): F1 thấp hơn đề xuất {diff:.2f} điểm (Yêu cầu >= 10) -> {status}")
         elif 'Late Fusion' in name:
             status = "✅ ĐẠT" if diff >= 2.0 else "⚠️ CHƯA ĐẠT"
-            print(f" 3. Bỏ Attention (Late Fusion): Giảm {diff:.2f}% F1 (Yêu cầu giảm >= 2%) -> {status}")
+            print(f" 3. Bỏ Attention (Late Fusion): F1 thấp hơn đề xuất {diff:.2f} điểm (Yêu cầu >= 2) -> {status}")
 
     print("\nĐã lưu kết quả chi tiết vào tệp: ablation_study_results.csv")
 

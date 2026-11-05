@@ -39,6 +39,8 @@ analysis_history.json
 st_out.txt
 st_err.txt
 *.log
+# Log bằng chứng kiểm chứng kết quả được đưa lên git
+!experiments/coattention_80_10_10/reproduction/*.log
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/

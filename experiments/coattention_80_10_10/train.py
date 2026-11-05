@@ -1,5 +1,7 @@
 import os
 import sys
+import random
+import numpy as np
 import pandas as pd
 import torch
 import torch.nn as nn
@@ -15,7 +17,15 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 from models import ViClickbaitDataset, MultimodalCoAttentionModel
 
+# Seed cố định để lần chạy lại cho cùng kết quả (khởi tạo trọng số + thứ tự trộn dữ liệu)
+SEED = 42
+
 def train():
+    random.seed(SEED)
+    np.random.seed(SEED)
+    torch.manual_seed(SEED)
+    torch.cuda.manual_seed_all(SEED)
+
     # 1. Đường dẫn dữ liệu
     repo_dir = '.'
     train_csv = os.path.join(repo_dir, 'train.csv')
