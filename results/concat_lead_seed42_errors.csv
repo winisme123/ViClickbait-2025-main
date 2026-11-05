@@ -1,0 +1,84 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0061,Tuổi Trẻ,0.1904,clickbait,non-clickbait,Nhà giàu cũng khóc
+article_0334,Tuổi Trẻ,0.6199,non-clickbait,clickbait,"Sau màn ném bom của Mỹ, Iran kiềm chế hay trả đũa?"
+article_0343,Tuổi Trẻ,0.5535,non-clickbait,clickbait,Nhìn lại lịch sử xung đột Israel - Iran: Cuộc không kích ngày 13-6 sẽ là bước ngoặt?
+article_0422,Kênh14,0.3276,clickbait,non-clickbait,"Thương Đoàn Văn Hậu quá, rất may đã có Doãn Hải My đây rồi!"
+article_0490,24h,0.6285,non-clickbait,clickbait,Vụ nước mắm vứt bỏ bên đường: Xác định được chủ nhân
+article_0559,VnExpress,0.5402,non-clickbait,clickbait,Chuỗi cung ứng đất hiếm toàn cầu đã dịch chuyển ra sao?
+article_0737,24h,0.2583,clickbait,non-clickbait,"Bị dẫn dụ vào ""chiếc bẫy cũ”, người phụ nữ ở Quảng Ngãi ""bay màu” 2,7 tỉ đồng"
+article_0747,24h,0.8772,non-clickbait,clickbait,"Nhóm bị cáo đánh ghen, đòi nợ khiến người phụ nữ tự tử lãnh án"
+article_0858,VnExpress,0.731,non-clickbait,clickbait,Hình xăm ảnh hưởng hệ miễn dịch thế nào?
+article_1428,Tuổi Trẻ,0.8039,non-clickbait,clickbait,Pin xe điện còn 'trường thọ' hơn cả bản thân xe xăng
+article_1522,VietNamNet,0.7014,non-clickbait,clickbait,Iran còn đủ tên lửa để tấn công Israel?
+article_1539,SaoStar,0.7751,non-clickbait,clickbait,Tình thế đảo ngược với tiền vệ Tuấn Anh
+article_1555,SaoStar,0.6352,non-clickbait,clickbait,Đáng khen cho Công Phượng
+article_1837,VietNamNet,0.7848,non-clickbait,clickbait,"Nghỉ việc lương cao để ở nhà chăm con, 'bố bỉm sữa' bị viêm khớp, trầm cảm"
+article_1971,VnExpress,0.7582,non-clickbait,clickbait,Ảnh thời bé của dàn 'Em xinh say hi'
+article_2234,VnExpress,0.6612,non-clickbait,clickbait,Làm sao để được nhập lại quốc tịch Việt Nam?
+article_2270,Tuổi Trẻ,0.6908,non-clickbait,clickbait,"Thời trang xa xỉ ngày càng xa tầm với, giới trẻ không còn thấy xấu hổ khi xài hàng giả"
+article_2544,Tuổi Trẻ,0.5413,non-clickbait,clickbait,"Sau Indonesia, đến phiên dàn sao nhập tịch Malaysia thất nghiệp"
+article_2585,Thanh Niên,0.5817,non-clickbait,clickbait,"Quang Anh 'Về nhà đi con' bật khóc nức nở, dừng chân ở show âm nhạc"
+article_2596,Thanh Niên,0.9291,non-clickbait,clickbait,Hoa hậu Khánh Vân: Tôi được chồng yêu chiều nên làm vợ cũng thoải mái
+article_2770,VnExpress,0.6032,non-clickbait,clickbait,"Cách làm nước rau má, đậu xanh giải nhiệt, làm đẹp"
+article_2866,Thanh Niên,0.8733,non-clickbait,clickbait,"CLB Bình Định ‘chiến đấu’ kiên cường, vẫn thua đau Hà Nội: Rớt hạng, kết cục cay đắng!"
+article_3184,24h,0.5724,non-clickbait,clickbait,Hàng chục nghìn khán giả 'quẩy' cùng G-Dragon dưới mưa như trút
+article_3195,24h,0.5889,non-clickbait,clickbait,Tú Dưa: 'Tôi hạnh phúc khi con gái nối nghiệp'
+article_3399,Thanh Niên,0.5377,non-clickbait,clickbait,3 nguyên tắc an toàn khi lái xe trên cao tốc có nhiều xe tải lớn
+article_3518,Tuổi Trẻ,0.7976,non-clickbait,clickbait,"Lắp rào chắn trên đường Võ Chí Công, Phạm Văn Đồng gây ùn tắc, lãnh đạo Sở Xây dựng Hà Nội nói gì?"
+article_3568,24h,0.6364,non-clickbait,clickbait,Top xe MPV từ giá rẻ đến hạng sang đáng chú ý hiện nay
+article_3731,24h,0.6305,non-clickbait,clickbait,Cách làm chim bồ câu xào rau răm khử sạch mùi hôi và giữ được vị ngọt tự nhiên
+article_0229,Báo Mới,0.0215,clickbait,non-clickbait,"Man City 'đánh tennis', đoạt vé sớm vào vòng 1/8 FIFA Club World Cup - Báo VietnamNet"
+article_0308,VnExpress,0.4618,clickbait,non-clickbait,Lý do ông Trump quyết định không kích Iran
+article_0428,SaoStar,0.4821,clickbait,non-clickbait,"Lại thêm vụ mất trắng 145 triệu đồng trong tài khoản: Bẫy cũ, nạn nhân mới"
+article_0648,Thanh Niên,0.0223,clickbait,non-clickbait,Mỗi ngày có hơn 1.000 người thành triệu phú USD tại Mỹ
+article_0722,SaoStar,0.4258,clickbait,non-clickbait,"Phát hiện thằn lằn nguyên con trong bánh tiramisu, một gia đình bị ngộ độc"
+article_0725,SaoStar,0.4963,clickbait,non-clickbait,Xúc động nữ sinh gánh hành lý trở về nhà sau kỳ thi bằng chiếc sào tre
+article_0732,24h,0.088,clickbait,non-clickbait,Xác định nguyên nhân thanh niên không mặc quần áo tử vong giữa đường ở TP Thủ Đức
+article_0738,24h,0.4012,clickbait,non-clickbait,"Nước mắt của người mẹ có đứa con trai trượt dài trên con đường 'cơm tù, áo số'"
+article_0814,Báo Mới,0.0765,clickbait,non-clickbait,Người dân chật vật di chuyển qua 'ngõ đau khổ' ở Thủ đô - Báo Tiền Phong
+article_0924,Thanh Niên,0.0289,clickbait,non-clickbait,"'Ông lớn' xăng dầu, cao su... mạnh tay chia cổ tức"
+article_1018,24h,0.0687,clickbait,non-clickbait,Nơi đây có thêm 1.000 triệu phú mỗi ngày
+article_1021,24h,0.0493,clickbait,non-clickbait,Bitcoin cắm đầu lao dốc do căng thẳng Mỹ - Iran
+article_1032,24h,0.9089,non-clickbait,clickbait,"Tài sản của ""siêu nhân Hong Kong” Lý Gia Thành hiện còn bao nhiêu?"
+article_1033,24h,0.1154,clickbait,non-clickbait,Elon Musk giàu nhất thế giới nhưng công ty vẫn thiếu tiền
+article_1075,Báo Mới,0.1198,clickbait,non-clickbait,Lời biển xưa còn vọng - Báo Văn hóa
+article_1085,Báo Mới,0.0346,clickbait,non-clickbait,'Cái chết của vua câm' - Báo Hà Nội Mới
+article_1117,VnExpress,0.0284,clickbait,non-clickbait,Bộ Xây dựng yêu cầu Vicem hoàn thiện tháp nghìn tỷ 'đắp chiếu' chục năm
+article_1184,Tuổi Trẻ,0.4293,clickbait,non-clickbait,Học ngoại ngữ qua app: Coi chừng chỉ là 'học cho có'
+article_1186,Tuổi Trẻ,0.4027,clickbait,non-clickbait,Cách vượt qua 'người gác cổng' AI khi tìm việc
+article_1257,Kênh14,0.3966,clickbait,non-clickbait,“Kim Soo Hyun Scandal” - Khi người nổi tiếng bị bạo lực mạng và sự thật bị bóp méo bởi AI
+article_1314,24h,0.4458,clickbait,non-clickbait,"Nóng nhất trong ngày: Giá vàng miếng chững lại, vàng nhẫn lùi sâu; Cả ngàn chai nước mắm bị vứt bỏ trong bụi rậm"
+article_1322,Báo Mới,0.2332,clickbait,non-clickbait,"Bán nhà phố về quê, khi hết tiền tôi phải chạy xe máy 40km để đi làm - Báo VTC News"
+article_2106,VietNamNet,0.0608,clickbait,non-clickbait,Nam thanh niên ở Hà Nội nhập viện khẩn cấp sau buổi tập gym
+article_2163,24h,0.0097,clickbait,non-clickbait,Vietnam GameVerse 2025: Cột mốc bùng nổ của ngành game Việt
+article_2164,24h,0.2287,clickbait,non-clickbait,Chiêm ngưỡng những video thật đến khó tin được tạo ra bởi AI Veo 3 của Google
+article_2178,Báo Mới,0.1736,clickbait,non-clickbait,Diễn viên Quang Anh bật khóc nức nở - Tạp chí Tri thức
+article_2182,Báo Mới,0.0156,clickbait,non-clickbait,Chiến sĩ mới tự tin chinh phục '3 tiếng nổ' - Báo Cao Bằng
+article_2323,Thanh Niên,0.049,clickbait,non-clickbait,Tiểu thuyết đầu tay của tác giả 'Không gia đình' ra mắt bản dịch mới
+article_2337,VietNamNet,0.3525,clickbait,non-clickbait,"Bỏ nghề MC truyền hình, cô gái Nùng làm ngô nếp bản địa bán cả triệu đồng/kg"
+article_2528,VnExpress,0.2518,clickbait,non-clickbait,Giành học bổng trường top 3 Hàn Quốc sau câu hỏi 'đứng hình' về kinh tế
+article_2537,VnExpress,0.0113,clickbait,non-clickbait,Học sinh Việt Nam đạt thành tích chưa từng có tại Olympic Vật lý châu Âu
+article_2542,Tuổi Trẻ,0.2896,clickbait,non-clickbait,Toan tính của FIFA
+article_2578,Thanh Niên,0.1304,clickbait,non-clickbait,Bức Tường mang rock Việt 'đốt cháy' trái tim kiều bào châu Âu
+article_2627,VietNamNet,0.0516,clickbait,non-clickbait,Cựu giao dịch viên ACB thành kẻ tham ô vì hoa mắt món tiền hoa hồng
+article_2728,Báo Mới,0.0165,clickbait,non-clickbait,Pin ô tô điện có tuổi thọ cao hơn xe xăng - Chuyên trang Xe Giao Thông - Báo Xây Dựng
+article_2789,VnExpress,0.1172,clickbait,non-clickbait,Làm đám cưới giữa trại chó
+article_2792,VnExpress,0.0907,clickbait,non-clickbait,Nơi người dân dùng vàng thay tiền mặt
+article_2794,VnExpress,0.3758,clickbait,non-clickbait,Chàng trai Gen Z làm nghề 'giữ đèn' nghĩa trang
+article_2804,Tuổi Trẻ,0.0081,clickbait,non-clickbait,Tuyển sinh lớp 10 ở TP.HCM: Bất ngờ điểm thi môn toán
+article_2805,Tuổi Trẻ,0.0089,clickbait,non-clickbait,"Phổ điểm thi lớp 10 ở TP.HCM: Lo lắng môn văn, kết quả thở phào"
+article_2840,Thanh Niên,0.0479,clickbait,non-clickbait,‘Đãi cát tìm vàng’ ở giải cầu lông các nhóm tuổi thiếu niên quốc gia
+article_2928,SaoStar,0.2059,clickbait,non-clickbait,Hà Giang hè này không chỉ có mùa tam giác mạch
+article_2968,Báo Mới,0.1241,clickbait,non-clickbait,Trục vớt du thuyền khiến 'Bill Gates nước Anh' tử nạn - Tạp chí Tri thức
+article_3030,VnExpress,0.0066,clickbait,non-clickbait,Gần 1.000 người 'đổi xăng lấy điện' trong hai ngày
+article_3040,VnExpress,0.0058,clickbait,non-clickbait,Người dân háo hức đổi xe xăng lấy xe máy điện
+article_3116,Thanh Niên,0.2132,clickbait,non-clickbait,Những lợi ích của cổng USB trên ô tô
+article_3129,VietNamNet,0.1669,clickbait,non-clickbait,"Đất có sổ đỏ nhưng chưa rõ mốc giới, đừng vội xây nhà"
+article_3157,VietNamNet,0.2995,clickbait,non-clickbait,"Có mảnh đất 200m2, làm thế nào để tách thửa, xây nhà ở trên 100m2?"
+article_3217,24h,0.1198,clickbait,non-clickbait,"Biển người đổ về Hưng Yên ngày thứ 2, đằm trong mưa giông tầm tã"
+article_3228,24h,0.4147,clickbait,non-clickbait,"Đội hình co-ed của Teddy: Tài phiệt đời thứ 4, một thành viên bị yêu cầu loại"
+article_3231,24h,0.3206,clickbait,non-clickbait,"Khi Phan Mạnh Quỳnh ""buông mic"""
+article_3362,Tuổi Trẻ,0.1097,clickbait,non-clickbait,"Ẩn tinh hoàn có thể gây vô sinh, ung thư: Bác sĩ chỉ rõ dấu hiệu nhận biết"
+article_3471,Báo Mới,0.0085,clickbait,non-clickbait,Gần 1.000 người đội nắng đổi xe máy xăng lấy xe điện - Chuyên trang Xe Giao Thông - Báo Xây Dựng
+article_3648,24h,0.0447,clickbait,non-clickbait,Cảng cá 280 tỷ đồng sắp hoạt động nhưng luồng lạch bồi lắng
+article_3775,24h,0.0871,clickbait,non-clickbait,Eo Gió Quan Lạn thiên đường hoang sơ làm say lòng du khách
