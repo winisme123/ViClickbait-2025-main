@@ -67,6 +67,25 @@ Lượt đầu (v1) **không dùng warmup**, mọi thiết lập khác giữ ngu
 
 Ở v1, mô hình `text` seed 44 bị **sụp về dự đoán một lớp**: loss dừng ở khoảng 0,625, đúng bằng entropy của phân phối nhãn, và Macro-F1 trên validation không đổi qua các epoch. Thêm warmup tuyến tính 10% khắc phục được hiện tượng này và cải thiện cả bốn mode. Vì vậy v2 là cấu hình chính. Từ v2, `train.py` in cảnh báo khi Macro-F1 trên validation không đổi qua mọi epoch. Không lượt nào của v2 bị cảnh báo.
 
+## Kiểm soát rò rỉ dữ liệu
+
+Bản thử nghiệm Co-Attention ban đầu (`experiments/coattention_80_10_10/`) từng báo Macro-F1 92,93%. Con số này đo bằng checkpoint `multimodal_clickbait_model.pth`, được huấn luyện bằng `train.py` gốc (commit `efd89c8`): script đó chia ngẫu nhiên 80/20 trên **toàn bộ** 3.414 mẫu. `test.csv` được `split_data.py` tạo **sau đó** bằng một lần chia khác, nên khoảng 80% mẫu test (trung bình 273,6/342 trên 1.000 cách chia ngẫu nhiên) đã nằm trong dữ liệu huấn luyện.
+
+| Tập (chia 80/10/10) | Macro-F1 của checkpoint |
+|---|---|
+| `train.csv` | 90,29% |
+| `val.csv` | 93,56% |
+| `test.csv` | 91,42% |
+
+Điểm trên ba tập ngang nhau. Một mô hình chỉ học `train.csv` không cho kết quả như vậy. Bằng chứng và script kiểm tra lại (không cần GPU) nằm trong `experiments/coattention_80_10_10/reproduction/`.
+
+Pipeline chính tránh lỗi này bằng các biện pháp sau:
+
+- Tập test được tách phân tầng **trước** khi huấn luyện, lưu thành file `data/splits/split_seed{seed}.csv`.
+- `tests/test_dataset.py` kiểm tra train/val/test không giao nhau và tái tạo đúng từ seed.
+- Checkpoint được chọn chỉ theo tập validation. `scripts/evaluate.py` từ chối ghi đè kết quả test đã có.
+- Demo và tài liệu đọc số liệu từ `results/`, không nhập tay. `tests/test_inference.py` kiểm tra demo cho cùng xác suất với đường đánh giá.
+
 ## Tái lập
 
 ```powershell

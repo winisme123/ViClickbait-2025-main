@@ -27,10 +27,12 @@ Macro-F1 trên tập **test**, trung bình ± độ lệch chuẩn qua 3 seed (4
 
 ```
 ClickBaitKLTN/
-├── app.py                     # Demo Streamlit (streamlit run app.py)
+├── app.py                     # Demo chính (streamlit run app.py)
+├── app_v2.py                  # Demo phân tích: so sánh 3 mô hình, ngưỡng, lịch sử
 ├── clickbait/                 # Thư viện dùng chung
 │   ├── dataset.py             #   mẫu hợp lệ, chia tập 70/15/15, Dataset PyTorch
 │   ├── models.py              #   4 kiến trúc: text, image, concat, multimodal
+│   ├── inference.py           #   nạp checkpoint, dự đoán, heatmap cho demo
 │   ├── metrics.py             #   Accuracy / P / R / F1 / Macro-F1 / ma trận nhầm lẫn
 │   ├── text_utils.py          #   tách từ tiếng Việt (pyvi) cho PhoBERT
 │   ├── scraper.py             #   lấy tiêu đề + ảnh bìa từ link bài báo
@@ -99,14 +101,21 @@ Siêu tham số mặc định: AdamW lr 2e-5, weight decay 0,01, 3 epoch, batch 
 ## Demo
 
 ```powershell
-streamlit run app.py
+streamlit run app.py      # demo chính
+streamlit run app_v2.py   # bản phân tích: so sánh 3 mô hình, chỉnh ngưỡng, lịch sử
 ```
 
-Mở <http://localhost:8501>, dán link bài báo hoặc nhập tiêu đề + tải ảnh. Demo dùng checkpoint seed 42 trong `checkpoints/`.
+Mở <http://localhost:8501>. Cả hai bản dùng checkpoint seed 42 trong `checkpoints/` (cần có `multimodal_seed42.pth` và `text_seed42.pth`).
 
-- 3 chế độ: **Text only**, **Image only** (kèm heatmap attention), **Multimodal**, và chế độ **So sánh** chạy cả 3 cùng lúc.
-- Tô màu các cụm từ mang dấu hiệu clickbait theo luật ngôn ngữ (`clickbait/signals.py`).
-- Chỉnh ngưỡng quyết định ở thanh bên, lưu lịch sử phân tích vào `analysis_history.json`.
+**`app.py`, demo chính:**
+- 3 cách nhập: dán link bài báo (tự lấy tiêu đề + ảnh bìa), tự nhập tiêu đề + tải ảnh, chọn bài mẫu.
+- Bài có ảnh được chấm bằng mô hình `multimodal`. Bài không có ảnh được chấm bằng mô hình `text`, không ghép ảnh giả.
+- Kết quả kèm giải thích: tô màu các cụm từ mang dấu hiệu clickbait theo luật ngôn ngữ (`clickbait/signals.py`), heatmap vùng ảnh mô hình chú ý (attention rollout).
+- Sidebar và tab "Báo cáo" đọc số liệu từ `results/summary.csv`, không có số nhập tay.
+
+**`app_v2.py`, bản phân tích:** chọn mô hình Text / Image / Multimodal, chế độ **So sánh** chạy cả 3 cùng lúc, chỉnh ngưỡng quyết định, lưu lịch sử vào `analysis_history.json`.
+
+Phần suy diễn dùng chung nằm ở `clickbait/inference.py`, với tiền xử lý giống hệt lúc huấn luyện (có bài kiểm thử đảm bảo xác suất của demo trùng với `scripts/evaluate.py`).
 
 ## Kiểm thử
 
@@ -124,6 +133,13 @@ Kiểm tra: tập chia không giao nhau, đúng kích thước 2237/480/480, ph�
 - [docs/git-workflow.md](docs/git-workflow.md): quy ước nhánh, commit, pull request của nhóm
 - [experiments/coattention_80_10_10/](experiments/coattention_80_10_10/README.md): thử nghiệm Co-Attention hai chiều và 3 baseline với cách chia 80/10/10
 - [CHANGELOG.md](CHANGELOG.md): lịch sử thay đổi
+
+## Nhóm thực hiện
+
+| | |
+|---|---|
+| Sinh viên | Nguyễn Hữu Thiện · Thi Lý Hữu Toàn · Trần Quốc Tuấn |
+| Giảng viên hướng dẫn | ThS. Trần Khải Thiện |
 
 ## Bộ dữ liệu và giấy phép
 

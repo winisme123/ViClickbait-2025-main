@@ -1,5 +1,22 @@
 # Lịch sử thay đổi
 
+## [0.5.0] - 2026-11-05
+
+### Thay đổi
+- Web của Toàn trở thành demo chính `app.py`; web phân tích cũ chuyển thành `app_v2.py`.
+- `app.py` nạp mô hình `multimodal` seed 42 (tập test độc lập) thay cho `multimodal_clickbait_model.pth`, đọc số liệu từ `results/summary.csv` thay cho các số nhập tay. Bài không có ảnh được chấm bằng mô hình `text` thay vì ghép ảnh đen.
+- `app.py` có thêm phần giải thích: tô dấu hiệu ngôn ngữ trong tiêu đề, heatmap attention trên ảnh.
+- Phần suy diễn dùng chung của hai bản web tách ra `clickbait/inference.py`.
+
+### Sửa lỗi
+- `experiments/coattention_80_10_10/run_baselines.py`: dòng mô hình đề xuất (92,93%) trước đây nhập tay từ checkpoint bị rò rỉ dữ liệu, nay được đo thật trên `test.csv` từ checkpoint của `train.py`.
+- `experiments/coattention_80_10_10/train.py`, `run_baselines.py`: cố định seed để chạy lại cho cùng kết quả.
+
+### Thêm
+- `experiments/coattention_80_10_10/reproduction/`: log kiểm chứng và `verify_leakage.py`.
+- `tests/test_inference.py`: demo cho cùng xác suất với đường đánh giá.
+- Mục "Kiểm soát rò rỉ dữ liệu" trong `docs/experiments.md`. Phần thành viên nhóm trong README.
+
 ## [0.4.0] - 2026-11-04
 
 ### Thay đổi
