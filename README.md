@@ -100,6 +100,19 @@ Siêu tham số mặc định: AdamW lr 2e-5, weight decay 0,01, 3 epoch, batch 
 
 ## Demo
 
+### Tải checkpoint
+
+Checkpoint không đưa lên git (tổng khoảng 1,4 GB). Tải hai file từ [Google Drive](https://drive.google.com/drive/folders/1BV4ri2JhlKYOuICo7CpByWLPe195iiA1?usp=drive_link) và đặt vào thư mục `checkpoints/`:
+
+| File | Kích thước | SHA-256 |
+|---|---|---|
+| `multimodal_seed42.pth` | 896.742.579 byte | `84F2011FA0E6AD94D65FEF5D8E19DA88316F9D7547B90D8398A9F32F5ABB2C57` |
+| `text_seed42.pth` | 540.868.589 byte | `2672E4EB78AB04A69DC9A2766B5ED90CD7D9C7EAB53C51F4937CBA463256A1A4` |
+
+Kiểm tra file tải về không bị lỗi: `Get-FileHash checkpoints\*.pth -Algorithm SHA256`, kết quả phải khớp bảng trên.
+
+### Chạy
+
 ```powershell
 streamlit run app.py      # demo chính
 streamlit run app_v2.py   # bản phân tích: so sánh 3 mô hình, chỉnh ngưỡng, lịch sử
