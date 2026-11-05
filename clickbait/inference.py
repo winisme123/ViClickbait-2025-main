@@ -12,7 +12,7 @@ from transformers import AutoTokenizer, ViTImageProcessor, ViTModel
 
 from .dataset import MAX_LENGTH
 from .models import MODEL_CLASSES, PHOBERT_NAME, VIT_NAME, checkpoint_path
-from .text_utils import segment_text
+from .text_utils import normalize_text, segment_text
 
 # Demo dùng checkpoint của seed 42
 DEMO_SEED = 42
@@ -61,7 +61,7 @@ def predict_proba(pipeline, title, image):
   input_ids = attention_mask = pixel_values = None
   if mode != 'image':
     enc = pipeline['tokenizer'](
-        segment_text(title), max_length=MAX_LENGTH, padding='max_length',
+        segment_text(normalize_text(title)), max_length=MAX_LENGTH, padding='max_length',
         truncation=True, return_tensors='pt')
     input_ids = enc['input_ids'].to(device)
     attention_mask = enc['attention_mask'].to(device)
