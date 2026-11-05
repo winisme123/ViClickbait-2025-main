@@ -11,10 +11,11 @@
 ### Sửa lỗi
 - `experiments/coattention_80_10_10/run_baselines.py`: dòng mô hình đề xuất (92,93%) trước đây nhập tay từ checkpoint bị rò rỉ dữ liệu, nay được đo thật trên `test.csv` từ checkpoint của `train.py`.
 - `experiments/coattention_80_10_10/train.py`, `run_baselines.py`: cố định seed để chạy lại cho cùng kết quả.
+- `clickbait/scraper.py`: link Báo Mới trước đây cho "tiêu đề" là chính đường link và ảnh là logo chung; nay lấy tiêu đề từ thẻ `<title>` và ảnh thật từ `__NEXT_DATA__`.
 
 ### Thêm
 - `experiments/coattention_80_10_10/reproduction/`: log kiểm chứng và `verify_leakage.py`.
-- `tests/test_inference.py`: demo cho cùng xác suất với đường đánh giá.
+- `tests/test_inference.py`: demo cho cùng xác suất với đường đánh giá. `tests/test_scraper.py`: xử lý trang Báo Mới.
 - Mục "Kiểm soát rò rỉ dữ liệu" trong `docs/experiments.md`. Phần thành viên nhóm trong README.
 
 ## [0.4.0] - 2026-11-04
