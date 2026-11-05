@@ -1,0 +1,65 @@
+{
+  "mode": "image",
+  "seed": 44,
+  "threshold": 0.3,
+  "val_macro_f1_at_threshold": 0.6869097918573182,
+  "val_macro_f1_at_0.5": 0.6775295484047278,
+  "test_at_0.5": {
+    "n_samples": 480,
+    "accuracy": 0.7229166666666667,
+    "macro_f1": 0.6315768211958749,
+    "per_class": {
+      "non-clickbait": {
+        "precision": 0.7474489795918368,
+        "recall": 0.8960244648318043,
+        "f1": 0.8150208623087621,
+        "support": 327
+      },
+      "clickbait": {
+        "precision": 0.6136363636363636,
+        "recall": 0.35294117647058826,
+        "f1": 0.44813278008298757,
+        "support": 153
+      }
+    },
+    "confusion_matrix": [
+      [
+        293,
+        34
+      ],
+      [
+        99,
+        54
+      ]
+    ]
+  },
+  "test_at_threshold": {
+    "n_samples": 480,
+    "accuracy": 0.6916666666666667,
+    "macro_f1": 0.6509159525119899,
+    "per_class": {
+      "non-clickbait": {
+        "precision": 0.7823343848580442,
+        "recall": 0.7584097859327217,
+        "f1": 0.7701863354037267,
+        "support": 327
+      },
+      "clickbait": {
+        "precision": 0.5153374233128835,
+        "recall": 0.5490196078431373,
+        "f1": 0.5316455696202531,
+        "support": 153
+      }
+    },
+    "confusion_matrix": [
+      [
+        248,
+        79
+      ],
+      [
+        69,
+        84
+      ]
+    ]
+  }
+}
