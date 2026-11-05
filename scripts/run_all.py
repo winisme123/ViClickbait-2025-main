@@ -13,7 +13,7 @@ import subprocess
 import sys
 import time
 
-from clickbait.models import MODES, checkpoint_path
+from clickbait.models import ALL_MODES, MODES, checkpoint_path
 
 RESULTS_DIR = 'results'
 LOGS_DIR = os.path.join(RESULTS_DIR, 'logs')
@@ -34,7 +34,7 @@ def run(cmd, log_path):
 
 def main():
   parser = argparse.ArgumentParser(description='Chạy hàng loạt mode x seed')
-  parser.add_argument('--modes', nargs='+', default=MODES, choices=MODES)
+  parser.add_argument('--modes', nargs='+', default=MODES, choices=ALL_MODES)
   parser.add_argument('--seeds', nargs='+', type=int, default=[42, 43, 44])
   args = parser.parse_args()
 

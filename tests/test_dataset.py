@@ -52,3 +52,43 @@ def test_image_path_for_fallback():
   assert dataset.image_path_for(row) == os.path.join(dataset.IMAGES_DIR, 'thumb_7.jpg')
   row = pd.Series({'thumbnail_url': 'data/images/article_0001_image.png'}, name=0)
   assert dataset.image_path_for(row) == os.path.join(dataset.IMAGES_DIR, 'article_0001_image.png')
+
+
+class _FakeTokenizer:
+  """Ghi lại tham số gọi tokenizer, trả tensor rỗng đúng độ dài."""
+
+  def __init__(self):
+    self.calls = []
+
+  def __call__(self, *texts, max_length, truncation, **kwargs):
+    import torch
+    self.calls.append({'texts': texts, 'max_length': max_length, 'truncation': truncation})
+    return {'input_ids': torch.zeros(1, max_length, dtype=torch.long),
+            'attention_mask': torch.ones(1, max_length, dtype=torch.long)}
+
+
+def test_max_length_for_modes():
+  assert dataset.max_length_for('text') == dataset.MAX_LENGTH == 48
+  assert dataset.max_length_for('concat') == 48
+  assert dataset.max_length_for('text_lead') == dataset.LEAD_MAX_LENGTH == 80
+
+
+def test_lead_mode_uses_sentence_pair_and_truncates_lead_only():
+  df = pd.DataFrame({'title': ['Tiêu đề A', 'Tiêu đề B'], 'lead_paragraph': ['Đoạn mở đầu', float('nan')],
+                     'label': ['clickbait', 'non-clickbait']})
+  tok = _FakeTokenizer()
+  ds = dataset.ViClickbaitDataset(df, tok, None, 'text_lead')
+  assert ds.use_text and not ds.use_image
+  item = ds[0]
+  assert item['input_ids'].shape[0] == 80
+  assert len(tok.calls[0]['texts']) == 2 and tok.calls[0]['truncation'] == 'only_second'
+  ds[1]  # đoạn mở đầu bị thiếu → chuỗi rỗng, không lỗi
+  assert tok.calls[1]['texts'][1] == ''
+
+
+def test_title_mode_unchanged():
+  df = pd.DataFrame({'title': ['Tiêu đề'], 'lead_paragraph': ['x'], 'label': ['clickbait']})
+  tok = _FakeTokenizer()
+  dataset.ViClickbaitDataset(df, tok, None, 'text')[0]
+  assert len(tok.calls[0]['texts']) == 1 and tok.calls[0]['max_length'] == 48
+  assert tok.calls[0]['truncation'] is True

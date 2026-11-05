@@ -16,8 +16,8 @@ from sklearn.metrics import f1_score
 from tqdm import tqdm
 from torch.amp import GradScaler, autocast
 
-from clickbait.dataset import MAX_LENGTH, ViClickbaitDataset, load_split
-from clickbait.models import MODEL_CLASSES, MODES, PHOBERT_NAME, VIT_NAME, checkpoint_path
+from clickbait.dataset import ViClickbaitDataset, load_split, max_length_for
+from clickbait.models import ALL_MODES, MODEL_CLASSES, PHOBERT_NAME, VIT_NAME, checkpoint_path
 
 # Đảm bảo in ký tự tiếng Việt không bị lỗi bảng mã trên Windows console
 if sys.platform == 'win32':
@@ -29,7 +29,7 @@ if sys.platform == 'win32':
 # 0. Tham số dòng lệnh
 parser = argparse.ArgumentParser(description='Huấn luyện mô hình clickbait')
 parser.add_argument(
-    '--mode', type=str, default='multimodal', choices=MODES,
+    '--mode', type=str, default='multimodal', choices=ALL_MODES,
     help='Chế độ mô hình: text (chỉ PhoBERT), image (chỉ ViT), '
          'multimodal (PhoBERT + ViT + cross-attention), concat (nối đặc trưng, không cross-attention)'
 )
@@ -219,7 +219,7 @@ if __name__ == '__main__':
             'grad_accum': args.grad_accum, 'lr': args.lr, 'weight_decay': args.weight_decay,
             'scheduler': 'linear_warmup', 'warmup_ratio': args.warmup_ratio, 'warmup_steps': warmup_steps,
             'total_steps': total_steps, 'val_f1_constant': val_f1_constant,
-            'max_length': MAX_LENGTH, 'fp16': True, 'n_train': len(train_dataset), 'n_val': len(val_dataset),
+            'max_length': max_length_for(MODE), 'fp16': True, 'n_train': len(train_dataset), 'n_val': len(val_dataset),
             'best_epoch': best_epoch, 'best_val_macro_f1': best_val_f1,
             'train_time_sec': train_time, 'avg_step_sec': avg_step,
             'max_memory_allocated_gb': (torch.cuda.max_memory_allocated() / 1024**3

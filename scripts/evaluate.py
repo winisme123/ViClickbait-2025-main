@@ -12,7 +12,7 @@ from torch.amp import autocast
 
 from clickbait.dataset import ViClickbaitDataset, load_split
 from clickbait.metrics import CLASS_NAMES, binary_metrics
-from clickbait.models import MODEL_CLASSES, MODES, PHOBERT_NAME, VIT_NAME, checkpoint_path
+from clickbait.models import ALL_MODES, MODEL_CLASSES, PHOBERT_NAME, VIT_NAME, checkpoint_path
 
 # Đảm bảo in ký tự tiếng Việt không bị lỗi bảng mã trên Windows console
 if sys.platform == 'win32':
@@ -26,7 +26,7 @@ RESULTS_DIR = 'results'
 # 0. Tham số dòng lệnh
 parser = argparse.ArgumentParser(description='Đánh giá mô hình clickbait trên tập TEST')
 parser.add_argument(
-    '--mode', type=str, default='multimodal', choices=MODES,
+    '--mode', type=str, default='multimodal', choices=ALL_MODES,
     help='Chế độ mô hình: text, image, multimodal, concat'
 )
 parser.add_argument('--batch-size', type=int, default=8, help='Batch size khi đánh giá')

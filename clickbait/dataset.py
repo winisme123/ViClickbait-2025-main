@@ -23,6 +23,13 @@ SPLITS_DIR = os.path.join('data', 'splits')
 # Độ dài token lớn nhất của tiêu đề (sau pyvi + PhoBERT tokenizer) trên các mẫu
 # hợp lệ là 38, làm tròn lên bội của 16.
 MAX_LENGTH = 48
+# Mode *_lead (tiêu đề + đoạn mở đầu): phân vị 95 độ dài token trên train seed 42
+# là 73,2, làm tròn lên bội của 16 (docs/protocol-v3.md, mục B).
+LEAD_MAX_LENGTH = 80
+
+
+def max_length_for(mode):
+  return LEAD_MAX_LENGTH if mode.endswith('_lead') else MAX_LENGTH
 
 
 def image_path_for(row):
@@ -70,16 +77,21 @@ def load_split(seed, split):
 
 
 class ViClickbaitDataset(Dataset):
-  """Mode text không nạp ảnh, mode image không tokenize tiêu đề."""
+  """Mode text không nạp ảnh, mode image không tokenize tiêu đề.
 
-  def __init__(self, dataframe, tokenizer, processor, mode,
-               max_length=MAX_LENGTH):
+  Mode có hậu tố _lead đưa cặp câu (tiêu đề, đoạn mở đầu) vào PhoBERT; nếu quá dài
+  thì chỉ cắt đoạn mở đầu.
+  """
+
+  def __init__(self, dataframe, tokenizer, processor, mode, max_length=None):
     self.df = dataframe
     self.tokenizer = tokenizer
     self.processor = processor
-    self.use_text = mode != 'image'
-    self.use_image = mode != 'text'
-    self.max_length = max_length
+    self.use_lead = mode.endswith('_lead')
+    base = mode.removesuffix('_lead')
+    self.use_text = base != 'image'
+    self.use_image = base != 'text'
+    self.max_length = max_length or max_length_for(mode)
 
   def __len__(self):
     return len(self.df)
@@ -93,13 +105,17 @@ class ViClickbaitDataset(Dataset):
 
     if self.use_text:
       # Tách từ trước khi tokenize — chuẩn PhoBERT
-      text_encoding = self.tokenizer(
-          segment_text(str(row['title'])),
-          max_length=self.max_length,
-          padding='max_length',
-          truncation=True,
-          return_tensors='pt',
-      )
+      title = segment_text(str(row['title']))
+      if self.use_lead:
+        lead = row['lead_paragraph']
+        lead = segment_text(str(lead)) if isinstance(lead, str) else ''
+        text_encoding = self.tokenizer(
+            title, lead, max_length=self.max_length, padding='max_length',
+            truncation='only_second', return_tensors='pt')
+      else:
+        text_encoding = self.tokenizer(
+            title, max_length=self.max_length, padding='max_length',
+            truncation=True, return_tensors='pt')
       item['input_ids'] = text_encoding['input_ids'].squeeze(0)
       item['attention_mask'] = text_encoding['attention_mask'].squeeze(0)
 

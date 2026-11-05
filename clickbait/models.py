@@ -123,8 +123,13 @@ MODEL_CLASSES = {
     'image': ImageOnlyClickbaitModel,
     'multimodal': MultimodalClickbaitModel,
     'concat': ConcatClickbaitModel,
+    # Thí nghiệm B (docs/protocol-v3.md): cùng kiến trúc, đầu vào văn bản là tiêu đề + đoạn mở đầu
+    'text_lead': TextOnlyClickbaitModel,
+    'concat_lead': ConcatClickbaitModel,
 }
-MODES = list(MODEL_CLASSES)
+MODES = ['text', 'image', 'multimodal', 'concat']  # 4 mô hình của bảng kết quả chính
+EXTRA_MODES = ['text_lead', 'concat_lead']
+ALL_MODES = MODES + EXTRA_MODES
 
 
 def checkpoint_path(mode, seed):
