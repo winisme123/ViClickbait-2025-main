@@ -1,0 +1,68 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0378,Thanh Niên,0.7746,non-clickbait,clickbait,Tên phường xã mới sáp nhập ở TP.HCM: Phường Bảy Hiền có 'xóm Quảng' độc nhất
+article_0402,VietNamNet,0.614,non-clickbait,clickbait,Nam thanh niên trốn bố mẹ bỏ nhà đi bộ 'về xuôi' bị lạc đường trên cao tốc
+article_0427,SaoStar,0.8088,non-clickbait,clickbait,Vụ bộ xương người trong bồn chứa nước: Tìm thấy manh mối tại hiện trường
+article_0431,SaoStar,0.668,non-clickbait,clickbait,"Lịch âm hôm nay 22/6/2025: Kiêng khởi công, tránh cưới hỏi kẻo gặp xui rủi"
+article_0491,24h,0.895,non-clickbait,clickbait,"Vị hoàng đế có tư tưởng ""thoáng"", vĩ đại nhất lịch sử Ấn Độ"
+article_0681,VietNamNet,0.6918,non-clickbait,clickbait,"Pin sạc đầy chỉ trong 18 giây, mở ra kỷ nguyên mới cho xe điện"
+article_0844,VnExpress,0.7516,non-clickbait,clickbait,Camera lớn nhất thế giới hứa hẹn thay đổi ngành thiên văn
+article_0933,Thanh Niên,0.8866,non-clickbait,clickbait,"Trồng khóm hữu cơ kết hợp nuôi ốc lác, nông dân miền Tây kiếm bộn tiền"
+article_1223,Thanh Niên,0.9043,non-clickbait,clickbait,Cách thiết kế phòng ngủ giúp phục hồi năng lượng: Gợi ý từ kiến trúc sư
+article_1276,SaoStar,0.6207,non-clickbait,clickbait,Huyền thoại Denzel Washington sẽ có vai diễn 'đo ni đóng giày' trong Black Panther 3
+article_1399,VnExpress,0.7146,non-clickbait,clickbait,Phẫu thuật '2 trong 1' cho bé trai mắc đa dị tật
+article_1464,Thanh Niên,0.9236,non-clickbait,clickbait,"Tưởng táo bón do ăn thiếu chất xơ, không ngờ là ung thư đại tràng"
+article_1479,Thanh Niên,0.7698,non-clickbait,clickbait,Béo phì có phải là bệnh?
+article_1909,24h,0.9236,non-clickbait,clickbait,Nóng nhất thể thao tối 21/6: Tay vợt số 1 nước Anh mơ gây sốc ở Wimbledon
+article_2102,VietNamNet,0.9123,non-clickbait,clickbait,Ca phẫu thuật khẩn từ lời nhắn cầu cứu của người phụ nữ xa lạ
+article_2581,Thanh Niên,0.874,non-clickbait,clickbait,"Thua Tóc Tiên sát nút, Kay Trần bất lực loại đàn em khỏi show sống còn"
+article_2596,Thanh Niên,0.9478,non-clickbait,clickbait,Hoa hậu Khánh Vân: Tôi được chồng yêu chiều nên làm vợ cũng thoải mái
+article_2685,24h,0.9607,non-clickbait,clickbait,Nữ kỹ sư IT du học Mỹ đăng quang Hoa hậu Hoàn vũ Việt Nam 2025 là ai?
+article_2694,24h,0.9729,non-clickbait,clickbait,"Nhan sắc quá khứ trái ngược của Tân Hoa, Á hậu Hoàn vũ Việt Nam: Người ngây thơ, người quyến rũ, cá tính"
+article_2741,Báo Mới,0.5981,non-clickbait,clickbait,Không phải iPhone nào cũng được hưởng trọn tính năng iOS 26 - Báo VietnamNet
+article_2866,Thanh Niên,0.8866,non-clickbait,clickbait,"CLB Bình Định ‘chiến đấu’ kiên cường, vẫn thua đau Hà Nội: Rớt hạng, kết cục cay đắng!"
+article_3163,24h,0.9658,non-clickbait,clickbait,Hôn nhân viên mãn của ca sĩ Thu Thuỷ bên chồng kém 11 tuổi
+article_3294,VnExpress,0.9424,non-clickbait,clickbait,"7 món ăn 'ngon, giá hợp lý' được Michelin gợi ý"
+article_3576,24h,0.7182,non-clickbait,clickbait,Trên dưới 500 triệu đồng mua xe SUV cũ chọn xe nào?
+article_0224,Báo Mới,0.0512,clickbait,non-clickbait,Vì sao Leicester City chưa sa thải Van Nistelrooy - Tạp chí Tri thức
+article_0231,Báo Mới,0.2103,clickbait,non-clickbait,Inter Miami trước ngưỡng cửa lịch sử - Tạp chí Tri thức
+article_0245,Báo Mới,0.0291,clickbait,non-clickbait,Top 10 thương vụ đắt giá nhất lịch sử Premier League - Chuyên trang An Ninh Thủ Đô - Báo Công an nhân dân
+article_0346,Thanh Niên,0.2043,clickbait,non-clickbait,Nước thải của Khu du lịch Thiên Cầm 'tra tấn' người dân
+article_0461,24h,0.0275,clickbait,non-clickbait,Tên lửa đạn đạo siêu nặng Iran lần đầu tấn công Israel: Đòn đánh tạo chấn động vượt khỏi Trung Đông
+article_0493,24h,0.026,clickbait,non-clickbait,Chiến tranh khốc liệt giữa Ấn Độ và Pakistan: Ra đời một quốc gia mới
+article_0532,Báo Mới,0.4337,clickbait,non-clickbait,Điều gì xảy ra nếu Iran đóng cửa eo biển Hormuz? - Tạp chí VnEconomy
+article_0667,VietNamNet,0.0911,clickbait,non-clickbait,"Lãi suất ngân hàng hôm nay 23/6/2025: Nhà băng nào niêm yết mức cao nhất 6,1%?"
+article_0725,SaoStar,0.4595,clickbait,non-clickbait,Xúc động nữ sinh gánh hành lý trở về nhà sau kỳ thi bằng chiếc sào tre
+article_0947,VietNamNet,0.3567,clickbait,non-clickbait,Real Madrid thắng trận khó tin ở FIFA Club World Cup
+article_0996,SaoStar,0.9192,non-clickbait,clickbait,Muôn vàn cảm xúc của 'phe vé' trước cổng concert có G-Dragon
+article_1021,24h,0.0706,clickbait,non-clickbait,Bitcoin cắm đầu lao dốc do căng thẳng Mỹ - Iran
+article_1024,24h,0.03,clickbait,non-clickbait,Kinh tế Mỹ có thể đối mặt với cú sốc chiến tranh từ Trung Đông
+article_1031,24h,0.8939,non-clickbait,clickbait,Ông chủ Telegram tiết lộ có hơn 100 người con và sẽ chia tài sản thừa kế cho tất cả
+article_1117,VnExpress,0.0775,clickbait,non-clickbait,Bộ Xây dựng yêu cầu Vicem hoàn thiện tháp nghìn tỷ 'đắp chiếu' chục năm
+article_1202,Thanh Niên,0.2896,clickbait,non-clickbait,Ghi nội dung chuyển khoản né từ mua bán: Cảm thông hay tiếp tay né thuế?
+article_1267,SaoStar,0.4141,clickbait,non-clickbait,5 phim Hoa ngữ cổ trang đại bạo: Triệu Lệ Dĩnh đóng góp 2 phim
+article_1269,SaoStar,0.4649,clickbait,non-clickbait,KPop Demon Hunters: 'Squid Game' thứ hai của Netflix?
+article_1473,Thanh Niên,0.0972,clickbait,non-clickbait,Bác sĩ chỉ cách sử dụng máy lạnh tốt cho sức khỏe
+article_1622,24h,0.1306,clickbait,non-clickbait,"Inter Milan nhận bàn thua lịch sử ở Club World Cup, CLB Nhật Bản hiên ngang rời giải"
+article_1634,Báo Mới,0.4902,clickbait,non-clickbait,Điểm chuẩn lớp 10 vào 2 trường chuyên 'hot' ở TP.HCM biến động bất ngờ - Tạp chí Tri thức
+article_1785,Thanh Niên,0.0699,clickbait,non-clickbait,"Học tại Việt Nam, nhận bằng cử nhân Anh quốc có uy tín?"
+article_1955,Báo Mới,0.2316,clickbait,non-clickbait,"Bayern Munich tung chiêu, quyết vượt Barca ký Nico Williams - Báo VietnamNet"
+article_2323,Thanh Niên,0.0573,clickbait,non-clickbait,Tiểu thuyết đầu tay của tác giả 'Không gia đình' ra mắt bản dịch mới
+article_2328,Thanh Niên,0.1533,clickbait,non-clickbait,Làm gì để người dân ĐBSCL thoát nghèo?
+article_2537,VnExpress,0.016,clickbait,non-clickbait,Học sinh Việt Nam đạt thành tích chưa từng có tại Olympic Vật lý châu Âu
+article_2550,Tuổi Trẻ,0.1074,clickbait,non-clickbait,Taekwondo Việt Nam: Làm gì để dự Olympic?
+article_2578,Thanh Niên,0.1243,clickbait,non-clickbait,Bức Tường mang rock Việt 'đốt cháy' trái tim kiều bào châu Âu
+article_2591,Thanh Niên,0.3294,clickbait,non-clickbait,Hai giờ đồng hồ 'tắm mưa' cùng G-Dragon
+article_2725,Báo Mới,0.0624,clickbait,non-clickbait,Trang web bị hack trong ngày Bitcoin sập - Tạp chí Tri thức
+article_2728,Báo Mới,0.0121,clickbait,non-clickbait,Pin ô tô điện có tuổi thọ cao hơn xe xăng - Chuyên trang Xe Giao Thông - Báo Xây Dựng
+article_2864,Thanh Niên,0.126,clickbait,non-clickbait,"Dàn cầu thủ cao to và triển vọng của U.23 Việt Nam, chỉ còn thiếu..."
+article_2920,SaoStar,0.7366,non-clickbait,clickbait,Có một Thảo Cầm Viên rất khác trong mắt trẻ thơ
+article_3010,Báo Mới,0.0551,clickbait,non-clickbait,Những bức ảnh động vật nổi bật nhất thập kỷ - Tạp chí Tri thức
+article_3051,VnExpress,0.7296,non-clickbait,clickbait,Hơn 500 triệu nên mua lại VinFast Lux A2.0 2021?
+article_3137,VietNamNet,0.3685,clickbait,non-clickbait,"Thu nhập 30 triệu/tháng, có nên vay ngân hàng mua nhà Hà Nội?"
+article_3304,VnExpress,0.0196,clickbait,non-clickbait,10 tuyến tàu ngoạn mục nhất thế giới 2025
+article_3384,Thanh Niên,0.3339,clickbait,non-clickbait,Vụ xe bán tải cán người trong bệnh viện: Làm sao để lùi xe an toàn?
+article_3567,24h,0.0439,clickbait,non-clickbait,"Ford Territory - Khám phá ""lãnh thổ"" riêng trong thế giới crossover"
+article_3648,24h,0.0125,clickbait,non-clickbait,Cảng cá 280 tỷ đồng sắp hoạt động nhưng luồng lạch bồi lắng
+article_3656,24h,0.4534,clickbait,non-clickbait,Triệt xóa sòng bạc 'ẩn mình' trên đồi quế
+article_3719,24h,0.3437,clickbait,non-clickbait,7 ý tưởng bữa sáng cung cấp năng lượng cho sĩ tử
+article_3751,24h,0.1472,clickbait,non-clickbait,"Vương quốc kem với vị cá thu, than củi"

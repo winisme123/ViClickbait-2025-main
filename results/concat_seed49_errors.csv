@@ -1,0 +1,77 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0060,Tuổi Trẻ,0.4268,clickbait,non-clickbait,Yêu nhau lắm
+article_0184,24h,0.7994,non-clickbait,clickbait,Tài xế dừng xe ngủ trên cao tốc gây tai nạn kinh hoàng đối diện mức phạt nào?
+article_0225,Báo Mới,0.0273,clickbait,non-clickbait,Tình thế đảo ngược với tiền vệ Tuấn Anh - Tạp chí SaoStar
+article_0339,Tuổi Trẻ,0.8704,non-clickbait,clickbait,Sự thật về video 'vụ nổ cơ sở hạt nhân Fordow' khi Mỹ tấn công
+article_0340,Tuổi Trẻ,0.7328,non-clickbait,clickbait,Video một hành khách thoát chết vì trễ chuyến bay của Air India là tin giả
+article_0375,Thanh Niên,0.5422,non-clickbait,clickbait,"Thấy người khác gặp tai nạn nguy kịch nhưng không cứu giúp, phạm tội gì?"
+article_0467,24h,0.5023,non-clickbait,clickbait,"Iran sắp phong tỏa eo biển Hormuz, Mỹ sẵn sàng kế hoạch rà phá thủy lôi?"
+article_0491,24h,0.8314,non-clickbait,clickbait,"Vị hoàng đế có tư tưởng ""thoáng"", vĩ đại nhất lịch sử Ấn Độ"
+article_0518,Báo Mới,0.0599,clickbait,non-clickbait,'Đồng minh bất đắc dĩ': Jordan - Saudi Arabia và thế khó trong cuộc chiến Iran - Israel - Báo Tin Tức TTXVN
+article_0544,Báo Mới,0.6919,non-clickbait,clickbait,"Iran tổn thất nặng, nhưng chương trình hạt nhân có thực sự bị xóa sổ? - Báo Tin Tức TTXVN"
+article_0584,VnExpress,0.6855,non-clickbait,clickbait,Có nên vay ngân hàng để xây nhà thời điểm này?
+article_0614,Tuổi Trẻ,0.5688,non-clickbait,clickbait,"Tổng giám đốc bỏ trốn sang Mỹ, căn cứ nào để viện kiểm sát buộc tội chủ mưu?"
+article_0657,Thanh Niên,0.7838,non-clickbait,clickbait,Cô gái Việt ghi danh trong ngành quảng cáo thế giới
+article_0703,SaoStar,0.7724,non-clickbait,clickbait,"Cặp vợ chồng ăn sáng bằng thịt chuột bắt trong vườn, ít ngày sau nhiễm bệnh nguy hiểm"
+article_0825,VnExpress,0.5582,non-clickbait,clickbait,Elon Musk nói AI Grok 'quá nhiều rác'
+article_0974,Kênh14,0.4868,clickbait,non-clickbait,"10 phim Hàn hay nhất nửa đầu 2025: So Ji Sub gây sốt toàn cầu, số 1 xứng danh tuyệt phẩm nhân gian"
+article_1382,VnExpress,0.8559,non-clickbait,clickbait,Ai có nguy cơ mắc ung thư tuyến giáp?
+article_1406,VnExpress,0.7272,non-clickbait,clickbait,Vì sao người trẻ chủ quan khi thận suy giai đoạn đầu?
+article_1424,VnExpress,0.9689,non-clickbait,clickbait,Những người sống mà không cần ngủ
+article_1464,Thanh Niên,0.9293,non-clickbait,clickbait,"Tưởng táo bón do ăn thiếu chất xơ, không ngờ là ung thư đại tràng"
+article_1470,Thanh Niên,0.9517,non-clickbait,clickbait,Thêm nhiều lợi ích bất ngờ từ đu đủ
+article_1480,Thanh Niên,0.9566,non-clickbait,clickbait,Chuyên gia chỉ ra thực phẩm không nên ăn sống
+article_1481,Thanh Niên,0.6868,non-clickbait,clickbait,Chuyên gia chia sẻ lượng vitamin C cần tiêu thụ mỗi ngày
+article_1555,SaoStar,0.9043,non-clickbait,clickbait,Đáng khen cho Công Phượng
+article_1569,24h,0.8253,non-clickbait,clickbait,Man City thắng đậm đội bóng châu Á: HLV Guardiola nói gì về sao trẻ Echeverri?
+article_1578,24h,0.5767,non-clickbait,clickbait,"Real thiếu người vẫn thắng: Đẳng cấp ""Kền kền trắng"", Alonso phô diễn tài năng"
+article_1968,VnExpress,0.8818,non-clickbait,clickbait,Johnny Depp nói 'bị chơi xấu' trong vụ kiện Amber Heard
+article_2242,VnExpress,0.6,non-clickbait,clickbait,Phút cân não di dời hai ngôi mộ giả 'mọc' trên đất phải thi hành án
+article_2462,Báo Mới,0.6315,non-clickbait,clickbait,"Nói dân 'mồm thối', một CSGT ở Đắk Lắk bị xem xét điều chuyển khỏi lực lượng - Báo VTC News"
+article_2574,Thanh Niên,0.8295,non-clickbait,clickbait,"Ngô Kiến Huy 'xịt keo' vì Cris Phan, HURRYKNG thể hiện khả năng toán học | ON TRENDING"
+article_2581,Thanh Niên,0.8087,non-clickbait,clickbait,"Thua Tóc Tiên sát nút, Kay Trần bất lực loại đàn em khỏi show sống còn"
+article_2585,Thanh Niên,0.9276,non-clickbait,clickbait,"Quang Anh 'Về nhà đi con' bật khóc nức nở, dừng chân ở show âm nhạc"
+article_2694,24h,0.9696,non-clickbait,clickbait,"Nhan sắc quá khứ trái ngược của Tân Hoa, Á hậu Hoàn vũ Việt Nam: Người ngây thơ, người quyến rũ, cá tính"
+article_3176,24h,0.9089,non-clickbait,clickbait,Dàn sao 'Tiếu ngạo giang hồ' sau 30 năm
+article_3178,24h,0.5599,non-clickbait,clickbait,"""Anh Long"" G-Dragon đội nón lá che kín mặt, lên đường ra sân bay về Hàn Quốc!"
+article_3196,24h,0.7883,non-clickbait,clickbait,Bích Phương - Tăng Duy Tân bối rối khi bị hỏi chuyện tình cảm
+article_3782,24h,0.5447,non-clickbait,clickbait,"Thảo nguyên Bùi Hui vào mùa đẹp nhất, dân mê xê dịch đổ về"
+article_3783,24h,0.5178,non-clickbait,clickbait,"Bằng lăng nở rộ, ""nhuộm"" tím khắp phố phường Hà Nội"
+article_0229,Báo Mới,0.037,clickbait,non-clickbait,"Man City 'đánh tennis', đoạt vé sớm vào vòng 1/8 FIFA Club World Cup - Báo VietnamNet"
+article_0301,VnExpress,0.02,clickbait,non-clickbait,Lãnh tụ tối cao Iran có thể đã chọn ba ứng viên kế nhiệm
+article_0469,24h,0.4383,clickbait,non-clickbait,Các cơ sở hạt nhân Iran chịu thiệt hại lớn đến mức nào sau đòn không kích dữ dội của Mỹ?
+article_0475,24h,0.3425,clickbait,non-clickbait,IRGC cảnh báo Mỹ 'sẽ không thoát được'
+article_0557,VnExpress,0.385,clickbait,non-clickbait,Hơn 1 tỷ USD 'bốc hơi' khỏi thị trường tiền số
+article_0667,VietNamNet,0.0235,clickbait,non-clickbait,"Lãi suất ngân hàng hôm nay 23/6/2025: Nhà băng nào niêm yết mức cao nhất 6,1%?"
+article_0722,SaoStar,0.383,clickbait,non-clickbait,"Phát hiện thằn lằn nguyên con trong bánh tiramisu, một gia đình bị ngộ độc"
+article_0957,VietNamNet,0.2834,clickbait,non-clickbait,CĐV 'đại náo' sân Thiên Trường ngày Nam Định nâng Cúp
+article_0960,VietNamNet,0.0302,clickbait,non-clickbait,Florian Wirtz: Ma thuật nước Đức chờ bay cao với Liverpool
+article_1022,24h,0.3817,clickbait,non-clickbait,Từ bờ vực phá sản đến đế chế streaming lớn nhất Nhật Bản cạnh tranh Netflix
+article_1266,SaoStar,0.7754,non-clickbait,clickbait,Tống Uy Long là nam diễn viên thất bại nhất nửa đầu năm 2025
+article_1267,SaoStar,0.0425,clickbait,non-clickbait,5 phim Hoa ngữ cổ trang đại bạo: Triệu Lệ Dĩnh đóng góp 2 phim
+article_1290,SaoStar,0.4803,clickbait,non-clickbait,Triệu Lệ Dĩnh lép vế trước Dương Mịch trong Tương Viên Lộng
+article_1388,VnExpress,0.1995,clickbait,non-clickbait,7 mẹo bổ sung nước phòng tránh thận yếu
+article_1393,VnExpress,0.2889,clickbait,non-clickbait,Triệu chứng nào cảnh báo mắc chứng cuồng ăn?
+article_1489,Thanh Niên,0.2561,clickbait,non-clickbait,Top 5 kem trị mụn giá học sinh mà chất lượng quốc tế
+article_1553,SaoStar,0.1387,clickbait,non-clickbait,Rắc rối lớn với HLV Troussier
+article_1796,Thanh Niên,0.069,clickbait,non-clickbait,Thi tốt nghiệp THPT thay đổi ra sao để phù hợp với thế giới?
+article_1961,VnExpress,0.7546,non-clickbait,clickbait,Ngọc Khuê: 'Chồng giúp tôi mở lòng sau một lần đổ vỡ'
+article_2095,VietNamNet,0.0424,clickbait,non-clickbait,Ba không khi ăn rau dền
+article_2142,24h,0.0294,clickbait,non-clickbait,"Kiếm triệu USD từ sáng tạo game, ứng dụng"
+article_2182,Báo Mới,0.0157,clickbait,non-clickbait,Chiến sĩ mới tự tin chinh phục '3 tiếng nổ' - Báo Cao Bằng
+article_2257,VnExpress,0.3127,clickbait,non-clickbait,"Bị phạt 16 triệu đồng vì 'đi xe máy ngông nghênh', thách thức công an"
+article_2359,VietNamNet,0.4257,clickbait,non-clickbait,"Tiết lộ mỏ vàng nông nghiệp công nghệ cao, bạn trẻ về quê bỏ túi triệu đô"
+article_2391,SaoStar,0.086,clickbait,non-clickbait,Giá xăng dầu hôm nay 14/6: Tăng mạnh chưa từng thấy
+article_2421,24h,0.4269,clickbait,non-clickbait,"iPhone màn OLED xịn như iPhone 16, hiệu năng hàng top phân khúc tầm trung"
+article_2937,SaoStar,0.1823,clickbait,non-clickbait,Mùa xê dịch: Đi để thấy mình rộng hơn mọi giới hạn
+article_2962,24h,0.1565,clickbait,non-clickbait,Chuyên gia trang điểm Diệp Bùi chọn ngã rẽ mới để viết tiếp ước mơ
+article_2994,Báo Mới,0.1985,clickbait,non-clickbait,Vén màn bí mật bức phù điêu hình đại bàng vàng - Báo Tri thức & Cuộc sống
+article_3057,VnExpress,0.0228,clickbait,non-clickbait,Đại lý làm mất xe sang trước khi giao cho khách
+article_3086,Tuổi Trẻ,0.0668,clickbait,non-clickbait,7 thay đổi nhà bếp trước và sau khi cải tạo
+article_3107,Thanh Niên,0.2953,clickbait,non-clickbait,Camera an ninh lưu trữ cảnh quay trong bao lâu?
+article_3111,Thanh Niên,0.0402,clickbait,non-clickbait,Khám phá tính năng iOS 26 giúp sạc pin iPhone hiệu quả hơn
+article_3116,Thanh Niên,0.1307,clickbait,non-clickbait,Những lợi ích của cổng USB trên ô tô
+article_3131,VietNamNet,0.0888,clickbait,non-clickbait,Bộ Xây dựng chỉ đạo ‘hồi sinh’ toà tháp nghìn tỷ trơ xương trên đất vàng Hà Nội
+article_3156,VietNamNet,0.1292,clickbait,non-clickbait,Thị trường bất động sản tại tỉnh lớn nhất Việt Nam sau sáp nhập ra sao?
+article_3288,VnExpress,0.1245,clickbait,non-clickbait,50 nhà hàng tốt nhất thế giới
+article_3347,Tuổi Trẻ,0.2787,clickbait,non-clickbait,"Vào viện xin cấp cứu, chưa kịp chuyển viện theo ý muốn đã ra tay đấm điều dưỡng"
