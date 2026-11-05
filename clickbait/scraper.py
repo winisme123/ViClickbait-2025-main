@@ -21,14 +21,34 @@ KNOWN_SITES = [
 ]
 
 
-def _meta_content(soup, *attrs):
-    """Tìm nội dung theo nhiều thuộc tính meta khác nhau."""
+def _meta_content(soup, *attrs, skip_urls=False):
+    """Tìm nội dung theo nhiều thuộc tính meta khác nhau.
+
+    skip_urls: bỏ qua giá trị là một đường link (Báo Mới đặt og:title,
+    og:description bằng chính URL bài viết).
+    """
     for kw in attrs:
         tag = soup.find('meta', attrs=kw)
         if tag and tag.get('content'):
             val = tag.get('content').strip()
-            if val:
+            if val and not (skip_urls and val.startswith(('http://', 'https://'))):
                 return val
+    return None
+
+
+def find_baomoi_image(page_url, html):
+    """Ảnh bìa thật của bài Báo Mới, hoặc None.
+
+    Báo Mới đặt og:image là logo chung; ảnh thật nằm trong __NEXT_DATA__,
+    đường dẫn có chứa ID bài (vd: ...-c52570002.epi -> .../2025_06_23_20_52570002/...).
+    """
+    article_id = re.search(r'-[a-z](\d+)\.epi', page_url)
+    if not article_id:
+        return None
+    candidates = re.findall(r'"(?:imageUrl|thumb)":"([^"]+)"', html)
+    for url in candidates:
+        if f'_{article_id.group(1)}/' in url:
+            return url
     return None
 
 
@@ -62,7 +82,8 @@ def fetch_article(url, timeout=12):
 
     title = (
         _meta_content(soup, {'property': 'og:title'}, {'name': 'og:title'},
-                      {'property': 'twitter:title'}, {'name': 'twitter:title'})
+                      {'property': 'twitter:title'}, {'name': 'twitter:title'},
+                      skip_urls=True)
         or (soup.title.string.strip() if soup.title and soup.title.string else '')
     )
     lead = _meta_content(
@@ -70,6 +91,7 @@ def fetch_article(url, timeout=12):
         {'property': 'og:description'}, {'name': 'og:description'},
         {'property': 'twitter:description'}, {'name': 'twitter:description'},
         {'name': 'description'},
+        skip_urls=True,
     ) or ''
     image_url = _meta_content(
         soup,
@@ -83,6 +105,10 @@ def fetch_article(url, timeout=12):
         {'name': 'article:published_time'},
         {'property': 'og:updated_time'},
     ) or ''
+
+    if 'baomoi.com' in domain:
+        # og:image của Báo Mới là logo chung: thay bằng ảnh thật, không có thì bỏ ảnh
+        image_url = find_baomoi_image(resp.url, resp.text) or ''
 
     if not title:
         return {'error': 'Không lấy được tiêu đề từ trang này (thử dán tiêu đề thủ công).'}

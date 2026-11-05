@@ -1,6 +1,5 @@
 import io
 import os
-import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
 
@@ -9,7 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 from PIL import Image
 
-from clickbait.scraper import HEADERS, _meta_content
+from clickbait.scraper import HEADERS, _meta_content, find_baomoi_image
 
 # Cột thumbnail_url trong dataset chỉ chứa đường dẫn file đích
 # (vd: data/images/article_0001_image.png), không phải URL ảnh.
@@ -37,19 +36,6 @@ def image_path_for(row):
   ):
     img_name = f'thumb_{row.name}.jpg'
   return os.path.join(images_dir, img_name)
-
-
-def find_baomoi_image(page_url, html):
-  # Báo Mới đặt og:image là logo chung; ảnh thật nằm trong __NEXT_DATA__,
-  # đường dẫn có chứa ID bài (vd: ...-c52570002.epi -> .../2025_06_23_20_52570002/...)
-  article_id = re.search(r'-[a-z](\d+)\.epi', page_url)
-  if not article_id:
-    return None
-  candidates = re.findall(r'"(?:imageUrl|thumb)":"([^"]+)"', html)
-  for url in candidates:
-    if f'_{article_id.group(1)}/' in url:
-      return url
-  return None
 
 
 def find_image_url(page_url):
