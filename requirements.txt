@@ -31,7 +31,7 @@ requests>=2.31
 beautifulsoup4>=4.12
 
 # --- Giao diện app ---
-streamlit>=1.36
+streamlit>=1.50
 
 # --- Tiện ích ---
 tqdm>=4.66

@@ -1,4 +1,4 @@
-"""ViClickbait Detector — giao diện Streamlit.
+"""ViClickbait Detector (bản phân tích) — giao diện Streamlit: streamlit run app_v2.py
 
 Tính năng:
 - Dán link bài báo (VnExpress, Thanh Niên, ...) → tự lấy tiêu đề + ảnh bìa
@@ -8,22 +8,16 @@ Tính năng:
 """
 import io
 import json
-import os
 import sys
 import uuid
 from datetime import datetime
 
-import torch
-import torch.nn.functional as F
 from PIL import Image
 import streamlit as st
-from transformers import AutoTokenizer, ViTImageProcessor, ViTModel
 
-from clickbait.dataset import MAX_LENGTH
-from clickbait.models import MODEL_CLASSES, PHOBERT_NAME, VIT_NAME, checkpoint_path
+from clickbait.inference import load_pipeline as _load_pipeline, predict_proba, attention_heatmap
 from clickbait.scraper import fetch_article
 from clickbait.signals import extract_signals, render_highlighted, summarize, CATEGORIES
-from clickbait.text_utils import segment_text
 
 if sys.platform == 'win32' and sys.stdout is not None:
     sys.stdout.reconfigure(encoding='utf-8')
@@ -32,84 +26,21 @@ st.set_page_config(page_title="ViClickbait Detector", page_icon="📰", layout="
 
 HISTORY_FILE = 'analysis_history.json'
 
-
-# Demo dùng checkpoint của seed 42 (kiến trúc mô hình nằm trong clickbait/models.py)
-DEMO_SEED = 42
 MODE_LABELS = {'text': '📝 Text only (PhoBERT)', 'image': '🖼️ Image only (ViT)', 'multimodal': '🧠 Multimodal (PhoBERT + ViT)'}
 
 
 # ===================== Load pipeline =====================
 @st.cache_resource(show_spinner="Đang tải mô hình...")
 def load_pipeline(mode):
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    tokenizer = AutoTokenizer.from_pretrained(PHOBERT_NAME)
-    processor = ViTImageProcessor.from_pretrained(VIT_NAME)
-    model = MODEL_CLASSES[mode]()
-
-    ckpt = checkpoint_path(mode, DEMO_SEED)
-    if os.path.exists(ckpt):
-        model.load_state_dict(torch.load(ckpt, map_location=device, weights_only=True))
-        status = f"✅ {ckpt}"
-    else:
-        status = f"⚠️ Không tìm thấy {ckpt} — trọng số random!"
-    model.to(device).eval()
-
-    eager_vit = None
-    if mode in ('image', 'multimodal'):
-        # ViT bản eager để lấy attentions cho heatmap (sdpa không hỗ trợ output_attentions)
-        eager_vit = ViTModel.from_pretrained(
-            VIT_NAME, attn_implementation='eager',
-        )
-        eager_vit.load_state_dict(model.image_encoder.state_dict())
-        eager_vit.to(device).eval()
-    return model, tokenizer, processor, eager_vit, device, status
+    return _load_pipeline(mode)
 
 
-# ===================== Dự đoán + heatmap =====================
 def predict(mode, title, image, pipeline):
-    model, tokenizer, processor, _, device, _ = pipeline
-    with torch.no_grad():
-        if mode in ('text', 'multimodal'):
-            enc = tokenizer(segment_text(title), max_length=MAX_LENGTH, padding='max_length', truncation=True, return_tensors='pt')
-            input_ids = enc['input_ids'].to(device)
-            attention_mask = enc['attention_mask'].to(device)
-        else:
-            input_ids = attention_mask = None
-
-        if mode in ('image', 'multimodal'):
-            pixel_values = processor(images=image, return_tensors='pt')['pixel_values'].to(device)
-        else:
-            pixel_values = None
-
-        logit = model(input_ids, attention_mask, pixel_values)
-        return torch.sigmoid(logit).item()
+    return predict_proba(pipeline, title, image)
 
 
-@torch.no_grad()
 def rollout_heatmap(pipeline, image):
-    """Attention rollout trên ViT → ảnh overlay vùng model tập trung."""
-    _, _, processor, eager_vit, device, _ = pipeline
-    if eager_vit is None:
-        return None
-    pixel = processor(images=image, return_tensors='pt')['pixel_values'].to(device)
-    out = eager_vit(pixel_values=pixel, output_attentions=True)
-    n = out.attentions[0].shape[-1]
-    roll = torch.eye(n, device=device)
-    for a in out.attentions:
-        a = a.mean(dim=1)                      # (B, N, N) — trung bình các head
-        a = a + torch.eye(n, device=device)    # thêm identity
-        a = a / a.sum(dim=-1, keepdim=True)    # chuẩn hoá hàng
-        roll = roll @ a
-    cls = roll[0, 0, 1:]                       # dòng CLS, bỏ token CLS
-    side = int(cls.numel() ** 0.5)             # 14x14
-    grid = cls.reshape(side, side)
-    grid = grid / grid.max().clamp(min=1e-9)
-    grid = F.interpolate(grid[None, None], size=(224, 224), mode='bilinear')[0, 0]
-    mask = Image.fromarray((grid * 255).byte().cpu().numpy(), mode='L')
-    mask = mask.point(lambda p: int(p * 0.55))  # độ trong suốt 55%
-    base = image.convert('RGB').resize((224, 224))
-    red = Image.new('RGB', base.size, (255, 40, 40))
-    return Image.composite(red, base, mask)
+    return attention_heatmap(pipeline, image)
 
 
 # ===================== Lịch sử =====================
@@ -259,9 +190,9 @@ def render_result(res):
         st.markdown("**Phân tích ảnh — Attention Rollout** (vùng đỏ = model tập trung):")
         col_a, col_b = st.columns(2)
         with col_a:
-            st.image(res['title_img'], caption='Ảnh gốc', use_container_width=True)
+            st.image(res['title_img'], caption='Ảnh gốc', width='stretch')
         with col_b:
-            st.image(res['heatmap'], caption='Attention heatmap', use_container_width=True)
+            st.image(res['heatmap'], caption='Attention heatmap', width='stretch')
     elif mode == 'image':
         st.warning('Không có ảnh để phân tích mode này.')
 
@@ -363,9 +294,9 @@ if mode in ('image', 'multimodal') and image is None:
 # ---------- Nút phân tích ----------
 col_btn1, col_btn2 = st.columns(2)
 with col_btn1:
-    predict_btn = st.button('🔍 Phân tích', type='primary', use_container_width=True)
+    predict_btn = st.button('🔍 Phân tích', type='primary', width='stretch')
 with col_btn2:
-    compare_btn = st.button('⚖️ So sánh cả 3 mô hình', use_container_width=True)
+    compare_btn = st.button('⚖️ So sánh cả 3 mô hình', width='stretch')
 
 if predict_btn:
     if not title_input.strip() and mode != 'image':
