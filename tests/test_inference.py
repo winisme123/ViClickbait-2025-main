@@ -61,13 +61,15 @@ def test_image_contribution_none_for_text_mode(text_pipeline):
   assert image_contribution(text_pipeline, 'tiêu đề', None) is None
 
 
-def test_cached_image_features_match_full_forward():
+@pytest.mark.parametrize('mode', ['concat', 'multimodal'])
+def test_cached_image_features_match_full_forward(mode):
   # Dùng lại đặc trưng ảnh phải cho cùng kết quả với chạy đầy đủ mô hình
   from PIL import Image
   from clickbait.inference import _batch_proba
-  if not os.path.exists(checkpoint_path('multimodal', 42)):
-    pytest.skip('chưa có checkpoints/multimodal_seed42.pth')
-  mm = load_pipeline('multimodal', device=torch.device('cpu'))
+  if not os.path.exists(checkpoint_path(mode, 42)):
+    pytest.skip(f'chưa có checkpoints/{mode}_seed42.pth')
+  mm = load_pipeline(mode, device=torch.device('cpu'))
+  assert mm['loaded']
   img = Image.new('RGB', (300, 200), (200, 30, 30))
   titles = ['Sân bay Vinh đóng cửa 6 tháng', 'SỐC! Sự thật kinh hoàng']
   pix = mm['processor'](images=img, return_tensors='pt')['pixel_values']

@@ -1,11 +1,11 @@
-"""Demo chính: phát hiện clickbait đa phương thức (PhoBERT + ViT + Cross-Modal Attention).
+"""Demo chính: phát hiện clickbait đa phương thức (PhoBERT + ViT, Late Fusion).
 
 Chạy: streamlit run app.py
 
-- Mô hình: `multimodal` seed 42 (checkpoints/multimodal_seed42.pth). Bài không có ảnh
+- Mô hình: `concat` (Late Fusion) seed 42 (checkpoints/concat_seed42.pth). Bài không có ảnh
   được chấm bằng mô hình `text` seed 42 thay vì ghép ảnh đen giả.
 - Số liệu ở sidebar và tab báo cáo đọc từ results/summary.csv (tập test độc lập,
-  3 seed), không nhập tay.
+  3 seed) và results/summary_v4.csv (20 seed độc lập), không nhập tay.
 - Bản phân tích chi tiết hơn (so sánh 3 mô hình, ngưỡng, lịch sử): app_v2.py.
 """
 import io
@@ -37,6 +37,8 @@ st.set_page_config(
 )
 
 SUMMARY_PATH = os.path.join('results', 'summary.csv')
+SUMMARY_V4_PATH = os.path.join('results', 'summary_v4.csv')
+DEMO_MODE = 'concat'
 ABLATION_8010_PATH = os.path.join('experiments', 'coattention_80_10_10', 'ablation_study_results.csv')
 MODEL_NAMES = {
     'text': 'Text-only (PhoBERT)',
@@ -81,11 +83,11 @@ def load_components(mode):
 # SỐ LIỆU THỰC NGHIỆM (đọc từ file kết quả, không nhập tay)
 # ==============================================================================
 @st.cache_data(show_spinner=False)
-def load_summary():
-    """results/summary.csv → DataFrame với cột mean/std dạng số. None nếu chưa có file."""
-    if not os.path.exists(SUMMARY_PATH):
+def load_summary(path=SUMMARY_PATH):
+    """File summary CSV → DataFrame với cột mean/std dạng số. None nếu chưa có file."""
+    if not os.path.exists(path):
         return None
-    raw = pd.read_csv(SUMMARY_PATH, encoding='utf-8-sig')
+    raw = pd.read_csv(path, encoding='utf-8-sig')
     out = pd.DataFrame({'mode': raw['mode'], 'n_seeds': raw['n_seeds']})
     for col in ['accuracy', 'macro_f1', 'f1_clickbait', 'precision_clickbait', 'recall_clickbait']:
         parts = raw[col].astype(str).str.split('±', expand=True)
@@ -203,13 +205,13 @@ def show_explanation(pipeline, title, image, prob):
 def main():
     st.title("📰 HỆ THỐNG PHÁT HIỆN CLICKBAIT ĐA PHƯƠNG THỨC TIẾNG VIỆT")
     st.markdown("""
-    **Đề tài Khóa luận Cử nhân CNTT**: *Phát hiện Clickbait Đa Phương Thức Bằng Học Sâu (PhoBERT + ViT + Cross-Modal Attention)*
+    **Đề tài Khóa luận Cử nhân CNTT**: *Phát hiện clickbait đa phương thức bằng học sâu* (PhoBERT + ViT, Late Fusion)
     **Sinh viên thực hiện**: Nguyễn Hữu Thiện, Thi Lý Hữu Toàn, Trần Quốc Tuấn | **GVHD**: ThS. Trần Khải Thiện
     """)
     st.divider()
 
     with st.spinner("Đang khởi động hệ thống và nạp mô hình..."):
-        mm = load_components('multimodal')
+        mm = load_components(DEMO_MODE)
     device = mm['device']
     summary = load_summary()
 
@@ -221,7 +223,7 @@ def main():
             st.write(f"**Card đồ họa:** `{torch.cuda.get_device_name(0)}`")
         st.write("**Văn bản:** `PhoBERT-base` (tách từ pyvi)")
         st.write("**Hình ảnh:** `Vision Transformer (ViT)`")
-        st.write("**Cơ chế kết hợp:** `Cross-Modal Attention`")
+        st.write("**Cơ chế kết hợp:** `Late Fusion (ghép đặc trưng)`")
         if mm['loaded']:
             st.caption(f"Checkpoint: `{mm['checkpoint']}`")
         else:
@@ -229,8 +231,8 @@ def main():
         st.divider()
 
         st.header("📊 Kết Quả Trên Tập Test")
-        if summary is not None and 'multimodal' in summary.index:
-            r = summary.loc['multimodal']
+        if summary is not None and DEMO_MODE in summary.index:
+            r = summary.loc[DEMO_MODE]
             st.metric(label="🎯 Accuracy", value=f"{r['accuracy']*100:.2f}%", delta=f"± {r['accuracy_std']*100:.2f}", delta_color="off")
             st.metric(label="⭐ Macro F1-Score", value=f"{r['macro_f1']*100:.2f}%", delta=f"± {r['macro_f1_std']*100:.2f}", delta_color="off")
             st.caption(f"Trung bình ± độ lệch chuẩn qua {int(r['n_seeds'])} seed, tập test độc lập (15% dữ liệu, tách trước khi huấn luyện).")
@@ -326,7 +328,7 @@ def main():
                 return
 
             if pil_image is not None:
-                pipeline, used = mm, "Multimodal (PhoBERT + ViT + Cross-Attention)"
+                pipeline, used = mm, "Late Fusion (PhoBERT + ViT)"
             else:
                 with st.spinner("Đang nạp mô hình Text-only..."):
                     pipeline, used = load_components('text'), "Text-only (PhoBERT), vì bài không có ảnh"
@@ -380,16 +382,25 @@ def main():
             st.dataframe(table, hide_index=True, width='stretch')
 
             f1 = summary['macro_f1']
-            best = f1.idxmax()
             st.markdown(f"""
             ### 📌 Nhận xét
             1. **Văn bản là nguồn thông tin chính:** Text-only đạt Macro F1 = {f1['text']*100:.2f}%, còn Image-only chỉ {f1['image']*100:.2f}%.
                Ảnh đứng riêng không đủ để nhận biết clickbait.
-            2. **Kết hợp ảnh giúp cải thiện:** mô hình đa phương thức tốt nhất ({MODEL_NAMES[best]}) đạt {f1[best]*100:.2f}%,
-               cao hơn Text-only {(f1[best]-f1['text'])*100:+.2f} điểm.
-            3. **Cross-Attention và Late Fusion:** {f1['multimodal']*100:.2f}% so với {f1['concat']*100:.2f}%. Chênh lệch nhỏ hơn
+            2. **Cross-Attention và Late Fusion:** {f1['multimodal']*100:.2f}% so với {f1['concat']*100:.2f}%. Chênh lệch nhỏ hơn
                độ lệch chuẩn giữa các seed (khoảng {summary.loc[['concat', 'multimodal'], 'macro_f1_std'].max()*100:.1f} điểm),
                nên với cỡ dữ liệu hiện tại chưa khẳng định được cách kết hợp nào tốt hơn.
+            """)
+
+        v4 = load_summary(SUMMARY_V4_PATH)
+        if v4 is not None:
+            st.subheader("Lặp lại độc lập trên 20 seed mới (50–69)")
+            st.markdown(f"""
+            Quy tắc kiểm định chốt trước khi chạy (docs/protocol-v4.md): Wilcoxon hai phía, hiệu chỉnh Holm–Bonferroni.
+
+            - **Late Fusion so với Image-only:** {v4.loc['concat', 'macro_f1']*100:.2f}% so với {v4.loc['image', 'macro_f1']*100:.2f}%,
+              cao hơn ở cả 20 seed, **có ý nghĩa thống kê**.
+            - **Late Fusion so với Text-only:** {v4.loc['concat', 'macro_f1']*100:.2f}% so với {v4.loc['text', 'macro_f1']*100:.2f}%,
+              **không khác nhau có ý nghĩa** (p = 0,20). Trên bộ dữ liệu này, thêm ảnh không cải thiện được so với chỉ dùng tiêu đề.
             """)
 
         if os.path.exists(ABLATION_8010_PATH):
