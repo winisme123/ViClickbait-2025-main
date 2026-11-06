@@ -1,5 +1,15 @@
 # Lịch sử thay đổi
 
+## [0.7.0] - 2026-11-06
+
+### Thêm
+- Demo: dán ảnh thumbnail bằng **Ctrl+V** (Cách 2, và Cách 1 khi trang báo không cho lấy ảnh), `clickbait/ui_paste.py`.
+- Demo: mục **"Vì sao mô hình kết luận như vậy?"**: tóm tắt bằng lời; tiêu đề tô màu theo đóng góp của từng từ; từng điểm giống clickbait / giống tin chính thống bấm mở xem chi tiết; ảnh hưởng của ảnh thumbnail; bảng đóng góp đầy đủ.
+- `clickbait/inference.word_importance`: đóng góp của từng từ đo trực tiếp trên mô hình (giá trị Shapley theo hoán vị, đơn vị log-odds); `image_contribution`: so ảnh thật với ảnh xám trung tính. Đặc trưng ViT được tính một lần rồi dùng lại cho mọi biến thể tiêu đề.
+- `clickbait/explain.py`: ghép đóng góp của mô hình với dấu hiệu của bộ luật ngôn ngữ thành các điểm giải thích.
+- Biến môi trường `CLICKBAIT_DEVICE=cpu` để ép demo chạy CPU.
+- `docs/protocol-v4.md`: lặp lại độc lập trên 20 seed mới (chốt trước khi chạy); `run_all --delete-checkpoints`.
+
 ## [0.6.0] - 2026-11-05
 
 ### Thêm

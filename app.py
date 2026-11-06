@@ -18,9 +18,12 @@ import streamlit as st
 import torch
 from PIL import Image
 
-from clickbait.inference import DEMO_SEED, attention_heatmap, load_pipeline, predict_proba
+from clickbait.explain import build_points, render_contributions, summary_sentence
+from clickbait.inference import (DEMO_SEED, attention_heatmap, image_contribution, load_pipeline,
+                                 predict_proba, word_importance)
 from clickbait.scraper import fetch_article
-from clickbait.signals import extract_signals, render_highlighted, summarize
+from clickbait.signals import extract_signals, render_highlighted
+from clickbait.ui_paste import paste_image
 
 # Cấu hình UTF-8 cho hệ thống
 if sys.platform == 'win32' and sys.stdout is not None:
@@ -93,6 +96,105 @@ def load_summary():
 
 def fmt_pct(mean, std):
     return f"{mean*100:.2f}% ± {std*100:.2f}"
+
+
+# ==============================================================================
+# GIẢI THÍCH KẾT QUẢ
+# ==============================================================================
+def _point_expander(i, point):
+    icon = '⚠️' if point.direction == 'clickbait' else '✅'
+    with st.expander(f"{icon} Điểm {i}: «{point.text}» · {point.label}"):
+        st.markdown(f"**Vì sao:** {point.reason}")
+        if point.words:
+            side = 'clickbait' if point.effect > 0 else 'tin chính thống'
+            st.markdown(f"**Mức ảnh hưởng trong mô hình:** `{point.effect:+.2f}` (kéo về phía {side}; "
+                        f"từ được tính: {', '.join(f'«{w}»' for w in point.words)})")
+        elif point.from_rules:
+            st.markdown("**Mức ảnh hưởng trong mô hình:** không tách được thành từ riêng "
+                        "(ví dụ dấu câu dính liền với từ khác).")
+        if point.from_rules and point.words and point.effect <= 0:
+            st.caption("Bộ luật ngôn ngữ nhận ra dấu hiệu này, nhưng trong tiêu đề này mô hình "
+                       "không coi nó là lý do kéo về clickbait.")
+        if point.tip:
+            st.markdown(f"**So với tin chính thống:** {point.tip}")
+
+
+def show_explanation(pipeline, title, image, prob):
+    """Phần "Vì sao": tóm tắt, tiêu đề tô màu theo mô hình, từng điểm bấm mở được, ảnh, bảng chi tiết."""
+    st.divider()
+    st.subheader("🔎 VÌ SAO MÔ HÌNH KẾT LUẬN NHƯ VẬY?")
+    with st.spinner("Đang phân tích lý do (đo đóng góp của từng từ)..."):
+        _, contributions = word_importance(pipeline, title, image)
+        image_effect = image_contribution(pipeline, title, image)
+    signals = extract_signals(title)
+    cb_points, normal_points = build_points(contributions, signals)
+
+    st.info(summary_sentence(prob, contributions, signals, image_effect))
+
+    st.markdown("**Mỗi từ ảnh hưởng thế nào tới quyết định** (đỏ = kéo về clickbait, xanh = kéo về "
+                "chính thống, màu càng đậm càng mạnh; rê chuột lên từ để xem số):")
+    st.markdown(
+        f'<div style="font-size:1.15rem; line-height:2.1; padding:0.6rem 0.9rem; '
+        f'border:1px solid rgba(128,128,128,0.35); border-radius:8px;">'
+        f'{render_contributions(contributions)}</div>',
+        unsafe_allow_html=True,
+    )
+
+    st.markdown("#### ⚠️ Các điểm khiến tiêu đề giống clickbait")
+    if cb_points:
+        st.caption("Bấm vào từng điểm để xem giải thích chi tiết.")
+        for i, point in enumerate(cb_points, 1):
+            _point_expander(i, point)
+    else:
+        st.caption("Không có điểm nào đáng kể.")
+
+    st.markdown("#### ✅ Các điểm khiến tiêu đề giống tin chính thống")
+    if normal_points:
+        for i, point in enumerate(normal_points, 1):
+            _point_expander(i, point)
+    else:
+        st.caption("Không có điểm nào đáng kể.")
+
+    if image is not None:
+        with st.expander("🖼️ Ảnh thumbnail ảnh hưởng thế nào?"):
+            if image_effect is not None:
+                with_img, without = image_effect
+                st.markdown(f"- Xác suất clickbait **với ảnh thật**: `{with_img*100:.1f}%`\n"
+                            f"- Khi thay ảnh bằng **ảnh xám trung tính**: `{without*100:.1f}%`\n"
+                            f"- Ảnh làm thay đổi: `{(with_img-without)*100:+.1f}` điểm phần trăm")
+            heat = attention_heatmap(pipeline, image)
+            if heat is not None:
+                st.markdown("**Vùng ảnh mô hình tập trung** (Attention Rollout, vùng đỏ = chú ý nhiều):")
+                h1, h2 = st.columns(2)
+                h1.image(image.resize((224, 224)), caption="Ảnh gốc", width='stretch')
+                h2.image(heat, caption="Attention heatmap", width='stretch')
+
+    with st.expander("📊 Bảng đóng góp của tất cả các từ"):
+        df = pd.DataFrame({'Từ': [w for w, _ in contributions], 'Đóng góp': [d for _, d in contributions]})
+        df['Kéo về'] = ['clickbait' if d > 0 else 'chính thống' for d in df['Đóng góp']]
+        st.dataframe(df, hide_index=True, width='stretch',
+                     column_config={'Đóng góp': st.column_config.NumberColumn(format='%+.2f')})
+        if signals:
+            st.markdown("**Dấu hiệu theo bộ luật ngôn ngữ** (rê chuột lên cụm tô màu để xem lý do):")
+            st.markdown(
+                f'<div style="font-size:1.05rem; line-height:1.9; padding:0.5rem 0.8rem; '
+                f'border:1px solid rgba(128,128,128,0.35); border-radius:8px;">'
+                f'{render_highlighted(title, signals)}</div>',
+                unsafe_allow_html=True,
+            )
+
+    with st.expander("ℹ️ Cách đọc phần giải thích"):
+        st.markdown(
+            "- **Đóng góp của từng từ** được đo trực tiếp trên mô hình: thêm dần các từ vào tiêu đề "
+            "theo nhiều thứ tự ngẫu nhiên, ghi lại mỗi từ làm điểm clickbait (log-odds) tăng hay "
+            "giảm bao nhiêu, rồi lấy trung bình (giá trị Shapley). Số dương kéo về clickbait, số âm "
+            "kéo về chính thống.\n"
+            "- **Dấu hiệu theo bộ luật** (khoảng trống tò mò, cảm thán, câu hỏi, ...) do một bộ luật "
+            "ngôn ngữ riêng tìm ra để người đọc dễ hiểu; đó **không** phải lý do bên trong mô hình. "
+            "Khi luật và mô hình không khớp, ô giải thích có ghi rõ.\n"
+            "- **Ảnh hưởng của ảnh** được đo bằng cách thay ảnh thật bằng ảnh xám trung tính.\n"
+            "- **Heatmap** cho biết vùng ảnh mà ViT chú ý, không cho biết vùng đó làm tăng hay giảm "
+            "điểm clickbait.")
 
 
 # ==============================================================================
@@ -179,13 +281,21 @@ def main():
                                 st.warning("Lấy được tiêu đề nhưng ảnh bìa bị lỗi định dạng.")
 
                 title_input = st.text_area("Tiêu đề trích xuất được:", value=title_input, height=100)
+                if article_url.strip() and pil_image is None:
+                    st.caption("Không lấy được ảnh bìa? Copy ảnh thumbnail trên trang báo rồi dán vào đây:")
+                    pil_image = paste_image(key='paste_url')
 
         # --- CÁCH 2: TỰ NHẬP TIÊU ĐỀ & ẢNH ---
         elif "Cách 2" in input_mode:
             with col1:
                 title_input = st.text_area("Nhập tiêu đề bài báo:", height=100, placeholder="Nhập tiêu đề bài báo vào đây...")
                 uploaded_file = st.file_uploader("Tải ảnh thumbnail lên (tùy chọn):", type=['jpg', 'jpeg', 'png', 'webp'])
-                if uploaded_file is not None:
+                st.markdown("hoặc")
+                pasted = paste_image(key='paste_manual')
+                if pasted is not None:
+                    # Ảnh dán được ưu tiên hơn ảnh tải lên (xóa ảnh dán để dùng lại ảnh tải lên)
+                    pil_image = pasted
+                elif uploaded_file is not None:
                     try:
                         pil_image = Image.open(uploaded_file).convert("RGB")
                     except Exception as e:
@@ -248,37 +358,7 @@ def main():
                 st.metric("Tốc độ xử lý", f"{latency:.4f} giây")
                 st.metric("Xác suất Clickbait", f"{prob*100:.2f}%")
 
-            # Giải thích: dấu hiệu ngôn ngữ trong tiêu đề (theo luật, độc lập với mô hình)
-            signals = extract_signals(title_input.strip())
-            st.markdown("**Tiêu đề được phân tích** (tô màu các cụm từ thường gặp trong tiêu đề clickbait):")
-            st.markdown(
-                f'<div style="font-size:1.15rem; line-height:1.9; padding:0.6rem 0.9rem; '
-                f'border:1px solid rgba(128,128,128,0.35); border-radius:8px;">'
-                f'{render_highlighted(title_input.strip(), signals)}</div>',
-                unsafe_allow_html=True,
-            )
-            groups = summarize(signals)
-            if groups:
-                for g in groups:
-                    st.markdown(
-                        f'<span style="background:{g["color"]}33; color:{g["color"]}; font-weight:600; '
-                        f'padding:2px 10px; border-radius:12px;">{g["label"]} ×{g["count"]}</span> '
-                        f'<span style="opacity:0.8">ví dụ: <b>{", ".join(g["examples"])}</b> · {g["why"]}</span>',
-                        unsafe_allow_html=True,
-                    )
-            else:
-                st.caption("Không nhận diện được dấu hiệu ngôn ngữ nào theo bộ luật.")
-            st.caption("Các dấu hiệu trên do bộ luật ngôn ngữ (clickbait/signals.py) tìm ra để giải thích, "
-                       "không phải lý do bên trong mô hình.")
-
-            # Giải thích: vùng ảnh mô hình tập trung (attention rollout của ViT)
-            if pil_image is not None:
-                heat = attention_heatmap(pipeline, pil_image)
-                if heat is not None:
-                    st.markdown("**Vùng ảnh mô hình tập trung** (Attention Rollout, vùng đỏ = chú ý nhiều):")
-                    h1, h2 = st.columns(2)
-                    h1.image(pil_image.resize((224, 224)), caption="Ảnh gốc", width='stretch')
-                    h2.image(heat, caption="Attention heatmap", width='stretch')
+            show_explanation(pipeline, title_input.strip(), pil_image, prob)
 
     with tab2:
         st.subheader("Bảng Đối Sánh Toàn Diện (Ablation Study)")
