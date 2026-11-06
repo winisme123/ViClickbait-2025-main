@@ -1,0 +1,78 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0376,Thanh Niên,0.7171,non-clickbait,clickbait,Bán hàng online phải nộp những loại thuế gì?
+article_0618,Tuổi Trẻ,0.7897,non-clickbait,clickbait,Tòa án cấp thành phố xử xong vẫn 'đứng hình' vì cái tờ trình của ủy ban phường
+article_0689,VietNamNet,0.7797,non-clickbait,clickbait,"Âm thầm kiểm tra, 500.000 tài khoản TikTok Shop 'có vấn đề' bị gỡ bỏ mỗi năm"
+article_0864,VnExpress,0.8408,non-clickbait,clickbait,Nghề SEO đứng trước 'ngã ba đường' vì AI
+article_1028,24h,0.9023,non-clickbait,clickbait,"Vợ chồng Hà Nội rời phố về biển, chi tiền ""biến” nhà cũ thành homestay đẹp như mơ"
+article_1176,Tuổi Trẻ,0.7594,non-clickbait,clickbait,Robot trị liệu tâm lý: Có thấu hiểu hay chỉ biết lắng nghe?
+article_1399,VnExpress,0.5731,non-clickbait,clickbait,Phẫu thuật '2 trong 1' cho bé trai mắc đa dị tật
+article_1400,VnExpress,0.8344,non-clickbait,clickbait,Nên ăn và tránh gì trước khi chạy bộ?
+article_1405,VnExpress,0.5822,non-clickbait,clickbait,Người béo phì bị kỳ thị
+article_1406,VnExpress,0.9,non-clickbait,clickbait,Vì sao người trẻ chủ quan khi thận suy giai đoạn đầu?
+article_1409,VnExpress,0.7341,non-clickbait,clickbait,6 cách giảm nhiệt miệng không cần dùng thuốc
+article_1414,VnExpress,0.5782,non-clickbait,clickbait,Những điều nên biết về HPV ở nữ giới
+article_1427,Tuổi Trẻ,0.7495,non-clickbait,clickbait,Tesla ra mắt Robotaxi: Canh bạc tỉ đô của tỉ phú Musk
+article_1479,Thanh Niên,0.8171,non-clickbait,clickbait,Béo phì có phải là bệnh?
+article_1481,Thanh Niên,0.6996,non-clickbait,clickbait,Chuyên gia chia sẻ lượng vitamin C cần tiêu thụ mỗi ngày
+article_1495,Thanh Niên,0.831,non-clickbait,clickbait,"Căng da mặt không sẹo, tương lai của trẻ hóa da mặt không dao kéo"
+article_1509,VietNamNet,0.6197,non-clickbait,clickbait,Tướng Mỹ tiết lộ kế hoạch 'đánh lạc hướng' để tấn công Iran
+article_1555,SaoStar,0.8523,non-clickbait,clickbait,Đáng khen cho Công Phượng
+article_1569,24h,0.6526,non-clickbait,clickbait,Man City thắng đậm đội bóng châu Á: HLV Guardiola nói gì về sao trẻ Echeverri?
+article_1605,24h,0.6252,non-clickbait,clickbait,"HLV Guardiola so sánh Yamal - Messi, fan Pháp đòi trao ngay Bóng vàng cho Dembele"
+article_1632,24h,0.7465,non-clickbait,clickbait,"Người đẹp bi-a nữ bỏ túi 760 triệu đồng, Kim Ga Young vô địch dễ dàng"
+article_1756,VnExpress,0.8325,non-clickbait,clickbait,Yamal nghỉ hè cùng Neymar
+article_1893,SaoStar,0.6854,non-clickbait,clickbait,Dấu hiệu cho thấy thận của bạn đang khỏe mạnh
+article_1910,24h,0.6051,non-clickbait,clickbait,"Võ sỹ Zakhar chịu khuất phục trước ""ông trùm vật tay"" Long ""The Rock"""
+article_2004,VnExpress,0.7732,non-clickbait,clickbait,Ôn Triệu Luân hạnh phúc bên người vợ thứ ba
+article_2010,Tuổi Trẻ,0.5777,non-clickbait,clickbait,Bảo tàng Chăm ở Huế bao giờ thành hiện thực khi cổ vật vẫn nằm rải rác trong quán cà phê?
+article_2570,Thanh Niên,0.4792,clickbait,non-clickbait,Ban giám khảo nói gì về kết quả Phương Linh đăng quang Hoa hậu Hoàn vũ Việt Nam 2025?
+article_2587,Thanh Niên,0.8405,non-clickbait,clickbait,Nam chính ‘Độc đạo’ tái xuất với phim điện ảnh
+article_2619,VietNamNet,0.5625,non-clickbait,clickbait,Tài xế gây tai nạn khiến 6 người ở Nghệ An tử vong: ‘Tôi ám ảnh suốt thời gian dài’
+article_2653,SaoStar,0.5933,non-clickbait,clickbait,Đẳng cấp chịu chi cỡ Phong Thần VNG: Tung TVC với bộ ba đại sứ triệu view SOOBIN - Tiến Linh - Jun Vũ
+article_2883,Thanh Niên,0.4849,clickbait,non-clickbait,Trần Quyết Chiến nói gì trước ngày xuất trận tại World Cup billiards TP.HCM?
+article_3105,Thanh Niên,0.0614,clickbait,non-clickbait,Cảnh báo khẩn đến hàng triệu người dùng CapCut
+article_3188,24h,0.7589,non-clickbait,clickbait,Phùng Thiệu Phong hẹn hò người yêu mới
+article_3213,24h,0.8296,non-clickbait,clickbait,Nghệ sĩ 'Anh trai vượt ngàn chông gai' diễn hơn 6 tiếng dưới mưa
+article_3215,24h,0.8395,non-clickbait,clickbait,Khán giả bỏ về vì concert 'Anh trai vượt ngàn chông gai' bị mất điện
+article_3276,Báo Mới,0.9112,non-clickbait,clickbait,"Lái xe đi nghỉ mát, cả gia đình được buổi 'xông hơi' vì điều hòa ô tô giở chứng - Báo VietnamNet"
+article_3294,VnExpress,0.6662,non-clickbait,clickbait,"7 món ăn 'ngon, giá hợp lý' được Michelin gợi ý"
+article_3354,Tuổi Trẻ,0.8673,non-clickbait,clickbait,"Thiếu vi chất gì khiến da khô, tóc mỏng dễ rụng, móng tay giòn dễ gãy?"
+article_3768,24h,0.628,non-clickbait,clickbait,12 vườn hồng hút khách check in tại Nhật Bản
+article_0168,SaoStar,0.1241,clickbait,non-clickbait,"Trước giờ G đêm nhạc của G-Dragon ở Mỹ Đình: Mây đen kéo tới ùn ùn, giá vé giảm mạnh"
+article_0222,Báo Mới,0.3422,clickbait,non-clickbait,Messi nói lời chân tình về Ronaldo - Báo Thế Giới & Việt Nam
+article_0240,Báo Mới,0.0594,clickbait,non-clickbait,Xuân Trường mừng cho Tuấn Anh - Tạp chí SaoStar
+article_0270,Báo Mới,0.1178,clickbait,non-clickbait,Đương kim vô địch Champions League tạo bất ngờ đầu tiên ở FIFA Club World Cup 2025 - Báo Quân Đội Nhân Dân
+article_0301,VnExpress,0.0435,clickbait,non-clickbait,Lãnh tụ tối cao Iran có thể đã chọn ba ứng viên kế nhiệm
+article_0458,24h,0.474,clickbait,non-clickbait,"Iran ""nổi cơn thịnh nộ"" dội bão tên lửa tầm xa có sức công phá khủng khiếp xuống Israel"
+article_0461,24h,0.0922,clickbait,non-clickbait,Tên lửa đạn đạo siêu nặng Iran lần đầu tấn công Israel: Đòn đánh tạo chấn động vượt khỏi Trung Đông
+article_0481,24h,0.1625,clickbait,non-clickbait,Ông Trump nêu lý do khó đề nghị Israel dừng tấn công Iran
+article_0648,Thanh Niên,0.1359,clickbait,non-clickbait,Mỗi ngày có hơn 1.000 người thành triệu phú USD tại Mỹ
+article_0659,Thanh Niên,0.039,clickbait,non-clickbait,Tăng xác suất tiểu hành tinh tấn công mặt trăng
+article_0732,24h,0.1078,clickbait,non-clickbait,Xác định nguyên nhân thanh niên không mặc quần áo tử vong giữa đường ở TP Thủ Đức
+article_0848,VnExpress,0.3895,clickbait,non-clickbait,Mỹ khoét rỗng cả ngọn núi để săn tìm hạt ma
+article_0957,VietNamNet,0.4384,clickbait,non-clickbait,CĐV 'đại náo' sân Thiên Trường ngày Nam Định nâng Cúp
+article_1024,24h,0.0375,clickbait,non-clickbait,Kinh tế Mỹ có thể đối mặt với cú sốc chiến tranh từ Trung Đông
+article_1117,VnExpress,0.1624,clickbait,non-clickbait,Bộ Xây dựng yêu cầu Vicem hoàn thiện tháp nghìn tỷ 'đắp chiếu' chục năm
+article_1312,24h,0.0995,clickbait,non-clickbait,"Loạt ô tô tiếp tục giảm giá, có mẫu giảm lên tới hơn 370 triệu đồng"
+article_1336,Báo Mới,0.2157,clickbait,non-clickbait,Ngân hàng nào đang cho vay mua nhà lãi suất thấp nhất tháng 6? - Tạp chí Doanh Nhân VN
+article_1705,VnExpress,0.209,clickbait,non-clickbait,Guardiola: 'Nhiều cầu thủ sẽ buồn nếu ở lại Man City'
+article_1785,Thanh Niên,0.217,clickbait,non-clickbait,"Học tại Việt Nam, nhận bằng cử nhân Anh quốc có uy tín?"
+article_1830,VietNamNet,0.2362,clickbait,non-clickbait,Từ gánh bún thang đông kín ở chợ Đồng Xuân tới nhà hàng đón tỷ phú thế giới
+article_1937,Báo Mới,0.2686,clickbait,non-clickbait,Xuân Son tuyên bố tự tin trước ngày trở lại sân cỏ - Báo Giáo Dục & Thời Đại
+article_2209,Báo Mới,0.2157,clickbait,non-clickbait,Hé lộ căn hộ sang trọng của Tân Hoa hậu Hoàn vũ Việt Nam Phương Linh - Tạp chí Thương Gia
+article_2237,VnExpress,0.0651,clickbait,non-clickbait,Tài xế dừng ngủ trên cao tốc khiến xảy ra tai nạn chết người
+article_2336,VietNamNet,0.1729,clickbait,non-clickbait,Loài người lười nhác mới là thảm họa lớn nhất của trí tuệ nhân tạo
+article_2524,VnExpress,0.3126,clickbait,non-clickbait,Xu hướng nghề nghiệp dịch chuyển thế nào thời AI?
+article_2584,Thanh Niên,0.428,clickbait,non-clickbait,Quang Tuấn tiết lộ ngày đầu ghi hình cùng dàn cast 'Running Man Vietnam'
+article_2728,Báo Mới,0.092,clickbait,non-clickbait,Pin ô tô điện có tuổi thọ cao hơn xe xăng - Chuyên trang Xe Giao Thông - Báo Xây Dựng
+article_2962,24h,0.2192,clickbait,non-clickbait,Chuyên gia trang điểm Diệp Bùi chọn ngã rẽ mới để viết tiếp ước mơ
+article_3078,Tuổi Trẻ,0.1615,clickbait,non-clickbait,"Đã thu hồi 7.400m² đất của lô biệt thự L09 Sơn Trà, còn 5.000m² xử lý sao?"
+article_3107,Thanh Niên,0.3778,clickbait,non-clickbait,Camera an ninh lưu trữ cảnh quay trong bao lâu?
+article_3117,Thanh Niên,0.1342,clickbait,non-clickbait,Liệu có thể gắn ổ SSD PCIe 5.0 vào bo mạch chủ PCIe 4.0?
+article_3171,24h,0.0737,clickbait,non-clickbait,Nam diễn viên thất bại nhất Trung Quốc năm 2025
+article_3217,24h,0.0608,clickbait,non-clickbait,"Biển người đổ về Hưng Yên ngày thứ 2, đằm trong mưa giông tầm tã"
+article_3348,Tuổi Trẻ,0.0833,clickbait,non-clickbait,Vụ ngàn chai nước mắm vứt ven đường: Đã xác định được người liên quan
+article_3372,Thanh Niên,0.3167,clickbait,non-clickbait,"Crossover cỡ trung: Đại lý 'cắn răng' chịu lỗ, Ford Territory lần đầu vượt Mazda CX-5"
+article_3452,24h,0.3352,clickbait,non-clickbait,"Cận cảnh Honda Dream Thái 1997 còn nguyên bản có thể ""hóa rồng” khi tái xuất"
+article_3515,Tuổi Trẻ,0.2351,clickbait,non-clickbait,Cuộc gọi cuối cùng của vợ chồng nghèo trước giờ bị lật vỏ lãi trên biển
+article_3772,24h,0.1237,clickbait,non-clickbait,Từ mắc OCD thành người trẻ nhất đi khắp thế giới

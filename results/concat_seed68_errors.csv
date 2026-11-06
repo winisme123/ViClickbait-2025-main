@@ -1,0 +1,80 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0169,SaoStar,0.2911,clickbait,non-clickbait,"Quốc Trường phản ứng khi khán giả vây kín, kéo tay níu áo"
+article_0179,24h,0.6508,non-clickbait,clickbait,"Cảnh tượng hàng trăm hộ dân bị cô lập, ngập trong biển nước sau mưa trắng trời ở Lạng Sơn"
+article_0234,Báo Mới,0.1441,clickbait,non-clickbait,"Bellingham quát tháo, Guler đáp trả - Tạp chí Tri thức"
+article_0331,Tuổi Trẻ,0.5755,non-clickbait,clickbait,4 kịch bản khi liên minh cầm quyền ở Thái Lan lung lay
+article_0389,VietNamNet,0.7542,non-clickbait,clickbait,Hà Nội quyết lắp dải phân cách cứng: Không thể chấp nhận giao thông lộn xộn mãi!
+article_0491,24h,0.9734,non-clickbait,clickbait,"Vị hoàng đế có tư tưởng ""thoáng"", vĩ đại nhất lịch sử Ấn Độ"
+article_0613,Tuổi Trẻ,0.7881,non-clickbait,clickbait,Ly rượu đầy mà nghĩa tình lại cạn
+article_0615,Tuổi Trẻ,0.9143,non-clickbait,clickbait,"Tưởng đang 'thay trời hành đạo', nhóm 'bà chủ' truy hỏi, cưỡng đoạt tiền nhân viên"
+article_0758,Báo Mới,0.594,non-clickbait,clickbait,Miền Bắc sắp đón 'tin vui' thời tiết sau chuỗi ngày mưa to sầm sập - Tạp chí Người Đưa Tin
+article_0841,VnExpress,0.6786,non-clickbait,clickbait,Trump T1 Phone có thiết kế giống smartphone nào?
+article_0895,Thanh Niên,0.5768,non-clickbait,clickbait,Mưa nắng bất thường kéo dài
+article_0933,Thanh Niên,0.8622,non-clickbait,clickbait,"Trồng khóm hữu cơ kết hợp nuôi ốc lác, nông dân miền Tây kiếm bộn tiền"
+article_1039,24h,0.5537,non-clickbait,clickbait,"""Ông chủ” Facebook mạnh tay chi tới 100 triệu USD tiền thưởng kèm lương để thu hút nhân tài"
+article_1232,Thanh Niên,0.631,non-clickbait,clickbait,Những ông bà cụ U.90 bươn chải nơi xóm vé số ở TP.HCM bất ngờ nhận quà ấm áp sau tết
+article_1297,24h,0.9352,non-clickbait,clickbait,"Khởi nghiệp từ loại rau mọc dại đầy đồng, 9x Quảng Ninh có thu nhập trên 50 triệu đồng/tháng"
+article_1403,VnExpress,0.8911,non-clickbait,clickbait,Đau khớp đột ngột cảnh báo bệnh gì?
+article_1409,VnExpress,0.6542,non-clickbait,clickbait,6 cách giảm nhiệt miệng không cần dùng thuốc
+article_1426,VnExpress,0.6665,non-clickbait,clickbait,Làm gì để tránh sập bẫy 'thao túng tâm lý'?
+article_1470,Thanh Niên,0.8413,non-clickbait,clickbait,Thêm nhiều lợi ích bất ngờ từ đu đủ
+article_1478,Thanh Niên,0.8075,non-clickbait,clickbait,Có nên sử dụng miếng dán mụn?
+article_1480,Thanh Niên,0.9241,non-clickbait,clickbait,Chuyên gia chỉ ra thực phẩm không nên ăn sống
+article_1499,Thanh Niên,0.8761,non-clickbait,clickbait,Alo bác sĩ nghe: Đau mỏi vai gáy khi ngủ dậy cảnh báo điều gì?
+article_1605,24h,0.5391,non-clickbait,clickbait,"HLV Guardiola so sánh Yamal - Messi, fan Pháp đòi trao ngay Bóng vàng cho Dembele"
+article_1711,VnExpress,0.5082,non-clickbait,clickbait,Cầu thủ chửi HLV vì bị thay ra ở Club World Cup
+article_1987,VnExpress,0.9152,non-clickbait,clickbait,Hậu trường hóa trang 'ma giữ của' trong phim Út Lan
+article_2120,SaoStar,0.9289,non-clickbait,clickbait,Tuyển sinh 2025: Những mốc thời gian 'vàng' thí sinh không thể bỏ lỡ
+article_2133,SaoStar,0.945,non-clickbait,clickbait,"Video: Nam sinh xin quả xoài qua camera, chủ nhà xem lại được phen cười ngất"
+article_2240,VnExpress,0.5109,non-clickbait,clickbait,"Vụ án mạng bị biến thành tai nạn, che giấu 24 năm"
+article_2242,VnExpress,0.8483,non-clickbait,clickbait,Phút cân não di dời hai ngôi mộ giả 'mọc' trên đất phải thi hành án
+article_2544,Tuổi Trẻ,0.7573,non-clickbait,clickbait,"Sau Indonesia, đến phiên dàn sao nhập tịch Malaysia thất nghiệp"
+article_2570,Thanh Niên,0.4489,clickbait,non-clickbait,Ban giám khảo nói gì về kết quả Phương Linh đăng quang Hoa hậu Hoàn vũ Việt Nam 2025?
+article_3105,Thanh Niên,0.0222,clickbait,non-clickbait,Cảnh báo khẩn đến hàng triệu người dùng CapCut
+article_3186,24h,0.9268,non-clickbait,clickbait,Danh hài Hoàng Mập bất ngờ rao bán biệt phủ triệu đô rộng 1.600m2
+article_3219,24h,0.8633,non-clickbait,clickbait,"Tùng Dương, Ngọc Anh khiến khán giả xúc động khi hát nhạc Phú Quang"
+article_3485,Báo Mới,0.6696,non-clickbait,clickbait,Hệ thống hỗ trợ lái xe trong sương mù hoạt động ra sao? - Tạp chí Tri thức
+article_3511,Báo Mới,0.6109,non-clickbait,clickbait,Mitsubishi Xforce có dấu hiệu 'hụt hơi' - Tạp chí Người Đưa Tin
+article_0140,Kênh14,0.8099,non-clickbait,clickbait,"Con trai cả xây nhà 10 tỷ đồng báo hiếu, mẹ vừa qua đời, anh em kiện ra tòa đòi thừa kế: Tòa phán “tài sản không thuộc về người đứng tên sổ đỏ”"
+article_0161,SaoStar,0.5763,non-clickbait,clickbait,Nữ người mẫu được cầu hôn sau 5 năm yêu bạn trai mắc ung thư
+article_0229,Báo Mới,0.0242,clickbait,non-clickbait,"Man City 'đánh tennis', đoạt vé sớm vào vòng 1/8 FIFA Club World Cup - Báo VietnamNet"
+article_0270,Báo Mới,0.0599,clickbait,non-clickbait,Đương kim vô địch Champions League tạo bất ngờ đầu tiên ở FIFA Club World Cup 2025 - Báo Quân Đội Nhân Dân
+article_0557,VnExpress,0.2263,clickbait,non-clickbait,Hơn 1 tỷ USD 'bốc hơi' khỏi thị trường tiền số
+article_0659,Thanh Niên,0.049,clickbait,non-clickbait,Tăng xác suất tiểu hành tinh tấn công mặt trăng
+article_0667,VietNamNet,0.046,clickbait,non-clickbait,"Lãi suất ngân hàng hôm nay 23/6/2025: Nhà băng nào niêm yết mức cao nhất 6,1%?"
+article_0909,Thanh Niên,0.1128,clickbait,non-clickbait,Những nơi nào ở TP.HCM được miễn giấy phép xây dựng?
+article_1051,Báo Mới,0.8485,non-clickbait,clickbait,"'Xuyên không' ở ngôi làng nhiều nhà trăm tuổi, cổ vật quý, cách TPHCM 110km - Báo VietnamNet"
+article_1164,VnExpress,0.0155,clickbait,non-clickbait,Đua mở mới khách sạn ven biển
+article_1167,VnExpress,0.2095,clickbait,non-clickbait,Nhà 65 m2 'cởi mở' cho gia chủ độc thân
+article_1186,Tuổi Trẻ,0.3054,clickbait,non-clickbait,Cách vượt qua 'người gác cổng' AI khi tìm việc
+article_1197,Thanh Niên,0.268,clickbait,non-clickbait,Bản hòa ca sắc màu trên sông Hàn: Vẽ ‘hành tinh xanh’ bằng pháo hoa
+article_1386,VnExpress,0.07,clickbait,non-clickbait,Suy thận giai đoạn mấy phải chạy thận?
+article_1443,Tuổi Trẻ,0.0541,clickbait,non-clickbait,Thủ tục đăng ký xe cho người dưới 18 tuổi ra sao?
+article_1541,SaoStar,0.0717,clickbait,non-clickbait,Chủ tịch CLB Hải Phòng lên tiếng về tin HLV Chu Đình Nghiêm chia tay
+article_1623,24h,0.0388,clickbait,non-clickbait,"Video bóng đá Inter Milan - Urawa Red Diamonds: Vỡ òa phút bù giờ, ngược dòng ngoạn mục (FIFA Club World Cup)"
+article_1782,Thanh Niên,0.2875,clickbait,non-clickbait,"Gần ngày thi tốt nghiệp THPT: Nên học gì, nghỉ ngơi thế nào?"
+article_1785,Thanh Niên,0.0452,clickbait,non-clickbait,"Học tại Việt Nam, nhận bằng cử nhân Anh quốc có uy tín?"
+article_1935,Báo Mới,0.1636,clickbait,non-clickbait,Bùi Tiến Dũng 'tuyên chiến' Công Phượng trước trận play-off giành vé dự V-League - Báo VietnamPlus
+article_1937,Báo Mới,0.0715,clickbait,non-clickbait,Xuân Son tuyên bố tự tin trước ngày trở lại sân cỏ - Báo Giáo Dục & Thời Đại
+article_1945,Báo Mới,0.0745,clickbait,non-clickbait,'Trâu Thủ đô' tiếp đà thăng hoa - Báo Nhân Dân
+article_1955,Báo Mới,0.1289,clickbait,non-clickbait,"Bayern Munich tung chiêu, quyết vượt Barca ký Nico Williams - Báo VietnamNet"
+article_2046,Thanh Niên,0.0808,clickbait,non-clickbait,"Biểu trưng mặt trời, logo của Sun PhuQuoc Airways có ý nghĩa gì?"
+article_2119,SaoStar,0.4343,clickbait,non-clickbait,Thi tốt nghiệp THPT trên máy tính: Địa phương nào sẽ thí điểm đầu tiên?
+article_2285,Thanh Niên,0.0573,clickbait,non-clickbait,Gánh cỏ sông Hàn - tìm lại bản ngã dưới cờ nghĩa Lam Sơn
+article_2301,Thanh Niên,0.0264,clickbait,non-clickbait,Chùa Dâu cổ nhất VN và cừu đá gần 2.000 năm tuổi
+article_2509,VnExpress,0.2674,clickbait,non-clickbait,Tỉnh nào có đường bờ biển dài nhất sau sáp nhập?
+article_2535,VnExpress,0.2737,clickbait,non-clickbait,"Tỉnh, thành mới nào có hệ thống cảng biển lớn nhất cả nước?"
+article_2764,VnExpress,0.4923,clickbait,non-clickbait,Vượt qua nỗi sợ có con
+article_2895,VietNamNet,0.4216,clickbait,non-clickbait,Xe điện cao cấp của Toyota dùng công nghệ của hai ‘ông lớn’ tại Trung Quốc
+article_3010,Báo Mới,0.1582,clickbait,non-clickbait,Những bức ảnh động vật nổi bật nhất thập kỷ - Tạp chí Tri thức
+article_3116,Thanh Niên,0.3427,clickbait,non-clickbait,Những lợi ích của cổng USB trên ô tô
+article_3117,Thanh Niên,0.1787,clickbait,non-clickbait,Liệu có thể gắn ổ SSD PCIe 5.0 vào bo mạch chủ PCIe 4.0?
+article_3129,VietNamNet,0.4922,clickbait,non-clickbait,"Đất có sổ đỏ nhưng chưa rõ mốc giới, đừng vội xây nhà"
+article_3214,24h,0.0376,clickbait,non-clickbait,BTC concert Anh trai vượt ngàn chông gai xin lỗi
+article_3288,VnExpress,0.051,clickbait,non-clickbait,50 nhà hàng tốt nhất thế giới
+article_3311,VnExpress,0.3258,clickbait,non-clickbait,5 tour châu Âu khách Việt không nên bỏ lỡ dịp hè
+article_3313,VnExpress,0.0248,clickbait,non-clickbait,"Trung Quốc hút khách bằng trải nghiệm nhập vai công chúa, hoàng tử"
+article_3479,Báo Mới,0.135,clickbait,non-clickbait,Mitsubishi hé lộ mẫu xe mới bằng máy bay trực thăng - Báo Tiền Phong
+article_3566,24h,0.1058,clickbait,non-clickbait,Top xe SUV ăn khách bậc nhất tại Việt Nam 2025
+article_3577,24h,0.1408,clickbait,non-clickbait,Top xe sedan hạng B hút khách bậc nhất hiện nay
+article_3775,24h,0.1303,clickbait,non-clickbait,Eo Gió Quan Lạn thiên đường hoang sơ làm say lòng du khách

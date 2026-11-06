@@ -1,0 +1,84 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0028,VnExpress,0.5219,non-clickbait,clickbait,Các tòa soạn thích ứng thế nào với sáp nhập bộ máy?
+article_0136,VietNamNet,0.6125,non-clickbait,clickbait,Bí thư Bà Rịa - Vũng Tàu nói lời 'gan ruột' trước thời khắc sáp nhập với TPHCM
+article_0286,VnExpress,0.5715,non-clickbait,clickbait,Mỹ lo ngại về 'đặc vụ nằm vùng' Iran
+article_0389,VietNamNet,0.5444,non-clickbait,clickbait,Hà Nội quyết lắp dải phân cách cứng: Không thể chấp nhận giao thông lộn xộn mãi!
+article_0491,24h,0.7871,non-clickbait,clickbait,"Vị hoàng đế có tư tưởng ""thoáng"", vĩ đại nhất lịch sử Ấn Độ"
+article_0492,24h,0.7302,non-clickbait,clickbait,Ấn Độ và Pakistan từng thuộc cùng một đế chế do hậu duệ Thành Cát Tư Hãn cai trị như thế nào?
+article_0578,VnExpress,0.6194,non-clickbait,clickbait,Kinh tế Israel có khả năng chống chịu chiến sự đến đâu?
+article_0595,VnExpress,0.553,non-clickbait,clickbait,'Chi phí phần mềm cho hộ kinh doanh chỉ bằng bát phở'
+article_0614,Tuổi Trẻ,0.6921,non-clickbait,clickbait,"Tổng giám đốc bỏ trốn sang Mỹ, căn cứ nào để viện kiểm sát buộc tội chủ mưu?"
+article_0615,Tuổi Trẻ,0.7571,non-clickbait,clickbait,"Tưởng đang 'thay trời hành đạo', nhóm 'bà chủ' truy hỏi, cưỡng đoạt tiền nhân viên"
+article_0835,VnExpress,0.745,non-clickbait,clickbait,Những lầm tưởng phổ biến về sức mạnh của smartphone
+article_0863,VnExpress,0.6235,non-clickbait,clickbait,Sam Altman nói 'không biết chăm con thế nào nếu thiếu ChatGPT'
+article_1203,Thanh Niên,0.5266,non-clickbait,clickbait,Quản lý thị trường: 'Kinh doanh đàng hoàng thì sao phải đóng cửa'
+article_1210,Thanh Niên,0.7693,non-clickbait,clickbait,"3 quán cà phê vợt lừng danh, lâu đời nhất TP.HCM: Bạn đã ghé chưa?"
+article_1382,VnExpress,0.718,non-clickbait,clickbait,Ai có nguy cơ mắc ung thư tuyến giáp?
+article_1387,VnExpress,0.5804,non-clickbait,clickbait,"Tự ý ngưng thuốc, bệnh nhân suýt mất mạng"
+article_1400,VnExpress,0.7226,non-clickbait,clickbait,Nên ăn và tránh gì trước khi chạy bộ?
+article_1415,VnExpress,0.7358,non-clickbait,clickbait,Điều gì xảy ra khi trẻ ngã từ giường xuống đất?
+article_1479,Thanh Niên,0.6586,non-clickbait,clickbait,Béo phì có phải là bệnh?
+article_1499,Thanh Niên,0.761,non-clickbait,clickbait,Alo bác sĩ nghe: Đau mỏi vai gáy khi ngủ dậy cảnh báo điều gì?
+article_1537,Kênh14,0.5364,non-clickbait,clickbait,Bán hàng trên sàn online nộp thuế thế nào từ ngày 1-7?
+article_2102,VietNamNet,0.7722,non-clickbait,clickbait,Ca phẫu thuật khẩn từ lời nhắn cầu cứu của người phụ nữ xa lạ
+article_2224,VnExpress,0.6701,non-clickbait,clickbait,Lời khai gian dối của kẻ quấn thi thể vợ vào mỏ neo dưới hồ
+article_2234,VnExpress,0.5702,non-clickbait,clickbait,Làm sao để được nhập lại quốc tịch Việt Nam?
+article_2241,VnExpress,0.6537,non-clickbait,clickbait,"Ký hợp đồng với người nghỉ hưu, công ty có phải đóng bảo hiểm xã hội?"
+article_2334,VietNamNet,0.5893,non-clickbait,clickbait,Một bệnh viện cầu cứu khi bị hacker đe dọa tung dữ liệu bệnh nhân lên mạng
+article_2581,Thanh Niên,0.6554,non-clickbait,clickbait,"Thua Tóc Tiên sát nút, Kay Trần bất lực loại đàn em khỏi show sống còn"
+article_2587,Thanh Niên,0.5001,non-clickbait,clickbait,Nam chính ‘Độc đạo’ tái xuất với phim điện ảnh
+article_2616,VietNamNet,0.669,non-clickbait,clickbait,"Định cư ở nước ngoài, bằng lái B2 sắp hết hạn có đổi được không?"
+article_2619,VietNamNet,0.6761,non-clickbait,clickbait,Tài xế gây tai nạn khiến 6 người ở Nghệ An tử vong: ‘Tôi ám ảnh suốt thời gian dài’
+article_2651,SaoStar,0.6211,non-clickbait,clickbait,"Mở hộp tai nghe JBL Live Beam 3: Màn hình cảm ứng xịn xò, âm thanh chất, pin “trâu”"
+article_2657,SaoStar,0.5583,non-clickbait,clickbait,Cận cảnh mẫu xe phiên bản giới hạn do 'anh trai' JSOL lên ý tưởng thiết kế
+article_2894,VietNamNet,0.5452,non-clickbait,clickbait,"Nếu về Việt Nam, Lada Azimut có sáng cửa cạnh tranh ở phân khúc SUV cỡ B?"
+article_3363,Tuổi Trẻ,0.7461,non-clickbait,clickbait,"Tăng cân, mặt tròn như mặt trăng, da mỏng đi, có thể bạn đã mắc hội chứng Cushing"
+article_3430,VietNamNet,0.5417,non-clickbait,clickbait,Thót tim cảnh dù lượn chao đảo rồi rơi xuống biển ở Hạ Long
+article_3434,VietNamNet,0.6908,non-clickbait,clickbait,"Cung đường đẹp như tranh cách Hà Nội 3 giờ lái xe, du khách 'đội nắng' săn ảnh"
+article_3496,Báo Mới,0.7035,non-clickbait,clickbait,"Rò rỉ ảnh của Xiaomi YU7 bản hiệu suất cao, đâu cũng là carbon - Tạp chí Tri thức"
+article_3568,24h,0.6767,non-clickbait,clickbait,Top xe MPV từ giá rẻ đến hạng sang đáng chú ý hiện nay
+article_3676,24h,0.5925,non-clickbait,clickbait,"Chuyển nhượng MU: Chào bán Garnacho 50 triệu bảng, Mount đến Aston Villa?"
+article_0161,SaoStar,0.5513,non-clickbait,clickbait,Nữ người mẫu được cầu hôn sau 5 năm yêu bạn trai mắc ung thư
+article_0222,Báo Mới,0.1103,clickbait,non-clickbait,Messi nói lời chân tình về Ronaldo - Báo Thế Giới & Việt Nam
+article_0419,Kênh14,0.768,non-clickbait,clickbait,"Quá khứ ít biết của thiếu gia nghìn tỷ nhà bầu Hiển: Làm bồi bàn kiếm tiền, mọi thứ đều tự bươn chải"
+article_0480,24h,0.2728,clickbait,non-clickbait,Thực hư video người Israel tháo chạy ở Tel Aviv khi Iran tấn công tên lửa
+article_0505,Báo Mới,0.4825,clickbait,non-clickbait,"Úc ủng hộ Mỹ tấn công Iran, nhưng vẫn kêu gọi hòa bình: Nghịch lý ngoại giao? - Tạp chí Petrotimes"
+article_0659,Thanh Niên,0.057,clickbait,non-clickbait,Tăng xác suất tiểu hành tinh tấn công mặt trăng
+article_0667,VietNamNet,0.2839,clickbait,non-clickbait,"Lãi suất ngân hàng hôm nay 23/6/2025: Nhà băng nào niêm yết mức cao nhất 6,1%?"
+article_0715,SaoStar,0.0552,clickbait,non-clickbait,"Công ty tuyển dụng nhân viên nam không cần bằng cấp, lương hơn 100 triệu đồng/tháng"
+article_0726,SaoStar,0.4403,clickbait,non-clickbait,"Người đàn ông chơi dù lượn bị hút vào đám mây cao 8500 mét, toàn bộ cơ thể bị đông cứng"
+article_0877,Tuổi Trẻ,0.0903,clickbait,non-clickbait,Lý do Công ty Ăn Cùng Bà Tuyết giải thể
+article_0936,Thanh Niên,0.481,clickbait,non-clickbait,Noble Palace Tay Thang Long hút nhà đầu tư nhờ 8 lợi thế cho người dùng cuối
+article_0944,VietNamNet,0.4571,clickbait,non-clickbait,Thủ thành Ter Stegen khoe bạn gái mới sau 3 tháng bỏ vợ
+article_0988,SaoStar,0.2165,clickbait,non-clickbait,Xúc động tâm sự Hồ Ngọc Hà gửi con trai du học nước ngoài
+article_1021,24h,0.0586,clickbait,non-clickbait,Bitcoin cắm đầu lao dốc do căng thẳng Mỹ - Iran
+article_1024,24h,0.0596,clickbait,non-clickbait,Kinh tế Mỹ có thể đối mặt với cú sốc chiến tranh từ Trung Đông
+article_1073,Báo Mới,0.0562,clickbait,non-clickbait,Văn hóa - Ngọn lửa thắp sáng tinh thần dân tộc - Báo Văn hóa
+article_1077,Báo Mới,0.0618,clickbait,non-clickbait,Hành trình giữ hồn Việt trên từng sợi chỉ - Báo Văn hóa
+article_1180,Tuổi Trẻ,0.3403,clickbait,non-clickbait,Bạn trẻ khởi nghiệp thời 4.0 và câu hỏi dữ liệu lấy từ đâu
+article_1190,Tuổi Trẻ,0.0641,clickbait,non-clickbait,Khi Gen Z dùng công nghệ lập trình nhịp sống số
+article_1267,SaoStar,0.2708,clickbait,non-clickbait,5 phim Hoa ngữ cổ trang đại bạo: Triệu Lệ Dĩnh đóng góp 2 phim
+article_1332,Báo Mới,0.4982,clickbait,non-clickbait,Những yếu tố nào chi phối thị trường dầu khí thế giới tuần qua? - Tạp chí Petrotimes
+article_1622,24h,0.1069,clickbait,non-clickbait,"Inter Milan nhận bàn thua lịch sử ở Club World Cup, CLB Nhật Bản hiên ngang rời giải"
+article_1628,24h,0.4204,clickbait,non-clickbait,Trực tiếp chuyển nhượng tối 22/6: Chelsea bất ngờ nhắm người cũ của Real Madrid
+article_1874,SaoStar,0.6266,non-clickbait,clickbait,Diễn viên Ngân Hòa mắc suy thận giai đoạn cuối ở tuổi 29: Căn bệnh đáng báo động ở giới trẻ
+article_2170,Báo Mới,0.4057,clickbait,non-clickbait,Suga (BTS) gây chấn động dư luận Hàn Quốc - Báo Tiền Phong
+article_2171,Báo Mới,0.2202,clickbait,non-clickbait,Những món quà độc lạ tại lễ nhận bằng tốt nghiệp đại học - Báo VietnamNet
+article_2178,Báo Mới,0.3435,clickbait,non-clickbait,Diễn viên Quang Anh bật khóc nức nở - Tạp chí Tri thức
+article_2285,Thanh Niên,0.1162,clickbait,non-clickbait,Gánh cỏ sông Hàn - tìm lại bản ngã dưới cờ nghĩa Lam Sơn
+article_2339,VietNamNet,0.4408,clickbait,non-clickbait,AK-308 'sát thủ mới của Kalashnikov’ với loạt công nghệ siêu hiện đại
+article_2405,24h,0.21,clickbait,non-clickbait,Bảo trì điều hòa đúng cách - bí quyết tiết kiệm điện và kéo dài tuổi thọ thiết bị
+article_2692,24h,0.4306,clickbait,non-clickbait,"Đàm Thu Trang chít khăn như cụ bà, Quế Vân hở bạo đi xem G-Dragon"
+article_2766,VnExpress,0.5913,non-clickbait,clickbait,Ước mơ lớn nhất của người thợ cắt tóc
+article_2920,SaoStar,0.5141,non-clickbait,clickbait,Có một Thảo Cầm Viên rất khác trong mắt trẻ thơ
+article_2926,SaoStar,0.7538,non-clickbait,clickbait,"Nếu không đi xa, hãy thử 'staycation' để du lịch ngay trong thành phố"
+article_2930,SaoStar,0.0571,clickbait,non-clickbait,Hội An 2025: Khi phố cổ lên đèn và ký ức bừng sáng
+article_2963,24h,0.1256,clickbait,non-clickbait,"S:kin Heritage: Khi mỹ phẩm Việt ""khoác áo” di sản"
+article_3086,Tuổi Trẻ,0.1128,clickbait,non-clickbait,7 thay đổi nhà bếp trước và sau khi cải tạo
+article_3116,Thanh Niên,0.4105,clickbait,non-clickbait,Những lợi ích của cổng USB trên ô tô
+article_3123,Thanh Niên,0.4517,clickbait,non-clickbait,"Nvidia 'làm trùm' thị trường card đồ họa, AMD và Intel hụt hơi bám đuổi"
+article_3144,VietNamNet,0.1252,clickbait,non-clickbait,"Kiên Giang cấp phép đầu tư 3 dự án 'siêu khủng', tổng vốn hơn 90.000 tỷ đồng"
+article_3169,24h,0.0634,clickbait,non-clickbait,Biển người đổ về sân Mỹ Đình
+article_3408,VietNamNet,0.0753,clickbait,non-clickbait,"Cao nguyên cách Hà Nội 300km có biển mây, thác nước, khách rộn ràng reo vui"
+article_3509,Báo Mới,0.4548,clickbait,non-clickbait,"Gặp mưa to bất chợt, lái xe cần nằm lòng 6 quy tắc sống còn sau để đảm bảo an toàn - Báo VietnamNet"
+article_3775,24h,0.2528,clickbait,non-clickbait,Eo Gió Quan Lạn thiên đường hoang sơ làm say lòng du khách

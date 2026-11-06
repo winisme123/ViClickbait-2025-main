@@ -1,0 +1,80 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0055,Tuổi Trẻ,0.6362,non-clickbait,clickbait,Đà Nẵng dành những khu đất vàng nào cho Trung tâm tài chính quốc tế?
+article_0234,Báo Mới,0.2074,clickbait,non-clickbait,"Bellingham quát tháo, Guler đáp trả - Tạp chí Tri thức"
+article_0714,SaoStar,0.2956,clickbait,non-clickbait,"Hàng trăm người xông vào một siêu thị cướp giật hàng hóa lẫn tiền, người chủ bất lực chứng kiến"
+article_0841,VnExpress,0.7353,non-clickbait,clickbait,Trump T1 Phone có thiết kế giống smartphone nào?
+article_0939,VietNamNet,0.638,non-clickbait,clickbait,"Bayern Munich tung chiêu, quyết vượt Barca ký Nico Williams"
+article_1194,Thanh Niên,0.5858,non-clickbait,clickbait,"Vườn thú mới toanh ngay trung tâm TP.HCM hè 2025: Capybara, cầy Meerkat... bé nào cũng mê"
+article_1297,24h,0.5335,non-clickbait,clickbait,"Khởi nghiệp từ loại rau mọc dại đầy đồng, 9x Quảng Ninh có thu nhập trên 50 triệu đồng/tháng"
+article_1382,VnExpress,0.7435,non-clickbait,clickbait,Ai có nguy cơ mắc ung thư tuyến giáp?
+article_1428,Tuổi Trẻ,0.7398,non-clickbait,clickbait,Pin xe điện còn 'trường thọ' hơn cả bản thân xe xăng
+article_1470,Thanh Niên,0.7983,non-clickbait,clickbait,Thêm nhiều lợi ích bất ngờ từ đu đủ
+article_1499,Thanh Niên,0.7026,non-clickbait,clickbait,Alo bác sĩ nghe: Đau mỏi vai gáy khi ngủ dậy cảnh báo điều gì?
+article_1539,SaoStar,0.8461,non-clickbait,clickbait,Tình thế đảo ngược với tiền vệ Tuấn Anh
+article_1578,24h,0.7294,non-clickbait,clickbait,"Real thiếu người vẫn thắng: Đẳng cấp ""Kền kền trắng"", Alonso phô diễn tài năng"
+article_1605,24h,0.773,non-clickbait,clickbait,"HLV Guardiola so sánh Yamal - Messi, fan Pháp đòi trao ngay Bóng vàng cho Dembele"
+article_1837,VietNamNet,0.7883,non-clickbait,clickbait,"Nghỉ việc lương cao để ở nhà chăm con, 'bố bỉm sữa' bị viêm khớp, trầm cảm"
+article_1855,VietNamNet,0.6212,non-clickbait,clickbait,"Cặp đôi tâm đầu ý hợp, cùng nhau đếm và bấm nút hẹn hò"
+article_1856,VietNamNet,0.8379,non-clickbait,clickbait,"Chàng trai Tiền Giang cắt sầu riêng nhanh như chớp, nghe tiếng là biết quả già"
+article_1906,24h,0.7715,non-clickbait,clickbait,Lịch trực tiếp tennis và link trực tiếp hôm nay: Xem trực tiếp ATP 250 kênh nào?
+article_2133,SaoStar,0.8862,non-clickbait,clickbait,"Video: Nam sinh xin quả xoài qua camera, chủ nhà xem lại được phen cười ngất"
+article_2270,Tuổi Trẻ,0.8123,non-clickbait,clickbait,"Thời trang xa xỉ ngày càng xa tầm với, giới trẻ không còn thấy xấu hổ khi xài hàng giả"
+article_2345,VietNamNet,0.5652,non-clickbait,clickbait,"B-2 Spirit + GBU-57, bộ đôi sát thủ công nghệ cao khiến cơ sở hạt nhân Iran ‘bay màu’"
+article_2654,SaoStar,0.6261,non-clickbait,clickbait,"Không còn là hoàng tử ballad dịu dàng, SOOBIN hóa thân thành thái tử Na Tra cực ngầu trong Phong Thần VNG"
+article_2866,Thanh Niên,0.8044,non-clickbait,clickbait,"CLB Bình Định ‘chiến đấu’ kiên cường, vẫn thua đau Hà Nội: Rớt hạng, kết cục cay đắng!"
+article_2916,SaoStar,0.5218,non-clickbait,clickbait,Phú Quý - Một lần bỏ phố về đảo để tìm thấy chính mình
+article_3163,24h,0.9303,non-clickbait,clickbait,Hôn nhân viên mãn của ca sĩ Thu Thuỷ bên chồng kém 11 tuổi
+article_3363,Tuổi Trẻ,0.533,non-clickbait,clickbait,"Tăng cân, mặt tròn như mặt trăng, da mỏng đi, có thể bạn đã mắc hội chứng Cushing"
+article_3518,Tuổi Trẻ,0.8206,non-clickbait,clickbait,"Lắp rào chắn trên đường Võ Chí Công, Phạm Văn Đồng gây ùn tắc, lãnh đạo Sở Xây dựng Hà Nội nói gì?"
+article_3713,24h,0.7776,non-clickbait,clickbait,"Những cách khắc phục rối loạn cương dương ngay tại nhà, không hề dùng thuốc"
+article_0140,Kênh14,0.6016,non-clickbait,clickbait,"Con trai cả xây nhà 10 tỷ đồng báo hiếu, mẹ vừa qua đời, anh em kiện ra tòa đòi thừa kế: Tòa phán “tài sản không thuộc về người đứng tên sổ đỏ”"
+article_0218,24h,0.4659,clickbait,non-clickbait,Tiết lộ vai trò của Israel trong chiến dịch Mỹ dội bom chưa từng có vào cơ sở hạt nhân Iran
+article_0245,Báo Mới,0.1359,clickbait,non-clickbait,Top 10 thương vụ đắt giá nhất lịch sử Premier League - Chuyên trang An Ninh Thủ Đô - Báo Công an nhân dân
+article_0475,24h,0.2436,clickbait,non-clickbait,IRGC cảnh báo Mỹ 'sẽ không thoát được'
+article_0651,Thanh Niên,0.0439,clickbait,non-clickbait,Quyết định của Chủ tịch Fed
+article_0679,VietNamNet,0.2831,clickbait,non-clickbait,"Lộ diện nhóm nhà đầu tư nước ngoài muốn tái cơ cấu SCB, bà Trương Mỹ Lan có động thái mới"
+article_0705,SaoStar,0.3082,clickbait,non-clickbait,"Xuất hiện chiêu thức xác minh khuôn mặt từ xa, bà cụ bị lừa chuyển khoản 13 tỷ đồng"
+article_0722,SaoStar,0.4475,clickbait,non-clickbait,"Phát hiện thằn lằn nguyên con trong bánh tiramisu, một gia đình bị ngộ độc"
+article_0848,VnExpress,0.3723,clickbait,non-clickbait,Mỹ khoét rỗng cả ngọn núi để săn tìm hạt ma
+article_0924,Thanh Niên,0.0851,clickbait,non-clickbait,"'Ông lớn' xăng dầu, cao su... mạnh tay chia cổ tức"
+article_1021,24h,0.0418,clickbait,non-clickbait,Bitcoin cắm đầu lao dốc do căng thẳng Mỹ - Iran
+article_1033,24h,0.453,clickbait,non-clickbait,Elon Musk giàu nhất thế giới nhưng công ty vẫn thiếu tiền
+article_1085,Báo Mới,0.4891,clickbait,non-clickbait,'Cái chết của vua câm' - Báo Hà Nội Mới
+article_1209,Thanh Niên,0.1385,clickbait,non-clickbait,Nhớ tiết kiệm điện 'mọi lúc mọi nơi'
+article_1268,SaoStar,0.1247,clickbait,non-clickbait,Doãn Quốc Đam trở lại
+article_1286,SaoStar,0.6564,non-clickbait,clickbait,"Không có Bạch Lộc và Vu Chính, Lâm Giang Tiên đã flop trong im lặng"
+article_1312,24h,0.022,clickbait,non-clickbait,"Loạt ô tô tiếp tục giảm giá, có mẫu giảm lên tới hơn 370 triệu đồng"
+article_1322,Báo Mới,0.2651,clickbait,non-clickbait,"Bán nhà phố về quê, khi hết tiền tôi phải chạy xe máy 40km để đi làm - Báo VTC News"
+article_1489,Thanh Niên,0.299,clickbait,non-clickbait,Top 5 kem trị mụn giá học sinh mà chất lượng quốc tế
+article_1566,SaoStar,0.3153,clickbait,non-clickbait,Chốt lịch trận play-off V.League 2024/25: Công Phượng sẽ đá ở đâu?
+article_1570,24h,0.3953,clickbait,non-clickbait,"Barcelona có biến động khi mua Nico Williams, Lewandowski dễ bị thiệt thòi nhất"
+article_1585,24h,0.6186,non-clickbait,clickbait,"Real Madrid mất người từ sớm: Asencio ""non nớt"", nhận ngay thẻ đỏ trực tiếp"
+article_1624,24h,0.1144,clickbait,non-clickbait,"Dự đoán tỷ số FIFA Club World Cup: Real Madrid ""trút giận"", Juventus tiếp đà thăng hoa"
+article_1886,SaoStar,0.3491,clickbait,non-clickbait,Chủ động tầm soát ung thư phổi từ sớm để không bỏ lỡ 'thời gian vàng' điều trị
+article_1945,Báo Mới,0.0522,clickbait,non-clickbait,'Trâu Thủ đô' tiếp đà thăng hoa - Báo Nhân Dân
+article_1955,Báo Mới,0.476,clickbait,non-clickbait,"Bayern Munich tung chiêu, quyết vượt Barca ký Nico Williams - Báo VietnamNet"
+article_1972,VnExpress,0.3935,clickbait,non-clickbait,Đàm Vĩnh Hưng: 'Tôi mong sống lâu bên con'
+article_2095,VietNamNet,0.2001,clickbait,non-clickbait,Ba không khi ăn rau dền
+article_2163,24h,0.0236,clickbait,non-clickbait,Vietnam GameVerse 2025: Cột mốc bùng nổ của ngành game Việt
+article_2170,Báo Mới,0.354,clickbait,non-clickbait,Suga (BTS) gây chấn động dư luận Hàn Quốc - Báo Tiền Phong
+article_2178,Báo Mới,0.2502,clickbait,non-clickbait,Diễn viên Quang Anh bật khóc nức nở - Tạp chí Tri thức
+article_2182,Báo Mới,0.0363,clickbait,non-clickbait,Chiến sĩ mới tự tin chinh phục '3 tiếng nổ' - Báo Cao Bằng
+article_2550,Tuổi Trẻ,0.1953,clickbait,non-clickbait,Taekwondo Việt Nam: Làm gì để dự Olympic?
+article_2627,VietNamNet,0.1093,clickbait,non-clickbait,Cựu giao dịch viên ACB thành kẻ tham ô vì hoa mắt món tiền hoa hồng
+article_2628,VietNamNet,0.2447,clickbait,non-clickbait,"Cắt ghép ảnh khiêu dâm, hạ nhục con nợ chỉ để đòi hơn 13 triệu đồng"
+article_2792,VnExpress,0.2566,clickbait,non-clickbait,Nơi người dân dùng vàng thay tiền mặt
+article_2797,VnExpress,0.2028,clickbait,non-clickbait,Thoát chết nhờ túi độn ngực
+article_2926,SaoStar,0.7631,non-clickbait,clickbait,"Nếu không đi xa, hãy thử 'staycation' để du lịch ngay trong thành phố"
+article_2928,SaoStar,0.2083,clickbait,non-clickbait,Hà Giang hè này không chỉ có mùa tam giác mạch
+article_2930,SaoStar,0.074,clickbait,non-clickbait,Hội An 2025: Khi phố cổ lên đèn và ký ức bừng sáng
+article_2937,SaoStar,0.3397,clickbait,non-clickbait,Mùa xê dịch: Đi để thấy mình rộng hơn mọi giới hạn
+article_2968,Báo Mới,0.0687,clickbait,non-clickbait,Trục vớt du thuyền khiến 'Bill Gates nước Anh' tử nạn - Tạp chí Tri thức
+article_3111,Thanh Niên,0.0763,clickbait,non-clickbait,Khám phá tính năng iOS 26 giúp sạc pin iPhone hiệu quả hơn
+article_3180,24h,0.4571,clickbait,non-clickbait,"Tình yêu Katy Perry, Orlando Bloom 'bên bờ vực'"
+article_3229,24h,0.0422,clickbait,non-clickbait,Anh Tài Quốc Thiên bị kiện
+article_3372,Thanh Niên,0.0991,clickbait,non-clickbait,"Crossover cỡ trung: Đại lý 'cắn răng' chịu lỗ, Ford Territory lần đầu vượt Mazda CX-5"
+article_3479,Báo Mới,0.0567,clickbait,non-clickbait,Mitsubishi hé lộ mẫu xe mới bằng máy bay trực thăng - Báo Tiền Phong
+article_3693,24h,0.2559,clickbait,non-clickbait,Người mẹ mất con vì mắc hội chứng hiếm gặp
+article_3720,24h,0.4953,clickbait,non-clickbait,5 loại trái cây giúp giải độc gan
+article_3751,24h,0.1833,clickbait,non-clickbait,"Vương quốc kem với vị cá thu, than củi"
+article_3753,24h,0.2888,clickbait,non-clickbait,"Rong ruổi Bình Đại đắm mình thiên nhiên, hóa thân làm dân quê thứ thiệt"

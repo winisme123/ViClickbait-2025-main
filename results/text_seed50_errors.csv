@@ -1,0 +1,73 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0151,SaoStar,0.0683,clickbait,non-clickbait,Diệp Lâm Anh gặp sự cố sức khoẻ
+article_0193,24h,0.8784,non-clickbait,clickbait,Người Hà Nội bất ngờ khi 2 tuyến đường có dải phân cách cứng
+article_0212,24h,0.4284,clickbait,non-clickbait,Phẫn nộ cảnh mẹ bỏ con 18 tháng tuổi giữa đường đông xe cộ
+article_0491,24h,0.8362,non-clickbait,clickbait,"Vị hoàng đế có tư tưởng ""thoáng"", vĩ đại nhất lịch sử Ấn Độ"
+article_0492,24h,0.5736,non-clickbait,clickbait,Ấn Độ và Pakistan từng thuộc cùng một đế chế do hậu duệ Thành Cát Tư Hãn cai trị như thế nào?
+article_0614,Tuổi Trẻ,0.5856,non-clickbait,clickbait,"Tổng giám đốc bỏ trốn sang Mỹ, căn cứ nào để viện kiểm sát buộc tội chủ mưu?"
+article_0703,SaoStar,0.8952,non-clickbait,clickbait,"Cặp vợ chồng ăn sáng bằng thịt chuột bắt trong vườn, ít ngày sau nhiễm bệnh nguy hiểm"
+article_0888,Tuổi Trẻ,0.918,non-clickbait,clickbait,Choáng vì hàng giả tinh vi như hàng thật
+article_1170,Tuổi Trẻ,0.6535,non-clickbait,clickbait,Làm việc hybrid working sao cho hiệu quả?
+article_1208,Thanh Niên,0.7498,non-clickbait,clickbait,Chủ quán phở Lâm sững sờ khi phát hiện được Michelin vinh danh
+article_1210,Thanh Niên,0.8679,non-clickbait,clickbait,"3 quán cà phê vợt lừng danh, lâu đời nhất TP.HCM: Bạn đã ghé chưa?"
+article_1391,VnExpress,0.7892,non-clickbait,clickbait,5 loại trà hỗ trợ giảm mỡ nội tạng
+article_1417,VnExpress,0.798,non-clickbait,clickbait,Uống cà phê thế nào để răng không ố vàng
+article_1422,VnExpress,0.9035,non-clickbait,clickbait,8 thói quen âm thầm hủy hoại thận
+article_1515,VietNamNet,0.9101,non-clickbait,clickbait,"Iran tấn công dồn dập, Israel hứng 'mưa tên lửa' chưa từng thấy"
+article_1564,SaoStar,0.1777,clickbait,non-clickbait,Dấu chấm hết cho Lương Xuân Trường
+article_1987,VnExpress,0.6965,non-clickbait,clickbait,Hậu trường hóa trang 'ma giữ của' trong phim Út Lan
+article_2033,Thanh Niên,0.6877,non-clickbait,clickbait,Khám phá 10 quốc gia có đường bờ biển dài nhất thế giới
+article_2224,VnExpress,0.7599,non-clickbait,clickbait,Lời khai gian dối của kẻ quấn thi thể vợ vào mỏ neo dưới hồ
+article_2369,Kênh14,0.2458,clickbait,non-clickbait,"""Giải trí ban đêm"", nam thanh niên 20 tuổi nhồi máu cơ tim suýt chết"
+article_2500,VnExpress,0.5047,non-clickbait,clickbait,10 đại học tốt nhất thế giới năm 2026
+article_2581,Thanh Niên,0.7861,non-clickbait,clickbait,"Thua Tóc Tiên sát nút, Kay Trần bất lực loại đàn em khỏi show sống còn"
+article_2689,24h,0.621,non-clickbait,clickbait,G-Dragon diện chiếc áo 'bà thím' suốt chuyến đi Việt Nam
+article_3033,VnExpress,0.8193,non-clickbait,clickbait,Cubing - 'siêu xe' đắt giá nhất VinFast từng làm
+article_3193,24h,0.5284,non-clickbait,clickbait,"Ngủ gật khi lái xe, nam ca sĩ gặp tai nạn và bị thương nặng"
+article_3568,24h,0.7578,non-clickbait,clickbait,Top xe MPV từ giá rẻ đến hạng sang đáng chú ý hiện nay
+article_0168,SaoStar,0.0854,clickbait,non-clickbait,"Trước giờ G đêm nhạc của G-Dragon ở Mỹ Đình: Mây đen kéo tới ùn ùn, giá vé giảm mạnh"
+article_0237,Báo Mới,0.0478,clickbait,non-clickbait,Khởi động chiến dịch bảo vệ ngôi vương - Báo Văn hóa
+article_0240,Báo Mới,0.044,clickbait,non-clickbait,Xuân Trường mừng cho Tuấn Anh - Tạp chí SaoStar
+article_0419,Kênh14,0.8924,non-clickbait,clickbait,"Quá khứ ít biết của thiếu gia nghìn tỷ nhà bầu Hiển: Làm bồi bàn kiếm tiền, mọi thứ đều tự bươn chải"
+article_0475,24h,0.3424,clickbait,non-clickbait,IRGC cảnh báo Mỹ 'sẽ không thoát được'
+article_0493,24h,0.039,clickbait,non-clickbait,Chiến tranh khốc liệt giữa Ấn Độ và Pakistan: Ra đời một quốc gia mới
+article_0515,Báo Mới,0.3226,clickbait,non-clickbait,"Trung đạo giữa bão giông thù hận, si mê quyền lực - Tạp chí nghiên cứu Phật học"
+article_0557,VnExpress,0.1832,clickbait,non-clickbait,Hơn 1 tỷ USD 'bốc hơi' khỏi thị trường tiền số
+article_0659,Thanh Niên,0.0466,clickbait,non-clickbait,Tăng xác suất tiểu hành tinh tấn công mặt trăng
+article_0660,Thanh Niên,0.4053,clickbait,non-clickbait,Tỉ phú Ấn Độ qua đời nghi do nuốt phải ong
+article_0716,SaoStar,0.0523,clickbait,non-clickbait,Tỷ phú Nga công bố di chúc chia hơn 300 nghìn tỷ đồng cho 100 người con khắp thế giới
+article_0732,24h,0.0464,clickbait,non-clickbait,Xác định nguyên nhân thanh niên không mặc quần áo tử vong giữa đường ở TP Thủ Đức
+article_0814,Báo Mới,0.1374,clickbait,non-clickbait,Người dân chật vật di chuyển qua 'ngõ đau khổ' ở Thủ đô - Báo Tiền Phong
+article_1007,24h,0.1032,clickbait,non-clickbait,Loạt bất động sản trị giá hàng trăm triệu đô của công chúa nhạc pop Taylor Swift
+article_1018,24h,0.0437,clickbait,non-clickbait,Nơi đây có thêm 1.000 triệu phú mỗi ngày
+article_1022,24h,0.2108,clickbait,non-clickbait,Từ bờ vực phá sản đến đế chế streaming lớn nhất Nhật Bản cạnh tranh Netflix
+article_1164,VnExpress,0.0337,clickbait,non-clickbait,Đua mở mới khách sạn ven biển
+article_1446,Tuổi Trẻ,0.3953,clickbait,non-clickbait,Kiếm được tiền tỉ nhờ tố cáo xe dừng đỗ trái phép
+article_1566,SaoStar,0.166,clickbait,non-clickbait,Chốt lịch trận play-off V.League 2024/25: Công Phượng sẽ đá ở đâu?
+article_1785,Thanh Niên,0.216,clickbait,non-clickbait,"Học tại Việt Nam, nhận bằng cử nhân Anh quốc có uy tín?"
+article_1937,Báo Mới,0.1891,clickbait,non-clickbait,Xuân Son tuyên bố tự tin trước ngày trở lại sân cỏ - Báo Giáo Dục & Thời Đại
+article_1977,VnExpress,0.3877,clickbait,non-clickbait,Hoa hậu Phương Linh: 'Tôi không ngại xăm mình'
+article_2137,24h,0.1052,clickbait,non-clickbait,"Mặt trận ""không bom đạn” nhưng vô cùng khốc liệt giữa Israel và Iran"
+article_2278,Tuổi Trẻ,0.4178,clickbait,non-clickbait,'Brokeback Mountain' vượt lên sự kỳ thị đồng tính để trở thành kiệt tác
+article_2339,VietNamNet,0.4748,clickbait,non-clickbait,AK-308 'sát thủ mới của Kalashnikov’ với loạt công nghệ siêu hiện đại
+article_2535,VnExpress,0.4475,clickbait,non-clickbait,"Tỉnh, thành mới nào có hệ thống cảng biển lớn nhất cả nước?"
+article_2644,SaoStar,0.2772,clickbait,non-clickbait,Microsoft sẵn sàng 'đường ai nấy đi' với nhà sáng lập ChatGPT
+article_2805,Tuổi Trẻ,0.1329,clickbait,non-clickbait,"Phổ điểm thi lớp 10 ở TP.HCM: Lo lắng môn văn, kết quả thở phào"
+article_2840,Thanh Niên,0.111,clickbait,non-clickbait,‘Đãi cát tìm vàng’ ở giải cầu lông các nhóm tuổi thiếu niên quốc gia
+article_2864,Thanh Niên,0.2776,clickbait,non-clickbait,"Dàn cầu thủ cao to và triển vọng của U.23 Việt Nam, chỉ còn thiếu..."
+article_2904,VietNamNet,0.3855,clickbait,non-clickbait,6 món phụ kiện hữu ích giúp bảo vệ xế cưng trong mùa hè nắng nóng
+article_2928,SaoStar,0.1101,clickbait,non-clickbait,Hà Giang hè này không chỉ có mùa tam giác mạch
+article_2946,24h,0.3372,clickbait,non-clickbait,Giảm gần 100 kg nhờ hâm mộ G-Dragon
+article_2963,24h,0.3804,clickbait,non-clickbait,"S:kin Heritage: Khi mỹ phẩm Việt ""khoác áo” di sản"
+article_2972,Báo Mới,0.4601,clickbait,non-clickbait,Con người có thể sống trên sao Hỏa nhờ 'ốc đảo không gian' - Báo Tri thức & Cuộc sống
+article_3078,Tuổi Trẻ,0.3575,clickbait,non-clickbait,"Đã thu hồi 7.400m² đất của lô biệt thự L09 Sơn Trà, còn 5.000m² xử lý sao?"
+article_3128,VietNamNet,0.2561,clickbait,non-clickbait,Dự án 1.700 tỷ 'đắp chiếu' nhiều năm ở Kon Tum đổi chủ: Trơ sắt thép dưới thời tiết khắc nghiệt
+article_3160,24h,0.0854,clickbait,non-clickbait,Em gái quốc dân bị cô lập
+article_3217,24h,0.0493,clickbait,non-clickbait,"Biển người đổ về Hưng Yên ngày thứ 2, đằm trong mưa giông tầm tã"
+article_3313,VnExpress,0.0448,clickbait,non-clickbait,"Trung Quốc hút khách bằng trải nghiệm nhập vai công chúa, hoàng tử"
+article_3323,VnExpress,0.1264,clickbait,non-clickbait,Ý nghĩa của 81 chiếc đinh trên cổng chính Tử Cấm Thành
+article_3348,Tuổi Trẻ,0.0737,clickbait,non-clickbait,Vụ ngàn chai nước mắm vứt ven đường: Đã xác định được người liên quan
+article_3408,VietNamNet,0.0443,clickbait,non-clickbait,"Cao nguyên cách Hà Nội 300km có biển mây, thác nước, khách rộn ràng reo vui"
+article_3437,24h,0.4695,clickbait,non-clickbait,Clip: Kinh hoàng xe máy lộn nhiều vòng sau khi bị ô tô tải tạt đầu
+article_3471,Báo Mới,0.0424,clickbait,non-clickbait,Gần 1.000 người đội nắng đổi xe máy xăng lấy xe điện - Chuyên trang Xe Giao Thông - Báo Xây Dựng
+article_3772,24h,0.1302,clickbait,non-clickbait,Từ mắc OCD thành người trẻ nhất đi khắp thế giới

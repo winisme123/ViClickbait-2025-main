@@ -1,0 +1,122 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0069,Tuổi Trẻ,0.1656,clickbait,non-clickbait,Nhiều bệnh viện phía Nam ngừng chụp PET/CT: Cái 'áo cơ chế' làm khổ người bệnh
+article_0155,SaoStar,0.1021,clickbait,non-clickbait,"Nam ca sĩ Việt bị tai nạn mất một tay, giờ bán trà sữa nuôi 3 con"
+article_0162,SaoStar,0.1454,clickbait,non-clickbait,Bất ngờ trước số dư tài khoản hiện tại của Phan Mạnh Quỳnh
+article_0172,SaoStar,0.1451,clickbait,non-clickbait,"Nam NSƯT từng là thầy Trấn Thành nói một câu khiến ai cũng xúc động, cuộc sống hiện tại gây bất ngờ"
+article_0190,24h,0.701,non-clickbait,clickbait,Hà Nội: Chuyển cơ quan công an 4 vụ việc về vi phạm hàng hóa tại thủ phủ bánh kẹo gia công La Phù
+article_0212,24h,0.3142,clickbait,non-clickbait,Phẫn nộ cảnh mẹ bỏ con 18 tháng tuổi giữa đường đông xe cộ
+article_0234,Báo Mới,0.4097,clickbait,non-clickbait,"Bellingham quát tháo, Guler đáp trả - Tạp chí Tri thức"
+article_0426,SaoStar,0.3131,clickbait,non-clickbait,"Cậu bé đi thả diều bị kéo lên lơ lửng giữa trời, cảnh tượng khiến nhiều người 'thót tim'"
+article_0444,SaoStar,0.0937,clickbait,non-clickbait,"Sát hại nữ chủ tiệm tạp hóa ở Đồng Nai, kẻ thủ ác khai gì?"
+article_0539,Báo Mới,0.5182,non-clickbait,clickbait,Phong tỏa eo biển Hormuz dễ trở thành tự sát kinh tế - Báo Tiền Phong
+article_0664,VietNamNet,0.63,non-clickbait,clickbait,"Giá vàng hôm nay 23/6/2025: Thế giới vụt tăng rồi lao dốc, SJC vẫn gần 120 triệu"
+article_0687,VietNamNet,0.111,clickbait,non-clickbait,"Bầu Đức tung trăm tỷ 'gom hàng', Hoàng Anh Gia Lai sức khỏe ra sao?"
+article_1397,VnExpress,0.5855,non-clickbait,clickbait,Dấu hiệu cảnh báo mắc u lympho
+article_1481,Thanh Niên,0.6783,non-clickbait,clickbait,Chuyên gia chia sẻ lượng vitamin C cần tiêu thụ mỗi ngày
+article_1563,SaoStar,0.2897,clickbait,non-clickbait,Tương lai của Đoàn Văn Hậu cuối cùng cũng ngã ngũ
+article_1751,VnExpress,0.2946,clickbait,non-clickbait,Vì sao Công Phượng nhường đàn em đá phạt đền?
+article_1982,VnExpress,0.6983,non-clickbait,clickbait,Người mẫu Lê Thu Trang nhận lời cầu hôn
+article_2011,Tuổi Trẻ,0.5459,non-clickbait,clickbait,Ngày hội văn hóa áo dài TP.HCM
+article_2060,Thanh Niên,0.567,non-clickbait,clickbait,"‘Cầu tình yêu’ và ‘Đi cùng mưa’, những điểm check-in mới toanh tại Đà Lạt"
+article_2154,24h,0.705,non-clickbait,clickbait,Microsoft chặn trình duyệt Chrome
+article_2177,Báo Mới,0.502,non-clickbait,clickbait,Lịch chiếu phim Hoán Vũ - Báo VTC News
+article_2298,Thanh Niên,0.5114,non-clickbait,clickbait,Hạt cơm rơi - Truyện ngắn dự thi của Phà Ca
+article_2366,Kênh14,0.4549,clickbait,non-clickbait,4 loại thực phẩm trong bếp tưởng là không bao giờ hết hạn nhưng thật ra đã đến lúc phải vứt đi rồi!
+article_2415,24h,0.7899,non-clickbait,clickbait,Đây là những smartphone nhỏ gọn đáng mua năm 2025
+article_2596,Thanh Niên,0.7349,non-clickbait,clickbait,Hoa hậu Khánh Vân: Tôi được chồng yêu chiều nên làm vợ cũng thoải mái
+article_2649,SaoStar,0.7033,non-clickbait,clickbait,Kay Trần: “Redmi Note 14 Series Vàng Sa Mạc là người bạn đồng hành phong cách cho mùa hè xê dịch”
+article_2689,24h,0.5217,non-clickbait,clickbait,G-Dragon diện chiếc áo 'bà thím' suốt chuyến đi Việt Nam
+article_2700,24h,0.6931,non-clickbait,clickbait,Balenciaga ra mắt dòng sản phẩm quà lưu niệm mùa hè và đồ dùng thời tiết
+article_2702,24h,0.7189,non-clickbait,clickbait,Ái nữ đại gia Minh 'Nhựa' xách túi tiền tỷ mừng sinh nhật
+article_2767,VnExpress,0.7631,non-clickbait,clickbait,Những hạn chế của máy rửa bát
+article_2768,VnExpress,0.5231,non-clickbait,clickbait,Công thức vịt nấu chao của đầu bếp chuyên nghiệp
+article_2791,VnExpress,0.404,clickbait,non-clickbait,Những sai lầm người thông minh chỉ mắc một lần
+article_2912,VietNamNet,0.3801,clickbait,non-clickbait,Tay nắm cửa ô tô dạng ẩn: Vẻ đẹp công nghệ hay cái bẫy nguy hiểm?
+article_2919,SaoStar,0.665,non-clickbait,clickbait,Lào Cai - Điểm đến cho tín đồ du lịch chậm hè 2025
+article_2935,SaoStar,0.6877,non-clickbait,clickbait,"Bùng nổ xu hướng du lịch trải nghiệm văn hóa, lễ hội mùa hè năm nay"
+article_3138,VietNamNet,0.5833,non-clickbait,clickbait,"Hàng hiếm xuất hiện, Hà Nội mở bán 115 căn hộ giá chỉ từ 12,2 triệu đồng/m2"
+article_3167,24h,0.4354,clickbait,non-clickbait,"Sau cậu cả Beckham, ""công chúa"" nhà Michael Jackson cũng bất hiếu với bố?"
+article_3188,24h,0.8443,non-clickbait,clickbait,Phùng Thiệu Phong hẹn hò người yêu mới
+article_3196,24h,0.5439,non-clickbait,clickbait,Bích Phương - Tăng Duy Tân bối rối khi bị hỏi chuyện tình cảm
+article_3199,24h,0.6169,non-clickbait,clickbait,Diva Thanh Lam sắp cưới
+article_3271,Báo Mới,0.6933,non-clickbait,clickbait,Thoát chết trong gang tấc sau khi nhồi máu cơ tim cấp - Tạp chí Tri thức
+article_3276,Báo Mới,0.6747,non-clickbait,clickbait,"Lái xe đi nghỉ mát, cả gia đình được buổi 'xông hơi' vì điều hòa ô tô giở chứng - Báo VietnamNet"
+article_3278,Báo Mới,0.6146,non-clickbait,clickbait,Tài chính trong tình yêu: Chuyện khó nói nhưng rất cần nói - Báo Thời Báo Ngân Hàng
+article_3300,VnExpress,0.6585,non-clickbait,clickbait,Mang ruốc thịt lợn khi đi du lịch Đài Loan có được không?
+article_3327,VnExpress,0.4312,clickbait,non-clickbait,Bí mật về món cá mùi thối nhất thế giới
+article_3353,Tuổi Trẻ,0.6273,non-clickbait,clickbait,"Mỗi lon sữa Hiup giá gốc 87.000 đồng, bán ra thị trường hơn 546.000 đồng"
+article_3445,24h,0.3693,clickbait,non-clickbait,"Kawasaki Z400RS ""hâm nóng"" thị trường với loạt thông tin bất ngờ!"
+article_3497,Báo Mới,0.5881,non-clickbait,clickbait,Đồng hồ hơn 19.000 USD chứa cát ở tất cả tiểu vương quốc thuộc UAE - Tạp chí Tri thức
+article_3752,24h,0.6623,non-clickbait,clickbait,Đĩa dồi 6 miếng được bán với giá 500.000 đồng tại lễ hội hoa anh đào Hàn Quốc
+article_3773,24h,0.2188,clickbait,non-clickbait,Combo nghỉ dưỡng giá rẻ tiện lợi hay bẫy du lịch?
+article_0147,SaoStar,0.0849,clickbait,non-clickbait,Tình trạng của chồng Khánh Thi sau chấn thương ngoài ý muốn
+article_0159,SaoStar,0.3062,clickbait,non-clickbait,Danh tính cô gái bị bắt gặp thân thiết với chồng cũ Xoài Non
+article_0213,24h,0.4647,clickbait,non-clickbait,[CLIP] Thanh niên vô cớ bị người đàn ông ‘tung cước’
+article_0214,24h,0.283,clickbait,non-clickbait,Xôn xao thông tin người đàn ông trộm hơn 800 tờ vé số ở TPHCM
+article_0231,Báo Mới,0.2111,clickbait,non-clickbait,Inter Miami trước ngưỡng cửa lịch sử - Tạp chí Tri thức
+article_0240,Báo Mới,0.1768,clickbait,non-clickbait,Xuân Trường mừng cho Tuấn Anh - Tạp chí SaoStar
+article_0272,Báo Mới,0.4402,clickbait,non-clickbait,Lý do Tottenham sa thải Postecoglou - Tạp chí Tri thức
+article_0307,VnExpress,0.3763,clickbait,non-clickbait,Khoảnh khắc ông Trump tuyên bố xóa sổ cơ sở hạt nhân Iran
+article_0475,24h,0.3717,clickbait,non-clickbait,IRGC cảnh báo Mỹ 'sẽ không thoát được'
+article_0476,24h,0.5296,non-clickbait,clickbait,Những đòn trả đũa mạnh mẽ mà Iran có thể giáng xuống Mỹ
+article_0507,Báo Mới,0.0419,clickbait,non-clickbait,"Sau đòn tấn công hạt nhân, Iran lặng lẽ chuẩn bị gì cho Mỹ? - Tạp chí Petrotimes"
+article_0655,Thanh Niên,0.506,non-clickbait,clickbait,"Lunch Lady, bà chủ quán Việt nổi tiếng thế giới đột tử ở Canada"
+article_0670,VietNamNet,0.3655,clickbait,non-clickbait,"Nhiều mẫu iPhone giảm giá sâu, Honda Vision rẻ hiếm có trong lịch sử"
+article_0718,SaoStar,0.4484,clickbait,non-clickbait,"Người đàn ông đến ngân hàng chuyển 22 triệu đồng cho vợ tương lai, nhân viên liền báo cảnh sát"
+article_0733,24h,0.216,clickbait,non-clickbait,Nam thanh niên trần như nhộng chạy ra khỏi nhà kêu cứu rồi gục chết trên đường
+article_0740,24h,0.0724,clickbait,non-clickbait,"Nữ cán bộ huyện liên kết với thầy bói lừa tiền ""đại gia” xăng dầu"
+article_0756,24h,0.093,clickbait,non-clickbait,Thủ đoạn gây sốc của nhóm nhân viên tài chính ghép ảnh khiêu dâm đòi nợ
+article_0909,Thanh Niên,0.1291,clickbait,non-clickbait,Những nơi nào ở TP.HCM được miễn giấy phép xây dựng?
+article_0936,Thanh Niên,0.4039,clickbait,non-clickbait,Noble Palace Tay Thang Long hút nhà đầu tư nhờ 8 lợi thế cho người dùng cuối
+article_0957,VietNamNet,0.1059,clickbait,non-clickbait,CĐV 'đại náo' sân Thiên Trường ngày Nam Định nâng Cúp
+article_0960,VietNamNet,0.2273,clickbait,non-clickbait,Florian Wirtz: Ma thuật nước Đức chờ bay cao với Liverpool
+article_0992,SaoStar,0.4822,clickbait,non-clickbait,"Kpop nửa cuối 2025: Những 'ông lớn' trở lại, thị trường có được hồi sinh?"
+article_1011,24h,0.807,non-clickbait,clickbait,Dinh thự nghìn tỷ của gia đình Beckham tại London
+article_1207,Thanh Niên,0.118,clickbait,non-clickbait,"Thời tiết TP.HCM mát mẻ đầu tuần, mưa lớn khi nào quay lại?"
+article_1255,VietNamNet,0.1546,clickbait,non-clickbait,Tỉnh nào có diện tích lớn nhất Việt Nam sau sáp nhập?
+article_1271,SaoStar,0.4409,clickbait,non-clickbait,5 phim đam mỹ 'phá cách': Định hình lại biên giới tình yêu đồng giới
+article_1292,SaoStar,0.22,clickbait,non-clickbait,"Top 5 phim Hoa Ngữ thành công nhất nửa đầu năm 2025: Tiêu Chiến bất bại, Bạch Lộc gây tranh cãi"
+article_1332,Báo Mới,0.2977,clickbait,non-clickbait,Những yếu tố nào chi phối thị trường dầu khí thế giới tuần qua? - Tạp chí Petrotimes
+article_1393,VnExpress,0.1555,clickbait,non-clickbait,Triệu chứng nào cảnh báo mắc chứng cuồng ăn?
+article_1431,Tuổi Trẻ,0.308,clickbait,non-clickbait,"Huawei gây sốc với pin xe điện cho phép chạy được 3.000km/sạc, sạc chỉ 5 phút"
+article_1442,Tuổi Trẻ,0.4715,clickbait,non-clickbait,"Tranh cãi: Ô tô đi đổ xăng, khách hay nhân viên trạm xăng phải mở nắp bình?"
+article_1634,Báo Mới,0.0444,clickbait,non-clickbait,Điểm chuẩn lớp 10 vào 2 trường chuyên 'hot' ở TP.HCM biến động bất ngờ - Tạp chí Tri thức
+article_1874,SaoStar,0.5586,non-clickbait,clickbait,Diễn viên Ngân Hòa mắc suy thận giai đoạn cuối ở tuổi 29: Căn bệnh đáng báo động ở giới trẻ
+article_1976,VnExpress,0.6009,non-clickbait,clickbait,"Hồ Ngọc Hà, Kim Lý kỷ niệm 8 năm yêu"
+article_2028,Thanh Niên,0.4631,clickbait,non-clickbait,Đừng bao giờ sử dụng 'hố đen tuyệt vọng' trên ghế máy bay
+article_2046,Thanh Niên,0.1367,clickbait,non-clickbait,"Biểu trưng mặt trời, logo của Sun PhuQuoc Airways có ý nghĩa gì?"
+article_2114,SaoStar,0.478,clickbait,non-clickbait,3 câu cửa miệng của con mà phụ huynh phải đặc biệt chú ý
+article_2159,24h,0.2863,clickbait,non-clickbait,Cận cảnh robot của Vingroup khiến nhiều người ngạc nhiên
+article_2182,Báo Mới,0.1873,clickbait,non-clickbait,Chiến sĩ mới tự tin chinh phục '3 tiếng nổ' - Báo Cao Bằng
+article_2209,Báo Mới,0.366,clickbait,non-clickbait,Hé lộ căn hộ sang trọng của Tân Hoa hậu Hoàn vũ Việt Nam Phương Linh - Tạp chí Thương Gia
+article_2285,Thanh Niên,0.2976,clickbait,non-clickbait,Gánh cỏ sông Hàn - tìm lại bản ngã dưới cờ nghĩa Lam Sơn
+article_2321,Thanh Niên,0.4843,clickbait,non-clickbait,Sách vở là thế giới mở
+article_2346,VietNamNet,0.3661,clickbait,non-clickbait,Tên lửa mang đầu đạn chùm Iran ồ ạt dội vào Israel khủng khiếp mức nào?
+article_2357,VietNamNet,0.2665,clickbait,non-clickbait,"Lộ diện ‘sát thủ săn ngầm’ mới ASW-USV, tàu ngầm nghe tên đã vội tìm chỗ trốn"
+article_2524,VnExpress,0.1032,clickbait,non-clickbait,Xu hướng nghề nghiệp dịch chuyển thế nào thời AI?
+article_2535,VnExpress,0.1047,clickbait,non-clickbait,"Tỉnh, thành mới nào có hệ thống cảng biển lớn nhất cả nước?"
+article_2537,VnExpress,0.034,clickbait,non-clickbait,Học sinh Việt Nam đạt thành tích chưa từng có tại Olympic Vật lý châu Âu
+article_2579,Thanh Niên,0.063,clickbait,non-clickbait,On Trending | Dàn cast Đấu trường gia tốc 'tố nhau' trong thử thách 'Ai là…'
+article_2590,Thanh Niên,0.367,clickbait,non-clickbait,BTC lên tiếng về loạt tranh cãi liên quan đến chiến thắng của Hoa hậu Phương Linh
+article_2628,VietNamNet,0.0531,clickbait,non-clickbait,"Cắt ghép ảnh khiêu dâm, hạ nhục con nợ chỉ để đòi hơn 13 triệu đồng"
+article_2725,Báo Mới,0.4443,clickbait,non-clickbait,Trang web bị hack trong ngày Bitcoin sập - Tạp chí Tri thức
+article_2840,Thanh Niên,0.2657,clickbait,non-clickbait,‘Đãi cát tìm vàng’ ở giải cầu lông các nhóm tuổi thiếu niên quốc gia
+article_2876,Thanh Niên,0.2321,clickbait,non-clickbait,14 triệu USD giá bản quyền truyền hình World Cup 2026: Đài nào tại Việt Nam mua nổi?
+article_2897,VietNamNet,0.1413,clickbait,non-clickbait,"Loạt xe MPV 7 chỗ ngồi đang được giảm giá sâu, dân mua chạy dịch vụ 'mừng thầm'"
+article_2904,VietNamNet,0.3031,clickbait,non-clickbait,6 món phụ kiện hữu ích giúp bảo vệ xế cưng trong mùa hè nắng nóng
+article_2975,Báo Mới,0.4211,clickbait,non-clickbait,"Nhóm máu cực hiếm, cả thế giới chỉ một người mang - Tạp chí Tri thức"
+article_2978,Báo Mới,0.4778,clickbait,non-clickbait,Ngôi mộ trẻ em 8.000 năm tuổi tiết lộ bí mật rùng mình - Báo Tri thức & Cuộc sống
+article_2983,Báo Mới,0.3528,clickbait,non-clickbait,5 loài vật có tuổi thọ vượt xa con người - Báo Giáo Dục & Thời Đại
+article_2992,Báo Mới,0.4394,clickbait,non-clickbait,Vì sao con người sợ hãi khi sở hữu nhiều tài sản? - Tạp chí Tri thức
+article_3013,Báo Mới,0.1349,clickbait,non-clickbait,Số người trên Trái Đất có thể bị đếm thiếu rất nhiều? - Báo Giáo Dục & Thời Đại
+article_3030,VnExpress,0.0531,clickbait,non-clickbait,Gần 1.000 người 'đổi xăng lấy điện' trong hai ngày
+article_3057,VnExpress,0.1182,clickbait,non-clickbait,Đại lý làm mất xe sang trước khi giao cho khách
+article_3058,VnExpress,0.1542,clickbait,non-clickbait,Bị trừ hết điểm nhưng vẫn lái xe bị phạt thế nào?
+article_3078,Tuổi Trẻ,0.3581,clickbait,non-clickbait,"Đã thu hồi 7.400m² đất của lô biệt thự L09 Sơn Trà, còn 5.000m² xử lý sao?"
+article_3123,Thanh Niên,0.438,clickbait,non-clickbait,"Nvidia 'làm trùm' thị trường card đồ họa, AMD và Intel hụt hơi bám đuổi"
+article_3157,VietNamNet,0.1882,clickbait,non-clickbait,"Có mảnh đất 200m2, làm thế nào để tách thửa, xây nhà ở trên 100m2?"
+article_3410,VietNamNet,0.2494,clickbait,non-clickbait,Vùng đất từng là nơi 'bí mật nhất thế giới' thành điểm du lịch hút khách
+article_3526,Tuổi Trẻ,0.3985,clickbait,non-clickbait,Làm việc có nhất thiết phải qua bàn nhậu?
+article_3649,24h,0.1941,clickbait,non-clickbait,"Gà 'leo' mái nhà, heo được người dân hối hả 'bế' đi chạy lũ"
+article_3753,24h,0.2353,clickbait,non-clickbait,"Rong ruổi Bình Đại đắm mình thiên nhiên, hóa thân làm dân quê thứ thiệt"
+article_3775,24h,0.3079,clickbait,non-clickbait,Eo Gió Quan Lạn thiên đường hoang sơ làm say lòng du khách

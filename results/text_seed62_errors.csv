@@ -1,0 +1,77 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0184,24h,0.9262,non-clickbait,clickbait,Tài xế dừng xe ngủ trên cao tốc gây tai nạn kinh hoàng đối diện mức phạt nào?
+article_0396,VietNamNet,0.5984,non-clickbait,clickbait,"Băng nhóm thuê cả trăm người chỉ ngồi gọi điện mời nhận quà, lừa hàng trăm tỷ đồng"
+article_0408,VietNamNet,0.8222,non-clickbait,clickbait,Không khó để về già có vài triệu lương hưu mỗi tháng
+article_0415,VietNamNet,0.9219,non-clickbait,clickbait,Nguyên nhân nam thanh niên ở Hà Nội mất 145 triệu đồng trong tài khoản?
+article_0487,24h,0.5435,non-clickbait,clickbait,Nhìn lại cuộc bạo loạn khiến hơn 60 người mất mạng ở Los Angeles
+article_0491,24h,0.8757,non-clickbait,clickbait,"Vị hoàng đế có tư tưởng ""thoáng"", vĩ đại nhất lịch sử Ấn Độ"
+article_0492,24h,0.5981,non-clickbait,clickbait,Ấn Độ và Pakistan từng thuộc cùng một đế chế do hậu duệ Thành Cát Tư Hãn cai trị như thế nào?
+article_0547,Báo Mới,0.6052,non-clickbait,clickbait,"Iran phóng tên lửa đầu đạn 1,5 tấn vào Israel: Mối đe dọa mới khiến phòng thủ Tel Aviv chao đảo - VietTimes"
+article_0613,Tuổi Trẻ,0.74,non-clickbait,clickbait,Ly rượu đầy mà nghĩa tình lại cạn
+article_0615,Tuổi Trẻ,0.914,non-clickbait,clickbait,"Tưởng đang 'thay trời hành đạo', nhóm 'bà chủ' truy hỏi, cưỡng đoạt tiền nhân viên"
+article_0618,Tuổi Trẻ,0.9154,non-clickbait,clickbait,Tòa án cấp thành phố xử xong vẫn 'đứng hình' vì cái tờ trình của ủy ban phường
+article_0681,VietNamNet,0.9096,non-clickbait,clickbait,"Pin sạc đầy chỉ trong 18 giây, mở ra kỷ nguyên mới cho xe điện"
+article_0833,VnExpress,0.7556,non-clickbait,clickbait,Alexandr Wang - thiên tài AI khiến Zuckerberg đặt cược 14 tỷ USD
+article_1210,Thanh Niên,0.9221,non-clickbait,clickbait,"3 quán cà phê vợt lừng danh, lâu đời nhất TP.HCM: Bạn đã ghé chưa?"
+article_1215,Thanh Niên,0.8872,non-clickbait,clickbait,"Người đàn ông Tây Ninh trúng độc đắc: Cho các con mỗi người 1 tỉ, gửi tiết kiệm"
+article_1223,Thanh Niên,0.8834,non-clickbait,clickbait,Cách thiết kế phòng ngủ giúp phục hồi năng lượng: Gợi ý từ kiến trúc sư
+article_1227,Thanh Niên,0.7089,non-clickbait,clickbait,"Ngày dài nhất 2025: Hạ chí ảnh hưởng tới giấc ngủ, não bộ thế nào?"
+article_1232,Thanh Niên,0.9218,non-clickbait,clickbait,Những ông bà cụ U.90 bươn chải nơi xóm vé số ở TP.HCM bất ngờ nhận quà ấm áp sau tết
+article_1387,VnExpress,0.867,non-clickbait,clickbait,"Tự ý ngưng thuốc, bệnh nhân suýt mất mạng"
+article_1414,VnExpress,0.9134,non-clickbait,clickbait,Những điều nên biết về HPV ở nữ giới
+article_1476,Thanh Niên,0.8745,non-clickbait,clickbait,Ngày mới với tin tức sức khỏe: Cách ngủ máy lạnh không bị khô họng
+article_1477,Thanh Niên,0.9276,non-clickbait,clickbait,3 loại nước detox buổi sáng giúp giảm cân tự nhiên
+article_1481,Thanh Niên,0.8395,non-clickbait,clickbait,Chuyên gia chia sẻ lượng vitamin C cần tiêu thụ mỗi ngày
+article_1499,Thanh Niên,0.8578,non-clickbait,clickbait,Alo bác sĩ nghe: Đau mỏi vai gáy khi ngủ dậy cảnh báo điều gì?
+article_1515,VietNamNet,0.9255,non-clickbait,clickbait,"Iran tấn công dồn dập, Israel hứng 'mưa tên lửa' chưa từng thấy"
+article_1837,VietNamNet,0.9173,non-clickbait,clickbait,"Nghỉ việc lương cao để ở nhà chăm con, 'bố bỉm sữa' bị viêm khớp, trầm cảm"
+article_1971,VnExpress,0.8709,non-clickbait,clickbait,Ảnh thời bé của dàn 'Em xinh say hi'
+article_1986,VnExpress,0.9262,non-clickbait,clickbait,'Bí kíp luyện rồng' áp đảo phòng vé
+article_2233,VnExpress,0.583,non-clickbait,clickbait,Nữ tài xế taxi bị khách xé áo định hãm hại
+article_2242,VnExpress,0.6877,non-clickbait,clickbait,Phút cân não di dời hai ngôi mộ giả 'mọc' trên đất phải thi hành án
+article_2354,VietNamNet,0.9296,non-clickbait,clickbait,Hãy kể những câu chuyện hay lay động lòng người
+article_2694,24h,0.9026,non-clickbait,clickbait,"Nhan sắc quá khứ trái ngược của Tân Hoa, Á hậu Hoàn vũ Việt Nam: Người ngây thơ, người quyến rũ, cá tính"
+article_2847,Thanh Niên,0.5128,non-clickbait,clickbait,Đà Nẵng và Bình Phước đấu play-off tranh vé V-League: Công Phượng so tài Bùi Tiến Dũng khi nào?
+article_2883,Thanh Niên,0.3101,clickbait,non-clickbait,Trần Quyết Chiến nói gì trước ngày xuất trận tại World Cup billiards TP.HCM?
+article_3088,Tuổi Trẻ,0.5623,non-clickbait,clickbait,"Nhà di động rẻ hơn cả Honda Air Blade: Đủ tiện ích cơ bản, phải mua thêm lều ngủ"
+article_3219,24h,0.8777,non-clickbait,clickbait,"Tùng Dương, Ngọc Anh khiến khán giả xúc động khi hát nhạc Phú Quang"
+article_3276,Báo Mới,0.9325,non-clickbait,clickbait,"Lái xe đi nghỉ mát, cả gia đình được buổi 'xông hơi' vì điều hòa ô tô giở chứng - Báo VietnamNet"
+article_3511,Báo Mới,0.5715,non-clickbait,clickbait,Mitsubishi Xforce có dấu hiệu 'hụt hơi' - Tạp chí Người Đưa Tin
+article_3576,24h,0.6093,non-clickbait,clickbait,Trên dưới 500 triệu đồng mua xe SUV cũ chọn xe nào?
+article_3713,24h,0.9246,non-clickbait,clickbait,"Những cách khắc phục rối loạn cương dương ngay tại nhà, không hề dùng thuốc"
+article_3783,24h,0.5501,non-clickbait,clickbait,"Bằng lăng nở rộ, ""nhuộm"" tím khắp phố phường Hà Nội"
+article_0308,VnExpress,0.0366,clickbait,non-clickbait,Lý do ông Trump quyết định không kích Iran
+article_0419,Kênh14,0.931,non-clickbait,clickbait,"Quá khứ ít biết của thiếu gia nghìn tỷ nhà bầu Hiển: Làm bồi bàn kiếm tiền, mọi thứ đều tự bươn chải"
+article_0469,24h,0.4611,clickbait,non-clickbait,Các cơ sở hạt nhân Iran chịu thiệt hại lớn đến mức nào sau đòn không kích dữ dội của Mỹ?
+article_0475,24h,0.35,clickbait,non-clickbait,IRGC cảnh báo Mỹ 'sẽ không thoát được'
+article_0581,VnExpress,0.4678,clickbait,non-clickbait,Cách nào giảm thực chất những điều kiện kinh doanh cho doanh nghiệp?
+article_0667,VietNamNet,0.1146,clickbait,non-clickbait,"Lãi suất ngân hàng hôm nay 23/6/2025: Nhà băng nào niêm yết mức cao nhất 6,1%?"
+article_0715,SaoStar,0.0322,clickbait,non-clickbait,"Công ty tuyển dụng nhân viên nam không cần bằng cấp, lương hơn 100 triệu đồng/tháng"
+article_0722,SaoStar,0.1071,clickbait,non-clickbait,"Phát hiện thằn lằn nguyên con trong bánh tiramisu, một gia đình bị ngộ độc"
+article_0733,24h,0.2875,clickbait,non-clickbait,Nam thanh niên trần như nhộng chạy ra khỏi nhà kêu cứu rồi gục chết trên đường
+article_0877,Tuổi Trẻ,0.0314,clickbait,non-clickbait,Lý do Công ty Ăn Cùng Bà Tuyết giải thể
+article_0908,Thanh Niên,0.0608,clickbait,non-clickbait,8 nhà đầu tư chiến lược đầu tư vào khu thương mại tự do Đà Nẵng là ai?
+article_1073,Báo Mới,0.0512,clickbait,non-clickbait,Văn hóa - Ngọn lửa thắp sáng tinh thần dân tộc - Báo Văn hóa
+article_1266,SaoStar,0.8935,non-clickbait,clickbait,Tống Uy Long là nam diễn viên thất bại nhất nửa đầu năm 2025
+article_1312,24h,0.0515,clickbait,non-clickbait,"Loạt ô tô tiếp tục giảm giá, có mẫu giảm lên tới hơn 370 triệu đồng"
+article_1336,Báo Mới,0.2502,clickbait,non-clickbait,Ngân hàng nào đang cho vay mua nhà lãi suất thấp nhất tháng 6? - Tạp chí Doanh Nhân VN
+article_1339,Báo Mới,0.2741,clickbait,non-clickbait,"Chia nhóm hộ kinh doanh, căn cứ vào đâu? - Đài Phát thanh và truyền hình Hà Nội"
+article_1474,Thanh Niên,0.1781,clickbait,non-clickbait,Cảnh báo lạm dụng 'trục hàn' để chữa bệnh
+article_1570,24h,0.2864,clickbait,non-clickbait,"Barcelona có biến động khi mua Nico Williams, Lewandowski dễ bị thiệt thòi nhất"
+article_1598,24h,0.4002,clickbait,non-clickbait,"Inter Milan thắng hú vía: HLV Chivu non tay, á quân cúp C1 sống thoi thóp nhờ siêu sao"
+article_1619,24h,0.0603,clickbait,non-clickbait,"Cazorla 40 tuổi tỏa sáng giúp đội tí hon lên hạng La Liga, chờ so tài Yamal & Mbappe"
+article_1874,SaoStar,0.8903,non-clickbait,clickbait,Diễn viên Ngân Hòa mắc suy thận giai đoạn cuối ở tuổi 29: Căn bệnh đáng báo động ở giới trẻ
+article_2119,SaoStar,0.1814,clickbait,non-clickbait,Thi tốt nghiệp THPT trên máy tính: Địa phương nào sẽ thí điểm đầu tiên?
+article_2209,Báo Mới,0.0327,clickbait,non-clickbait,Hé lộ căn hộ sang trọng của Tân Hoa hậu Hoàn vũ Việt Nam Phương Linh - Tạp chí Thương Gia
+article_2285,Thanh Niên,0.2067,clickbait,non-clickbait,Gánh cỏ sông Hàn - tìm lại bản ngã dưới cờ nghĩa Lam Sơn
+article_2578,Thanh Niên,0.2494,clickbait,non-clickbait,Bức Tường mang rock Việt 'đốt cháy' trái tim kiều bào châu Âu
+article_2599,Thanh Niên,0.2247,clickbait,non-clickbait,Nhan sắc đời thường của tân Hoa hậu Hoàn vũ Việt Nam
+article_2634,VietNamNet,0.0383,clickbait,non-clickbait,Bị bắt vì livestream bán hàng 72 tỷ đồng không nộp thuế
+article_2804,Tuổi Trẻ,0.0627,clickbait,non-clickbait,Tuyển sinh lớp 10 ở TP.HCM: Bất ngờ điểm thi môn toán
+article_2805,Tuổi Trẻ,0.0298,clickbait,non-clickbait,"Phổ điểm thi lớp 10 ở TP.HCM: Lo lắng môn văn, kết quả thở phào"
+article_3010,Báo Mới,0.3945,clickbait,non-clickbait,Những bức ảnh động vật nổi bật nhất thập kỷ - Tạp chí Tri thức
+article_3101,Thanh Niên,0.4889,clickbait,non-clickbait,Galaxy S25 FE trông sẽ ra sao?
+article_3117,Thanh Niên,0.0901,clickbait,non-clickbait,Liệu có thể gắn ổ SSD PCIe 5.0 vào bo mạch chủ PCIe 4.0?
+article_3160,24h,0.0327,clickbait,non-clickbait,Em gái quốc dân bị cô lập
+article_3471,Báo Mới,0.0447,clickbait,non-clickbait,Gần 1.000 người đội nắng đổi xe máy xăng lấy xe điện - Chuyên trang Xe Giao Thông - Báo Xây Dựng
+article_3749,24h,0.0265,clickbait,non-clickbait,Hé lộ thực đơn quốc yến đón khách quốc tế của Tổng thống Nga Putin
