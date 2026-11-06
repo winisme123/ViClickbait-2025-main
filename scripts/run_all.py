@@ -6,6 +6,9 @@ train nếu checkpoint đã huấn luyện xong (có file .json đi kèm).
 
     python -m scripts.run_all
     python -m scripts.run_all --modes text concat --seeds 42
+    python -m scripts.run_all --modes text image concat --seeds 50 51 --delete-checkpoints
+
+--delete-checkpoints xóa file .pth sau khi đánh giá xong (giữ .json đi kèm) để tiết kiệm ổ đĩa.
 """
 import argparse
 import os
@@ -36,6 +39,8 @@ def main():
   parser = argparse.ArgumentParser(description='Chạy hàng loạt mode x seed')
   parser.add_argument('--modes', nargs='+', default=MODES, choices=ALL_MODES)
   parser.add_argument('--seeds', nargs='+', type=int, default=[42, 43, 44])
+  parser.add_argument('--delete-checkpoints', action='store_true',
+                      help='xóa .pth sau khi đánh giá xong')
   args = parser.parse_args()
 
   os.makedirs(LOGS_DIR, exist_ok=True)
@@ -57,6 +62,9 @@ def main():
 
       run([sys.executable, '-m', 'scripts.evaluate', '--mode', mode, '--seed', str(seed)],
           os.path.join(LOGS_DIR, f'{name}_eval.log'))
+      if args.delete_checkpoints and os.path.exists(ckpt):
+        os.remove(ckpt)
+        print(f'  đã xóa {ckpt}', flush=True)
 
   print('Hoàn tất. Chạy python -m scripts.summarize để gộp kết quả.')
 
