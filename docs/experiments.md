@@ -97,6 +97,27 @@ Pipeline chính tránh lỗi này bằng các biện pháp sau:
 
 File: `results/summary_8seeds.csv`, `results/summary_lead.csv`, `results/compare_*.json`, `results/threshold/`, `results/tfidf/`.
 
+## Thí nghiệm lặp lại độc lập v4 (quy tắc chốt trước: `docs/protocol-v4.md`)
+
+20 seed mới (50–69), không gộp với seed 42–49. Kiểm định Wilcoxon hai phía trên hiệu Macro-F1 theo seed, hiệu chỉnh Holm–Bonferroni cho 2 giả thuyết (α = 0,05), kèm bootstrap 95% CI của hiệu trung bình.
+
+| Mô hình | Accuracy | Macro-F1 | F1 clickbait | F1 non-clickbait |
+|---|---|---|---|---|
+| text | 0,8473 ± 0,0162 | **0,8231 ± 0,0184** | 0,7578 ± 0,0256 | 0,8884 ± 0,0125 |
+| image | 0,7265 ± 0,0143 | 0,6460 ± 0,0214 | 0,4776 ± 0,0397 | 0,8144 ± 0,0115 |
+| concat | 0,8436 ± 0,0171 | 0,8187 ± 0,0196 | 0,7517 ± 0,0286 | 0,8856 ± 0,0138 |
+
+| Giả thuyết | Hiệu TB | Thắng | 95% CI | p (Wilcoxon) | Kết luận |
+|---|---|---|---|---|---|
+| H1 concat > text | −0,0044 | 7/20 | [−0,0103; +0,0012] | 0,2024 | **Không đạt** (không bác bỏ H0) |
+| H2 concat > image | +0,1727 | 20/20 | [+0,1597; +0,1857] | 1,9·10⁻⁶ | **Đạt** |
+
+- Xu hướng concat > text ở v3 (7/8 seed) **không lặp lại** trên 20 seed độc lập. Text-only ở v4 cao hơn v3 (0,8231 so với 0,8085), concat gần như không đổi (0,8187 so với 0,8192). Không có bằng chứng Late Fusion tốt hơn text-only trên ViClickbait-2025. CI cho thấy nếu có chênh lệch thì nhỏ hơn khoảng 1 điểm Macro-F1.
+- Late Fusion vượt image-only rõ rệt ở mọi seed.
+- concat seed 63 lỗi thiếu RAM hệ thống ở lần chạy đầu (numpy `_ArrayMemoryError` trong lúc tiền xử lý ảnh), đã chạy lại đúng seed với cùng cấu hình theo protocol. Không lượt nào khác lỗi.
+
+File: `results/summary_v4.csv`, `results/compare_v4_concat_vs_text.json`, `results/compare_v4_concat_vs_image.json`, `results/holm_v4.json`.
+
 ## Tái lập
 
 ```powershell
