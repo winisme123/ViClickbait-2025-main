@@ -1,5 +1,19 @@
 # Lịch sử thay đổi
 
+## [0.8.0] - 2026-11-07
+
+### Thêm
+- Thí nghiệm lặp lại độc lập theo `docs/protocol-v4.md`: 20 seed mới (50–69) × `text` / `image` / `concat`. Kết quả: `concat` vượt `image` (20/20 seed, p = 1,9·10⁻⁶) nhưng **không** vượt `text` (7/20 seed, hiệu −0,0044, p = 0,20). Tóm tắt trong `docs/experiments.md`; số liệu trong `results/summary_v4.csv`, `results/compare_v4_*.json`, `results/holm_v4.json`.
+- `scripts/holm.py`: hiệu chỉnh Holm–Bonferroni; `scripts/compare_seeds.py`: tham số `--out` và khoảng tin cậy bootstrap 95% theo seed.
+- `tests/test_holm.py`; `tests/test_inference.py` kiểm tra dùng lại đặc trưng ảnh cho cả `concat` và `multimodal`.
+
+### Thay đổi
+- Demo `app.py` dùng mô hình **Late Fusion** (`concat` seed 42) thay cho `multimodal`, vì đây là mô hình chính theo yêu cầu đề tài. Tab "Báo cáo" thêm kết quả 20 seed và bỏ nhận xét "kết hợp ảnh giúp cải thiện".
+- README cập nhật kết quả chính, checkpoint cần tải, lệnh tái lập v4.
+
+### Ghi chú
+- Lượt `concat` seed 63 lỗi thiếu RAM hệ thống ở lần chạy đầu; đã chạy lại đúng seed với cùng cấu hình theo protocol.
+
 ## [0.7.0] - 2026-11-06
 
 ### Thêm
