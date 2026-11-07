@@ -2,7 +2,8 @@
 
     python -m scripts.holm results/compare_v4_concat_vs_text.json results/compare_v4_concat_vs_image.json
 
-Một giả thuyết "đạt" khi hiệu trung bình > 0 và p vượt ngưỡng Holm (α tổng = 0,05).
+Holm: xếp p tăng dần, so p thứ k (k = 0, 1, ...) với α / (m − k); dừng ở p đầu tiên
+không đạt. Một giả thuyết "đạt" khi bị bác bỏ H0 và hiệu trung bình > 0 (α tổng = 0,05).
 Kết quả: results/holm_v4.json (đổi bằng --out)
 """
 import argparse

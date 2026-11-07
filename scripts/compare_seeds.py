@@ -1,4 +1,4 @@
-"""So sánh hai mode qua nhiều seed (docs/protocol-v3.md, mục A).
+"""So sánh hai mode qua nhiều seed (docs/protocol-v3.md mục A, docs/protocol-v4.md).
 
     python -m scripts.compare_seeds --a concat --b text --seeds 42 43 44 45 46 47 48 49
 
@@ -7,6 +7,9 @@
   khoảng tin cậy bootstrap 95% (theo seed) cho hiệu trung bình (docs/protocol-v4.md).
 Đúng/sai từng mẫu lấy từ results/{mode}_seed{seed}_errors.csv và data/splits/.
 Kết quả: results/compare_{a}_vs_{b}.json (đổi bằng --out)
+
+Khi so nhiều giả thuyết cùng lúc (protocol v4), kết luận cuối cùng lấy từ
+scripts/holm.py; trường `verdict_protocol_v3` chỉ là kết luận khi so một cặp, α = 0,05.
 """
 import argparse
 import json
@@ -90,7 +93,7 @@ def main():
   print(f"Bootstrap 95% CI của hiệu trung bình: [{lo:+.4f}, {hi:+.4f}]")
   print(f"Wilcoxon: W={w.statistic:.1f}, p={w.pvalue:.4f}")
   print(f"McNemar gộp: {pooled_a} vs {pooled_b}, p={result['pooled_mcnemar']['p']:.4f}")
-  print(f"Kết luận theo protocol v3: {result['verdict_protocol_v3']}\nĐã lưu {out}")
+  print(f"Kết luận một cặp (Wilcoxon p < 0,05 và hiệu > 0): {result['verdict_protocol_v3']}\nĐã lưu {out}")
 
 
 if __name__ == '__main__':
