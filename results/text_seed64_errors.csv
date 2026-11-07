@@ -1,0 +1,82 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0113,VietNamNet,0.6151,non-clickbait,clickbait,"Dù có cơ chế miễn trách nhiệm, cán bộ xử lý việc phức tạp, nhạy cảm vẫn lo lắng"
+article_0169,SaoStar,0.4138,clickbait,non-clickbait,"Quốc Trường phản ứng khi khán giả vây kín, kéo tay níu áo"
+article_0193,24h,0.7385,non-clickbait,clickbait,Người Hà Nội bất ngờ khi 2 tuyến đường có dải phân cách cứng
+article_0269,Báo Mới,0.1976,clickbait,non-clickbait,Sao Inter Milan dọa đánh fan PSG vì bị trêu chọc - Tạp chí Tri thức
+article_0339,Tuổi Trẻ,0.6815,non-clickbait,clickbait,Sự thật về video 'vụ nổ cơ sở hạt nhân Fordow' khi Mỹ tấn công
+article_0376,Thanh Niên,0.7848,non-clickbait,clickbait,Bán hàng online phải nộp những loại thuế gì?
+article_0423,Kênh14,0.0518,clickbait,non-clickbait,"Đội bóng quê bầu Đức xuống hạng, lộ diện CLB đối đầu đội Công Phượng ở trận play-off V.League"
+article_0500,Báo Mới,0.553,non-clickbait,clickbait,Mức độ nguy hiểm của loại bom 'cấm' mà Iran ném lên Israel - Tạp chí Tri thức
+article_0613,Tuổi Trẻ,0.6654,non-clickbait,clickbait,Ly rượu đầy mà nghĩa tình lại cạn
+article_0703,SaoStar,0.8296,non-clickbait,clickbait,"Cặp vợ chồng ăn sáng bằng thịt chuột bắt trong vườn, ít ngày sau nhiễm bệnh nguy hiểm"
+article_0758,Báo Mới,0.5093,non-clickbait,clickbait,Miền Bắc sắp đón 'tin vui' thời tiết sau chuỗi ngày mưa to sầm sập - Tạp chí Người Đưa Tin
+article_0835,VnExpress,0.8146,non-clickbait,clickbait,Những lầm tưởng phổ biến về sức mạnh của smartphone
+article_0888,Tuổi Trẻ,0.8396,non-clickbait,clickbait,Choáng vì hàng giả tinh vi như hàng thật
+article_0998,SaoStar,0.4595,clickbait,non-clickbait,Thiện Nhân gay gắt khi bị so sánh với Phương Mỹ Chi
+article_1227,Thanh Niên,0.7886,non-clickbait,clickbait,"Ngày dài nhất 2025: Hạ chí ảnh hưởng tới giấc ngủ, não bộ thế nào?"
+article_1247,VietNamNet,0.6593,non-clickbait,clickbait,Đừng coi 'xếp mức lương cao nhất' cho nhà giáo là một ân huệ
+article_1415,VnExpress,0.8686,non-clickbait,clickbait,Điều gì xảy ra khi trẻ ngã từ giường xuống đất?
+article_1470,Thanh Niên,0.8281,non-clickbait,clickbait,Thêm nhiều lợi ích bất ngờ từ đu đủ
+article_1478,Thanh Niên,0.7939,non-clickbait,clickbait,Có nên sử dụng miếng dán mụn?
+article_1480,Thanh Niên,0.8708,non-clickbait,clickbait,Chuyên gia chỉ ra thực phẩm không nên ăn sống
+article_1497,Thanh Niên,0.7994,non-clickbait,clickbait,Đau vai dai dẳng - dấu hiệu cảnh báo viêm khớp vai không thể bỏ qua
+article_1910,24h,0.5558,non-clickbait,clickbait,"Võ sỹ Zakhar chịu khuất phục trước ""ông trùm vật tay"" Long ""The Rock"""
+article_2215,VnExpress,0.5258,non-clickbait,clickbait,Kịch bản băng tội phạm 'giăng bẫy' hàng trăm nghìn người già
+article_2242,VnExpress,0.5484,non-clickbait,clickbait,Phút cân não di dời hai ngôi mộ giả 'mọc' trên đất phải thi hành án
+article_2259,VnExpress,0.7677,non-clickbait,clickbait,Chủ nhà hàng vướng lao lý vì 'chạy bảo kê'
+article_2567,Thanh Niên,0.6008,non-clickbait,clickbait,Ông chủ 36 tuổi chinh phục cô gái xinh đẹp trên show hẹn hò
+article_2654,SaoStar,0.6204,non-clickbait,clickbait,"Không còn là hoàng tử ballad dịu dàng, SOOBIN hóa thân thành thái tử Na Tra cực ngầu trong Phong Thần VNG"
+article_2689,24h,0.7687,non-clickbait,clickbait,G-Dragon diện chiếc áo 'bà thím' suốt chuyến đi Việt Nam
+article_2702,24h,0.7042,non-clickbait,clickbait,Ái nữ đại gia Minh 'Nhựa' xách túi tiền tỷ mừng sinh nhật
+article_3163,24h,0.7007,non-clickbait,clickbait,Hôn nhân viên mãn của ca sĩ Thu Thuỷ bên chồng kém 11 tuổi
+article_3193,24h,0.7744,non-clickbait,clickbait,"Ngủ gật khi lái xe, nam ca sĩ gặp tai nạn và bị thương nặng"
+article_3201,24h,0.5791,non-clickbait,clickbait,Quốc Trường bị nhận xét nhạt nhòa trong phim 18+
+article_3240,Báo Mới,0.6478,non-clickbait,clickbait,Mất con vì hội chứng hiếm gặp gây tổn thương gan - Báo Xây Dựng
+article_3354,Tuổi Trẻ,0.8594,non-clickbait,clickbait,"Thiếu vi chất gì khiến da khô, tóc mỏng dễ rụng, móng tay giòn dễ gãy?"
+article_3363,Tuổi Trẻ,0.8296,non-clickbait,clickbait,"Tăng cân, mặt tròn như mặt trăng, da mỏng đi, có thể bạn đã mắc hội chứng Cushing"
+article_3389,Thanh Niên,0.8518,non-clickbait,clickbait,3 vạch kẻ đường dễ khiến tài xế 'dính' phạt nguội trong nội thành
+article_3496,Báo Mới,0.7015,non-clickbait,clickbait,"Rò rỉ ảnh của Xiaomi YU7 bản hiệu suất cao, đâu cũng là carbon - Tạp chí Tri thức"
+article_3511,Báo Mới,0.5083,non-clickbait,clickbait,Mitsubishi Xforce có dấu hiệu 'hụt hơi' - Tạp chí Người Đưa Tin
+article_3568,24h,0.7134,non-clickbait,clickbait,Top xe MPV từ giá rẻ đến hạng sang đáng chú ý hiện nay
+article_3676,24h,0.74,non-clickbait,clickbait,"Chuyển nhượng MU: Chào bán Garnacho 50 triệu bảng, Mount đến Aston Villa?"
+article_0168,SaoStar,0.2037,clickbait,non-clickbait,"Trước giờ G đêm nhạc của G-Dragon ở Mỹ Đình: Mây đen kéo tới ùn ùn, giá vé giảm mạnh"
+article_0215,24h,0.7696,non-clickbait,clickbait,"Bắt người đàn ông ""tung cước"" làm nữ tài xế xe ôm công nghệ ngã nhào"
+article_0223,Báo Mới,0.0865,clickbait,non-clickbait,"Nhận định trận đấu Seattle Sounders vs PSG, 2h00 ngày 24.6: Không cân sức! - Báo Văn hóa"
+article_0236,Báo Mới,0.1408,clickbait,non-clickbait,Không cá nhân nào lớn hơn tập thể - Báo Văn hóa
+article_0240,Báo Mới,0.1264,clickbait,non-clickbait,Xuân Trường mừng cho Tuấn Anh - Tạp chí SaoStar
+article_0307,VnExpress,0.1517,clickbait,non-clickbait,Khoảnh khắc ông Trump tuyên bố xóa sổ cơ sở hạt nhân Iran
+article_0428,SaoStar,0.3491,clickbait,non-clickbait,"Lại thêm vụ mất trắng 145 triệu đồng trong tài khoản: Bẫy cũ, nạn nhân mới"
+article_0515,Báo Mới,0.2846,clickbait,non-clickbait,"Trung đạo giữa bão giông thù hận, si mê quyền lực - Tạp chí nghiên cứu Phật học"
+article_0663,VietNamNet,0.2695,clickbait,non-clickbait,Chủ tịch TP Buôn Ma Thuột nói Công ty cấp nước Đắk Lắk làm 'trò trẻ con'
+article_0667,VietNamNet,0.289,clickbait,non-clickbait,"Lãi suất ngân hàng hôm nay 23/6/2025: Nhà băng nào niêm yết mức cao nhất 6,1%?"
+article_0716,SaoStar,0.0953,clickbait,non-clickbait,Tỷ phú Nga công bố di chúc chia hơn 300 nghìn tỷ đồng cho 100 người con khắp thế giới
+article_0848,VnExpress,0.1294,clickbait,non-clickbait,Mỹ khoét rỗng cả ngọn núi để săn tìm hạt ma
+article_0934,Thanh Niên,0.0622,clickbait,non-clickbait,Lúng túng định giá đất
+article_0947,VietNamNet,0.3759,clickbait,non-clickbait,Real Madrid thắng trận khó tin ở FIFA Club World Cup
+article_1018,24h,0.0853,clickbait,non-clickbait,Nơi đây có thêm 1.000 triệu phú mỗi ngày
+article_1032,24h,0.8351,non-clickbait,clickbait,"Tài sản của ""siêu nhân Hong Kong” Lý Gia Thành hiện còn bao nhiêu?"
+article_1051,Báo Mới,0.5972,non-clickbait,clickbait,"'Xuyên không' ở ngôi làng nhiều nhà trăm tuổi, cổ vật quý, cách TPHCM 110km - Báo VietnamNet"
+article_1077,Báo Mới,0.0959,clickbait,non-clickbait,Hành trình giữ hồn Việt trên từng sợi chỉ - Báo Văn hóa
+article_1552,SaoStar,0.4853,clickbait,non-clickbait,Thủ môn Bùi Tiến Dũng đổi đời
+article_1624,24h,0.1091,clickbait,non-clickbait,"Dự đoán tỷ số FIFA Club World Cup: Real Madrid ""trút giận"", Juventus tiếp đà thăng hoa"
+article_1797,Thanh Niên,0.1764,clickbait,non-clickbait,Người thầy ở tâm thế mới
+article_1961,VnExpress,0.6161,non-clickbait,clickbait,Ngọc Khuê: 'Chồng giúp tôi mở lòng sau một lần đổ vỡ'
+article_2137,24h,0.2765,clickbait,non-clickbait,"Mặt trận ""không bom đạn” nhưng vô cùng khốc liệt giữa Israel và Iran"
+article_2178,Báo Mới,0.4574,clickbait,non-clickbait,Diễn viên Quang Anh bật khóc nức nở - Tạp chí Tri thức
+article_2256,VnExpress,0.4562,clickbait,non-clickbait,"Đánh ghen, ép viết giấy nợ khiến nạn nhân tự tử"
+article_2391,SaoStar,0.1797,clickbait,non-clickbait,Giá xăng dầu hôm nay 14/6: Tăng mạnh chưa từng thấy
+article_2737,Báo Mới,0.2843,clickbait,non-clickbait,Một bệnh viện cầu cứu khi bị hacker đe dọa tung dữ liệu bệnh nhân lên mạng - Báo VietnamNet
+article_2804,Tuổi Trẻ,0.0509,clickbait,non-clickbait,Tuyển sinh lớp 10 ở TP.HCM: Bất ngờ điểm thi môn toán
+article_2926,SaoStar,0.6035,non-clickbait,clickbait,"Nếu không đi xa, hãy thử 'staycation' để du lịch ngay trong thành phố"
+article_2937,SaoStar,0.4551,clickbait,non-clickbait,Mùa xê dịch: Đi để thấy mình rộng hơn mọi giới hạn
+article_3030,VnExpress,0.1595,clickbait,non-clickbait,Gần 1.000 người 'đổi xăng lấy điện' trong hai ngày
+article_3128,VietNamNet,0.4148,clickbait,non-clickbait,Dự án 1.700 tỷ 'đắp chiếu' nhiều năm ở Kon Tum đổi chủ: Trơ sắt thép dưới thời tiết khắc nghiệt
+article_3161,24h,0.3004,clickbait,non-clickbait,Rộ tin đồn Lisa BLACKPINK bí mật kết hôn với Frédéric Arnault
+article_3229,24h,0.1965,clickbait,non-clickbait,Anh Tài Quốc Thiên bị kiện
+article_3304,VnExpress,0.2857,clickbait,non-clickbait,10 tuyến tàu ngoạn mục nhất thế giới 2025
+article_3347,Tuổi Trẻ,0.4412,clickbait,non-clickbait,"Vào viện xin cấp cứu, chưa kịp chuyển viện theo ý muốn đã ra tay đấm điều dưỡng"
+article_3370,Thanh Niên,0.5904,non-clickbait,clickbait,Phân biệt biển báo ô tô quay ngang và dọc thế nào để tránh bị phạt?
+article_3566,24h,0.1058,clickbait,non-clickbait,Top xe SUV ăn khách bậc nhất tại Việt Nam 2025
+article_3699,24h,0.3647,clickbait,non-clickbait,"Thực phẩm giàu nước cần bổ sung cho các sĩ tử, để không bị mất nước do trời nắng nóng"
+article_3749,24h,0.0995,clickbait,non-clickbait,Hé lộ thực đơn quốc yến đón khách quốc tế của Tổng thống Nga Putin
+article_3755,24h,0.3846,clickbait,non-clickbait,Thác 7 tầng Chiềng Khoa đẹp như tiên cảnh hút khách ngày hè

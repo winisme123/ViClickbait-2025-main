@@ -1,0 +1,85 @@
+W1105 14:07:54.812000 12220 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+[transformers] `ViTImageProcessor` requires torchvision (not installed); falling back to `ViTImageProcessorPil` for backward compatibility. Install torchvision to use the default backend, or import `ViTImageProcessorPil` directly to silence this warning.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+====================================================================
+ Số lượng mẫu tập Huấn luyện (Train):      2731
+ Số lượng mẫu tập Kiểm định (Validation): 341
+====================================================================
+ Thiết bị huấn luyện: cuda
+ GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 14484.95it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: vinai/phobert-base
+Key                       | Status     |  | 
+--------------------------+------------+--+-
+lm_head.decoder.bias      | UNEXPECTED |  | 
+lm_head.layer_norm.bias   | UNEXPECTED |  | 
+lm_head.bias              | UNEXPECTED |  | 
+lm_head.dense.weight      | UNEXPECTED |  | 
+lm_head.decoder.weight    | UNEXPECTED |  | 
+lm_head.layer_norm.weight | UNEXPECTED |  | 
+lm_head.dense.bias        | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]
+Loading weights:  21%|██        | 41/198 [00:00<00:00, 388.03it/s]
+Loading weights:  40%|████      | 80/198 [00:00<00:00, 324.20it/s]
+Loading weights: 100%|██████████| 198/198 [00:00<00:00, 659.42it/s]
+[transformers] [1mViTModel LOAD REPORT[0m from: google/vit-base-patch16-224
+Key                 | Status     | 
+--------------------+------------+-
+classifier.bias     | UNEXPECTED | 
+classifier.weight   | UNEXPECTED | 
+pooler.dense.bias   | MISSING    | 
+pooler.dense.weight | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+ Trọng số cân bằng nhãn (pos_weight cho BCE): 2.205
+
+>>> BẮT ĐẦU TIẾN TRÌNH HUẤN LUYỆN ĐA PHƯƠNG THỨC VỚI CO-ATTENTION <<<
+
+Epoch 1/4: 100%|██████████| 683/683 [03:59<00:00,  2.85it/s, loss=1.3635]
+
+--- Kết quả Epoch 1/4 ---
+ Train Loss:     0.8035
+ Val Loss:       0.6577
+ Val Accuracy:   78.59%
+ Val Macro F1:   75.33%
+ Val CB F1:      66.36%
+ => Đã lưu checkpoint mới tốt nhất (Val Macro F1 = 75.33%)!
+
+Epoch 2/4: 100%|██████████| 683/683 [03:47<00:00,  3.01it/s, loss=0.5478]
+
+--- Kết quả Epoch 2/4 ---
+ Train Loss:     0.6478
+ Val Loss:       0.6850
+ Val Accuracy:   80.94%
+ Val Macro F1:   77.21%
+ Val CB F1:      67.98%
+ => Đã lưu checkpoint mới tốt nhất (Val Macro F1 = 77.21%)!
+
+Epoch 3/4: 100%|██████████| 683/683 [03:36<00:00,  3.16it/s, loss=0.3176]
+
+--- Kết quả Epoch 3/4 ---
+ Train Loss:     0.4534
+ Val Loss:       0.6807
+ Val Accuracy:   80.35%
+ Val Macro F1:   77.25%
+ Val CB F1:      68.84%
+ => Đã lưu checkpoint mới tốt nhất (Val Macro F1 = 77.25%)!
+
+Epoch 4/4: 100%|██████████| 683/683 [03:33<00:00,  3.20it/s, loss=0.0544]
+
+--- Kết quả Epoch 4/4 ---
+ Train Loss:     0.2957
+ Val Loss:       0.7030
+ Val Accuracy:   80.06%
+ Val Macro F1:   76.48%
+ Val CB F1:      67.31%
+
+Huấn luyện hoàn tất! Trọng số tốt nhất đã được lưu tại: best_multimodal_coattention_model.pth

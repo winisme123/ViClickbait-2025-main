@@ -1,0 +1,65 @@
+{
+  "mode": "text",
+  "seed": 42,
+  "threshold": 0.63,
+  "val_macro_f1_at_threshold": 0.862561598625616,
+  "val_macro_f1_at_0.5": 0.8596901490792166,
+  "test_at_0.5": {
+    "n_samples": 480,
+    "accuracy": 0.81875,
+    "macro_f1": 0.793788979364084,
+    "per_class": {
+      "non-clickbait": {
+        "precision": 0.875,
+        "recall": 0.8562691131498471,
+        "f1": 0.865533230293663,
+        "support": 327
+      },
+      "clickbait": {
+        "precision": 0.70625,
+        "recall": 0.738562091503268,
+        "f1": 0.7220447284345048,
+        "support": 153
+      }
+    },
+    "confusion_matrix": [
+      [
+        280,
+        47
+      ],
+      [
+        40,
+        113
+      ]
+    ]
+  },
+  "test_at_threshold": {
+    "n_samples": 480,
+    "accuracy": 0.8166666666666667,
+    "macro_f1": 0.7874353348497353,
+    "per_class": {
+      "non-clickbait": {
+        "precision": 0.8610271903323263,
+        "recall": 0.8715596330275229,
+        "f1": 0.8662613981762918,
+        "support": 327
+      },
+      "clickbait": {
+        "precision": 0.7181208053691275,
+        "recall": 0.6993464052287581,
+        "f1": 0.7086092715231788,
+        "support": 153
+      }
+    },
+    "confusion_matrix": [
+      [
+        285,
+        42
+      ],
+      [
+        46,
+        107
+      ]
+    ]
+  }
+}

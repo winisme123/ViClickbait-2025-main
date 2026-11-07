@@ -1,0 +1,68 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0234,Báo Mới,0.2733,clickbait,non-clickbait,"Bellingham quát tháo, Guler đáp trả - Tạp chí Tri thức"
+article_0269,Báo Mới,0.3418,clickbait,non-clickbait,Sao Inter Milan dọa đánh fan PSG vì bị trêu chọc - Tạp chí Tri thức
+article_0339,Tuổi Trẻ,0.5665,non-clickbait,clickbait,Sự thật về video 'vụ nổ cơ sở hạt nhân Fordow' khi Mỹ tấn công
+article_0388,VietNamNet,0.8226,non-clickbait,clickbait,Danh tính người thuê đổ bỏ nghìn chai nước mắm đã hết hạn
+article_0490,24h,0.892,non-clickbait,clickbait,Vụ nước mắm vứt bỏ bên đường: Xác định được chủ nhân
+article_0518,Báo Mới,0.2006,clickbait,non-clickbait,'Đồng minh bất đắc dĩ': Jordan - Saudi Arabia và thế khó trong cuộc chiến Iran - Israel - Báo Tin Tức TTXVN
+article_0615,Tuổi Trẻ,0.8791,non-clickbait,clickbait,"Tưởng đang 'thay trời hành đạo', nhóm 'bà chủ' truy hỏi, cưỡng đoạt tiền nhân viên"
+article_0703,SaoStar,0.9154,non-clickbait,clickbait,"Cặp vợ chồng ăn sáng bằng thịt chuột bắt trong vườn, ít ngày sau nhiễm bệnh nguy hiểm"
+article_0751,24h,0.7445,non-clickbait,clickbait,Nghi án chồng sát hại vợ trong khách sạn rồi bỏ trốn
+article_1039,24h,0.6057,non-clickbait,clickbait,"""Ông chủ” Facebook mạnh tay chi tới 100 triệu USD tiền thưởng kèm lương để thu hút nhân tài"
+article_1176,Tuổi Trẻ,0.8187,non-clickbait,clickbait,Robot trị liệu tâm lý: Có thấu hiểu hay chỉ biết lắng nghe?
+article_1232,Thanh Niên,0.7154,non-clickbait,clickbait,Những ông bà cụ U.90 bươn chải nơi xóm vé số ở TP.HCM bất ngờ nhận quà ấm áp sau tết
+article_1315,24h,0.6482,non-clickbait,clickbait,Cả ngàn chai nước mắm bị vứt bỏ trong bụi rậm ở Quảng Nam
+article_1382,VnExpress,0.9229,non-clickbait,clickbait,Ai có nguy cơ mắc ung thư tuyến giáp?
+article_1403,VnExpress,0.8728,non-clickbait,clickbait,Đau khớp đột ngột cảnh báo bệnh gì?
+article_1413,VnExpress,0.9094,non-clickbait,clickbait,"Vì sao không nên chủ quan khi trẻ chơi cùng chó, mèo?"
+article_1470,Thanh Niên,0.9268,non-clickbait,clickbait,Thêm nhiều lợi ích bất ngờ từ đu đủ
+article_1538,SaoStar,0.7815,non-clickbait,clickbait,Xuân Trường mừng cho Tuấn Anh
+article_1569,24h,0.9195,non-clickbait,clickbait,Man City thắng đậm đội bóng châu Á: HLV Guardiola nói gì về sao trẻ Echeverri?
+article_1807,Thanh Niên,0.5165,non-clickbait,clickbait,"Cha mẹ, thầy cô hát tặng sĩ tử trong lễ tri ân, nhiều người bật khóc"
+article_1910,24h,0.5923,non-clickbait,clickbait,"Võ sỹ Zakhar chịu khuất phục trước ""ông trùm vật tay"" Long ""The Rock"""
+article_1980,VnExpress,0.5545,non-clickbait,clickbait,G-Dragon 'cháy' cùng chục nghìn fan dưới mưa ở Mỹ Đình
+article_2215,VnExpress,0.7773,non-clickbait,clickbait,Kịch bản băng tội phạm 'giăng bẫy' hàng trăm nghìn người già
+article_2224,VnExpress,0.8158,non-clickbait,clickbait,Lời khai gian dối của kẻ quấn thi thể vợ vào mỏ neo dưới hồ
+article_2228,VnExpress,0.5421,non-clickbait,clickbait,"Người mẹ bị lừa 2,7 tỷ đồng khi đăng ký trại hè cho con"
+article_2557,Tuổi Trẻ,0.7014,non-clickbait,clickbait,Video tóm tắt sự nghiệp của 'hoàng đế' Beckenbauer
+article_2574,Thanh Niên,0.8551,non-clickbait,clickbait,"Ngô Kiến Huy 'xịt keo' vì Cris Phan, HURRYKNG thể hiện khả năng toán học | ON TRENDING"
+article_2685,24h,0.8957,non-clickbait,clickbait,Nữ kỹ sư IT du học Mỹ đăng quang Hoa hậu Hoàn vũ Việt Nam 2025 là ai?
+article_2781,VnExpress,0.9179,non-clickbait,clickbait,Những người trẻ ngơ ngác vì được bảo bọc quá mức
+article_3006,Báo Mới,0.791,non-clickbait,clickbait,Hành trình tìm lời giải cho 'đế chế' rác thải điện tử của sinh viên qua sản phẩm báo chí - Chuyên trang Sinh viên Việt Nam - Báo Tiền Phong
+article_3088,Tuổi Trẻ,0.573,non-clickbait,clickbait,"Nhà di động rẻ hơn cả Honda Air Blade: Đủ tiện ích cơ bản, phải mua thêm lều ngủ"
+article_3163,24h,0.6604,non-clickbait,clickbait,Hôn nhân viên mãn của ca sĩ Thu Thuỷ bên chồng kém 11 tuổi
+article_3219,24h,0.7758,non-clickbait,clickbait,"Tùng Dương, Ngọc Anh khiến khán giả xúc động khi hát nhạc Phú Quang"
+article_3240,Báo Mới,0.7456,non-clickbait,clickbait,Mất con vì hội chứng hiếm gặp gây tổn thương gan - Báo Xây Dựng
+article_3389,Thanh Niên,0.9105,non-clickbait,clickbait,3 vạch kẻ đường dễ khiến tài xế 'dính' phạt nguội trong nội thành
+article_3496,Báo Mới,0.9091,non-clickbait,clickbait,"Rò rỉ ảnh của Xiaomi YU7 bản hiệu suất cao, đâu cũng là carbon - Tạp chí Tri thức"
+article_3576,24h,0.6553,non-clickbait,clickbait,Trên dưới 500 triệu đồng mua xe SUV cũ chọn xe nào?
+article_0168,SaoStar,0.1544,clickbait,non-clickbait,"Trước giờ G đêm nhạc của G-Dragon ở Mỹ Đình: Mây đen kéo tới ùn ùn, giá vé giảm mạnh"
+article_0231,Báo Mới,0.3771,clickbait,non-clickbait,Inter Miami trước ngưỡng cửa lịch sử - Tạp chí Tri thức
+article_0475,24h,0.201,clickbait,non-clickbait,IRGC cảnh báo Mỹ 'sẽ không thoát được'
+article_0481,24h,0.0778,clickbait,non-clickbait,Ông Trump nêu lý do khó đề nghị Israel dừng tấn công Iran
+article_0924,Thanh Niên,0.3132,clickbait,non-clickbait,"'Ông lớn' xăng dầu, cao su... mạnh tay chia cổ tức"
+article_0960,VietNamNet,0.0439,clickbait,non-clickbait,Florian Wirtz: Ma thuật nước Đức chờ bay cao với Liverpool
+article_1075,Báo Mới,0.0459,clickbait,non-clickbait,Lời biển xưa còn vọng - Báo Văn hóa
+article_1076,Báo Mới,0.363,clickbait,non-clickbait,Người 'tiếp lửa' gia phong cho các thế hệ con cháu - Báo Văn hóa
+article_1266,SaoStar,0.84,non-clickbait,clickbait,Tống Uy Long là nam diễn viên thất bại nhất nửa đầu năm 2025
+article_1269,SaoStar,0.0817,clickbait,non-clickbait,KPop Demon Hunters: 'Squid Game' thứ hai của Netflix?
+article_1286,SaoStar,0.529,non-clickbait,clickbait,"Không có Bạch Lộc và Vu Chính, Lâm Giang Tiên đã flop trong im lặng"
+article_1619,24h,0.0409,clickbait,non-clickbait,"Cazorla 40 tuổi tỏa sáng giúp đội tí hon lên hạng La Liga, chờ so tài Yamal & Mbappe"
+article_1705,VnExpress,0.144,clickbait,non-clickbait,Guardiola: 'Nhiều cầu thủ sẽ buồn nếu ở lại Man City'
+article_1796,Thanh Niên,0.4036,clickbait,non-clickbait,Thi tốt nghiệp THPT thay đổi ra sao để phù hợp với thế giới?
+article_1874,SaoStar,0.8549,non-clickbait,clickbait,Diễn viên Ngân Hòa mắc suy thận giai đoạn cuối ở tuổi 29: Căn bệnh đáng báo động ở giới trẻ
+article_1945,Báo Mới,0.1583,clickbait,non-clickbait,'Trâu Thủ đô' tiếp đà thăng hoa - Báo Nhân Dân
+article_1955,Báo Mới,0.1338,clickbait,non-clickbait,"Bayern Munich tung chiêu, quyết vượt Barca ký Nico Williams - Báo VietnamNet"
+article_2156,24h,0.4255,clickbait,non-clickbait,Microsoft bất ngờ hồi sinh tính năng Windows Vista trên Windows 11
+article_2257,VnExpress,0.2844,clickbait,non-clickbait,"Bị phạt 16 triệu đồng vì 'đi xe máy ngông nghênh', thách thức công an"
+article_2604,Thanh Niên,0.1353,clickbait,non-clickbait,"Phương Bình: Mua nhà trả góp ở tuổi 52, chịu cảnh xa vợ hơn 30 năm"
+article_2789,VnExpress,0.1178,clickbait,non-clickbait,Làm đám cưới giữa trại chó
+article_3040,VnExpress,0.0372,clickbait,non-clickbait,Người dân háo hức đổi xe xăng lấy xe máy điện
+article_3117,Thanh Niên,0.1014,clickbait,non-clickbait,Liệu có thể gắn ổ SSD PCIe 5.0 vào bo mạch chủ PCIe 4.0?
+article_3144,VietNamNet,0.2802,clickbait,non-clickbait,"Kiên Giang cấp phép đầu tư 3 dự án 'siêu khủng', tổng vốn hơn 90.000 tỷ đồng"
+article_3209,24h,0.3509,clickbait,non-clickbait,Nam diễn viên bom tấn 2.500 tỷ đột ngột qua đời khi phim vẫn đang chiếu rạp
+article_3217,24h,0.0526,clickbait,non-clickbait,"Biển người đổ về Hưng Yên ngày thứ 2, đằm trong mưa giông tầm tã"
+article_3370,Thanh Niên,0.5358,non-clickbait,clickbait,Phân biệt biển báo ô tô quay ngang và dọc thế nào để tránh bị phạt?
+article_3515,Tuổi Trẻ,0.4981,clickbait,non-clickbait,Cuộc gọi cuối cùng của vợ chồng nghèo trước giờ bị lật vỏ lãi trên biển
+article_3648,24h,0.0348,clickbait,non-clickbait,Cảng cá 280 tỷ đồng sắp hoạt động nhưng luồng lạch bồi lắng
+article_3755,24h,0.2458,clickbait,non-clickbait,Thác 7 tầng Chiềng Khoa đẹp như tiên cảnh hút khách ngày hè

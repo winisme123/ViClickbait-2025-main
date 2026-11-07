@@ -1,0 +1,68 @@
+W1104 14:18:25.407000 40388 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+[transformers] `ViTImageProcessor` requires torchvision (not installed); falling back to `ViTImageProcessorPil` for backward compatibility. Install torchvision to use the default backend, or import `ViTImageProcessorPil` directly to silence this warning.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+====================================================================
+      HỆ THỐNG ĐÁNH GIÁ MÔ HÌNH PHÁT HIỆN CLICKBAIT ĐA PHƯƠNG THỨC    
+====================================================================
+ Tập dữ liệu kiểm thử (Test): .\test.csv (342 mẫu)
+ Kiến trúc mô hình:           COATTENTION
+ Tệp trọng số mô hình:        best_multimodal_coattention_model.pth
+ Thiết bị suy diễn:           cuda
+ Tên GPU:                     NVIDIA GeForce RTX 3060 Laptop GPU
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 14356.15it/s]
+[transformers] [1mRobertaModel LOAD REPORT[0m from: vinai/phobert-base
+Key                       | Status     |  | 
+--------------------------+------------+--+-
+lm_head.dense.weight      | UNEXPECTED |  | 
+lm_head.layer_norm.bias   | UNEXPECTED |  | 
+lm_head.dense.bias        | UNEXPECTED |  | 
+lm_head.layer_norm.weight | UNEXPECTED |  | 
+lm_head.bias              | UNEXPECTED |  | 
+lm_head.decoder.weight    | UNEXPECTED |  | 
+lm_head.decoder.bias      | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]
+Loading weights:  32%|███▏      | 64/198 [00:00<00:00, 542.44it/s]
+Loading weights:  62%|██████▏   | 123/198 [00:00<00:00, 554.55it/s]
+Loading weights: 100%|██████████| 198/198 [00:00<00:00, 857.99it/s]
+[transformers] [1mViTModel LOAD REPORT[0m from: google/vit-base-patch16-224
+Key                 | Status     | 
+--------------------+------------+-
+classifier.weight   | UNEXPECTED | 
+classifier.bias     | UNEXPECTED | 
+pooler.dense.weight | MISSING    | 
+pooler.dense.bias   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+ Đã tải trọng số mô hình thành công!
+
+======================= KẾT QUẢ ĐÁNH GIÁ CHI TIẾT =======================
+                   precision    recall  f1-score   support
+
+Non-Clickbait (0)     0.8995    0.7617    0.8249       235
+    Clickbait (1)     0.6084    0.8131    0.6960       107
+
+         accuracy                         0.7778       342
+        macro avg     0.7539    0.7874    0.7604       342
+     weighted avg     0.8084    0.7778    0.7846       342
+
+-------------------------------------------------------------------------
+ 🎯 Accuracy:                         77.78%
+ ⭐ Macro F1-Score (KPI chính):        76.04%
+ 📊 Macro Precision:                  75.39%
+ 📊 Macro Recall:                     78.74%
+ ⚖️ Độ lệch |Precision - Recall|:     3.34%  (KPI yêu cầu <= 5.0%)
+ ⚡ Thời gian phản hồi trung bình:    0.0381s / mẫu (KPI yêu cầu < 2.5s)
+-------------------------------------------------------------------------
+ MA TRẬN NHẦM LẪN (CONFUSION MATRIX):
+  [TN=179  |  FP= 56]  (Thực tế Non-clickbait: 235)
+  [FN= 20  |  TP= 87]  (Thực tế Clickbait:     107)
+=========================================================================
+

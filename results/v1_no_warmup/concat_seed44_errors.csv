@@ -1,0 +1,83 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0054,Tuổi Trẻ,0.5001,non-clickbait,clickbait,Đề nghị điều chuyển cán bộ cảnh sát giao thông nói dân 'mồm thối'
+article_0069,Tuổi Trẻ,0.248,clickbait,non-clickbait,Nhiều bệnh viện phía Nam ngừng chụp PET/CT: Cái 'áo cơ chế' làm khổ người bệnh
+article_0151,SaoStar,0.1858,clickbait,non-clickbait,Diệp Lâm Anh gặp sự cố sức khoẻ
+article_0176,SaoStar,0.4278,clickbait,non-clickbait,'Tất cả là tại Phương Mỹ Chi'
+article_0371,Thanh Niên,0.6657,non-clickbait,clickbait,TP.HCM: Dân kêu trời vì cơ sở giặt wash xả khói thải gây ô nhiễm môi trường
+article_0376,Thanh Niên,0.6884,non-clickbait,clickbait,Bán hàng online phải nộp những loại thuế gì?
+article_0406,VietNamNet,0.5222,non-clickbait,clickbait,Cận cảnh mỏ khoáng sản ở Ninh Bình bị Cục Địa chất & Khoáng sản 'tuýt còi'
+article_0414,VietNamNet,0.5666,non-clickbait,clickbait,"Danh tính vợ chồng cầm đầu đường dây buôn 10.000 chai nước hoa Chanel, Dior giả"
+article_0547,Báo Mới,0.6855,non-clickbait,clickbait,"Iran phóng tên lửa đầu đạn 1,5 tấn vào Israel: Mối đe dọa mới khiến phòng thủ Tel Aviv chao đảo - VietTimes"
+article_0584,VnExpress,0.8776,non-clickbait,clickbait,Có nên vay ngân hàng để xây nhà thời điểm này?
+article_0591,VnExpress,0.5288,non-clickbait,clickbait,Cách nào giúp báo chí thêm nguồn thu ngoài quảng cáo?
+article_0833,VnExpress,0.5696,non-clickbait,clickbait,Alexandr Wang - thiên tài AI khiến Zuckerberg đặt cược 14 tỷ USD
+article_0862,VnExpress,0.6138,non-clickbait,clickbait,WhatsApp chia sẻ nhầm số điện thoại của người dùng
+article_0888,Tuổi Trẻ,0.6377,non-clickbait,clickbait,Choáng vì hàng giả tinh vi như hàng thật
+article_0933,Thanh Niên,0.7134,non-clickbait,clickbait,"Trồng khóm hữu cơ kết hợp nuôi ốc lác, nông dân miền Tây kiếm bộn tiền"
+article_1428,Tuổi Trẻ,0.723,non-clickbait,clickbait,Pin xe điện còn 'trường thọ' hơn cả bản thân xe xăng
+article_1480,Thanh Niên,0.9113,non-clickbait,clickbait,Chuyên gia chỉ ra thực phẩm không nên ăn sống
+article_1563,SaoStar,0.3759,clickbait,non-clickbait,Tương lai của Đoàn Văn Hậu cuối cùng cũng ngã ngũ
+article_1564,SaoStar,0.305,clickbait,non-clickbait,Dấu chấm hết cho Lương Xuân Trường
+article_1856,VietNamNet,0.8551,non-clickbait,clickbait,"Chàng trai Tiền Giang cắt sầu riêng nhanh như chớp, nghe tiếng là biết quả già"
+article_1987,VnExpress,0.7289,non-clickbait,clickbait,Hậu trường hóa trang 'ma giữ của' trong phim Út Lan
+article_2102,VietNamNet,0.7818,non-clickbait,clickbait,Ca phẫu thuật khẩn từ lời nhắn cầu cứu của người phụ nữ xa lạ
+article_2133,SaoStar,0.8697,non-clickbait,clickbait,"Video: Nam sinh xin quả xoài qua camera, chủ nhà xem lại được phen cười ngất"
+article_2389,SaoStar,0.3629,clickbait,non-clickbait,Kịch bản khiến vàng nhẫn giảm hẳn 11 triệu đồng/lượng?
+article_2585,Thanh Niên,0.8585,non-clickbait,clickbait,"Quang Anh 'Về nhà đi con' bật khóc nức nở, dừng chân ở show âm nhạc"
+article_2597,Thanh Niên,0.7509,non-clickbait,clickbait,"Bố mẹ Phương Linh là cán bộ về hưu, không nghĩ con gái đăng quang hoa hậu"
+article_3271,Báo Mới,0.567,non-clickbait,clickbait,Thoát chết trong gang tấc sau khi nhồi máu cơ tim cấp - Tạp chí Tri thức
+article_3276,Báo Mới,0.8909,non-clickbait,clickbait,"Lái xe đi nghỉ mát, cả gia đình được buổi 'xông hơi' vì điều hòa ô tô giở chứng - Báo VietnamNet"
+article_3297,VnExpress,0.8418,non-clickbait,clickbait,Chính sách visa mới nào khách Việt cần lưu ý khi đi du lịch nước ngoài?
+article_3300,VnExpress,0.8568,non-clickbait,clickbait,Mang ruốc thịt lợn khi đi du lịch Đài Loan có được không?
+article_3713,24h,0.8816,non-clickbait,clickbait,"Những cách khắc phục rối loạn cương dương ngay tại nhà, không hề dùng thuốc"
+article_0224,Báo Mới,0.0362,clickbait,non-clickbait,Vì sao Leicester City chưa sa thải Van Nistelrooy - Tạp chí Tri thức
+article_0236,Báo Mới,0.22,clickbait,non-clickbait,Không cá nhân nào lớn hơn tập thể - Báo Văn hóa
+article_0436,SaoStar,0.2295,clickbait,non-clickbait,Nhân thân bất hảo của thanh niên xé áo nữ tài xế taxi
+article_0469,24h,0.2625,clickbait,non-clickbait,Các cơ sở hạt nhân Iran chịu thiệt hại lớn đến mức nào sau đòn không kích dữ dội của Mỹ?
+article_0532,Báo Mới,0.4148,clickbait,non-clickbait,Điều gì xảy ra nếu Iran đóng cửa eo biển Hormuz? - Tạp chí VnEconomy
+article_0623,Thanh Niên,0.4086,clickbait,non-clickbait,"Mỹ cảnh báo công dân khắp thế giới, ông Trump tuyên bố mập mờ về Iran"
+article_0645,Thanh Niên,0.019,clickbait,non-clickbait,"Iran giáng cơn thịnh nộ, Israel thiệt hại nặng"
+article_0659,Thanh Niên,0.0306,clickbait,non-clickbait,Tăng xác suất tiểu hành tinh tấn công mặt trăng
+article_0706,SaoStar,0.5745,non-clickbait,clickbait,Tịch thu hơn 28 tỷ đồng tiền mặt giấu dưới gầm giường của cặp vợ chồng
+article_0716,SaoStar,0.2962,clickbait,non-clickbait,Tỷ phú Nga công bố di chúc chia hơn 300 nghìn tỷ đồng cho 100 người con khắp thế giới
+article_0722,SaoStar,0.2526,clickbait,non-clickbait,"Phát hiện thằn lằn nguyên con trong bánh tiramisu, một gia đình bị ngộ độc"
+article_0726,SaoStar,0.3052,clickbait,non-clickbait,"Người đàn ông chơi dù lượn bị hút vào đám mây cao 8500 mét, toàn bộ cơ thể bị đông cứng"
+article_0848,VnExpress,0.2252,clickbait,non-clickbait,Mỹ khoét rỗng cả ngọn núi để săn tìm hạt ma
+article_0897,Thanh Niên,0.4709,clickbait,non-clickbait,Chủ tịch Vinatex tiết lộ chuyện lạ lần đầu xảy ra với xuất khẩu dệt may
+article_1018,24h,0.0856,clickbait,non-clickbait,Nơi đây có thêm 1.000 triệu phú mỗi ngày
+article_1096,Báo Mới,0.0155,clickbait,non-clickbait,Làm báo Mặt trận - Báo Đại Đoàn Kết
+article_1266,SaoStar,0.764,non-clickbait,clickbait,Tống Uy Long là nam diễn viên thất bại nhất nửa đầu năm 2025
+article_1332,Báo Mới,0.4402,clickbait,non-clickbait,Những yếu tố nào chi phối thị trường dầu khí thế giới tuần qua? - Tạp chí Petrotimes
+article_1379,VnExpress,0.3376,clickbait,non-clickbait,"'Tiêm sữa' chữa mất ngủ, nữ người mẫu tử vong"
+article_1541,SaoStar,0.0943,clickbait,non-clickbait,Chủ tịch CLB Hải Phòng lên tiếng về tin HLV Chu Đình Nghiêm chia tay
+article_1598,24h,0.1979,clickbait,non-clickbait,"Inter Milan thắng hú vía: HLV Chivu non tay, á quân cúp C1 sống thoi thóp nhờ siêu sao"
+article_1619,24h,0.0086,clickbait,non-clickbait,"Cazorla 40 tuổi tỏa sáng giúp đội tí hon lên hạng La Liga, chờ so tài Yamal & Mbappe"
+article_1622,24h,0.0144,clickbait,non-clickbait,"Inter Milan nhận bàn thua lịch sử ở Club World Cup, CLB Nhật Bản hiên ngang rời giải"
+article_1624,24h,0.0386,clickbait,non-clickbait,"Dự đoán tỷ số FIFA Club World Cup: Real Madrid ""trút giận"", Juventus tiếp đà thăng hoa"
+article_1634,Báo Mới,0.2471,clickbait,non-clickbait,Điểm chuẩn lớp 10 vào 2 trường chuyên 'hot' ở TP.HCM biến động bất ngờ - Tạp chí Tri thức
+article_1797,Thanh Niên,0.2766,clickbait,non-clickbait,Người thầy ở tâm thế mới
+article_1912,24h,0.2763,clickbait,non-clickbait,"Kiều nữ bóng chuyền Kayla Simmons ""tắm tiên"" trên bãi biển thơ mộng"
+article_2160,24h,0.6448,non-clickbait,clickbait,'Cơn sốt' tạo video AI bằng Google Veo 3
+article_2209,Báo Mới,0.0648,clickbait,non-clickbait,Hé lộ căn hộ sang trọng của Tân Hoa hậu Hoàn vũ Việt Nam Phương Linh - Tạp chí Thương Gia
+article_2524,VnExpress,0.2337,clickbait,non-clickbait,Xu hướng nghề nghiệp dịch chuyển thế nào thời AI?
+article_2537,VnExpress,0.1791,clickbait,non-clickbait,Học sinh Việt Nam đạt thành tích chưa từng có tại Olympic Vật lý châu Âu
+article_2687,24h,0.2032,clickbait,non-clickbait,Lọ Lem như tiểu thư quý tộc ở Paris với set đồ hơn 200 triệu đồng
+article_2764,VnExpress,0.4042,clickbait,non-clickbait,Vượt qua nỗi sợ có con
+article_2783,VnExpress,0.0742,clickbait,non-clickbait,Loạt hoạt động 'tiếp tự tin' cho nam giới từ Romano Gen Z
+article_2815,Tuổi Trẻ,0.1124,clickbait,non-clickbait,Cuộc gặp định mệnh giữa giáo sư Hoàng Xuân Sính và thiên tài toán học Alexander Grothendi
+article_2840,Thanh Niên,0.193,clickbait,non-clickbait,‘Đãi cát tìm vàng’ ở giải cầu lông các nhóm tuổi thiếu niên quốc gia
+article_2869,Thanh Niên,0.4822,clickbait,non-clickbait,"Cầu thủ nhập tịch Indonesia không muốn về nước thi đấu, thất nghiệp đến bao lâu?"
+article_2962,24h,0.2039,clickbait,non-clickbait,Chuyên gia trang điểm Diệp Bùi chọn ngã rẽ mới để viết tiếp ước mơ
+article_2994,Báo Mới,0.4392,clickbait,non-clickbait,Vén màn bí mật bức phù điêu hình đại bàng vàng - Báo Tri thức & Cuộc sống
+article_3040,VnExpress,0.0248,clickbait,non-clickbait,Người dân háo hức đổi xe xăng lấy xe máy điện
+article_3128,VietNamNet,0.4768,clickbait,non-clickbait,Dự án 1.700 tỷ 'đắp chiếu' nhiều năm ở Kon Tum đổi chủ: Trơ sắt thép dưới thời tiết khắc nghiệt
+article_3144,VietNamNet,0.3074,clickbait,non-clickbait,"Kiên Giang cấp phép đầu tư 3 dự án 'siêu khủng', tổng vốn hơn 90.000 tỷ đồng"
+article_3212,24h,0.4302,clickbait,non-clickbait,'Choáng' với kiểu cuồng thần tượng của fan Việt
+article_3304,VnExpress,0.4334,clickbait,non-clickbait,10 tuyến tàu ngoạn mục nhất thế giới 2025
+article_3333,VnExpress,0.073,clickbait,non-clickbait,9 thành phố châu Âu nên đến mùa hè này
+article_3372,Thanh Niên,0.2129,clickbait,non-clickbait,"Crossover cỡ trung: Đại lý 'cắn răng' chịu lỗ, Ford Territory lần đầu vượt Mazda CX-5"
+article_3384,Thanh Niên,0.2539,clickbait,non-clickbait,Vụ xe bán tải cán người trong bệnh viện: Làm sao để lùi xe an toàn?
+article_3402,Thanh Niên,0.3327,clickbait,non-clickbait,Đề xuất bỏ quy định lái xe tối đa 48 giờ một tuần: Tài xế nói gì?
+article_3408,VietNamNet,0.0378,clickbait,non-clickbait,"Cao nguyên cách Hà Nội 300km có biển mây, thác nước, khách rộn ràng reo vui"
+article_3749,24h,0.0148,clickbait,non-clickbait,Hé lộ thực đơn quốc yến đón khách quốc tế của Tổng thống Nga Putin
+article_3751,24h,0.0711,clickbait,non-clickbait,"Vương quốc kem với vị cá thu, than củi"

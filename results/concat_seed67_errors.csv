@@ -1,0 +1,68 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0193,24h,0.8422,non-clickbait,clickbait,Người Hà Nội bất ngờ khi 2 tuyến đường có dải phân cách cứng
+article_0225,Báo Mới,0.096,clickbait,non-clickbait,Tình thế đảo ngược với tiền vệ Tuấn Anh - Tạp chí SaoStar
+article_0269,Báo Mới,0.2793,clickbait,non-clickbait,Sao Inter Milan dọa đánh fan PSG vì bị trêu chọc - Tạp chí Tri thức
+article_0378,Thanh Niên,0.677,non-clickbait,clickbait,Tên phường xã mới sáp nhập ở TP.HCM: Phường Bảy Hiền có 'xóm Quảng' độc nhất
+article_0443,SaoStar,0.9107,non-clickbait,clickbait,Video: Mưa lớn ở Thái Nguyên khiến khắp nơi 'hoá thành sông'
+article_0833,VnExpress,0.6427,non-clickbait,clickbait,Alexandr Wang - thiên tài AI khiến Zuckerberg đặt cược 14 tỷ USD
+article_0841,VnExpress,0.8755,non-clickbait,clickbait,Trump T1 Phone có thiết kế giống smartphone nào?
+article_0846,VnExpress,0.9211,non-clickbait,clickbait,Loạt smartphone được chờ đón nửa cuối 2025
+article_0863,VnExpress,0.9402,non-clickbait,clickbait,Sam Altman nói 'không biết chăm con thế nào nếu thiếu ChatGPT'
+article_1176,Tuổi Trẻ,0.8765,non-clickbait,clickbait,Robot trị liệu tâm lý: Có thấu hiểu hay chỉ biết lắng nghe?
+article_1227,Thanh Niên,0.6964,non-clickbait,clickbait,"Ngày dài nhất 2025: Hạ chí ảnh hưởng tới giấc ngủ, não bộ thế nào?"
+article_1346,Báo Mới,0.6964,non-clickbait,clickbait,Những đợt phát hành trái phiếu kỳ hạn siêu dài đầy may rủi của Nhật Bản - Tạp chí VnEconomy
+article_1479,Thanh Niên,0.7555,non-clickbait,clickbait,Béo phì có phải là bệnh?
+article_1516,VietNamNet,0.7513,non-clickbait,clickbait,"Iran coi nhẹ cuộc tấn công của Mỹ, hé lộ tình trạng cơ sở Fordow"
+article_1772,Tuổi Trẻ,0.8467,non-clickbait,clickbait,"Đẹp ngỡ ngàng mùa sen Trà Lý, du khách ùn ùn đến check-in"
+article_1893,SaoStar,0.9274,non-clickbait,clickbait,Dấu hiệu cho thấy thận của bạn đang khỏe mạnh
+article_1906,24h,0.5943,non-clickbait,clickbait,Lịch trực tiếp tennis và link trực tiếp hôm nay: Xem trực tiếp ATP 250 kênh nào?
+article_1987,VnExpress,0.9081,non-clickbait,clickbait,Hậu trường hóa trang 'ma giữ của' trong phim Út Lan
+article_2192,Báo Mới,0.5807,non-clickbait,clickbait,Ca sĩ Hồng Nhung lạc quan trải lòng về biến cố sức khỏe - Chuyên trang An Ninh Thủ Đô - Báo Công an nhân dân
+article_2573,Thanh Niên,0.8627,non-clickbait,clickbait,"Phương Anh Đào 'bắt trend' Tây Du Ký, Cris Phan 'sắm vai' cả dàn cast | ON TRENDING"
+article_2574,Thanh Niên,0.9152,non-clickbait,clickbait,"Ngô Kiến Huy 'xịt keo' vì Cris Phan, HURRYKNG thể hiện khả năng toán học | ON TRENDING"
+article_2585,Thanh Niên,0.9345,non-clickbait,clickbait,"Quang Anh 'Về nhà đi con' bật khóc nức nở, dừng chân ở show âm nhạc"
+article_2587,Thanh Niên,0.5795,non-clickbait,clickbait,Nam chính ‘Độc đạo’ tái xuất với phim điện ảnh
+article_2653,SaoStar,0.8772,non-clickbait,clickbait,Đẳng cấp chịu chi cỡ Phong Thần VNG: Tung TVC với bộ ba đại sứ triệu view SOOBIN - Tiến Linh - Jun Vũ
+article_2741,Báo Mới,0.8472,non-clickbait,clickbait,Không phải iPhone nào cũng được hưởng trọn tính năng iOS 26 - Báo VietnamNet
+article_2781,VnExpress,0.6453,non-clickbait,clickbait,Những người trẻ ngơ ngác vì được bảo bọc quá mức
+article_2866,Thanh Niên,0.9313,non-clickbait,clickbait,"CLB Bình Định ‘chiến đấu’ kiên cường, vẫn thua đau Hà Nội: Rớt hạng, kết cục cay đắng!"
+article_3193,24h,0.8163,non-clickbait,clickbait,"Ngủ gật khi lái xe, nam ca sĩ gặp tai nạn và bị thương nặng"
+article_3210,24h,0.5464,non-clickbait,clickbait,Tài tử 'Hoàng hậu Ki' Ji Chang Wook sang Việt Nam
+article_3220,24h,0.8731,non-clickbait,clickbait,"Tự Long, Soobin khóc cười cùng với fan, 'quẩy' đến nửa đêm"
+article_3300,VnExpress,0.9143,non-clickbait,clickbait,Mang ruốc thịt lợn khi đi du lịch Đài Loan có được không?
+article_3518,Tuổi Trẻ,0.9063,non-clickbait,clickbait,"Lắp rào chắn trên đường Võ Chí Công, Phạm Văn Đồng gây ùn tắc, lãnh đạo Sở Xây dựng Hà Nội nói gì?"
+article_3568,24h,0.6292,non-clickbait,clickbait,Top xe MPV từ giá rẻ đến hạng sang đáng chú ý hiện nay
+article_3713,24h,0.9607,non-clickbait,clickbait,"Những cách khắc phục rối loạn cương dương ngay tại nhà, không hề dùng thuốc"
+article_0059,Tuổi Trẻ,0.0318,clickbait,non-clickbait,Mùa mưa bão đến rồi
+article_0223,Báo Mới,0.0644,clickbait,non-clickbait,"Nhận định trận đấu Seattle Sounders vs PSG, 2h00 ngày 24.6: Không cân sức! - Báo Văn hóa"
+article_0224,Báo Mới,0.2283,clickbait,non-clickbait,Vì sao Leicester City chưa sa thải Van Nistelrooy - Tạp chí Tri thức
+article_0236,Báo Mới,0.113,clickbait,non-clickbait,Không cá nhân nào lớn hơn tập thể - Báo Văn hóa
+article_0237,Báo Mới,0.0068,clickbait,non-clickbait,Khởi động chiến dịch bảo vệ ngôi vương - Báo Văn hóa
+article_0504,Báo Mới,0.0109,clickbait,non-clickbait,Tehran cảnh báo Mỹ về 'hậu quả không thể khắc phục' - Báo Tin Tức TTXVN
+article_0658,Thanh Niên,0.5553,non-clickbait,clickbait,"Vé số độc đắc 7.300 tỉ đồng, kỷ lục của EuroMillions đã có chủ"
+article_0667,VietNamNet,0.1985,clickbait,non-clickbait,"Lãi suất ngân hàng hôm nay 23/6/2025: Nhà băng nào niêm yết mức cao nhất 6,1%?"
+article_0946,VietNamNet,0.1638,clickbait,non-clickbait,Arsenal bán Martinelli cho Bayern Munich giá cao ngất ngưởng
+article_0996,SaoStar,0.9387,non-clickbait,clickbait,Muôn vàn cảm xúc của 'phe vé' trước cổng concert có G-Dragon
+article_1024,24h,0.0943,clickbait,non-clickbait,Kinh tế Mỹ có thể đối mặt với cú sốc chiến tranh từ Trung Đông
+article_1076,Báo Mới,0.0296,clickbait,non-clickbait,Người 'tiếp lửa' gia phong cho các thế hệ con cháu - Báo Văn hóa
+article_1180,Tuổi Trẻ,0.1144,clickbait,non-clickbait,Bạn trẻ khởi nghiệp thời 4.0 và câu hỏi dữ liệu lấy từ đâu
+article_1266,SaoStar,0.9436,non-clickbait,clickbait,Tống Uy Long là nam diễn viên thất bại nhất nửa đầu năm 2025
+article_1410,VnExpress,0.3902,clickbait,non-clickbait,Ngồi lâu có ảnh hưởng đến sinh lý nam?
+article_1474,Thanh Niên,0.1043,clickbait,non-clickbait,Cảnh báo lạm dụng 'trục hàn' để chữa bệnh
+article_1788,Thanh Niên,0.1801,clickbait,non-clickbait,"Thi tốt nghiệp THPT cận kề, thí sinh cần lưu ý gì?"
+article_2182,Báo Mới,0.011,clickbait,non-clickbait,Chiến sĩ mới tự tin chinh phục '3 tiếng nổ' - Báo Cao Bằng
+article_2604,Thanh Niên,0.024,clickbait,non-clickbait,"Phương Bình: Mua nhà trả góp ở tuổi 52, chịu cảnh xa vợ hơn 30 năm"
+article_2634,VietNamNet,0.0077,clickbait,non-clickbait,Bị bắt vì livestream bán hàng 72 tỷ đồng không nộp thuế
+article_2644,SaoStar,0.4047,clickbait,non-clickbait,Microsoft sẵn sàng 'đường ai nấy đi' với nhà sáng lập ChatGPT
+article_2687,24h,0.4397,clickbait,non-clickbait,Lọ Lem như tiểu thư quý tộc ở Paris với set đồ hơn 200 triệu đồng
+article_2728,Báo Mới,0.0893,clickbait,non-clickbait,Pin ô tô điện có tuổi thọ cao hơn xe xăng - Chuyên trang Xe Giao Thông - Báo Xây Dựng
+article_2766,VnExpress,0.6711,non-clickbait,clickbait,Ước mơ lớn nhất của người thợ cắt tóc
+article_2815,Tuổi Trẻ,0.1373,clickbait,non-clickbait,Cuộc gặp định mệnh giữa giáo sư Hoàng Xuân Sính và thiên tài toán học Alexander Grothendi
+article_2930,SaoStar,0.0353,clickbait,non-clickbait,Hội An 2025: Khi phố cổ lên đèn và ký ức bừng sáng
+article_2946,24h,0.3951,clickbait,non-clickbait,Giảm gần 100 kg nhờ hâm mộ G-Dragon
+article_3131,VietNamNet,0.0321,clickbait,non-clickbait,Bộ Xây dựng chỉ đạo ‘hồi sinh’ toà tháp nghìn tỷ trơ xương trên đất vàng Hà Nội
+article_3160,24h,0.3035,clickbait,non-clickbait,Em gái quốc dân bị cô lập
+article_3228,24h,0.1052,clickbait,non-clickbait,"Đội hình co-ed của Teddy: Tài phiệt đời thứ 4, một thành viên bị yêu cầu loại"
+article_3326,VnExpress,0.088,clickbait,non-clickbait,Hái mận ở Mộc Châu
+article_3347,Tuổi Trẻ,0.0386,clickbait,non-clickbait,"Vào viện xin cấp cứu, chưa kịp chuyển viện theo ý muốn đã ra tay đấm điều dưỡng"
+article_3408,VietNamNet,0.0177,clickbait,non-clickbait,"Cao nguyên cách Hà Nội 300km có biển mây, thác nước, khách rộn ràng reo vui"

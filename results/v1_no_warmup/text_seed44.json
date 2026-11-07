@@ -1,0 +1,108 @@
+{
+  "mode": "text",
+  "seed": 44,
+  "split": "test",
+  "threshold": 0.5,
+  "checkpoint": "checkpoints\\text_seed44.pth",
+  "n_samples": 480,
+  "accuracy": 0.68125,
+  "macro_f1": 0.4052044609665427,
+  "per_class": {
+    "non-clickbait": {
+      "precision": 0.68125,
+      "recall": 1.0,
+      "f1": 0.8104089219330854,
+      "support": 327
+    },
+    "clickbait": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 153
+    }
+  },
+  "confusion_matrix": [
+    [
+      327,
+      0
+    ],
+    [
+      153,
+      0
+    ]
+  ],
+  "by_source": {
+    "24h": {
+      "n_samples": 90,
+      "n_clickbait": 44,
+      "accuracy": 0.5111111111111111,
+      "macro_f1": 0.3382352941176471,
+      "f1_clickbait": 0.0
+    },
+    "Báo Mới": {
+      "n_samples": 76,
+      "n_clickbait": 15,
+      "accuracy": 0.8026315789473685,
+      "macro_f1": 0.44525547445255476,
+      "f1_clickbait": 0.0
+    },
+    "Kênh14": {
+      "n_samples": 7,
+      "n_clickbait": 7,
+      "accuracy": 0.0,
+      "macro_f1": 0.0,
+      "f1_clickbait": 0.0
+    },
+    "SaoStar": {
+      "n_samples": 43,
+      "n_clickbait": 33,
+      "accuracy": 0.23255813953488372,
+      "macro_f1": 0.18867924528301888,
+      "f1_clickbait": 0.0
+    },
+    "Thanh Niên": {
+      "n_samples": 86,
+      "n_clickbait": 24,
+      "accuracy": 0.7209302325581395,
+      "macro_f1": 0.4189189189189189,
+      "f1_clickbait": 0.0
+    },
+    "Tuổi Trẻ": {
+      "n_samples": 38,
+      "n_clickbait": 9,
+      "accuracy": 0.7631578947368421,
+      "macro_f1": 0.43283582089552236,
+      "f1_clickbait": 0.0
+    },
+    "VietNamNet": {
+      "n_samples": 42,
+      "n_clickbait": 11,
+      "accuracy": 0.7380952380952381,
+      "macro_f1": 0.4246575342465753,
+      "f1_clickbait": 0.0
+    },
+    "VnExpress": {
+      "n_samples": 98,
+      "n_clickbait": 10,
+      "accuracy": 0.8979591836734694,
+      "macro_f1": 0.4731182795698925,
+      "f1_clickbait": 0.0
+    }
+  },
+  "hyperparameters": {
+    "epochs": 3,
+    "batch_size": 4,
+    "grad_accum": 1,
+    "lr": 2e-05,
+    "weight_decay": 0.01,
+    "max_length": 48,
+    "fp16": true,
+    "n_train": 2237,
+    "n_val": 480,
+    "best_epoch": 1,
+    "best_val_macro_f1": 0.40594059405940597
+  },
+  "train_time_sec": 176.97255279999808,
+  "avg_step_sec": 0.10000318240905866,
+  "max_memory_allocated_gb": 3.0340418815612793
+}

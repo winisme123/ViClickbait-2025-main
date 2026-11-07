@@ -1,0 +1,83 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0054,Tuổi Trẻ,0.5659,non-clickbait,clickbait,Đề nghị điều chuyển cán bộ cảnh sát giao thông nói dân 'mồm thối'
+article_0376,Thanh Niên,0.7268,non-clickbait,clickbait,Bán hàng online phải nộp những loại thuế gì?
+article_0584,VnExpress,0.6541,non-clickbait,clickbait,Có nên vay ngân hàng để xây nhà thời điểm này?
+article_0613,Tuổi Trẻ,0.5311,non-clickbait,clickbait,Ly rượu đầy mà nghĩa tình lại cạn
+article_0699,SaoStar,0.272,clickbait,non-clickbait,"Kiểm tra chiếc xe bán tải khả nghi trên cao tốc, sững sờ trước cảnh tượng bên trong"
+article_0862,VnExpress,0.55,non-clickbait,clickbait,WhatsApp chia sẻ nhầm số điện thoại của người dùng
+article_0888,Tuổi Trẻ,0.6509,non-clickbait,clickbait,Choáng vì hàng giả tinh vi như hàng thật
+article_1270,SaoStar,0.4791,clickbait,non-clickbait,Hoàng Hậu Tái Hôn gây 'bão' với phiên bản live-action cùng dàn cast 'khủng'
+article_1346,Báo Mới,0.6924,non-clickbait,clickbait,Những đợt phát hành trái phiếu kỳ hạn siêu dài đầy may rủi của Nhật Bản - Tạp chí VnEconomy
+article_1428,Tuổi Trẻ,0.7712,non-clickbait,clickbait,Pin xe điện còn 'trường thọ' hơn cả bản thân xe xăng
+article_1480,Thanh Niên,0.6478,non-clickbait,clickbait,Chuyên gia chỉ ra thực phẩm không nên ăn sống
+article_1563,SaoStar,0.3744,clickbait,non-clickbait,Tương lai của Đoàn Văn Hậu cuối cùng cũng ngã ngũ
+article_1564,SaoStar,0.2961,clickbait,non-clickbait,Dấu chấm hết cho Lương Xuân Trường
+article_1856,VietNamNet,0.7684,non-clickbait,clickbait,"Chàng trai Tiền Giang cắt sầu riêng nhanh như chớp, nghe tiếng là biết quả già"
+article_1871,SaoStar,0.3342,clickbait,non-clickbait,Nữ sinh bị hủy hoại gương mặt vì mua kem chống nắng trên mạng với giá 95.000 đồng
+article_1987,VnExpress,0.7467,non-clickbait,clickbait,Hậu trường hóa trang 'ma giữ của' trong phim Út Lan
+article_2102,VietNamNet,0.6077,non-clickbait,clickbait,Ca phẫu thuật khẩn từ lời nhắn cầu cứu của người phụ nữ xa lạ
+article_2133,SaoStar,0.79,non-clickbait,clickbait,"Video: Nam sinh xin quả xoài qua camera, chủ nhà xem lại được phen cười ngất"
+article_2585,Thanh Niên,0.8744,non-clickbait,clickbait,"Quang Anh 'Về nhà đi con' bật khóc nức nở, dừng chân ở show âm nhạc"
+article_2706,Báo Mới,0.6882,non-clickbait,clickbait,Thương hiệu 'Ăn cùng Bà Tuyết' lên tiếng chính thức sau thông tin giải thể công ty - Chuyên trang Hoa Học Trò - Báo Tiền Phong
+article_2935,SaoStar,0.5454,non-clickbait,clickbait,"Bùng nổ xu hướng du lịch trải nghiệm văn hóa, lễ hội mùa hè năm nay"
+article_3176,24h,0.6056,non-clickbait,clickbait,Dàn sao 'Tiếu ngạo giang hồ' sau 30 năm
+article_3276,Báo Mới,0.8556,non-clickbait,clickbait,"Lái xe đi nghỉ mát, cả gia đình được buổi 'xông hơi' vì điều hòa ô tô giở chứng - Báo VietnamNet"
+article_3297,VnExpress,0.5942,non-clickbait,clickbait,Chính sách visa mới nào khách Việt cần lưu ý khi đi du lịch nước ngoài?
+article_3300,VnExpress,0.8298,non-clickbait,clickbait,Mang ruốc thịt lợn khi đi du lịch Đài Loan có được không?
+article_3713,24h,0.8029,non-clickbait,clickbait,"Những cách khắc phục rối loạn cương dương ngay tại nhà, không hề dùng thuốc"
+article_0160,SaoStar,0.2493,clickbait,non-clickbait,"Vợ Đình Tú báo tin vui, dàn sao Vbiz nô nức chúc mừng"
+article_0224,Báo Mới,0.1936,clickbait,non-clickbait,Vì sao Leicester City chưa sa thải Van Nistelrooy - Tạp chí Tri thức
+article_0236,Báo Mới,0.3255,clickbait,non-clickbait,Không cá nhân nào lớn hơn tập thể - Báo Văn hóa
+article_0436,SaoStar,0.0839,clickbait,non-clickbait,Nhân thân bất hảo của thanh niên xé áo nữ tài xế taxi
+article_0469,24h,0.4724,clickbait,non-clickbait,Các cơ sở hạt nhân Iran chịu thiệt hại lớn đến mức nào sau đòn không kích dữ dội của Mỹ?
+article_0532,Báo Mới,0.4924,clickbait,non-clickbait,Điều gì xảy ra nếu Iran đóng cửa eo biển Hormuz? - Tạp chí VnEconomy
+article_0623,Thanh Niên,0.1122,clickbait,non-clickbait,"Mỹ cảnh báo công dân khắp thế giới, ông Trump tuyên bố mập mờ về Iran"
+article_0645,Thanh Niên,0.0333,clickbait,non-clickbait,"Iran giáng cơn thịnh nộ, Israel thiệt hại nặng"
+article_0659,Thanh Niên,0.0933,clickbait,non-clickbait,Tăng xác suất tiểu hành tinh tấn công mặt trăng
+article_0706,SaoStar,0.7008,non-clickbait,clickbait,Tịch thu hơn 28 tỷ đồng tiền mặt giấu dưới gầm giường của cặp vợ chồng
+article_0722,SaoStar,0.4247,clickbait,non-clickbait,"Phát hiện thằn lằn nguyên con trong bánh tiramisu, một gia đình bị ngộ độc"
+article_0726,SaoStar,0.4075,clickbait,non-clickbait,"Người đàn ông chơi dù lượn bị hút vào đám mây cao 8500 mét, toàn bộ cơ thể bị đông cứng"
+article_0848,VnExpress,0.0996,clickbait,non-clickbait,Mỹ khoét rỗng cả ngọn núi để săn tìm hạt ma
+article_0897,Thanh Niên,0.2946,clickbait,non-clickbait,Chủ tịch Vinatex tiết lộ chuyện lạ lần đầu xảy ra với xuất khẩu dệt may
+article_1018,24h,0.131,clickbait,non-clickbait,Nơi đây có thêm 1.000 triệu phú mỗi ngày
+article_1096,Báo Mới,0.1067,clickbait,non-clickbait,Làm báo Mặt trận - Báo Đại Đoàn Kết
+article_1236,Thanh Niên,0.4414,clickbait,non-clickbait,Chuyến xe 18 km không ngờ: Tài xế taxi giúp chở 200 kg vải về tận nhà
+article_1251,VietNamNet,0.1556,clickbait,non-clickbait,"10 đại học hàng đầu thế giới, trường đứng số 1 giữ vững ngôi vị suốt 14 năm"
+article_1266,SaoStar,0.8417,non-clickbait,clickbait,Tống Uy Long là nam diễn viên thất bại nhất nửa đầu năm 2025
+article_1379,VnExpress,0.2785,clickbait,non-clickbait,"'Tiêm sữa' chữa mất ngủ, nữ người mẫu tử vong"
+article_1541,SaoStar,0.2369,clickbait,non-clickbait,Chủ tịch CLB Hải Phòng lên tiếng về tin HLV Chu Đình Nghiêm chia tay
+article_1598,24h,0.1353,clickbait,non-clickbait,"Inter Milan thắng hú vía: HLV Chivu non tay, á quân cúp C1 sống thoi thóp nhờ siêu sao"
+article_1619,24h,0.0547,clickbait,non-clickbait,"Cazorla 40 tuổi tỏa sáng giúp đội tí hon lên hạng La Liga, chờ so tài Yamal & Mbappe"
+article_1622,24h,0.142,clickbait,non-clickbait,"Inter Milan nhận bàn thua lịch sử ở Club World Cup, CLB Nhật Bản hiên ngang rời giải"
+article_1624,24h,0.1197,clickbait,non-clickbait,"Dự đoán tỷ số FIFA Club World Cup: Real Madrid ""trút giận"", Juventus tiếp đà thăng hoa"
+article_1634,Báo Mới,0.1746,clickbait,non-clickbait,Điểm chuẩn lớp 10 vào 2 trường chuyên 'hot' ở TP.HCM biến động bất ngờ - Tạp chí Tri thức
+article_1797,Thanh Niên,0.1546,clickbait,non-clickbait,Người thầy ở tâm thế mới
+article_1865,Kênh14,0.4055,clickbait,non-clickbait,"Loạt ""idol tài năng"" với điểm chứng chỉ tuyệt đối đăng ký vào Bách khoa, không sân khấu vẫn chói mắt như thường"
+article_2148,24h,0.2704,clickbait,non-clickbait,"Microsoft chế giễu ""đột phá"" iOS 26 của Apple"
+article_2160,24h,0.7706,non-clickbait,clickbait,'Cơn sốt' tạo video AI bằng Google Veo 3
+article_2209,Báo Mới,0.3361,clickbait,non-clickbait,Hé lộ căn hộ sang trọng của Tân Hoa hậu Hoàn vũ Việt Nam Phương Linh - Tạp chí Thương Gia
+article_2524,VnExpress,0.1579,clickbait,non-clickbait,Xu hướng nghề nghiệp dịch chuyển thế nào thời AI?
+article_2537,VnExpress,0.0117,clickbait,non-clickbait,Học sinh Việt Nam đạt thành tích chưa từng có tại Olympic Vật lý châu Âu
+article_2561,Tuổi Trẻ,0.2193,clickbait,non-clickbait,"Sóng gió FIFA: Chủ tịch Infantino trễ họp vì ông Trump, đại biểu phẫn nộ bỏ về"
+article_2687,24h,0.349,clickbait,non-clickbait,Lọ Lem như tiểu thư quý tộc ở Paris với set đồ hơn 200 triệu đồng
+article_2783,VnExpress,0.2496,clickbait,non-clickbait,Loạt hoạt động 'tiếp tự tin' cho nam giới từ Romano Gen Z
+article_2815,Tuổi Trẻ,0.0552,clickbait,non-clickbait,Cuộc gặp định mệnh giữa giáo sư Hoàng Xuân Sính và thiên tài toán học Alexander Grothendi
+article_2840,Thanh Niên,0.0814,clickbait,non-clickbait,‘Đãi cát tìm vàng’ ở giải cầu lông các nhóm tuổi thiếu niên quốc gia
+article_2854,Thanh Niên,0.4945,clickbait,non-clickbait,"Quảng Nam trụ hạng phút bù giờ, Đà Nẵng đá play-off: VPF chưa thể ‘nghỉ tay’ vì…"
+article_2962,24h,0.1706,clickbait,non-clickbait,Chuyên gia trang điểm Diệp Bùi chọn ngã rẽ mới để viết tiếp ước mơ
+article_2963,24h,0.3145,clickbait,non-clickbait,"S:kin Heritage: Khi mỹ phẩm Việt ""khoác áo” di sản"
+article_2994,Báo Mới,0.2744,clickbait,non-clickbait,Vén màn bí mật bức phù điêu hình đại bàng vàng - Báo Tri thức & Cuộc sống
+article_3040,VnExpress,0.0494,clickbait,non-clickbait,Người dân háo hức đổi xe xăng lấy xe máy điện
+article_3073,Tuổi Trẻ,0.2945,clickbait,non-clickbait,Đất nền ‘đu đỉnh’ sau sáp nhập tỉnh thành
+article_3144,VietNamNet,0.4313,clickbait,non-clickbait,"Kiên Giang cấp phép đầu tư 3 dự án 'siêu khủng', tổng vốn hơn 90.000 tỷ đồng"
+article_3304,VnExpress,0.083,clickbait,non-clickbait,10 tuyến tàu ngoạn mục nhất thế giới 2025
+article_3333,VnExpress,0.1758,clickbait,non-clickbait,9 thành phố châu Âu nên đến mùa hè này
+article_3372,Thanh Niên,0.1262,clickbait,non-clickbait,"Crossover cỡ trung: Đại lý 'cắn răng' chịu lỗ, Ford Territory lần đầu vượt Mazda CX-5"
+article_3384,Thanh Niên,0.1998,clickbait,non-clickbait,Vụ xe bán tải cán người trong bệnh viện: Làm sao để lùi xe an toàn?
+article_3402,Thanh Niên,0.4345,clickbait,non-clickbait,Đề xuất bỏ quy định lái xe tối đa 48 giờ một tuần: Tài xế nói gì?
+article_3408,VietNamNet,0.133,clickbait,non-clickbait,"Cao nguyên cách Hà Nội 300km có biển mây, thác nước, khách rộn ràng reo vui"
+article_3509,Báo Mới,0.2678,clickbait,non-clickbait,"Gặp mưa to bất chợt, lái xe cần nằm lòng 6 quy tắc sống còn sau để đảm bảo an toàn - Báo VietnamNet"
+article_3649,24h,0.3068,clickbait,non-clickbait,"Gà 'leo' mái nhà, heo được người dân hối hả 'bế' đi chạy lũ"
+article_3654,24h,0.4784,clickbait,non-clickbait,"Hoảng hồn cảnh xe máy phóng như 'bay', va chạm xe tải khiến 3 người thương vong ở Hải Phòng"
+article_3749,24h,0.06,clickbait,non-clickbait,Hé lộ thực đơn quốc yến đón khách quốc tế của Tổng thống Nga Putin
+article_3751,24h,0.2602,clickbait,non-clickbait,"Vương quốc kem với vị cá thu, than củi"

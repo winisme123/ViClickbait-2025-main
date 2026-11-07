@@ -1,0 +1,80 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0055,Tuổi Trẻ,0.8523,non-clickbait,clickbait,Đà Nẵng dành những khu đất vàng nào cho Trung tâm tài chính quốc tế?
+article_0225,Báo Mới,0.2321,clickbait,non-clickbait,Tình thế đảo ngược với tiền vệ Tuấn Anh - Tạp chí SaoStar
+article_0339,Tuổi Trẻ,0.5813,non-clickbait,clickbait,Sự thật về video 'vụ nổ cơ sở hạt nhân Fordow' khi Mỹ tấn công
+article_0378,Thanh Niên,0.688,non-clickbait,clickbait,Tên phường xã mới sáp nhập ở TP.HCM: Phường Bảy Hiền có 'xóm Quảng' độc nhất
+article_0402,VietNamNet,0.6425,non-clickbait,clickbait,Nam thanh niên trốn bố mẹ bỏ nhà đi bộ 'về xuôi' bị lạc đường trên cao tốc
+article_0477,24h,0.6608,non-clickbait,clickbait,Thế giới 24h: Lãnh tụ tối cao Iran lên tiếng sau đòn tập kích bất ngờ của Mỹ
+article_0491,24h,0.8133,non-clickbait,clickbait,"Vị hoàng đế có tư tưởng ""thoáng"", vĩ đại nhất lịch sử Ấn Độ"
+article_0492,24h,0.8325,non-clickbait,clickbait,Ấn Độ và Pakistan từng thuộc cùng một đế chế do hậu duệ Thành Cát Tư Hãn cai trị như thế nào?
+article_0559,VnExpress,0.8651,non-clickbait,clickbait,Chuỗi cung ứng đất hiếm toàn cầu đã dịch chuyển ra sao?
+article_0595,VnExpress,0.5337,non-clickbait,clickbait,'Chi phí phần mềm cho hộ kinh doanh chỉ bằng bát phở'
+article_0758,Báo Mới,0.9283,non-clickbait,clickbait,Miền Bắc sắp đón 'tin vui' thời tiết sau chuỗi ngày mưa to sầm sập - Tạp chí Người Đưa Tin
+article_0836,VnExpress,0.6572,non-clickbait,clickbait,Cá heo mạo hiểm kết bạn với cá voi sát thủ
+article_0844,VnExpress,0.8988,non-clickbait,clickbait,Camera lớn nhất thế giới hứa hẹn thay đổi ngành thiên văn
+article_1039,24h,0.7917,non-clickbait,clickbait,"""Ông chủ” Facebook mạnh tay chi tới 100 triệu USD tiền thưởng kèm lương để thu hút nhân tài"
+article_1040,24h,0.681,non-clickbait,clickbait,UNIQLO đồng hành cùng tầm nhìn phát triển bền vững tại Việt Nam ra sao?
+article_1198,Thanh Niên,0.5296,non-clickbait,clickbait,Hòn Dung – Vẻ đẹp đại ngàn đang thức giấc
+article_1204,Thanh Niên,0.7034,non-clickbait,clickbait,Sabah – thiên đường bí mật của Malaysia dành cho người yêu thiên nhiên
+article_1220,Thanh Niên,0.9255,non-clickbait,clickbait,Ngôi nhà cổ gần 90 năm ở TP.HCM: Vẻ đẹp hiếm có giữa đồng lúa xanh
+article_1239,Thanh Niên,0.5394,non-clickbait,clickbait,Người phụ nữ gốc Việt đầu tiên bay vào vũ trụ: 'Tôi được nuôi lớn từ món ăn Việt'
+article_1366,Báo Mới,0.6593,non-clickbait,clickbait,Giải bài toán nông sản 'được mùa mất giá' - Báo Điện Biên Phủ
+article_1382,VnExpress,0.8758,non-clickbait,clickbait,Ai có nguy cơ mắc ung thư tuyến giáp?
+article_1400,VnExpress,0.8955,non-clickbait,clickbait,Nên ăn và tránh gì trước khi chạy bộ?
+article_1421,VnExpress,0.608,non-clickbait,clickbait,7 bước xây dựng thói quen ăn uống lành mạnh
+article_1542,SaoStar,0.9326,non-clickbait,clickbait,Dancesport đang thay đổi diện mạo thể thao Việt như thế nào?
+article_1578,24h,0.8743,non-clickbait,clickbait,"Real thiếu người vẫn thắng: Đẳng cấp ""Kền kền trắng"", Alonso phô diễn tài năng"
+article_1772,Tuổi Trẻ,0.9194,non-clickbait,clickbait,"Đẹp ngỡ ngàng mùa sen Trà Lý, du khách ùn ùn đến check-in"
+article_1909,24h,0.9296,non-clickbait,clickbait,Nóng nhất thể thao tối 21/6: Tay vợt số 1 nước Anh mơ gây sốc ở Wimbledon
+article_2010,Tuổi Trẻ,0.8715,non-clickbait,clickbait,Bảo tàng Chăm ở Huế bao giờ thành hiện thực khi cổ vật vẫn nằm rải rác trong quán cà phê?
+article_2102,VietNamNet,0.9339,non-clickbait,clickbait,Ca phẫu thuật khẩn từ lời nhắn cầu cứu của người phụ nữ xa lạ
+article_2110,SaoStar,0.7249,non-clickbait,clickbait,Điểm chuẩn lớp 10 thấp kỷ lục: Hơn 1 điểm/môn cũng đậu trường công
+article_2306,Thanh Niên,0.84,non-clickbait,clickbait,Thời trang Việt 'chuyển mình' cùng AI
+article_2334,VietNamNet,0.9339,non-clickbait,clickbait,Một bệnh viện cầu cứu khi bị hacker đe dọa tung dữ liệu bệnh nhân lên mạng
+article_2358,VietNamNet,0.7296,non-clickbait,clickbait,"Không có trái tim, AI giỏi đến mấy cũng không thể thay thế nhà báo"
+article_2585,Thanh Niên,0.8939,non-clickbait,clickbait,"Quang Anh 'Về nhà đi con' bật khóc nức nở, dừng chân ở show âm nhạc"
+article_2689,24h,0.8252,non-clickbait,clickbait,G-Dragon diện chiếc áo 'bà thím' suốt chuyến đi Việt Nam
+article_3006,Báo Mới,0.7742,non-clickbait,clickbait,Hành trình tìm lời giải cho 'đế chế' rác thải điện tử của sinh viên qua sản phẩm báo chí - Chuyên trang Sinh viên Việt Nam - Báo Tiền Phong
+article_3186,24h,0.9328,non-clickbait,clickbait,Danh hài Hoàng Mập bất ngờ rao bán biệt phủ triệu đô rộng 1.600m2
+article_3196,24h,0.8824,non-clickbait,clickbait,Bích Phương - Tăng Duy Tân bối rối khi bị hỏi chuyện tình cảm
+article_3201,24h,0.6463,non-clickbait,clickbait,Quốc Trường bị nhận xét nhạt nhòa trong phim 18+
+article_3219,24h,0.8363,non-clickbait,clickbait,"Tùng Dương, Ngọc Anh khiến khán giả xúc động khi hát nhạc Phú Quang"
+article_3220,24h,0.9226,non-clickbait,clickbait,"Tự Long, Soobin khóc cười cùng với fan, 'quẩy' đến nửa đêm"
+article_3395,Thanh Niên,0.7301,non-clickbait,clickbait,Suzuki Fronx có đủ sức khuấy động phân khúc SUV đô thị?
+article_3434,VietNamNet,0.8562,non-clickbait,clickbait,"Cung đường đẹp như tranh cách Hà Nội 3 giờ lái xe, du khách 'đội nắng' săn ảnh"
+article_3511,Báo Mới,0.6633,non-clickbait,clickbait,Mitsubishi Xforce có dấu hiệu 'hụt hơi' - Tạp chí Người Đưa Tin
+article_3517,Tuổi Trẻ,0.8706,non-clickbait,clickbait,Xác minh clip kéo sập cửa nhà hàng xóm vì bị nhắc nhở hát karaoke gây ồn ào
+article_3518,Tuổi Trẻ,0.8765,non-clickbait,clickbait,"Lắp rào chắn trên đường Võ Chí Công, Phạm Văn Đồng gây ùn tắc, lãnh đạo Sở Xây dựng Hà Nội nói gì?"
+article_0272,Báo Mới,0.364,clickbait,non-clickbait,Lý do Tottenham sa thải Postecoglou - Tạp chí Tri thức
+article_0461,24h,0.0528,clickbait,non-clickbait,Tên lửa đạn đạo siêu nặng Iran lần đầu tấn công Israel: Đòn đánh tạo chấn động vượt khỏi Trung Đông
+article_0480,24h,0.0866,clickbait,non-clickbait,Thực hư video người Israel tháo chạy ở Tel Aviv khi Iran tấn công tên lửa
+article_0481,24h,0.0419,clickbait,non-clickbait,Ông Trump nêu lý do khó đề nghị Israel dừng tấn công Iran
+article_0715,SaoStar,0.0472,clickbait,non-clickbait,"Công ty tuyển dụng nhân viên nam không cần bằng cấp, lương hơn 100 triệu đồng/tháng"
+article_1021,24h,0.0387,clickbait,non-clickbait,Bitcoin cắm đầu lao dốc do căng thẳng Mỹ - Iran
+article_1032,24h,0.9223,non-clickbait,clickbait,"Tài sản của ""siêu nhân Hong Kong” Lý Gia Thành hiện còn bao nhiêu?"
+article_1076,Báo Mới,0.3471,clickbait,non-clickbait,Người 'tiếp lửa' gia phong cho các thế hệ con cháu - Báo Văn hóa
+article_1164,VnExpress,0.0269,clickbait,non-clickbait,Đua mở mới khách sạn ven biển
+article_1209,Thanh Niên,0.4437,clickbait,non-clickbait,Nhớ tiết kiệm điện 'mọi lúc mọi nơi'
+article_1269,SaoStar,0.4856,clickbait,non-clickbait,KPop Demon Hunters: 'Squid Game' thứ hai của Netflix?
+article_1273,SaoStar,0.2335,clickbait,non-clickbait,Quốc Sắc Phương Hoa 2 được dự đoán sẽ thất bại
+article_1473,Thanh Niên,0.0503,clickbait,non-clickbait,Bác sĩ chỉ cách sử dụng máy lạnh tốt cho sức khỏe
+article_1474,Thanh Niên,0.0749,clickbait,non-clickbait,Cảnh báo lạm dụng 'trục hàn' để chữa bệnh
+article_1489,Thanh Niên,0.0365,clickbait,non-clickbait,Top 5 kem trị mụn giá học sinh mà chất lượng quốc tế
+article_1490,Thanh Niên,0.4792,clickbait,non-clickbait,"Top 6 kem trị nám chân sâu hiệu quả tại nhà, ngừa tái phát, không bong tróc"
+article_1597,24h,0.4479,clickbait,non-clickbait,"Arnold ra mắt Real: Mũi khoan chất lượng cho Alonso, cẩn thận ""con dao 2 lưỡi"""
+article_2119,SaoStar,0.393,clickbait,non-clickbait,Thi tốt nghiệp THPT trên máy tính: Địa phương nào sẽ thí điểm đầu tiên?
+article_2237,VnExpress,0.1058,clickbait,non-clickbait,Tài xế dừng ngủ trên cao tốc khiến xảy ra tai nạn chết người
+article_2256,VnExpress,0.3658,clickbait,non-clickbait,"Đánh ghen, ép viết giấy nợ khiến nạn nhân tự tử"
+article_2278,Tuổi Trẻ,0.4882,clickbait,non-clickbait,'Brokeback Mountain' vượt lên sự kỳ thị đồng tính để trở thành kiệt tác
+article_2301,Thanh Niên,0.122,clickbait,non-clickbait,Chùa Dâu cổ nhất VN và cừu đá gần 2.000 năm tuổi
+article_2416,24h,0.362,clickbait,non-clickbait,"iPhone đỉnh một thời nay có giá rẻ, camera zoom quang không kém iPhone mới"
+article_2578,Thanh Niên,0.3425,clickbait,non-clickbait,Bức Tường mang rock Việt 'đốt cháy' trái tim kiều bào châu Âu
+article_2789,VnExpress,0.2017,clickbait,non-clickbait,Làm đám cưới giữa trại chó
+article_3084,Tuổi Trẻ,0.0344,clickbait,non-clickbait,Fiato Airport City ‘cất cánh’ cùng sân bay Long Thành
+article_3117,Thanh Niên,0.2215,clickbait,non-clickbait,Liệu có thể gắn ổ SSD PCIe 5.0 vào bo mạch chủ PCIe 4.0?
+article_3179,24h,0.4819,clickbait,non-clickbait,Thất bại của Miu Lê
+article_3326,VnExpress,0.1234,clickbait,non-clickbait,Hái mận ở Mộc Châu
+article_3341,VnExpress,0.4467,clickbait,non-clickbait,4 quán cơm gà khách nên thử khi đến Hội An
+article_3471,Báo Mới,0.1172,clickbait,non-clickbait,Gần 1.000 người đội nắng đổi xe máy xăng lấy xe điện - Chuyên trang Xe Giao Thông - Báo Xây Dựng
+article_3753,24h,0.2649,clickbait,non-clickbait,"Rong ruổi Bình Đại đắm mình thiên nhiên, hóa thân làm dân quê thứ thiệt"
+article_3775,24h,0.0877,clickbait,non-clickbait,Eo Gió Quan Lạn thiên đường hoang sơ làm say lòng du khách

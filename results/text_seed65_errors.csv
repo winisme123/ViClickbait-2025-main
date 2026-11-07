@@ -1,0 +1,88 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0055,Tuổi Trẻ,0.7316,non-clickbait,clickbait,Đà Nẵng dành những khu đất vàng nào cho Trung tâm tài chính quốc tế?
+article_0165,SaoStar,0.1595,clickbait,non-clickbait,Tình trạng hiện tại của Ninh Dương Lan Ngọc sau bức ảnh ngồi xe lăn
+article_0234,Báo Mới,0.4048,clickbait,non-clickbait,"Bellingham quát tháo, Guler đáp trả - Tạp chí Tri thức"
+article_0331,Tuổi Trẻ,0.8901,non-clickbait,clickbait,4 kịch bản khi liên minh cầm quyền ở Thái Lan lung lay
+article_0334,Tuổi Trẻ,0.5959,non-clickbait,clickbait,"Sau màn ném bom của Mỹ, Iran kiềm chế hay trả đũa?"
+article_0345,Thanh Niên,0.8941,non-clickbait,clickbait,CSGT vừa sát hạch vừa cấp đổi GPLX: Người dân được lợi gì?
+article_0440,SaoStar,0.631,non-clickbait,clickbait,"Lịch âm hôm nay 22/6/2025: Tránh xây dựng, cưới hỏi kẻo rước phiền toái"
+article_0500,Báo Mới,0.8946,non-clickbait,clickbait,Mức độ nguy hiểm của loại bom 'cấm' mà Iran ném lên Israel - Tạp chí Tri thức
+article_0542,Báo Mới,0.517,non-clickbait,clickbait,Lượng lớn uranium đã 'biến mất' trước khi Mỹ tấn công Iran - Tạp chí Tri thức
+article_0595,VnExpress,0.7818,non-clickbait,clickbait,'Chi phí phần mềm cho hộ kinh doanh chỉ bằng bát phở'
+article_0714,SaoStar,0.4186,clickbait,non-clickbait,"Hàng trăm người xông vào một siêu thị cướp giật hàng hóa lẫn tiền, người chủ bất lực chứng kiến"
+article_0751,24h,0.5301,non-clickbait,clickbait,Nghi án chồng sát hại vợ trong khách sạn rồi bỏ trốn
+article_0841,VnExpress,0.9151,non-clickbait,clickbait,Trump T1 Phone có thiết kế giống smartphone nào?
+article_0844,VnExpress,0.7439,non-clickbait,clickbait,Camera lớn nhất thế giới hứa hẹn thay đổi ngành thiên văn
+article_0939,VietNamNet,0.877,non-clickbait,clickbait,"Bayern Munich tung chiêu, quyết vượt Barca ký Nico Williams"
+article_0941,VietNamNet,0.6894,non-clickbait,clickbait,"Man City 'đánh tennis', đoạt vé sớm vào vòng 1/8 FIFA Club World Cup"
+article_1194,Thanh Niên,0.8961,non-clickbait,clickbait,"Vườn thú mới toanh ngay trung tâm TP.HCM hè 2025: Capybara, cầy Meerkat... bé nào cũng mê"
+article_1297,24h,0.7184,non-clickbait,clickbait,"Khởi nghiệp từ loại rau mọc dại đầy đồng, 9x Quảng Ninh có thu nhập trên 50 triệu đồng/tháng"
+article_1382,VnExpress,0.8673,non-clickbait,clickbait,Ai có nguy cơ mắc ung thư tuyến giáp?
+article_1428,Tuổi Trẻ,0.9272,non-clickbait,clickbait,Pin xe điện còn 'trường thọ' hơn cả bản thân xe xăng
+article_1470,Thanh Niên,0.9288,non-clickbait,clickbait,Thêm nhiều lợi ích bất ngờ từ đu đủ
+article_1476,Thanh Niên,0.8538,non-clickbait,clickbait,Ngày mới với tin tức sức khỏe: Cách ngủ máy lạnh không bị khô họng
+article_1499,Thanh Niên,0.7214,non-clickbait,clickbait,Alo bác sĩ nghe: Đau mỏi vai gáy khi ngủ dậy cảnh báo điều gì?
+article_1513,VietNamNet,0.7961,non-clickbait,clickbait,Nhà Trắng nêu 5 lý do buộc Mỹ phải tấn công Iran
+article_1539,SaoStar,0.9225,non-clickbait,clickbait,Tình thế đảo ngược với tiền vệ Tuấn Anh
+article_1578,24h,0.9291,non-clickbait,clickbait,"Real thiếu người vẫn thắng: Đẳng cấp ""Kền kền trắng"", Alonso phô diễn tài năng"
+article_1605,24h,0.8718,non-clickbait,clickbait,"HLV Guardiola so sánh Yamal - Messi, fan Pháp đòi trao ngay Bóng vàng cho Dembele"
+article_1837,VietNamNet,0.917,non-clickbait,clickbait,"Nghỉ việc lương cao để ở nhà chăm con, 'bố bỉm sữa' bị viêm khớp, trầm cảm"
+article_1855,VietNamNet,0.6731,non-clickbait,clickbait,"Cặp đôi tâm đầu ý hợp, cùng nhau đếm và bấm nút hẹn hò"
+article_1856,VietNamNet,0.9163,non-clickbait,clickbait,"Chàng trai Tiền Giang cắt sầu riêng nhanh như chớp, nghe tiếng là biết quả già"
+article_1988,VnExpress,0.6595,non-clickbait,clickbait,Đội Phương Mỹ Chi 'bùng nổ' tại Em xinh say hi
+article_2133,SaoStar,0.9329,non-clickbait,clickbait,"Video: Nam sinh xin quả xoài qua camera, chủ nhà xem lại được phen cười ngất"
+article_2192,Báo Mới,0.6215,non-clickbait,clickbait,Ca sĩ Hồng Nhung lạc quan trải lòng về biến cố sức khỏe - Chuyên trang An Ninh Thủ Đô - Báo Công an nhân dân
+article_2264,VnExpress,0.6631,non-clickbait,clickbait,Án mạng sau khi tông xe vào chó
+article_2270,Tuổi Trẻ,0.9121,non-clickbait,clickbait,"Thời trang xa xỉ ngày càng xa tầm với, giới trẻ không còn thấy xấu hổ khi xài hàng giả"
+article_2345,VietNamNet,0.8807,non-clickbait,clickbait,"B-2 Spirit + GBU-57, bộ đôi sát thủ công nghệ cao khiến cơ sở hạt nhân Iran ‘bay màu’"
+article_2614,VietNamNet,0.6276,non-clickbait,clickbait,Ồn ào tranh chấp tài sản giữa em và con gái nghệ sỹ Vũ Linh vẫn chưa dứt
+article_2654,SaoStar,0.8405,non-clickbait,clickbait,"Không còn là hoàng tử ballad dịu dàng, SOOBIN hóa thân thành thái tử Na Tra cực ngầu trong Phong Thần VNG"
+article_2866,Thanh Niên,0.9327,non-clickbait,clickbait,"CLB Bình Định ‘chiến đấu’ kiên cường, vẫn thua đau Hà Nội: Rớt hạng, kết cục cay đắng!"
+article_2916,SaoStar,0.6089,non-clickbait,clickbait,Phú Quý - Một lần bỏ phố về đảo để tìm thấy chính mình
+article_3088,Tuổi Trẻ,0.8922,non-clickbait,clickbait,"Nhà di động rẻ hơn cả Honda Air Blade: Đủ tiện ích cơ bản, phải mua thêm lều ngủ"
+article_3163,24h,0.9221,non-clickbait,clickbait,Hôn nhân viên mãn của ca sĩ Thu Thuỷ bên chồng kém 11 tuổi
+article_3215,24h,0.7023,non-clickbait,clickbait,Khán giả bỏ về vì concert 'Anh trai vượt ngàn chông gai' bị mất điện
+article_3345,VnExpress,0.7874,non-clickbait,clickbait,Kinh nghiệm cho người lần đầu du lịch tàu hỏa
+article_3363,Tuổi Trẻ,0.5658,non-clickbait,clickbait,"Tăng cân, mặt tròn như mặt trăng, da mỏng đi, có thể bạn đã mắc hội chứng Cushing"
+article_3491,Báo Mới,0.7218,non-clickbait,clickbait,Ra mắt Benelli TNT 125 - thiết kế cực 'cháy' chỉ 66 triệu - Báo Tri thức & Cuộc sống
+article_3518,Tuổi Trẻ,0.8597,non-clickbait,clickbait,"Lắp rào chắn trên đường Võ Chí Công, Phạm Văn Đồng gây ùn tắc, lãnh đạo Sở Xây dựng Hà Nội nói gì?"
+article_3713,24h,0.7838,non-clickbait,clickbait,"Những cách khắc phục rối loạn cương dương ngay tại nhà, không hề dùng thuốc"
+article_3783,24h,0.6621,non-clickbait,clickbait,"Bằng lăng nở rộ, ""nhuộm"" tím khắp phố phường Hà Nội"
+article_0140,Kênh14,0.8988,non-clickbait,clickbait,"Con trai cả xây nhà 10 tỷ đồng báo hiếu, mẹ vừa qua đời, anh em kiện ra tòa đòi thừa kế: Tòa phán “tài sản không thuộc về người đứng tên sổ đỏ”"
+article_0475,24h,0.2502,clickbait,non-clickbait,IRGC cảnh báo Mỹ 'sẽ không thoát được'
+article_0617,Tuổi Trẻ,0.1653,clickbait,non-clickbait,"Thẻ bảo hiểm y tế quá hạn 2 tháng, làm thế nào để không gián đoạn?"
+article_0651,Thanh Niên,0.0906,clickbait,non-clickbait,Quyết định của Chủ tịch Fed
+article_0705,SaoStar,0.4705,clickbait,non-clickbait,"Xuất hiện chiêu thức xác minh khuôn mặt từ xa, bà cụ bị lừa chuyển khoản 13 tỷ đồng"
+article_0848,VnExpress,0.1494,clickbait,non-clickbait,Mỹ khoét rỗng cả ngọn núi để săn tìm hạt ma
+article_0924,Thanh Niên,0.2793,clickbait,non-clickbait,"'Ông lớn' xăng dầu, cao su... mạnh tay chia cổ tức"
+article_1021,24h,0.0454,clickbait,non-clickbait,Bitcoin cắm đầu lao dốc do căng thẳng Mỹ - Iran
+article_1268,SaoStar,0.062,clickbait,non-clickbait,Doãn Quốc Đam trở lại
+article_1286,SaoStar,0.6228,non-clickbait,clickbait,"Không có Bạch Lộc và Vu Chính, Lâm Giang Tiên đã flop trong im lặng"
+article_1312,24h,0.032,clickbait,non-clickbait,"Loạt ô tô tiếp tục giảm giá, có mẫu giảm lên tới hơn 370 triệu đồng"
+article_1322,Báo Mới,0.4692,clickbait,non-clickbait,"Bán nhà phố về quê, khi hết tiền tôi phải chạy xe máy 40km để đi làm - Báo VTC News"
+article_1489,Thanh Niên,0.0582,clickbait,non-clickbait,Top 5 kem trị mụn giá học sinh mà chất lượng quốc tế
+article_1566,SaoStar,0.465,clickbait,non-clickbait,Chốt lịch trận play-off V.League 2024/25: Công Phượng sẽ đá ở đâu?
+article_1570,24h,0.2595,clickbait,non-clickbait,"Barcelona có biến động khi mua Nico Williams, Lewandowski dễ bị thiệt thòi nhất"
+article_1585,24h,0.9186,non-clickbait,clickbait,"Real Madrid mất người từ sớm: Asencio ""non nớt"", nhận ngay thẻ đỏ trực tiếp"
+article_1624,24h,0.2761,clickbait,non-clickbait,"Dự đoán tỷ số FIFA Club World Cup: Real Madrid ""trút giận"", Juventus tiếp đà thăng hoa"
+article_1886,SaoStar,0.0689,clickbait,non-clickbait,Chủ động tầm soát ung thư phổi từ sớm để không bỏ lỡ 'thời gian vàng' điều trị
+article_1912,24h,0.1768,clickbait,non-clickbait,"Kiều nữ bóng chuyền Kayla Simmons ""tắm tiên"" trên bãi biển thơ mộng"
+article_1945,Báo Mới,0.0586,clickbait,non-clickbait,'Trâu Thủ đô' tiếp đà thăng hoa - Báo Nhân Dân
+article_1972,VnExpress,0.2152,clickbait,non-clickbait,Đàm Vĩnh Hưng: 'Tôi mong sống lâu bên con'
+article_2095,VietNamNet,0.1361,clickbait,non-clickbait,Ba không khi ăn rau dền
+article_2163,24h,0.0252,clickbait,non-clickbait,Vietnam GameVerse 2025: Cột mốc bùng nổ của ngành game Việt
+article_2182,Báo Mới,0.0325,clickbait,non-clickbait,Chiến sĩ mới tự tin chinh phục '3 tiếng nổ' - Báo Cao Bằng
+article_2337,VietNamNet,0.4917,clickbait,non-clickbait,"Bỏ nghề MC truyền hình, cô gái Nùng làm ngô nếp bản địa bán cả triệu đồng/kg"
+article_2550,Tuổi Trẻ,0.2417,clickbait,non-clickbait,Taekwondo Việt Nam: Làm gì để dự Olympic?
+article_2628,VietNamNet,0.2786,clickbait,non-clickbait,"Cắt ghép ảnh khiêu dâm, hạ nhục con nợ chỉ để đòi hơn 13 triệu đồng"
+article_2797,VnExpress,0.1206,clickbait,non-clickbait,Thoát chết nhờ túi độn ngực
+article_2926,SaoStar,0.8935,non-clickbait,clickbait,"Nếu không đi xa, hãy thử 'staycation' để du lịch ngay trong thành phố"
+article_2928,SaoStar,0.0424,clickbait,non-clickbait,Hà Giang hè này không chỉ có mùa tam giác mạch
+article_2930,SaoStar,0.0274,clickbait,non-clickbait,Hội An 2025: Khi phố cổ lên đèn và ký ức bừng sáng
+article_2968,Báo Mới,0.0986,clickbait,non-clickbait,Trục vớt du thuyền khiến 'Bill Gates nước Anh' tử nạn - Tạp chí Tri thức
+article_3107,Thanh Niên,0.1482,clickbait,non-clickbait,Camera an ninh lưu trữ cảnh quay trong bao lâu?
+article_3111,Thanh Niên,0.0291,clickbait,non-clickbait,Khám phá tính năng iOS 26 giúp sạc pin iPhone hiệu quả hơn
+article_3229,24h,0.1114,clickbait,non-clickbait,Anh Tài Quốc Thiên bị kiện
+article_3372,Thanh Niên,0.0605,clickbait,non-clickbait,"Crossover cỡ trung: Đại lý 'cắn răng' chịu lỗ, Ford Territory lần đầu vượt Mazda CX-5"
+article_3479,Báo Mới,0.3063,clickbait,non-clickbait,Mitsubishi hé lộ mẫu xe mới bằng máy bay trực thăng - Báo Tiền Phong
+article_3751,24h,0.0611,clickbait,non-clickbait,"Vương quốc kem với vị cá thu, than củi"

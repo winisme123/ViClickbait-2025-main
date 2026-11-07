@@ -1,0 +1,79 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0234,Báo Mới,0.4098,clickbait,non-clickbait,"Bellingham quát tháo, Guler đáp trả - Tạp chí Tri thức"
+article_0269,Báo Mới,0.2055,clickbait,non-clickbait,Sao Inter Milan dọa đánh fan PSG vì bị trêu chọc - Tạp chí Tri thức
+article_0339,Tuổi Trẻ,0.7156,non-clickbait,clickbait,Sự thật về video 'vụ nổ cơ sở hạt nhân Fordow' khi Mỹ tấn công
+article_0490,24h,0.5103,non-clickbait,clickbait,Vụ nước mắm vứt bỏ bên đường: Xác định được chủ nhân
+article_0518,Báo Mới,0.4785,clickbait,non-clickbait,'Đồng minh bất đắc dĩ': Jordan - Saudi Arabia và thế khó trong cuộc chiến Iran - Israel - Báo Tin Tức TTXVN
+article_0615,Tuổi Trẻ,0.6933,non-clickbait,clickbait,"Tưởng đang 'thay trời hành đạo', nhóm 'bà chủ' truy hỏi, cưỡng đoạt tiền nhân viên"
+article_0703,SaoStar,0.7945,non-clickbait,clickbait,"Cặp vợ chồng ăn sáng bằng thịt chuột bắt trong vườn, ít ngày sau nhiễm bệnh nguy hiểm"
+article_0751,24h,0.572,non-clickbait,clickbait,Nghi án chồng sát hại vợ trong khách sạn rồi bỏ trốn
+article_0825,VnExpress,0.663,non-clickbait,clickbait,Elon Musk nói AI Grok 'quá nhiều rác'
+article_0932,Thanh Niên,0.6436,non-clickbait,clickbait,Vườn chà là tiền tỉ tuyệt đẹp ở Ninh Thuận
+article_1039,24h,0.7197,non-clickbait,clickbait,"""Ông chủ” Facebook mạnh tay chi tới 100 triệu USD tiền thưởng kèm lương để thu hút nhân tài"
+article_1176,Tuổi Trẻ,0.7654,non-clickbait,clickbait,Robot trị liệu tâm lý: Có thấu hiểu hay chỉ biết lắng nghe?
+article_1232,Thanh Niên,0.5943,non-clickbait,clickbait,Những ông bà cụ U.90 bươn chải nơi xóm vé số ở TP.HCM bất ngờ nhận quà ấm áp sau tết
+article_1315,24h,0.6835,non-clickbait,clickbait,Cả ngàn chai nước mắm bị vứt bỏ trong bụi rậm ở Quảng Nam
+article_1382,VnExpress,0.889,non-clickbait,clickbait,Ai có nguy cơ mắc ung thư tuyến giáp?
+article_1391,VnExpress,0.7912,non-clickbait,clickbait,5 loại trà hỗ trợ giảm mỡ nội tạng
+article_1403,VnExpress,0.8598,non-clickbait,clickbait,Đau khớp đột ngột cảnh báo bệnh gì?
+article_1413,VnExpress,0.8016,non-clickbait,clickbait,"Vì sao không nên chủ quan khi trẻ chơi cùng chó, mèo?"
+article_1417,VnExpress,0.7713,non-clickbait,clickbait,Uống cà phê thế nào để răng không ố vàng
+article_1470,Thanh Niên,0.8641,non-clickbait,clickbait,Thêm nhiều lợi ích bất ngờ từ đu đủ
+article_1538,SaoStar,0.6792,non-clickbait,clickbait,Xuân Trường mừng cho Tuấn Anh
+article_1569,24h,0.8108,non-clickbait,clickbait,Man City thắng đậm đội bóng châu Á: HLV Guardiola nói gì về sao trẻ Echeverri?
+article_1632,24h,0.5897,non-clickbait,clickbait,"Người đẹp bi-a nữ bỏ túi 760 triệu đồng, Kim Ga Young vô địch dễ dàng"
+article_1807,Thanh Niên,0.6605,non-clickbait,clickbait,"Cha mẹ, thầy cô hát tặng sĩ tử trong lễ tri ân, nhiều người bật khóc"
+article_1910,24h,0.7067,non-clickbait,clickbait,"Võ sỹ Zakhar chịu khuất phục trước ""ông trùm vật tay"" Long ""The Rock"""
+article_1980,VnExpress,0.719,non-clickbait,clickbait,G-Dragon 'cháy' cùng chục nghìn fan dưới mưa ở Mỹ Đình
+article_2052,Thanh Niên,0.6074,non-clickbait,clickbait,Du lịch Thái Lan liên tiếp chịu tổn thất nặng nề
+article_2110,SaoStar,0.5183,non-clickbait,clickbait,Điểm chuẩn lớp 10 thấp kỷ lục: Hơn 1 điểm/môn cũng đậu trường công
+article_2215,VnExpress,0.5959,non-clickbait,clickbait,Kịch bản băng tội phạm 'giăng bẫy' hàng trăm nghìn người già
+article_2224,VnExpress,0.6219,non-clickbait,clickbait,Lời khai gian dối của kẻ quấn thi thể vợ vào mỏ neo dưới hồ
+article_2233,VnExpress,0.5654,non-clickbait,clickbait,Nữ tài xế taxi bị khách xé áo định hãm hại
+article_2234,VnExpress,0.6468,non-clickbait,clickbait,Làm sao để được nhập lại quốc tịch Việt Nam?
+article_2419,24h,0.5984,non-clickbait,clickbait,Realme Neo 7 Turbo lộ diện với phiên bản trong suốt độc đáo
+article_2485,VnExpress,0.5688,non-clickbait,clickbait,Nam sinh giành 'cú đúp' thủ khoa lớp 10 chuyên Toán
+article_2500,VnExpress,0.5553,non-clickbait,clickbait,10 đại học tốt nhất thế giới năm 2026
+article_2574,Thanh Niên,0.7808,non-clickbait,clickbait,"Ngô Kiến Huy 'xịt keo' vì Cris Phan, HURRYKNG thể hiện khả năng toán học | ON TRENDING"
+article_2616,VietNamNet,0.5978,non-clickbait,clickbait,"Định cư ở nước ngoài, bằng lái B2 sắp hết hạn có đổi được không?"
+article_2685,24h,0.8973,non-clickbait,clickbait,Nữ kỹ sư IT du học Mỹ đăng quang Hoa hậu Hoàn vũ Việt Nam 2025 là ai?
+article_2741,Báo Mới,0.6842,non-clickbait,clickbait,Không phải iPhone nào cũng được hưởng trọn tính năng iOS 26 - Báo VietnamNet
+article_2781,VnExpress,0.6506,non-clickbait,clickbait,Những người trẻ ngơ ngác vì được bảo bọc quá mức
+article_3054,VnExpress,0.5575,non-clickbait,clickbait,Doanh nhân tại Dubai mua xe sang Trung Quốc giá kỷ lục
+article_3088,Tuổi Trẻ,0.721,non-clickbait,clickbait,"Nhà di động rẻ hơn cả Honda Air Blade: Đủ tiện ích cơ bản, phải mua thêm lều ngủ"
+article_3163,24h,0.7983,non-clickbait,clickbait,Hôn nhân viên mãn của ca sĩ Thu Thuỷ bên chồng kém 11 tuổi
+article_3219,24h,0.8032,non-clickbait,clickbait,"Tùng Dương, Ngọc Anh khiến khán giả xúc động khi hát nhạc Phú Quang"
+article_3324,VnExpress,0.6207,non-clickbait,clickbait,10 hãng hàng không tốt nhất thế giới 2025
+article_3389,Thanh Niên,0.8481,non-clickbait,clickbait,3 vạch kẻ đường dễ khiến tài xế 'dính' phạt nguội trong nội thành
+article_3428,VietNamNet,0.6744,non-clickbait,clickbait,4 địa điểm 'trốn nắng nóng' lý tưởng gần Hà Nội cho dịp hè 2025
+article_3496,Báo Mới,0.7237,non-clickbait,clickbait,"Rò rỉ ảnh của Xiaomi YU7 bản hiệu suất cao, đâu cũng là carbon - Tạp chí Tri thức"
+article_3576,24h,0.7495,non-clickbait,clickbait,Trên dưới 500 triệu đồng mua xe SUV cũ chọn xe nào?
+article_0231,Báo Mới,0.3764,clickbait,non-clickbait,Inter Miami trước ngưỡng cửa lịch sử - Tạp chí Tri thức
+article_0475,24h,0.4805,clickbait,non-clickbait,IRGC cảnh báo Mỹ 'sẽ không thoát được'
+article_0481,24h,0.1808,clickbait,non-clickbait,Ông Trump nêu lý do khó đề nghị Israel dừng tấn công Iran
+article_0960,VietNamNet,0.1867,clickbait,non-clickbait,Florian Wirtz: Ma thuật nước Đức chờ bay cao với Liverpool
+article_1075,Báo Mới,0.1184,clickbait,non-clickbait,Lời biển xưa còn vọng - Báo Văn hóa
+article_1076,Báo Mới,0.1632,clickbait,non-clickbait,Người 'tiếp lửa' gia phong cho các thế hệ con cháu - Báo Văn hóa
+article_1266,SaoStar,0.8344,non-clickbait,clickbait,Tống Uy Long là nam diễn viên thất bại nhất nửa đầu năm 2025
+article_1268,SaoStar,0.322,clickbait,non-clickbait,Doãn Quốc Đam trở lại
+article_1286,SaoStar,0.7564,non-clickbait,clickbait,"Không có Bạch Lộc và Vu Chính, Lâm Giang Tiên đã flop trong im lặng"
+article_1332,Báo Mới,0.4887,clickbait,non-clickbait,Những yếu tố nào chi phối thị trường dầu khí thế giới tuần qua? - Tạp chí Petrotimes
+article_1619,24h,0.0924,clickbait,non-clickbait,"Cazorla 40 tuổi tỏa sáng giúp đội tí hon lên hạng La Liga, chờ so tài Yamal & Mbappe"
+article_1705,VnExpress,0.3793,clickbait,non-clickbait,Guardiola: 'Nhiều cầu thủ sẽ buồn nếu ở lại Man City'
+article_1727,VnExpress,0.5005,non-clickbait,clickbait,Rangnick: 'Man Utd gặp vấn đề về người lãnh đạo'
+article_1796,Thanh Niên,0.4806,clickbait,non-clickbait,Thi tốt nghiệp THPT thay đổi ra sao để phù hợp với thế giới?
+article_1874,SaoStar,0.8522,non-clickbait,clickbait,Diễn viên Ngân Hòa mắc suy thận giai đoạn cuối ở tuổi 29: Căn bệnh đáng báo động ở giới trẻ
+article_1945,Báo Mới,0.374,clickbait,non-clickbait,'Trâu Thủ đô' tiếp đà thăng hoa - Báo Nhân Dân
+article_1955,Báo Mới,0.2074,clickbait,non-clickbait,"Bayern Munich tung chiêu, quyết vượt Barca ký Nico Williams - Báo VietnamNet"
+article_2156,24h,0.0759,clickbait,non-clickbait,Microsoft bất ngờ hồi sinh tính năng Windows Vista trên Windows 11
+article_2257,VnExpress,0.3176,clickbait,non-clickbait,"Bị phạt 16 triệu đồng vì 'đi xe máy ngông nghênh', thách thức công an"
+article_2604,Thanh Niên,0.1367,clickbait,non-clickbait,"Phương Bình: Mua nhà trả góp ở tuổi 52, chịu cảnh xa vợ hơn 30 năm"
+article_2789,VnExpress,0.157,clickbait,non-clickbait,Làm đám cưới giữa trại chó
+article_3040,VnExpress,0.0196,clickbait,non-clickbait,Người dân háo hức đổi xe xăng lấy xe máy điện
+article_3117,Thanh Niên,0.4961,clickbait,non-clickbait,Liệu có thể gắn ổ SSD PCIe 5.0 vào bo mạch chủ PCIe 4.0?
+article_3144,VietNamNet,0.4537,clickbait,non-clickbait,"Kiên Giang cấp phép đầu tư 3 dự án 'siêu khủng', tổng vốn hơn 90.000 tỷ đồng"
+article_3217,24h,0.1088,clickbait,non-clickbait,"Biển người đổ về Hưng Yên ngày thứ 2, đằm trong mưa giông tầm tã"
+article_3370,Thanh Niên,0.7775,non-clickbait,clickbait,Phân biệt biển báo ô tô quay ngang và dọc thế nào để tránh bị phạt?
+article_3515,Tuổi Trẻ,0.4322,clickbait,non-clickbait,Cuộc gọi cuối cùng của vợ chồng nghèo trước giờ bị lật vỏ lãi trên biển
+article_3648,24h,0.187,clickbait,non-clickbait,Cảng cá 280 tỷ đồng sắp hoạt động nhưng luồng lạch bồi lắng
+article_3755,24h,0.4492,clickbait,non-clickbait,Thác 7 tầng Chiềng Khoa đẹp như tiên cảnh hút khách ngày hè

@@ -1,0 +1,32 @@
+{
+  "alpha": 0.05,
+  "method": "holm",
+  "results": [
+    {
+      "comparison": "concat vs text",
+      "mean_diff": -0.004414047669599569,
+      "bootstrap_ci95": [
+        -0.01025293858633242,
+        0.0012150126504625032
+      ],
+      "wins_a": 7,
+      "n_seeds": 20,
+      "wilcoxon_p": 0.20244979858398438,
+      "holm_reject": false,
+      "verdict": "chưa chứng minh được"
+    },
+    {
+      "comparison": "concat vs image",
+      "mean_diff": 0.1726867996613573,
+      "bootstrap_ci95": [
+        0.15966949368295896,
+        0.18570192388787254
+      ],
+      "wins_a": 20,
+      "n_seeds": 20,
+      "wilcoxon_p": 1.9073486328125e-06,
+      "holm_reject": true,
+      "verdict": "đạt"
+    }
+  ]
+}

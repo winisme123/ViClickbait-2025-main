@@ -1,0 +1,83 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0069,Tuổi Trẻ,0.2768,clickbait,non-clickbait,Nhiều bệnh viện phía Nam ngừng chụp PET/CT: Cái 'áo cơ chế' làm khổ người bệnh
+article_0234,Báo Mới,0.3473,clickbait,non-clickbait,"Bellingham quát tháo, Guler đáp trả - Tạp chí Tri thức"
+article_0269,Báo Mới,0.1357,clickbait,non-clickbait,Sao Inter Milan dọa đánh fan PSG vì bị trêu chọc - Tạp chí Tri thức
+article_0339,Tuổi Trẻ,0.855,non-clickbait,clickbait,Sự thật về video 'vụ nổ cơ sở hạt nhân Fordow' khi Mỹ tấn công
+article_0402,VietNamNet,0.844,non-clickbait,clickbait,Nam thanh niên trốn bố mẹ bỏ nhà đi bộ 'về xuôi' bị lạc đường trên cao tốc
+article_0443,SaoStar,0.9186,non-clickbait,clickbait,Video: Mưa lớn ở Thái Nguyên khiến khắp nơi 'hoá thành sông'
+article_0544,Báo Mới,0.6889,non-clickbait,clickbait,"Iran tổn thất nặng, nhưng chương trình hạt nhân có thực sự bị xóa sổ? - Báo Tin Tức TTXVN"
+article_0615,Tuổi Trẻ,0.9267,non-clickbait,clickbait,"Tưởng đang 'thay trời hành đạo', nhóm 'bà chủ' truy hỏi, cưỡng đoạt tiền nhân viên"
+article_0845,VnExpress,0.6285,non-clickbait,clickbait,8 công dụng của ChatGPT
+article_0864,VnExpress,0.8426,non-clickbait,clickbait,Nghề SEO đứng trước 'ngã ba đường' vì AI
+article_0881,Tuổi Trẻ,0.6975,non-clickbait,clickbait,"Giảm giá nhà: tháo gỡ pháp lý, cơ hội đang 'sáng' dần"
+article_0884,Tuổi Trẻ,0.541,non-clickbait,clickbait,"Chứng khoán tuần mới: Nhiều biến số gây áp lực, cơ hội vẫn xuất hiện vài nhóm cổ phiếu"
+article_1028,24h,0.934,non-clickbait,clickbait,"Vợ chồng Hà Nội rời phố về biển, chi tiền ""biến” nhà cũ thành homestay đẹp như mơ"
+article_1223,Thanh Niên,0.5442,non-clickbait,clickbait,Cách thiết kế phòng ngủ giúp phục hồi năng lượng: Gợi ý từ kiến trúc sư
+article_1247,VietNamNet,0.8298,non-clickbait,clickbait,Đừng coi 'xếp mức lương cao nhất' cho nhà giáo là một ân huệ
+article_1497,Thanh Niên,0.5409,non-clickbait,clickbait,Đau vai dai dẳng - dấu hiệu cảnh báo viêm khớp vai không thể bỏ qua
+article_1499,Thanh Niên,0.8348,non-clickbait,clickbait,Alo bác sĩ nghe: Đau mỏi vai gáy khi ngủ dậy cảnh báo điều gì?
+article_1515,VietNamNet,0.9094,non-clickbait,clickbait,"Iran tấn công dồn dập, Israel hứng 'mưa tên lửa' chưa từng thấy"
+article_1559,SaoStar,0.6455,non-clickbait,clickbait,"Chia tay HAGL, Minh Vương nghẹn ngào gửi lời đến bầu Đức"
+article_1856,VietNamNet,0.9239,non-clickbait,clickbait,"Chàng trai Tiền Giang cắt sầu riêng nhanh như chớp, nghe tiếng là biết quả già"
+article_1893,SaoStar,0.865,non-clickbait,clickbait,Dấu hiệu cho thấy thận của bạn đang khỏe mạnh
+article_1971,VnExpress,0.9402,non-clickbait,clickbait,Ảnh thời bé của dàn 'Em xinh say hi'
+article_2033,Thanh Niên,0.9118,non-clickbait,clickbait,Khám phá 10 quốc gia có đường bờ biển dài nhất thế giới
+article_2102,VietNamNet,0.9073,non-clickbait,clickbait,Ca phẫu thuật khẩn từ lời nhắn cầu cứu của người phụ nữ xa lạ
+article_2133,SaoStar,0.9422,non-clickbait,clickbait,"Video: Nam sinh xin quả xoài qua camera, chủ nhà xem lại được phen cười ngất"
+article_2268,Tuổi Trẻ,0.5938,non-clickbait,clickbait,Út Lan: Oán linh giữ của soán ngôi Bí kíp luyện rồng; Lilo & Stitch tiến tới doanh thu tỉ đô
+article_2270,Tuổi Trẻ,0.9292,non-clickbait,clickbait,"Thời trang xa xỉ ngày càng xa tầm với, giới trẻ không còn thấy xấu hổ khi xài hàng giả"
+article_2358,VietNamNet,0.838,non-clickbait,clickbait,"Không có trái tim, AI giỏi đến mấy cũng không thể thay thế nhà báo"
+article_2574,Thanh Niên,0.7955,non-clickbait,clickbait,"Ngô Kiến Huy 'xịt keo' vì Cris Phan, HURRYKNG thể hiện khả năng toán học | ON TRENDING"
+article_2654,SaoStar,0.5742,non-clickbait,clickbait,"Không còn là hoàng tử ballad dịu dàng, SOOBIN hóa thân thành thái tử Na Tra cực ngầu trong Phong Thần VNG"
+article_2671,SaoStar,0.5358,non-clickbait,clickbait,AI và gánh nặng năng lượng khổng lồ của trí tuệ nhân tạo
+article_2702,24h,0.6257,non-clickbait,clickbait,Ái nữ đại gia Minh 'Nhựa' xách túi tiền tỷ mừng sinh nhật
+article_2722,Báo Mới,0.6675,non-clickbait,clickbait,Nhà sáng lập Tesla đánh giá Grok: Quá nhiều nội dung vô dụng - Tạp chí SaoStar
+article_3176,24h,0.9339,non-clickbait,clickbait,Dàn sao 'Tiếu ngạo giang hồ' sau 30 năm
+article_3215,24h,0.7278,non-clickbait,clickbait,Khán giả bỏ về vì concert 'Anh trai vượt ngàn chông gai' bị mất điện
+article_3278,Báo Mới,0.667,non-clickbait,clickbait,Tài chính trong tình yêu: Chuyện khó nói nhưng rất cần nói - Báo Thời Báo Ngân Hàng
+article_3396,Thanh Niên,0.6402,non-clickbait,clickbait,Xe máy Honda 'Made in Malaysia' về Việt Nam: Chọn Honda Wave 125i hay Honda Dash 125?
+article_3398,Thanh Niên,0.8592,non-clickbait,clickbait,"Cửa kính ô tô thường bị mờ sương, dấu hiệu cảnh báo điều hòa có vấn đề"
+article_3434,VietNamNet,0.8842,non-clickbait,clickbait,"Cung đường đẹp như tranh cách Hà Nội 3 giờ lái xe, du khách 'đội nắng' săn ảnh"
+article_3496,Báo Mới,0.9268,non-clickbait,clickbait,"Rò rỉ ảnh của Xiaomi YU7 bản hiệu suất cao, đâu cũng là carbon - Tạp chí Tri thức"
+article_3783,24h,0.5232,non-clickbait,clickbait,"Bằng lăng nở rộ, ""nhuộm"" tím khắp phố phường Hà Nội"
+article_0218,24h,0.2309,clickbait,non-clickbait,Tiết lộ vai trò của Israel trong chiến dịch Mỹ dội bom chưa từng có vào cơ sở hạt nhân Iran
+article_0237,Báo Mới,0.0291,clickbait,non-clickbait,Khởi động chiến dịch bảo vệ ngôi vương - Báo Văn hóa
+article_0270,Báo Mới,0.0736,clickbait,non-clickbait,Đương kim vô địch Champions League tạo bất ngờ đầu tiên ở FIFA Club World Cup 2025 - Báo Quân Đội Nhân Dân
+article_0272,Báo Mới,0.2227,clickbait,non-clickbait,Lý do Tottenham sa thải Postecoglou - Tạp chí Tri thức
+article_0307,VnExpress,0.0738,clickbait,non-clickbait,Khoảnh khắc ông Trump tuyên bố xóa sổ cơ sở hạt nhân Iran
+article_0419,Kênh14,0.9205,non-clickbait,clickbait,"Quá khứ ít biết của thiếu gia nghìn tỷ nhà bầu Hiển: Làm bồi bàn kiếm tiền, mọi thứ đều tự bươn chải"
+article_0557,VnExpress,0.4502,clickbait,non-clickbait,Hơn 1 tỷ USD 'bốc hơi' khỏi thị trường tiền số
+article_0648,Thanh Niên,0.1371,clickbait,non-clickbait,Mỗi ngày có hơn 1.000 người thành triệu phú USD tại Mỹ
+article_0659,Thanh Niên,0.0615,clickbait,non-clickbait,Tăng xác suất tiểu hành tinh tấn công mặt trăng
+article_0663,VietNamNet,0.0637,clickbait,non-clickbait,Chủ tịch TP Buôn Ma Thuột nói Công ty cấp nước Đắk Lắk làm 'trò trẻ con'
+article_0814,Báo Mới,0.4453,clickbait,non-clickbait,Người dân chật vật di chuyển qua 'ngõ đau khổ' ở Thủ đô - Báo Tiền Phong
+article_0909,Thanh Niên,0.1253,clickbait,non-clickbait,Những nơi nào ở TP.HCM được miễn giấy phép xây dựng?
+article_0957,VietNamNet,0.4485,clickbait,non-clickbait,CĐV 'đại náo' sân Thiên Trường ngày Nam Định nâng Cúp
+article_1076,Báo Mới,0.0582,clickbait,non-clickbait,Người 'tiếp lửa' gia phong cho các thế hệ con cháu - Báo Văn hóa
+article_1096,Báo Mới,0.0264,clickbait,non-clickbait,Làm báo Mặt trận - Báo Đại Đoàn Kết
+article_1322,Báo Mới,0.1885,clickbait,non-clickbait,"Bán nhà phố về quê, khi hết tiền tôi phải chạy xe máy 40km để đi làm - Báo VTC News"
+article_1332,Báo Mới,0.4393,clickbait,non-clickbait,Những yếu tố nào chi phối thị trường dầu khí thế giới tuần qua? - Tạp chí Petrotimes
+article_1874,SaoStar,0.6039,non-clickbait,clickbait,Diễn viên Ngân Hòa mắc suy thận giai đoạn cuối ở tuổi 29: Căn bệnh đáng báo động ở giới trẻ
+article_1961,VnExpress,0.5633,non-clickbait,clickbait,Ngọc Khuê: 'Chồng giúp tôi mở lòng sau một lần đổ vỡ'
+article_1977,VnExpress,0.1134,clickbait,non-clickbait,Hoa hậu Phương Linh: 'Tôi không ngại xăm mình'
+article_2045,Thanh Niên,0.1037,clickbait,non-clickbait,Chưa từng có: Khách bay đêm đến TP.HCM được miễn phí 1 đêm khách sạn
+article_2095,VietNamNet,0.1109,clickbait,non-clickbait,Ba không khi ăn rau dền
+article_2156,24h,0.4207,clickbait,non-clickbait,Microsoft bất ngờ hồi sinh tính năng Windows Vista trên Windows 11
+article_2182,Báo Mới,0.0282,clickbait,non-clickbait,Chiến sĩ mới tự tin chinh phục '3 tiếng nổ' - Báo Cao Bằng
+article_2391,SaoStar,0.0825,clickbait,non-clickbait,Giá xăng dầu hôm nay 14/6: Tăng mạnh chưa từng thấy
+article_2627,VietNamNet,0.2892,clickbait,non-clickbait,Cựu giao dịch viên ACB thành kẻ tham ô vì hoa mắt món tiền hoa hồng
+article_2644,SaoStar,0.3646,clickbait,non-clickbait,Microsoft sẵn sàng 'đường ai nấy đi' với nhà sáng lập ChatGPT
+article_2764,VnExpress,0.4082,clickbait,non-clickbait,Vượt qua nỗi sợ có con
+article_2766,VnExpress,0.8078,non-clickbait,clickbait,Ước mơ lớn nhất của người thợ cắt tóc
+article_2789,VnExpress,0.086,clickbait,non-clickbait,Làm đám cưới giữa trại chó
+article_2792,VnExpress,0.4016,clickbait,non-clickbait,Nơi người dân dùng vàng thay tiền mặt
+article_2805,Tuổi Trẻ,0.0279,clickbait,non-clickbait,"Phổ điểm thi lớp 10 ở TP.HCM: Lo lắng môn văn, kết quả thở phào"
+article_2926,SaoStar,0.887,non-clickbait,clickbait,"Nếu không đi xa, hãy thử 'staycation' để du lịch ngay trong thành phố"
+article_3190,24h,0.6179,non-clickbait,clickbait,"ĐÂY RỒI: G-Dragon đã xuất hiện, cả Nội Bài bùng nổ!"
+article_3214,24h,0.3964,clickbait,non-clickbait,BTC concert Anh trai vượt ngàn chông gai xin lỗi
+article_3260,Báo Mới,0.2101,clickbait,non-clickbait,Người phụ nữ mất con vì mắc hội chứng hiếm gặp - Tạp chí Tri thức
+article_3302,VnExpress,0.4988,clickbait,non-clickbait,Quán bún bò 'không chuẩn vị Huế' hút khách ở phố cổ Hà Nội
+article_3384,Thanh Niên,0.327,clickbait,non-clickbait,Vụ xe bán tải cán người trong bệnh viện: Làm sao để lùi xe an toàn?
+article_3400,Thanh Niên,0.4006,clickbait,non-clickbait,Có nên tin tưởng công nghệ đỗ xe tự động trên ô tô phổ thông?
+article_3749,24h,0.0319,clickbait,non-clickbait,Hé lộ thực đơn quốc yến đón khách quốc tế của Tổng thống Nga Putin
+article_3753,24h,0.4301,clickbait,non-clickbait,"Rong ruổi Bình Đại đắm mình thiên nhiên, hóa thân làm dân quê thứ thiệt"

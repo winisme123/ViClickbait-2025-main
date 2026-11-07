@@ -1,0 +1,49 @@
+{
+  "a": "concat_lead",
+  "b": "concat",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "per_seed": [
+    {
+      "seed": 42,
+      "macro_f1_concat_lead": 0.7885069674850698,
+      "macro_f1_concat": 0.8046650124069479,
+      "diff": -0.016158044921878112,
+      "only_concat_lead_correct": 24,
+      "only_concat_correct": 25,
+      "mcnemar_p": 1.0
+    },
+    {
+      "seed": 43,
+      "macro_f1_concat_lead": 0.8332506203473946,
+      "macro_f1_concat": 0.8432719984327199,
+      "diff": -0.010021378085325328,
+      "only_concat_lead_correct": 18,
+      "only_concat_correct": 23,
+      "mcnemar_p": 0.5327092552361137
+    },
+    {
+      "seed": 44,
+      "macro_f1_concat_lead": 0.789671682626539,
+      "macro_f1_concat": 0.8101490145316136,
+      "diff": -0.020477331905074614,
+      "only_concat_lead_correct": 20,
+      "only_concat_correct": 25,
+      "mcnemar_p": 0.5514843298025198
+    }
+  ],
+  "mean_diff": -0.015552251637426018,
+  "wins_a": 0,
+  "n_seeds": 3,
+  "wilcoxon_statistic": 0.0,
+  "wilcoxon_p": 0.25,
+  "pooled_mcnemar": {
+    "only_concat_lead_correct": 62,
+    "only_concat_correct": 73,
+    "p": 0.38950262897613974
+  },
+  "verdict_protocol_v3": "chưa chứng minh được"
+}

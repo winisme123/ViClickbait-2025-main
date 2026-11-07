@@ -1,0 +1,74 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0225,Báo Mới,0.4717,clickbait,non-clickbait,Tình thế đảo ngược với tiền vệ Tuấn Anh - Tạp chí SaoStar
+article_0375,Thanh Niên,0.7148,non-clickbait,clickbait,"Thấy người khác gặp tai nạn nguy kịch nhưng không cứu giúp, phạm tội gì?"
+article_0489,24h,0.4511,clickbait,non-clickbait,"Hoàng đế là người hùng ở Pakistan nhưng bị xem như ""tội đồ” ở Ấn Độ"
+article_0547,Báo Mới,0.5914,non-clickbait,clickbait,"Iran phóng tên lửa đầu đạn 1,5 tấn vào Israel: Mối đe dọa mới khiến phòng thủ Tel Aviv chao đảo - VietTimes"
+article_0615,Tuổi Trẻ,0.8062,non-clickbait,clickbait,"Tưởng đang 'thay trời hành đạo', nhóm 'bà chủ' truy hỏi, cưỡng đoạt tiền nhân viên"
+article_0863,VnExpress,0.6682,non-clickbait,clickbait,Sam Altman nói 'không biết chăm con thế nào nếu thiếu ChatGPT'
+article_1176,Tuổi Trẻ,0.7452,non-clickbait,clickbait,Robot trị liệu tâm lý: Có thấu hiểu hay chỉ biết lắng nghe?
+article_1387,VnExpress,0.7598,non-clickbait,clickbait,"Tự ý ngưng thuốc, bệnh nhân suýt mất mạng"
+article_1411,VnExpress,0.7931,non-clickbait,clickbait,Làm thế nào phòng rối loạn nhịp tim?
+article_1413,VnExpress,0.7006,non-clickbait,clickbait,"Vì sao không nên chủ quan khi trẻ chơi cùng chó, mèo?"
+article_1415,VnExpress,0.7744,non-clickbait,clickbait,Điều gì xảy ra khi trẻ ngã từ giường xuống đất?
+article_1428,Tuổi Trẻ,0.8418,non-clickbait,clickbait,Pin xe điện còn 'trường thọ' hơn cả bản thân xe xăng
+article_1464,Thanh Niên,0.8664,non-clickbait,clickbait,"Tưởng táo bón do ăn thiếu chất xơ, không ngờ là ung thư đại tràng"
+article_1564,SaoStar,0.3685,clickbait,non-clickbait,Dấu chấm hết cho Lương Xuân Trường
+article_1569,24h,0.7535,non-clickbait,clickbait,Man City thắng đậm đội bóng châu Á: HLV Guardiola nói gì về sao trẻ Echeverri?
+article_1772,Tuổi Trẻ,0.5414,non-clickbait,clickbait,"Đẹp ngỡ ngàng mùa sen Trà Lý, du khách ùn ùn đến check-in"
+article_1893,SaoStar,0.8364,non-clickbait,clickbait,Dấu hiệu cho thấy thận của bạn đang khỏe mạnh
+article_1968,VnExpress,0.5754,non-clickbait,clickbait,Johnny Depp nói 'bị chơi xấu' trong vụ kiện Amber Heard
+article_2201,Báo Mới,0.8208,non-clickbait,clickbait,Tình trạng của chồng Khánh Thi sau chấn thương ngoài ý muốn - Tạp chí SaoStar
+article_2334,VietNamNet,0.5029,non-clickbait,clickbait,Một bệnh viện cầu cứu khi bị hacker đe dọa tung dữ liệu bệnh nhân lên mạng
+article_2573,Thanh Niên,0.7982,non-clickbait,clickbait,"Phương Anh Đào 'bắt trend' Tây Du Ký, Cris Phan 'sắm vai' cả dàn cast | ON TRENDING"
+article_2574,Thanh Niên,0.7478,non-clickbait,clickbait,"Ngô Kiến Huy 'xịt keo' vì Cris Phan, HURRYKNG thể hiện khả năng toán học | ON TRENDING"
+article_2597,Thanh Niên,0.6517,non-clickbait,clickbait,"Bố mẹ Phương Linh là cán bộ về hưu, không nghĩ con gái đăng quang hoa hậu"
+article_2847,Thanh Niên,0.6205,non-clickbait,clickbait,Đà Nẵng và Bình Phước đấu play-off tranh vé V-League: Công Phượng so tài Bùi Tiến Dũng khi nào?
+article_2866,Thanh Niên,0.8253,non-clickbait,clickbait,"CLB Bình Định ‘chiến đấu’ kiên cường, vẫn thua đau Hà Nội: Rớt hạng, kết cục cay đắng!"
+article_3038,VnExpress,0.6832,non-clickbait,clickbait,Kiếm 100.000 USD nhờ tố cáo lỗi giao thông của người khác
+article_3193,24h,0.8786,non-clickbait,clickbait,"Ngủ gật khi lái xe, nam ca sĩ gặp tai nạn và bị thương nặng"
+article_3220,24h,0.881,non-clickbait,clickbait,"Tự Long, Soobin khóc cười cùng với fan, 'quẩy' đến nửa đêm"
+article_3222,24h,0.5606,non-clickbait,clickbait,"Sự trở lại của mỹ nam cao 1m86 đóng phim trăm tỷ của Trấn Thành, Victor Vũ"
+article_3485,Báo Mới,0.6818,non-clickbait,clickbait,Hệ thống hỗ trợ lái xe trong sương mù hoạt động ra sao? - Tạp chí Tri thức
+article_3568,24h,0.5971,non-clickbait,clickbait,Top xe MPV từ giá rẻ đến hạng sang đáng chú ý hiện nay
+article_0168,SaoStar,0.3817,clickbait,non-clickbait,"Trước giờ G đêm nhạc của G-Dragon ở Mỹ Đình: Mây đen kéo tới ùn ùn, giá vé giảm mạnh"
+article_0214,24h,0.4947,clickbait,non-clickbait,Xôn xao thông tin người đàn ông trộm hơn 800 tờ vé số ở TPHCM
+article_0215,24h,0.7328,non-clickbait,clickbait,"Bắt người đàn ông ""tung cước"" làm nữ tài xế xe ôm công nghệ ngã nhào"
+article_0237,Báo Mới,0.0296,clickbait,non-clickbait,Khởi động chiến dịch bảo vệ ngôi vương - Báo Văn hóa
+article_0301,VnExpress,0.0515,clickbait,non-clickbait,Lãnh tụ tối cao Iran có thể đã chọn ba ứng viên kế nhiệm
+article_0428,SaoStar,0.4919,clickbait,non-clickbait,"Lại thêm vụ mất trắng 145 triệu đồng trong tài khoản: Bẫy cũ, nạn nhân mới"
+article_0494,Báo Mới,0.072,clickbait,non-clickbait,Nhiều quốc gia sẵn sàng cung cấp vũ khí hạt nhân cho Iran? - Chuyên trang Sài Gòn Đầu Tư Tài Chính - Báo Sài Gòn Giải Phóng
+article_0557,VnExpress,0.2807,clickbait,non-clickbait,Hơn 1 tỷ USD 'bốc hơi' khỏi thị trường tiền số
+article_0651,Thanh Niên,0.0359,clickbait,non-clickbait,Quyết định của Chủ tịch Fed
+article_0957,VietNamNet,0.242,clickbait,non-clickbait,CĐV 'đại náo' sân Thiên Trường ngày Nam Định nâng Cúp
+article_1022,24h,0.3394,clickbait,non-clickbait,Từ bờ vực phá sản đến đế chế streaming lớn nhất Nhật Bản cạnh tranh Netflix
+article_1029,24h,0.3526,clickbait,non-clickbait,"Căn hộ áp mái tại tòa nhà ""mỏng nhất thế giới"" được rao bán với giá hơn 2.800 tỷ đồng"
+article_1033,24h,0.4337,clickbait,non-clickbait,Elon Musk giàu nhất thế giới nhưng công ty vẫn thiếu tiền
+article_1074,Báo Mới,0.0869,clickbait,non-clickbait,Mở lối ký ức bằng tư duy hôm nay - Báo Văn hóa
+article_1209,Thanh Niên,0.2397,clickbait,non-clickbait,Nhớ tiết kiệm điện 'mọi lúc mọi nơi'
+article_1467,Thanh Niên,0.573,non-clickbait,clickbait,4 điều chỉnh giúp dân văn phòng cải thiện sức khỏe
+article_1541,SaoStar,0.118,clickbait,non-clickbait,Chủ tịch CLB Hải Phòng lên tiếng về tin HLV Chu Đình Nghiêm chia tay
+article_1585,24h,0.7394,non-clickbait,clickbait,"Real Madrid mất người từ sớm: Asencio ""non nớt"", nhận ngay thẻ đỏ trực tiếp"
+article_1785,Thanh Niên,0.2276,clickbait,non-clickbait,"Học tại Việt Nam, nhận bằng cử nhân Anh quốc có uy tín?"
+article_1804,Thanh Niên,0.1069,clickbait,non-clickbait,"Trao bằng tốt nghiệp cho sinh viên, hiệu trưởng nói về 'chìa khóa của thành công'"
+article_1912,24h,0.2085,clickbait,non-clickbait,"Kiều nữ bóng chuyền Kayla Simmons ""tắm tiên"" trên bãi biển thơ mộng"
+article_1935,Báo Mới,0.169,clickbait,non-clickbait,Bùi Tiến Dũng 'tuyên chiến' Công Phượng trước trận play-off giành vé dự V-League - Báo VietnamPlus
+article_1937,Báo Mới,0.2992,clickbait,non-clickbait,Xuân Son tuyên bố tự tin trước ngày trở lại sân cỏ - Báo Giáo Dục & Thời Đại
+article_1945,Báo Mới,0.2261,clickbait,non-clickbait,'Trâu Thủ đô' tiếp đà thăng hoa - Báo Nhân Dân
+article_2046,Thanh Niên,0.2482,clickbait,non-clickbait,"Biểu trưng mặt trời, logo của Sun PhuQuoc Airways có ý nghĩa gì?"
+article_2143,24h,0.4306,clickbait,non-clickbait,"Lô hàng Nintendo Switch 2 trị giá hơn 36 tỷ đồng ""bốc hơi"" trên đường tới tay game thủ"
+article_2527,VnExpress,0.4407,clickbait,non-clickbait,Đâu là tờ báo cách mạng đầu tiên của Việt Nam?
+article_2584,Thanh Niên,0.455,clickbait,non-clickbait,Quang Tuấn tiết lộ ngày đầu ghi hình cùng dàn cast 'Running Man Vietnam'
+article_2624,VietNamNet,0.2974,clickbait,non-clickbait,Sự cẩu thả của hai người đàn ông khiến 8 người mất mạng
+article_2692,24h,0.2953,clickbait,non-clickbait,"Đàm Thu Trang chít khăn như cụ bà, Quế Vân hở bạo đi xem G-Dragon"
+article_2786,VnExpress,0.403,clickbait,non-clickbait,Dấu hiệu của người trưởng thành
+article_2895,VietNamNet,0.0933,clickbait,non-clickbait,Xe điện cao cấp của Toyota dùng công nghệ của hai ‘ông lớn’ tại Trung Quốc
+article_2938,SaoStar,0.4832,clickbait,non-clickbait,Trầm trồ trước vẻ đẹp của 2 con đường 'rẽ nước đi bộ xuyên biển' ở Việt Nam
+article_2968,Báo Mới,0.233,clickbait,non-clickbait,Trục vớt du thuyền khiến 'Bill Gates nước Anh' tử nạn - Tạp chí Tri thức
+article_2994,Báo Mới,0.4132,clickbait,non-clickbait,Vén màn bí mật bức phù điêu hình đại bàng vàng - Báo Tri thức & Cuộc sống
+article_3057,VnExpress,0.0736,clickbait,non-clickbait,Đại lý làm mất xe sang trước khi giao cho khách
+article_3086,Tuổi Trẻ,0.3267,clickbait,non-clickbait,7 thay đổi nhà bếp trước và sau khi cải tạo
+article_3171,24h,0.0976,clickbait,non-clickbait,Nam diễn viên thất bại nhất Trung Quốc năm 2025
+article_3288,VnExpress,0.3008,clickbait,non-clickbait,50 nhà hàng tốt nhất thế giới
+article_3370,Thanh Niên,0.7143,non-clickbait,clickbait,Phân biệt biển báo ô tô quay ngang và dọc thế nào để tránh bị phạt?
+article_3749,24h,0.0193,clickbait,non-clickbait,Hé lộ thực đơn quốc yến đón khách quốc tế của Tổng thống Nga Putin
+article_3775,24h,0.175,clickbait,non-clickbait,Eo Gió Quan Lạn thiên đường hoang sơ làm say lòng du khách
