@@ -79,4 +79,4 @@ def test_cached_image_features_match_full_forward(mode):
       ids = mm['tokenizer'](t, max_length=48, padding='max_length', truncation=True, return_tensors='pt')
       full = torch.sigmoid(mm['model'](ids['input_ids'], ids['attention_mask'], pix)).item()
     assert c == pytest.approx(full, abs=1e-5)
-  assert not hasattr(mm['model'].image_encoder, 'hidden')  # đã trả lại ViT gốc
+  assert not hasattr(mm['model'].image_encoder, 'hidden')  # ViT gốc được trả lại sau khi giải thích

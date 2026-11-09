@@ -8,7 +8,7 @@ from transformers import AutoModel, ViTModel
 class ViClickbaitDataset(Dataset):
     """
     Dataset cho bài toán phân loại Clickbait đa phương thức tiếng Việt.
-    Đọc trực tiếp từ train.csv, val.csv, hoặc test.csv đã được split chuẩn.
+    Đọc từ train.csv, val.csv hoặc test.csv đã chia sẵn.
     """
     def __init__(self, dataframe, img_dir, tokenizer, processor, max_length=128):
         self.df = dataframe.reset_index(drop=True)
@@ -62,8 +62,8 @@ class ViClickbaitDataset(Dataset):
 
 class MultimodalClickbaitModel(nn.Module):
     """
-    Kiến trúc baseline trước đây (1 chiều Text-to-Image Cross-Attention)
-    dùng để tương thích với checkpoint cũ: multimodal_clickbait_model.pth
+    Cross-Attention một chiều (Text-to-Image), dùng để nạp checkpoint
+    multimodal_clickbait_model.pth
     """
     def __init__(self, phobert_name="vinai/phobert-base", vit_name="google/vit-base-patch16-224", num_heads=8):
         super(MultimodalClickbaitModel, self).__init__()
@@ -104,7 +104,7 @@ class MultimodalClickbaitModel(nn.Module):
 
 class MultimodalCoAttentionModel(nn.Module):
     """
-    Mô hình đề xuất chính của đề tài:
+    Mô hình Co-Attention hai chiều (thử nghiệm phụ, chia 80/10/10):
     - Nhánh Text: PhoBERT-base trích xuất đặc trưng tiêu đề.
     - Nhánh Image: ViT-base trích xuất patch embeddings thumbnail.
     - Bi-directional Cross-Attention (Co-Attention):
@@ -145,7 +145,7 @@ class MultimodalCoAttentionModel(nn.Module):
         # 1. Trích xuất văn bản qua PhoBERT
         text_outputs = self.text_encoder(input_ids=input_ids, attention_mask=attention_mask)
         text_hidden = text_outputs.last_hidden_state  # (B, seq_len, 768)
-        # Sử dụng CLS token (token 0 - <s> của PhoBERT) làm đặc trưng đại diện câu chuẩn
+        # Sử dụng CLS token (token 0 - <s> của PhoBERT) làm đặc trưng đại diện câu
         text_cls = text_hidden[:, 0, :]  # (B, 768)
 
         # 2. Trích xuất hình ảnh qua ViT

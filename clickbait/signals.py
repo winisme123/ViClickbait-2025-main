@@ -39,7 +39,7 @@ class Signal:
 
 
 def _normalize_keep_len(s: str) -> str:
-    """Bỏ dấu tiếng Việt nhưng GIỮ NGUYÊN độ dài chuỗi → map index về bản gốc."""
+    """Bỏ dấu tiếng Việt nhưng giữ nguyên độ dài chuỗi → map index về bản gốc."""
     out = []
     for ch in s:
         decomposed = unicodedata.normalize('NFD', ch)
@@ -94,8 +94,8 @@ PHRASE_PATTERNS = [
     (r"\bc[áa]c\s+bạn\b|\bchúng\s+ta\b", 'address', 'Gọi nhóm người đọc — tạo cảm giác liên quan.'),
 ]
 
-# ---------- Từ đơn / ký hiệu: so khớp trên chuỗi GỐC (tránh lỗi bỏ dấu) ----------
-# (pattern, danh mục, giải thích, flags) — ALLCAPS KHÔNG được dùng IGNORECASE
+# ---------- Từ đơn / ký hiệu: so khớp trên chuỗi gốc (tránh lỗi bỏ dấu) ----------
+# (pattern, danh mục, giải thích, flags); mẫu chữ viết hoa không dùng IGNORECASE
 WORD_PATTERNS = [
     (r"\bbạn\b", 'address', 'Gọi thẳng người đọc ("bạn") — tạo cảm giác liên quan cá nhân.', re.IGNORECASE),
     (r"\bđỉnh\b", 'sensational', 'Từ phóng đại ("đỉnh").', re.IGNORECASE),

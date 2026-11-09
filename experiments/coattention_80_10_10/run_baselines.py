@@ -241,7 +241,7 @@ def main():
                         help='Checkpoint Co-Attention do train.py tạo ra, được đánh giá trên cùng tập Test')
     args = parser.parse_args()
 
-    # Tải dữ liệu đã split chuẩn
+    # Tải dữ liệu đã chia sẵn
     train_df = pd.read_csv('train.csv')
     val_df = pd.read_csv('val.csv')
     test_df = pd.read_csv('test.csv')
@@ -281,7 +281,7 @@ def main():
         del model
         torch.cuda.empty_cache()
 
-    # Mô hình đề xuất (Co-Attention) được ĐO trên cùng tập Test, không nhập tay.
+    # Mô hình Co-Attention được đánh giá trên cùng tập Test.
     # Checkpoint phải do train.py tạo ra (chỉ học train.csv, chọn theo val.csv).
     proposed = None
     if os.path.exists(args.proposed_weights):
@@ -307,7 +307,7 @@ def main():
         print(f"{r['model_name']:<35} | {r['accuracy']:>8.2f}% | {r['macro_f1']:>8.2f}% | {r['precision']:>8.2f}% | {r['recall']:>8.2f}%")
     print("="*85)
 
-    # Đánh giá cam kết trong file Mục-tiêu-đề-tài.xlsx
+    # So sánh Co-Attention với từng baseline
     if proposed is None:
         print("\nĐã lưu kết quả chi tiết vào tệp: ablation_study_results.csv")
         return

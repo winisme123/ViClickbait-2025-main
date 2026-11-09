@@ -88,7 +88,7 @@ if __name__ == '__main__':
     y_true = np.array(all_labels).astype(int)
     y_pred = (probs >= 0.5).astype(int)
 
-    # 3. Tính toán các chỉ số đánh giá theo yêu cầu khóa luận
+    # 3. Tính các chỉ số đánh giá
     print(f"\n================ KẾT QUẢ ĐÁNH GIÁ [{MODE.upper()}] ================")
     print(classification_report(y_true, y_pred, labels=[0, 1],
                                 target_names=['Non-Clickbait (0)', 'Clickbait (1)'], digits=4, zero_division=0))

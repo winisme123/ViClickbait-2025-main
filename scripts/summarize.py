@@ -1,6 +1,6 @@
 """Gộp results/{mode}_seed{seed}.json thành bảng mean ± std.
 
-Mặc định chỉ gộp seed 42–44 vào results/summary.csv (bảng chính v2, giữ nguyên).
+Mặc định chỉ gộp seed 42–44 vào results/summary.csv (bảng kết quả chính).
 Bảng 8 seed của thí nghiệm A (docs/protocol-v3.md):
     python -m scripts.summarize --modes text concat --seeds 42 43 44 45 46 47 48 49 --out results/summary_8seeds.csv
 """

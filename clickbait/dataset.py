@@ -104,7 +104,7 @@ class ViClickbaitDataset(Dataset):
     }
 
     if self.use_text:
-      # Tách từ trước khi tokenize — chuẩn PhoBERT
+      # PhoBERT nhận tiêu đề đã tách từ
       title = segment_text(str(row['title']))
       if self.use_lead:
         lead = row['lead_paragraph']

@@ -3,9 +3,9 @@
 Chạy: streamlit run app.py
 
 - Mô hình: `concat` (Late Fusion) seed 42 (checkpoints/concat_seed42.pth). Bài không có ảnh
-  được chấm bằng mô hình `text` seed 42 thay vì ghép ảnh đen giả.
+  được chấm bằng mô hình `text` seed 42.
 - Số liệu ở sidebar và tab báo cáo đọc từ results/summary.csv (tập test độc lập,
-  3 seed) và results/summary_v4.csv (20 seed độc lập), không nhập tay.
+  3 seed) và results/summary_v4.csv (20 seed độc lập).
 - Bản phân tích chi tiết hơn (so sánh 3 mô hình, ngưỡng, lịch sử): app_v2.py.
 """
 import io
@@ -80,7 +80,7 @@ def load_components(mode):
 
 
 # ==============================================================================
-# SỐ LIỆU THỰC NGHIỆM (đọc từ file kết quả, không nhập tay)
+# SỐ LIỆU THỰC NGHIỆM (đọc từ thư mục results/)
 # ==============================================================================
 @st.cache_data(show_spinner=False)
 def load_summary(path=SUMMARY_PATH):

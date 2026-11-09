@@ -64,7 +64,7 @@ def main():
     else:
         print(f" CẢNH BÁO: Chưa tìm thấy file trọng số '{args.weights}'! Mô hình sẽ chạy với trọng số ngẫu nhiên.")
 
-    # 4. Thực hiện suy diễn & đo thời gian (KPI: < 2.5s / mẫu)
+    # 4. Suy diễn và đo thời gian trên từng mẫu
     model.eval()
     all_preds = []
     all_labels = []
@@ -97,7 +97,7 @@ def main():
     all_preds = np.array(all_preds)
     all_labels = np.array(all_labels)
 
-    # 5. Tính toán các chỉ số nghiệm thu theo đề cương khóa luận
+    # 5. Tính các chỉ số đánh giá
     acc = accuracy_score(all_labels, all_preds)
     macro_f1 = f1_score(all_labels, all_preds, average='macro')
     pre_macro = precision_score(all_labels, all_preds, average='macro')

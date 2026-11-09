@@ -47,7 +47,7 @@ def download_image(row):
 
 print(f'Bắt đầu crawl ảnh cho {len(df)} mẫu dữ liệu...')
 
-# Sử dụng đa luồng (ThreadPoolExecutor) để tải song song cực nhanh
+# Sử dụng đa luồng (ThreadPoolExecutor) để tải song song
 with ThreadPoolExecutor(max_workers=16) as executor:
   list(executor.map(download_image, [row for _, row in df.iterrows()]))
 
