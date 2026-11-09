@@ -1,0 +1,66 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0193,24h,0.7759,non-clickbait,clickbait,Người Hà Nội bất ngờ khi 2 tuyến đường có dải phân cách cứng
+article_0415,VietNamNet,0.7807,non-clickbait,clickbait,Nguyên nhân nam thanh niên ở Hà Nội mất 145 triệu đồng trong tài khoản?
+article_0544,Báo Mới,0.6938,non-clickbait,clickbait,"Iran tổn thất nặng, nhưng chương trình hạt nhân có thực sự bị xóa sổ? - Báo Tin Tức TTXVN"
+article_0584,VnExpress,0.8247,non-clickbait,clickbait,Có nên vay ngân hàng để xây nhà thời điểm này?
+article_0615,Tuổi Trẻ,0.8492,non-clickbait,clickbait,"Tưởng đang 'thay trời hành đạo', nhóm 'bà chủ' truy hỏi, cưỡng đoạt tiền nhân viên"
+article_0835,VnExpress,0.8912,non-clickbait,clickbait,Những lầm tưởng phổ biến về sức mạnh của smartphone
+article_0864,VnExpress,0.8324,non-clickbait,clickbait,Nghề SEO đứng trước 'ngã ba đường' vì AI
+article_0939,VietNamNet,0.6877,non-clickbait,clickbait,"Bayern Munich tung chiêu, quyết vượt Barca ký Nico Williams"
+article_0941,VietNamNet,0.6121,non-clickbait,clickbait,"Man City 'đánh tennis', đoạt vé sớm vào vòng 1/8 FIFA Club World Cup"
+article_1039,24h,0.7763,non-clickbait,clickbait,"""Ông chủ” Facebook mạnh tay chi tới 100 triệu USD tiền thưởng kèm lương để thu hút nhân tài"
+article_1413,VnExpress,0.7176,non-clickbait,clickbait,"Vì sao không nên chủ quan khi trẻ chơi cùng chó, mèo?"
+article_1426,VnExpress,0.906,non-clickbait,clickbait,Làm gì để tránh sập bẫy 'thao túng tâm lý'?
+article_1428,Tuổi Trẻ,0.9028,non-clickbait,clickbait,Pin xe điện còn 'trường thọ' hơn cả bản thân xe xăng
+article_1499,Thanh Niên,0.8167,non-clickbait,clickbait,Alo bác sĩ nghe: Đau mỏi vai gáy khi ngủ dậy cảnh báo điều gì?
+article_2199,Báo Mới,0.7419,non-clickbait,clickbait,Câu chuyện điện ảnh: 'Bí kíp luyện rồng' tiếp tục mê hoặc khán giả Bắc Mỹ - Pixar bất ngờ 'sẩy chân' - Báo Tin Tức TTXVN
+article_2201,Báo Mới,0.6904,non-clickbait,clickbait,Tình trạng của chồng Khánh Thi sau chấn thương ngoài ý muốn - Tạp chí SaoStar
+article_2564,Thanh Niên,0.6459,non-clickbait,clickbait,"Hồng Nhung: Khi được chẩn đoán mắc ung thư, tôi nghĩ đến 2 con đầu tiên"
+article_2694,24h,0.9483,non-clickbait,clickbait,"Nhan sắc quá khứ trái ngược của Tân Hoa, Á hậu Hoàn vũ Việt Nam: Người ngây thơ, người quyến rũ, cá tính"
+article_2781,VnExpress,0.6819,non-clickbait,clickbait,Những người trẻ ngơ ngác vì được bảo bọc quá mức
+article_3220,24h,0.8551,non-clickbait,clickbait,"Tự Long, Soobin khóc cười cùng với fan, 'quẩy' đến nửa đêm"
+article_3294,VnExpress,0.71,non-clickbait,clickbait,"7 món ăn 'ngon, giá hợp lý' được Michelin gợi ý"
+article_3511,Báo Mới,0.783,non-clickbait,clickbait,Mitsubishi Xforce có dấu hiệu 'hụt hơi' - Tạp chí Người Đưa Tin
+article_0240,Báo Mới,0.1999,clickbait,non-clickbait,Xuân Trường mừng cho Tuấn Anh - Tạp chí SaoStar
+article_0308,VnExpress,0.3459,clickbait,non-clickbait,Lý do ông Trump quyết định không kích Iran
+article_0450,SaoStar,0.3755,clickbait,non-clickbait,Vụ sữa bột Hiup giả: Những con số giật mình
+article_0493,24h,0.0357,clickbait,non-clickbait,Chiến tranh khốc liệt giữa Ấn Độ và Pakistan: Ra đời một quốc gia mới
+article_0504,Báo Mới,0.0158,clickbait,non-clickbait,Tehran cảnh báo Mỹ về 'hậu quả không thể khắc phục' - Báo Tin Tức TTXVN
+article_0660,Thanh Niên,0.2135,clickbait,non-clickbait,Tỉ phú Ấn Độ qua đời nghi do nuốt phải ong
+article_0679,VietNamNet,0.0545,clickbait,non-clickbait,"Lộ diện nhóm nhà đầu tư nước ngoài muốn tái cơ cấu SCB, bà Trương Mỹ Lan có động thái mới"
+article_0722,SaoStar,0.1089,clickbait,non-clickbait,"Phát hiện thằn lằn nguyên con trong bánh tiramisu, một gia đình bị ngộ độc"
+article_0909,Thanh Niên,0.2402,clickbait,non-clickbait,Những nơi nào ở TP.HCM được miễn giấy phép xây dựng?
+article_0988,SaoStar,0.2937,clickbait,non-clickbait,Xúc động tâm sự Hồ Ngọc Hà gửi con trai du học nước ngoài
+article_1021,24h,0.0733,clickbait,non-clickbait,Bitcoin cắm đầu lao dốc do căng thẳng Mỹ - Iran
+article_1032,24h,0.8124,non-clickbait,clickbait,"Tài sản của ""siêu nhân Hong Kong” Lý Gia Thành hiện còn bao nhiêu?"
+article_1073,Báo Mới,0.0321,clickbait,non-clickbait,Văn hóa - Ngọn lửa thắp sáng tinh thần dân tộc - Báo Văn hóa
+article_1190,Tuổi Trẻ,0.017,clickbait,non-clickbait,Khi Gen Z dùng công nghệ lập trình nhịp sống số
+article_1386,VnExpress,0.3643,clickbait,non-clickbait,Suy thận giai đoạn mấy phải chạy thận?
+article_1443,Tuổi Trẻ,0.1615,clickbait,non-clickbait,Thủ tục đăng ký xe cho người dưới 18 tuổi ra sao?
+article_1570,24h,0.237,clickbait,non-clickbait,"Barcelona có biến động khi mua Nico Williams, Lewandowski dễ bị thiệt thòi nhất"
+article_1874,SaoStar,0.5059,non-clickbait,clickbait,Diễn viên Ngân Hòa mắc suy thận giai đoạn cuối ở tuổi 29: Căn bệnh đáng báo động ở giới trẻ
+article_2245,VnExpress,0.0113,clickbait,non-clickbait,"Đánh mẹ, tấn công lực lượng an ninh cơ sở khi được can ngăn"
+article_2286,Thanh Niên,0.1804,clickbait,non-clickbait,Sống và yêu ở 'Miền cỏ tranh'
+article_2321,Thanh Niên,0.0834,clickbait,non-clickbait,Sách vở là thế giới mở
+article_2576,Thanh Niên,0.4654,clickbait,non-clickbait,‘Nữ hoàng wushu’ Thúy Hiền: Tôi dập tắt ước mơ ca hát của con khi ly hôn Tú Dưa
+article_2725,Báo Mới,0.0871,clickbait,non-clickbait,Trang web bị hack trong ngày Bitcoin sập - Tạp chí Tri thức
+article_2783,VnExpress,0.4383,clickbait,non-clickbait,Loạt hoạt động 'tiếp tự tin' cho nam giới từ Romano Gen Z
+article_2789,VnExpress,0.1005,clickbait,non-clickbait,Làm đám cưới giữa trại chó
+article_2792,VnExpress,0.4867,clickbait,non-clickbait,Nơi người dân dùng vàng thay tiền mặt
+article_2805,Tuổi Trẻ,0.0117,clickbait,non-clickbait,"Phổ điểm thi lớp 10 ở TP.HCM: Lo lắng môn văn, kết quả thở phào"
+article_2938,SaoStar,0.399,clickbait,non-clickbait,Trầm trồ trước vẻ đẹp của 2 con đường 'rẽ nước đi bộ xuyên biển' ở Việt Nam
+article_2963,24h,0.2792,clickbait,non-clickbait,"S:kin Heritage: Khi mỹ phẩm Việt ""khoác áo” di sản"
+article_2968,Báo Mới,0.0567,clickbait,non-clickbait,Trục vớt du thuyền khiến 'Bill Gates nước Anh' tử nạn - Tạp chí Tri thức
+article_3073,Tuổi Trẻ,0.4233,clickbait,non-clickbait,Đất nền ‘đu đỉnh’ sau sáp nhập tỉnh thành
+article_3111,Thanh Niên,0.0895,clickbait,non-clickbait,Khám phá tính năng iOS 26 giúp sạc pin iPhone hiệu quả hơn
+article_3131,VietNamNet,0.0466,clickbait,non-clickbait,Bộ Xây dựng chỉ đạo ‘hồi sinh’ toà tháp nghìn tỷ trơ xương trên đất vàng Hà Nội
+article_3144,VietNamNet,0.0898,clickbait,non-clickbait,"Kiên Giang cấp phép đầu tư 3 dự án 'siêu khủng', tổng vốn hơn 90.000 tỷ đồng"
+article_3157,VietNamNet,0.3958,clickbait,non-clickbait,"Có mảnh đất 200m2, làm thế nào để tách thửa, xây nhà ở trên 100m2?"
+article_3282,VnExpress,0.3069,clickbait,non-clickbait,12 hàng quán khách phải thử khi đến Huế
+article_3288,VnExpress,0.2192,clickbait,non-clickbait,50 nhà hàng tốt nhất thế giới
+article_3347,Tuổi Trẻ,0.3781,clickbait,non-clickbait,"Vào viện xin cấp cứu, chưa kịp chuyển viện theo ý muốn đã ra tay đấm điều dưỡng"
+article_3370,Thanh Niên,0.6002,non-clickbait,clickbait,Phân biệt biển báo ô tô quay ngang và dọc thế nào để tránh bị phạt?
+article_3437,24h,0.2292,clickbait,non-clickbait,Clip: Kinh hoàng xe máy lộn nhiều vòng sau khi bị ô tô tải tạt đầu
+article_3567,24h,0.0576,clickbait,non-clickbait,"Ford Territory - Khám phá ""lãnh thổ"" riêng trong thế giới crossover"
+article_3648,24h,0.0228,clickbait,non-clickbait,Cảng cá 280 tỷ đồng sắp hoạt động nhưng luồng lạch bồi lắng
+article_3779,24h,0.3897,clickbait,non-clickbait,"Cát Bà thêm điểm check-in mới ""tranh vẽ cô gái bí ẩn”"

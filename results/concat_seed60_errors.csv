@@ -1,0 +1,66 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0151,SaoStar,0.0402,clickbait,non-clickbait,Diệp Lâm Anh gặp sự cố sức khoẻ
+article_0155,SaoStar,0.1195,clickbait,non-clickbait,"Nam ca sĩ Việt bị tai nạn mất một tay, giờ bán trà sữa nuôi 3 con"
+article_0423,Kênh14,0.0171,clickbait,non-clickbait,"Đội bóng quê bầu Đức xuống hạng, lộ diện CLB đối đầu đội Công Phượng ở trận play-off V.League"
+article_0544,Báo Mới,0.8228,non-clickbait,clickbait,"Iran tổn thất nặng, nhưng chương trình hạt nhân có thực sự bị xóa sổ? - Báo Tin Tức TTXVN"
+article_0584,VnExpress,0.8458,non-clickbait,clickbait,Có nên vay ngân hàng để xây nhà thời điểm này?
+article_0835,VnExpress,0.9325,non-clickbait,clickbait,Những lầm tưởng phổ biến về sức mạnh của smartphone
+article_0881,Tuổi Trẻ,0.8067,non-clickbait,clickbait,"Giảm giá nhà: tháo gỡ pháp lý, cơ hội đang 'sáng' dần"
+article_1114,VnExpress,0.518,non-clickbait,clickbait,AI góp phần định hình thị trường bất động sản như thế nào?
+article_1235,Thanh Niên,0.8473,non-clickbait,clickbait,Sạp báo núp hẻm 'độc lạ Cần Thơ': Mỗi ngày chỉ bán 60 - 70 tờ
+article_1424,VnExpress,0.9318,non-clickbait,clickbait,Những người sống mà không cần ngủ
+article_1426,VnExpress,0.8539,non-clickbait,clickbait,Làm gì để tránh sập bẫy 'thao túng tâm lý'?
+article_1479,Thanh Niên,0.9047,non-clickbait,clickbait,Béo phì có phải là bệnh?
+article_1497,Thanh Niên,0.5752,non-clickbait,clickbait,Đau vai dai dẳng - dấu hiệu cảnh báo viêm khớp vai không thể bỏ qua
+article_1499,Thanh Niên,0.9585,non-clickbait,clickbait,Alo bác sĩ nghe: Đau mỏi vai gáy khi ngủ dậy cảnh báo điều gì?
+article_1772,Tuổi Trẻ,0.8972,non-clickbait,clickbait,"Đẹp ngỡ ngàng mùa sen Trà Lý, du khách ùn ùn đến check-in"
+article_1856,VietNamNet,0.8671,non-clickbait,clickbait,"Chàng trai Tiền Giang cắt sầu riêng nhanh như chớp, nghe tiếng là biết quả già"
+article_2010,Tuổi Trẻ,0.6951,non-clickbait,clickbait,Bảo tàng Chăm ở Huế bao giờ thành hiện thực khi cổ vật vẫn nằm rải rác trong quán cà phê?
+article_2120,SaoStar,0.9377,non-clickbait,clickbait,Tuyển sinh 2025: Những mốc thời gian 'vàng' thí sinh không thể bỏ lỡ
+article_2597,Thanh Niên,0.5787,non-clickbait,clickbait,"Bố mẹ Phương Linh là cán bộ về hưu, không nghĩ con gái đăng quang hoa hậu"
+article_2689,24h,0.8189,non-clickbait,clickbait,G-Dragon diện chiếc áo 'bà thím' suốt chuyến đi Việt Nam
+article_2916,SaoStar,0.5041,non-clickbait,clickbait,Phú Quý - Một lần bỏ phố về đảo để tìm thấy chính mình
+article_3186,24h,0.942,non-clickbait,clickbait,Danh hài Hoàng Mập bất ngờ rao bán biệt phủ triệu đô rộng 1.600m2
+article_3276,Báo Mới,0.9397,non-clickbait,clickbait,"Lái xe đi nghỉ mát, cả gia đình được buổi 'xông hơi' vì điều hòa ô tô giở chứng - Báo VietnamNet"
+article_3297,VnExpress,0.6669,non-clickbait,clickbait,Chính sách visa mới nào khách Việt cần lưu ý khi đi du lịch nước ngoài?
+article_3428,VietNamNet,0.7088,non-clickbait,clickbait,4 địa điểm 'trốn nắng nóng' lý tưởng gần Hà Nội cho dịp hè 2025
+article_3430,VietNamNet,0.7542,non-clickbait,clickbait,Thót tim cảnh dù lượn chao đảo rồi rơi xuống biển ở Hạ Long
+article_3676,24h,0.8785,non-clickbait,clickbait,"Chuyển nhượng MU: Chào bán Garnacho 50 triệu bảng, Mount đến Aston Villa?"
+article_0059,Tuổi Trẻ,0.3133,clickbait,non-clickbait,Mùa mưa bão đến rồi
+article_0245,Báo Mới,0.093,clickbait,non-clickbait,Top 10 thương vụ đắt giá nhất lịch sử Premier League - Chuyên trang An Ninh Thủ Đô - Báo Công an nhân dân
+article_0270,Báo Mới,0.1036,clickbait,non-clickbait,Đương kim vô địch Champions League tạo bất ngờ đầu tiên ở FIFA Club World Cup 2025 - Báo Quân Đội Nhân Dân
+article_0436,SaoStar,0.1289,clickbait,non-clickbait,Nhân thân bất hảo của thanh niên xé áo nữ tài xế taxi
+article_0493,24h,0.0321,clickbait,non-clickbait,Chiến tranh khốc liệt giữa Ấn Độ và Pakistan: Ra đời một quốc gia mới
+article_0696,Kênh14,0.0159,clickbait,non-clickbait,Từ EDM Festival đến mega concert Kpop đưa G-Dragon về Việt Nam: Ravolution Asia bùng nổ bước chuyển mình chiến lược
+article_1051,Báo Mới,0.651,non-clickbait,clickbait,"'Xuyên không' ở ngôi làng nhiều nhà trăm tuổi, cổ vật quý, cách TPHCM 110km - Báo VietnamNet"
+article_1076,Báo Mới,0.0796,clickbait,non-clickbait,Người 'tiếp lửa' gia phong cho các thế hệ con cháu - Báo Văn hóa
+article_1197,Thanh Niên,0.1058,clickbait,non-clickbait,Bản hòa ca sắc màu trên sông Hàn: Vẽ ‘hành tinh xanh’ bằng pháo hoa
+article_1272,SaoStar,0.0472,clickbait,non-clickbait,Trương Tịnh Nghi - Chu Dực Nhiên thất bại với Hoán Vũ
+article_1331,Báo Mới,0.4038,clickbait,non-clickbait,Không để lỡ 'chuyến tàu tốc hành' mang đến cơ hội phát triển vì những 'điểm nghẽn' của pháp luật - Tạp chí VnEconomy
+article_1379,VnExpress,0.1541,clickbait,non-clickbait,"'Tiêm sữa' chữa mất ngủ, nữ người mẫu tử vong"
+article_1446,Tuổi Trẻ,0.1232,clickbait,non-clickbait,Kiếm được tiền tỉ nhờ tố cáo xe dừng đỗ trái phép
+article_1474,Thanh Niên,0.0242,clickbait,non-clickbait,Cảnh báo lạm dụng 'trục hàn' để chữa bệnh
+article_1489,Thanh Niên,0.0477,clickbait,non-clickbait,Top 5 kem trị mụn giá học sinh mà chất lượng quốc tế
+article_1622,24h,0.2294,clickbait,non-clickbait,"Inter Milan nhận bàn thua lịch sử ở Club World Cup, CLB Nhật Bản hiên ngang rời giải"
+article_1785,Thanh Niên,0.0412,clickbait,non-clickbait,"Học tại Việt Nam, nhận bằng cử nhân Anh quốc có uy tín?"
+article_1796,Thanh Niên,0.2043,clickbait,non-clickbait,Thi tốt nghiệp THPT thay đổi ra sao để phù hợp với thế giới?
+article_1804,Thanh Niên,0.0485,clickbait,non-clickbait,"Trao bằng tốt nghiệp cho sinh viên, hiệu trưởng nói về 'chìa khóa của thành công'"
+article_1937,Báo Mới,0.132,clickbait,non-clickbait,Xuân Son tuyên bố tự tin trước ngày trở lại sân cỏ - Báo Giáo Dục & Thời Đại
+article_2095,VietNamNet,0.4381,clickbait,non-clickbait,Ba không khi ăn rau dền
+article_2142,24h,0.0086,clickbait,non-clickbait,"Kiếm triệu USD từ sáng tạo game, ứng dụng"
+article_2256,VnExpress,0.0357,clickbait,non-clickbait,"Đánh ghen, ép viết giấy nợ khiến nạn nhân tự tử"
+article_2300,Thanh Niên,0.1268,clickbait,non-clickbait,Nhàn đàm: Đường cày và con chữ
+article_2337,VietNamNet,0.3365,clickbait,non-clickbait,"Bỏ nghề MC truyền hình, cô gái Nùng làm ngô nếp bản địa bán cả triệu đồng/kg"
+article_2339,VietNamNet,0.4238,clickbait,non-clickbait,AK-308 'sát thủ mới của Kalashnikov’ với loạt công nghệ siêu hiện đại
+article_2537,VnExpress,0.028,clickbait,non-clickbait,Học sinh Việt Nam đạt thành tích chưa từng có tại Olympic Vật lý châu Âu
+article_2632,VietNamNet,0.0088,clickbait,non-clickbait,Bắt 6 đối tượng hiếp dâm bé gái trong rừng cao su ở Đắk Lắk
+article_2764,VnExpress,0.3534,clickbait,non-clickbait,Vượt qua nỗi sợ có con
+article_2896,VietNamNet,0.2304,clickbait,non-clickbait,"""Săn"" tiền thưởng kỷ lục mỗi năm nhờ ghi hình vi phạm giao thông"
+article_2946,24h,0.0615,clickbait,non-clickbait,Giảm gần 100 kg nhờ hâm mộ G-Dragon
+article_3058,VnExpress,0.4904,clickbait,non-clickbait,Bị trừ hết điểm nhưng vẫn lái xe bị phạt thế nào?
+article_3128,VietNamNet,0.4237,clickbait,non-clickbait,Dự án 1.700 tỷ 'đắp chiếu' nhiều năm ở Kon Tum đổi chủ: Trơ sắt thép dưới thời tiết khắc nghiệt
+article_3156,VietNamNet,0.4876,clickbait,non-clickbait,Thị trường bất động sản tại tỉnh lớn nhất Việt Nam sau sáp nhập ra sao?
+article_3169,24h,0.0674,clickbait,non-clickbait,Biển người đổ về sân Mỹ Đình
+article_3260,Báo Mới,0.41,clickbait,non-clickbait,Người phụ nữ mất con vì mắc hội chứng hiếm gặp - Tạp chí Tri thức
+article_3384,Thanh Niên,0.0885,clickbait,non-clickbait,Vụ xe bán tải cán người trong bệnh viện: Làm sao để lùi xe an toàn?
+article_3515,Tuổi Trẻ,0.1954,clickbait,non-clickbait,Cuộc gọi cuối cùng của vợ chồng nghèo trước giờ bị lật vỏ lãi trên biển

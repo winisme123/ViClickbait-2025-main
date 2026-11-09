@@ -1,0 +1,68 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0155,SaoStar,0.0275,clickbait,non-clickbait,"Nam ca sĩ Việt bị tai nạn mất một tay, giờ bán trà sữa nuôi 3 con"
+article_0184,24h,0.8367,non-clickbait,clickbait,Tài xế dừng xe ngủ trên cao tốc gây tai nạn kinh hoàng đối diện mức phạt nào?
+article_0193,24h,0.8453,non-clickbait,clickbait,Người Hà Nội bất ngờ khi 2 tuyến đường có dải phân cách cứng
+article_0225,Báo Mới,0.1393,clickbait,non-clickbait,Tình thế đảo ngược với tiền vệ Tuấn Anh - Tạp chí SaoStar
+article_0553,VnExpress,0.6256,non-clickbait,clickbait,'Lợi nhuận nhiều công ty địa ốc chưa thể bứt phá'
+article_0863,VnExpress,0.9587,non-clickbait,clickbait,Sam Altman nói 'không biết chăm con thế nào nếu thiếu ChatGPT'
+article_1000,SaoStar,0.3374,clickbait,non-clickbait,"Nam ca sĩ bị cấm sóng, toàn bộ show diễn bị hủy đến hết năm"
+article_1039,24h,0.7583,non-clickbait,clickbait,"""Ông chủ” Facebook mạnh tay chi tới 100 triệu USD tiền thưởng kèm lương để thu hút nhân tài"
+article_1215,Thanh Niên,0.7842,non-clickbait,clickbait,"Người đàn ông Tây Ninh trúng độc đắc: Cho các con mỗi người 1 tỉ, gửi tiết kiệm"
+article_1247,VietNamNet,0.544,non-clickbait,clickbait,Đừng coi 'xếp mức lương cao nhất' cho nhà giáo là một ân huệ
+article_1302,24h,0.3844,clickbait,non-clickbait,"Cả làng đua nhau đào đất lấy thứ quen thuộc, giá chục triệu/kg khách vẫn tranh mua"
+article_1409,VnExpress,0.5898,non-clickbait,clickbait,6 cách giảm nhiệt miệng không cần dùng thuốc
+article_1411,VnExpress,0.8643,non-clickbait,clickbait,Làm thế nào phòng rối loạn nhịp tim?
+article_1505,VietNamNet,0.782,non-clickbait,clickbait,"Mỹ tấn công cơ sở hạt nhân Iran, thế khó của cả ông Trump lẫn Tehran"
+article_1542,SaoStar,0.583,non-clickbait,clickbait,Dancesport đang thay đổi diện mạo thể thao Việt như thế nào?
+article_1569,24h,0.6275,non-clickbait,clickbait,Man City thắng đậm đội bóng châu Á: HLV Guardiola nói gì về sao trẻ Echeverri?
+article_1772,Tuổi Trẻ,0.7064,non-clickbait,clickbait,"Đẹp ngỡ ngàng mùa sen Trà Lý, du khách ùn ùn đến check-in"
+article_1909,24h,0.8846,non-clickbait,clickbait,Nóng nhất thể thao tối 21/6: Tay vợt số 1 nước Anh mơ gây sốc ở Wimbledon
+article_1968,VnExpress,0.9421,non-clickbait,clickbait,Johnny Depp nói 'bị chơi xấu' trong vụ kiện Amber Heard
+article_1974,VnExpress,0.5126,non-clickbait,clickbait,'Đặng Thùy Trâm và cuốn nhật ký thứ ba' (kỳ cuối): Nỗi đau ở lại
+article_1990,VnExpress,0.634,non-clickbait,clickbait,Công Ninh: 'Tôi ngại kêu gọi giúp đỡ dù khó khăn khi bệnh nặng'
+article_2239,VnExpress,0.8838,non-clickbait,clickbait,Kẻ sát hại chủ tiệm tạp hóa: Ra tay vì 'sợ bị lộ'
+article_2355,VietNamNet,0.6402,non-clickbait,clickbait,Chưa bao giờ vai trò dẫn đường của báo chí chân chính cần thiết đến thế
+article_2573,Thanh Niên,0.8252,non-clickbait,clickbait,"Phương Anh Đào 'bắt trend' Tây Du Ký, Cris Phan 'sắm vai' cả dàn cast | ON TRENDING"
+article_2574,Thanh Niên,0.8412,non-clickbait,clickbait,"Ngô Kiến Huy 'xịt keo' vì Cris Phan, HURRYKNG thể hiện khả năng toán học | ON TRENDING"
+article_2587,Thanh Niên,0.6517,non-clickbait,clickbait,Nam chính ‘Độc đạo’ tái xuất với phim điện ảnh
+article_2653,SaoStar,0.7366,non-clickbait,clickbait,Đẳng cấp chịu chi cỡ Phong Thần VNG: Tung TVC với bộ ba đại sứ triệu view SOOBIN - Tiến Linh - Jun Vũ
+article_2866,Thanh Niên,0.7947,non-clickbait,clickbait,"CLB Bình Định ‘chiến đấu’ kiên cường, vẫn thua đau Hà Nội: Rớt hạng, kết cục cay đắng!"
+article_3033,VnExpress,0.8552,non-clickbait,clickbait,Cubing - 'siêu xe' đắt giá nhất VinFast từng làm
+article_3178,24h,0.7952,non-clickbait,clickbait,"""Anh Long"" G-Dragon đội nón lá che kín mặt, lên đường ra sân bay về Hàn Quốc!"
+article_3434,VietNamNet,0.8733,non-clickbait,clickbait,"Cung đường đẹp như tranh cách Hà Nội 3 giờ lái xe, du khách 'đội nắng' săn ảnh"
+article_3462,24h,0.7084,non-clickbait,clickbait,"Clip: Vào cua bất cẩn, thanh niên đâm trúng gà rồi ngã sõng soài giữa đường"
+article_0240,Báo Mới,0.0183,clickbait,non-clickbait,Xuân Trường mừng cho Tuấn Anh - Tạp chí SaoStar
+article_0346,Thanh Niên,0.3111,clickbait,non-clickbait,Nước thải của Khu du lịch Thiên Cầm 'tra tấn' người dân
+article_0616,Tuổi Trẻ,0.4263,clickbait,non-clickbait,"Đăng ký thường trú qua VNeID, cần giấy tờ gì?"
+article_0645,Thanh Niên,0.0291,clickbait,non-clickbait,"Iran giáng cơn thịnh nộ, Israel thiệt hại nặng"
+article_0667,VietNamNet,0.0575,clickbait,non-clickbait,"Lãi suất ngân hàng hôm nay 23/6/2025: Nhà băng nào niêm yết mức cao nhất 6,1%?"
+article_0707,SaoStar,0.4356,clickbait,non-clickbait,Người vợ bị chồng cắn đứt mũi vì ngoại tình
+article_0732,24h,0.0224,clickbait,non-clickbait,Xác định nguyên nhân thanh niên không mặc quần áo tử vong giữa đường ở TP Thủ Đức
+article_0957,VietNamNet,0.1446,clickbait,non-clickbait,CĐV 'đại náo' sân Thiên Trường ngày Nam Định nâng Cúp
+article_0960,VietNamNet,0.0228,clickbait,non-clickbait,Florian Wirtz: Ma thuật nước Đức chờ bay cao với Liverpool
+article_0989,SaoStar,0.305,clickbait,non-clickbait,"Nam ca sĩ Việt từng nổi tiếng đình đám, nay hát hội chợ vắng hoe khán giả"
+article_1007,24h,0.3908,clickbait,non-clickbait,Loạt bất động sản trị giá hàng trăm triệu đô của công chúa nhạc pop Taylor Swift
+article_1021,24h,0.0637,clickbait,non-clickbait,Bitcoin cắm đầu lao dốc do căng thẳng Mỹ - Iran
+article_1394,VnExpress,0.1112,clickbait,non-clickbait,Đau ngực có phải dấu hiệu ung thư vú?
+article_1619,24h,0.0108,clickbait,non-clickbait,"Cazorla 40 tuổi tỏa sáng giúp đội tí hon lên hạng La Liga, chờ so tài Yamal & Mbappe"
+article_1912,24h,0.1244,clickbait,non-clickbait,"Kiều nữ bóng chuyền Kayla Simmons ""tắm tiên"" trên bãi biển thơ mộng"
+article_1961,VnExpress,0.9506,non-clickbait,clickbait,Ngọc Khuê: 'Chồng giúp tôi mở lòng sau một lần đổ vỡ'
+article_2127,SaoStar,0.2708,clickbait,non-clickbait,"Học sinh viết văn tả bố, đọc câu nào ngán ngẩm câu đó"
+article_2256,VnExpress,0.0112,clickbait,non-clickbait,"Đánh ghen, ép viết giấy nợ khiến nạn nhân tự tử"
+article_2285,Thanh Niên,0.2665,clickbait,non-clickbait,Gánh cỏ sông Hàn - tìm lại bản ngã dưới cờ nghĩa Lam Sơn
+article_2308,Thanh Niên,0.1855,clickbait,non-clickbait,Đan Trường lên tiếng làm rõ về clip quảng cáo vay nặng lãi
+article_2321,Thanh Niên,0.1858,clickbait,non-clickbait,Sách vở là thế giới mở
+article_2328,Thanh Niên,0.2145,clickbait,non-clickbait,Làm gì để người dân ĐBSCL thoát nghèo?
+article_2537,VnExpress,0.3826,clickbait,non-clickbait,Học sinh Việt Nam đạt thành tích chưa từng có tại Olympic Vật lý châu Âu
+article_2627,VietNamNet,0.0937,clickbait,non-clickbait,Cựu giao dịch viên ACB thành kẻ tham ô vì hoa mắt món tiền hoa hồng
+article_2634,VietNamNet,0.0071,clickbait,non-clickbait,Bị bắt vì livestream bán hàng 72 tỷ đồng không nộp thuế
+article_2887,VietNamNet,0.3846,clickbait,non-clickbait,"Lái xe đi nghỉ mát, cả gia đình được buổi 'xông hơi' vì điều hòa ô tô giở chứng"
+article_2946,24h,0.3537,clickbait,non-clickbait,Giảm gần 100 kg nhờ hâm mộ G-Dragon
+article_3194,24h,0.4433,clickbait,non-clickbait,Nghệ sĩ Chí Tâm 73 tuổi ngồi không cũng có hơn 30 triệu/tháng
+article_3223,24h,0.4989,clickbait,non-clickbait,Phim Việt bị chọc thủng lưới trên sân nhà
+article_3228,24h,0.0722,clickbait,non-clickbait,"Đội hình co-ed của Teddy: Tài phiệt đời thứ 4, một thành viên bị yêu cầu loại"
+article_3326,VnExpress,0.0825,clickbait,non-clickbait,Hái mận ở Mộc Châu
+article_3347,Tuổi Trẻ,0.2294,clickbait,non-clickbait,"Vào viện xin cấp cứu, chưa kịp chuyển viện theo ý muốn đã ra tay đấm điều dưỡng"
+article_3362,Tuổi Trẻ,0.1414,clickbait,non-clickbait,"Ẩn tinh hoàn có thể gây vô sinh, ung thư: Bác sĩ chỉ rõ dấu hiệu nhận biết"
+article_3384,Thanh Niên,0.1693,clickbait,non-clickbait,Vụ xe bán tải cán người trong bệnh viện: Làm sao để lùi xe an toàn?
+article_3479,Báo Mới,0.0237,clickbait,non-clickbait,Mitsubishi hé lộ mẫu xe mới bằng máy bay trực thăng - Báo Tiền Phong

@@ -1,0 +1,113 @@
+{
+  "mode": "text",
+  "seed": 50,
+  "split": "test",
+  "threshold": 0.5,
+  "checkpoint": "checkpoints\\text_seed50.pth",
+  "n_samples": 480,
+  "accuracy": 0.85,
+  "macro_f1": 0.8184873949579832,
+  "per_class": {
+    "non-clickbait": {
+      "precision": 0.8611898016997167,
+      "recall": 0.9296636085626911,
+      "f1": 0.8941176470588236,
+      "support": 327
+    },
+    "clickbait": {
+      "precision": 0.8188976377952756,
+      "recall": 0.6797385620915033,
+      "f1": 0.7428571428571429,
+      "support": 153
+    }
+  },
+  "confusion_matrix": [
+    [
+      304,
+      23
+    ],
+    [
+      49,
+      104
+    ]
+  ],
+  "by_source": {
+    "24h": {
+      "n_samples": 102,
+      "n_clickbait": 43,
+      "accuracy": 0.803921568627451,
+      "macro_f1": 0.7924297924297925,
+      "f1_clickbait": 0.7435897435897436
+    },
+    "Báo Mới": {
+      "n_samples": 73,
+      "n_clickbait": 17,
+      "accuracy": 0.9041095890410958,
+      "macro_f1": 0.840958605664488,
+      "f1_clickbait": 0.7407407407407407
+    },
+    "Kênh14": {
+      "n_samples": 12,
+      "n_clickbait": 10,
+      "accuracy": 0.8333333333333334,
+      "macro_f1": 0.7,
+      "f1_clickbait": 0.9
+    },
+    "SaoStar": {
+      "n_samples": 35,
+      "n_clickbait": 23,
+      "accuracy": 0.7714285714285715,
+      "macro_f1": 0.7666666666666666,
+      "f1_clickbait": 0.8
+    },
+    "Thanh Niên": {
+      "n_samples": 79,
+      "n_clickbait": 18,
+      "accuracy": 0.8860759493670886,
+      "macro_f1": 0.8348432055749129,
+      "f1_clickbait": 0.7428571428571429
+    },
+    "Tuổi Trẻ": {
+      "n_samples": 35,
+      "n_clickbait": 11,
+      "accuracy": 0.7714285714285715,
+      "macro_f1": 0.72,
+      "f1_clickbait": 0.6
+    },
+    "VietNamNet": {
+      "n_samples": 48,
+      "n_clickbait": 17,
+      "accuracy": 0.8958333333333334,
+      "macro_f1": 0.8808933002481389,
+      "f1_clickbait": 0.8387096774193549
+    },
+    "VnExpress": {
+      "n_samples": 96,
+      "n_clickbait": 14,
+      "accuracy": 0.8645833333333334,
+      "macro_f1": 0.7359847683520203,
+      "f1_clickbait": 0.5517241379310345
+    }
+  },
+  "hyperparameters": {
+    "epochs": 3,
+    "batch_size": 4,
+    "grad_accum": 1,
+    "lr": 2e-05,
+    "weight_decay": 0.01,
+    "scheduler": "linear_warmup",
+    "warmup_ratio": 0.1,
+    "warmup_steps": 168,
+    "total_steps": 1680,
+    "val_f1_constant": false,
+    "max_length": 48,
+    "fp16": true,
+    "n_train": 2237,
+    "n_val": 480,
+    "best_epoch": 2,
+    "best_val_macro_f1": 0.8431084145369859
+  },
+  "train_time_sec": 194.40229190001264,
+  "avg_step_sec": 0.10866681615976544,
+  "max_memory_allocated_gb": 3.0340418815612793
+}

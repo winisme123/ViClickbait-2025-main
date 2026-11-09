@@ -1,0 +1,76 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0151,SaoStar,0.0988,clickbait,non-clickbait,Diệp Lâm Anh gặp sự cố sức khoẻ
+article_0193,24h,0.7949,non-clickbait,clickbait,Người Hà Nội bất ngờ khi 2 tuyến đường có dải phân cách cứng
+article_0206,24h,0.3888,clickbait,non-clickbait,Hé lộ nguyên nhân nam thanh niên tử vong trong quán karaoke bị cháy
+article_0259,Báo Mới,0.3537,clickbait,non-clickbait,Al-Khelaifi mỉa mai Mbappe: 'Ghi bàn ở La Liga dễ hơn Ligue 1' - Tạp chí Tri thức
+article_0471,24h,0.5985,non-clickbait,clickbait,Cảnh báo mới của ông Trump với Iran
+article_0491,24h,0.946,non-clickbait,clickbait,"Vị hoàng đế có tư tưởng ""thoáng"", vĩ đại nhất lịch sử Ấn Độ"
+article_0614,Tuổi Trẻ,0.5657,non-clickbait,clickbait,"Tổng giám đốc bỏ trốn sang Mỹ, căn cứ nào để viện kiểm sát buộc tội chủ mưu?"
+article_0703,SaoStar,0.8205,non-clickbait,clickbait,"Cặp vợ chồng ăn sáng bằng thịt chuột bắt trong vườn, ít ngày sau nhiễm bệnh nguy hiểm"
+article_0888,Tuổi Trẻ,0.8075,non-clickbait,clickbait,Choáng vì hàng giả tinh vi như hàng thật
+article_1170,Tuổi Trẻ,0.5246,non-clickbait,clickbait,Làm việc hybrid working sao cho hiệu quả?
+article_1208,Thanh Niên,0.7385,non-clickbait,clickbait,Chủ quán phở Lâm sững sờ khi phát hiện được Michelin vinh danh
+article_1210,Thanh Niên,0.8249,non-clickbait,clickbait,"3 quán cà phê vợt lừng danh, lâu đời nhất TP.HCM: Bạn đã ghé chưa?"
+article_1391,VnExpress,0.6132,non-clickbait,clickbait,5 loại trà hỗ trợ giảm mỡ nội tạng
+article_1417,VnExpress,0.8352,non-clickbait,clickbait,Uống cà phê thế nào để răng không ố vàng
+article_1422,VnExpress,0.6908,non-clickbait,clickbait,8 thói quen âm thầm hủy hoại thận
+article_1515,VietNamNet,0.8571,non-clickbait,clickbait,"Iran tấn công dồn dập, Israel hứng 'mưa tên lửa' chưa từng thấy"
+article_1564,SaoStar,0.1615,clickbait,non-clickbait,Dấu chấm hết cho Lương Xuân Trường
+article_1707,VnExpress,0.5187,non-clickbait,clickbait,Inter nhận bàn thua lịch sử ở Club World Cup
+article_1910,24h,0.5311,non-clickbait,clickbait,"Võ sỹ Zakhar chịu khuất phục trước ""ông trùm vật tay"" Long ""The Rock"""
+article_1987,VnExpress,0.7119,non-clickbait,clickbait,Hậu trường hóa trang 'ma giữ của' trong phim Út Lan
+article_2581,Thanh Niên,0.8091,non-clickbait,clickbait,"Thua Tóc Tiên sát nút, Kay Trần bất lực loại đàn em khỏi show sống còn"
+article_2689,24h,0.5755,non-clickbait,clickbait,G-Dragon diện chiếc áo 'bà thím' suốt chuyến đi Việt Nam
+article_2741,Báo Mới,0.6227,non-clickbait,clickbait,Không phải iPhone nào cũng được hưởng trọn tính năng iOS 26 - Báo VietnamNet
+article_3033,VnExpress,0.798,non-clickbait,clickbait,Cubing - 'siêu xe' đắt giá nhất VinFast từng làm
+article_3193,24h,0.6007,non-clickbait,clickbait,"Ngủ gật khi lái xe, nam ca sĩ gặp tai nạn và bị thương nặng"
+article_3396,Thanh Niên,0.6772,non-clickbait,clickbait,Xe máy Honda 'Made in Malaysia' về Việt Nam: Chọn Honda Wave 125i hay Honda Dash 125?
+article_0237,Báo Mới,0.0241,clickbait,non-clickbait,Khởi động chiến dịch bảo vệ ngôi vương - Báo Văn hóa
+article_0240,Báo Mới,0.0251,clickbait,non-clickbait,Xuân Trường mừng cho Tuấn Anh - Tạp chí SaoStar
+article_0419,Kênh14,0.7785,non-clickbait,clickbait,"Quá khứ ít biết của thiếu gia nghìn tỷ nhà bầu Hiển: Làm bồi bàn kiếm tiền, mọi thứ đều tự bươn chải"
+article_0475,24h,0.4451,clickbait,non-clickbait,IRGC cảnh báo Mỹ 'sẽ không thoát được'
+article_0493,24h,0.0434,clickbait,non-clickbait,Chiến tranh khốc liệt giữa Ấn Độ và Pakistan: Ra đời một quốc gia mới
+article_0515,Báo Mới,0.2436,clickbait,non-clickbait,"Trung đạo giữa bão giông thù hận, si mê quyền lực - Tạp chí nghiên cứu Phật học"
+article_0557,VnExpress,0.2388,clickbait,non-clickbait,Hơn 1 tỷ USD 'bốc hơi' khỏi thị trường tiền số
+article_0658,Thanh Niên,0.5161,non-clickbait,clickbait,"Vé số độc đắc 7.300 tỉ đồng, kỷ lục của EuroMillions đã có chủ"
+article_0659,Thanh Niên,0.0742,clickbait,non-clickbait,Tăng xác suất tiểu hành tinh tấn công mặt trăng
+article_0660,Thanh Niên,0.3673,clickbait,non-clickbait,Tỉ phú Ấn Độ qua đời nghi do nuốt phải ong
+article_0716,SaoStar,0.0666,clickbait,non-clickbait,Tỷ phú Nga công bố di chúc chia hơn 300 nghìn tỷ đồng cho 100 người con khắp thế giới
+article_0732,24h,0.0398,clickbait,non-clickbait,Xác định nguyên nhân thanh niên không mặc quần áo tử vong giữa đường ở TP Thủ Đức
+article_0740,24h,0.3498,clickbait,non-clickbait,"Nữ cán bộ huyện liên kết với thầy bói lừa tiền ""đại gia” xăng dầu"
+article_0814,Báo Mới,0.2309,clickbait,non-clickbait,Người dân chật vật di chuyển qua 'ngõ đau khổ' ở Thủ đô - Báo Tiền Phong
+article_1007,24h,0.191,clickbait,non-clickbait,Loạt bất động sản trị giá hàng trăm triệu đô của công chúa nhạc pop Taylor Swift
+article_1018,24h,0.1588,clickbait,non-clickbait,Nơi đây có thêm 1.000 triệu phú mỗi ngày
+article_1022,24h,0.3759,clickbait,non-clickbait,Từ bờ vực phá sản đến đế chế streaming lớn nhất Nhật Bản cạnh tranh Netflix
+article_1164,VnExpress,0.0408,clickbait,non-clickbait,Đua mở mới khách sạn ven biển
+article_1393,VnExpress,0.4598,clickbait,non-clickbait,Triệu chứng nào cảnh báo mắc chứng cuồng ăn?
+article_1566,SaoStar,0.2314,clickbait,non-clickbait,Chốt lịch trận play-off V.League 2024/25: Công Phượng sẽ đá ở đâu?
+article_1785,Thanh Niên,0.4687,clickbait,non-clickbait,"Học tại Việt Nam, nhận bằng cử nhân Anh quốc có uy tín?"
+article_1788,Thanh Niên,0.4108,clickbait,non-clickbait,"Thi tốt nghiệp THPT cận kề, thí sinh cần lưu ý gì?"
+article_1796,Thanh Niên,0.2528,clickbait,non-clickbait,Thi tốt nghiệp THPT thay đổi ra sao để phù hợp với thế giới?
+article_1937,Báo Mới,0.2395,clickbait,non-clickbait,Xuân Son tuyên bố tự tin trước ngày trở lại sân cỏ - Báo Giáo Dục & Thời Đại
+article_2137,24h,0.1907,clickbait,non-clickbait,"Mặt trận ""không bom đạn” nhưng vô cùng khốc liệt giữa Israel và Iran"
+article_2339,VietNamNet,0.3751,clickbait,non-clickbait,AK-308 'sát thủ mới của Kalashnikov’ với loạt công nghệ siêu hiện đại
+article_2359,VietNamNet,0.4668,clickbait,non-clickbait,"Tiết lộ mỏ vàng nông nghiệp công nghệ cao, bạn trẻ về quê bỏ túi triệu đô"
+article_2550,Tuổi Trẻ,0.2615,clickbait,non-clickbait,Taekwondo Việt Nam: Làm gì để dự Olympic?
+article_2644,SaoStar,0.3826,clickbait,non-clickbait,Microsoft sẵn sàng 'đường ai nấy đi' với nhà sáng lập ChatGPT
+article_2805,Tuổi Trẻ,0.0287,clickbait,non-clickbait,"Phổ điểm thi lớp 10 ở TP.HCM: Lo lắng môn văn, kết quả thở phào"
+article_2829,Thanh Niên,0.467,clickbait,non-clickbait,Tuấn Anh không cô đơn!
+article_2840,Thanh Niên,0.0524,clickbait,non-clickbait,‘Đãi cát tìm vàng’ ở giải cầu lông các nhóm tuổi thiếu niên quốc gia
+article_2864,Thanh Niên,0.2208,clickbait,non-clickbait,"Dàn cầu thủ cao to và triển vọng của U.23 Việt Nam, chỉ còn thiếu..."
+article_2904,VietNamNet,0.3085,clickbait,non-clickbait,6 món phụ kiện hữu ích giúp bảo vệ xế cưng trong mùa hè nắng nóng
+article_2928,SaoStar,0.0947,clickbait,non-clickbait,Hà Giang hè này không chỉ có mùa tam giác mạch
+article_2963,24h,0.3222,clickbait,non-clickbait,"S:kin Heritage: Khi mỹ phẩm Việt ""khoác áo” di sản"
+article_3078,Tuổi Trẻ,0.1297,clickbait,non-clickbait,"Đã thu hồi 7.400m² đất của lô biệt thự L09 Sơn Trà, còn 5.000m² xử lý sao?"
+article_3128,VietNamNet,0.3886,clickbait,non-clickbait,Dự án 1.700 tỷ 'đắp chiếu' nhiều năm ở Kon Tum đổi chủ: Trơ sắt thép dưới thời tiết khắc nghiệt
+article_3160,24h,0.1845,clickbait,non-clickbait,Em gái quốc dân bị cô lập
+article_3217,24h,0.0732,clickbait,non-clickbait,"Biển người đổ về Hưng Yên ngày thứ 2, đằm trong mưa giông tầm tã"
+article_3313,VnExpress,0.0472,clickbait,non-clickbait,"Trung Quốc hút khách bằng trải nghiệm nhập vai công chúa, hoàng tử"
+article_3323,VnExpress,0.0508,clickbait,non-clickbait,Ý nghĩa của 81 chiếc đinh trên cổng chính Tử Cấm Thành
+article_3348,Tuổi Trẻ,0.097,clickbait,non-clickbait,Vụ ngàn chai nước mắm vứt ven đường: Đã xác định được người liên quan
+article_3408,VietNamNet,0.055,clickbait,non-clickbait,"Cao nguyên cách Hà Nội 300km có biển mây, thác nước, khách rộn ràng reo vui"
+article_3426,VietNamNet,0.3698,clickbait,non-clickbait,"'Thót tim' cảnh khách lao ra đường ray, trượt ngã ở phố cà phê đường tàu Hà Nội"
+article_3437,24h,0.2381,clickbait,non-clickbait,Clip: Kinh hoàng xe máy lộn nhiều vòng sau khi bị ô tô tải tạt đầu
+article_3471,Báo Mới,0.0183,clickbait,non-clickbait,Gần 1.000 người đội nắng đổi xe máy xăng lấy xe điện - Chuyên trang Xe Giao Thông - Báo Xây Dựng
+article_3658,24h,0.3525,clickbait,non-clickbait,Thấp thỏm quanh những cái ‘bẫy’ từ các mỏ vật liệu không hoàn thổ ở Hà Tĩnh
+article_3772,24h,0.241,clickbait,non-clickbait,Từ mắc OCD thành người trẻ nhất đi khắp thế giới

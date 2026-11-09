@@ -1,0 +1,129 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0061,Tuổi Trẻ,0.0744,clickbait,non-clickbait,Nhà giàu cũng khóc
+article_0163,SaoStar,0.4789,clickbait,non-clickbait,Lời nhắn nhủ của Cường Đô La dành cho con trai Subeo gây chú ý
+article_0172,SaoStar,0.0996,clickbait,non-clickbait,"Nam NSƯT từng là thầy Trấn Thành nói một câu khiến ai cũng xúc động, cuộc sống hiện tại gây bất ngờ"
+article_0355,Thanh Niên,0.524,non-clickbait,clickbait,Khởi tố vụ cán bộ ANTT tại Cà Mau bị đâm thủng ngực
+article_0422,Kênh14,0.0643,clickbait,non-clickbait,"Thương Đoàn Văn Hậu quá, rất may đã có Doãn Hải My đây rồi!"
+article_0699,SaoStar,0.0259,clickbait,non-clickbait,"Kiểm tra chiếc xe bán tải khả nghi trên cao tốc, sững sờ trước cảnh tượng bên trong"
+article_0724,SaoStar,0.3292,clickbait,non-clickbait,"Cô gái bị liệt mặt vì bật quạt máy ngủ trưa, bác sĩ đưa ra lời cảnh báo"
+article_0737,24h,0.0583,clickbait,non-clickbait,"Bị dẫn dụ vào ""chiếc bẫy cũ”, người phụ nữ ở Quảng Ngãi ""bay màu” 2,7 tỉ đồng"
+article_0971,Kênh14,0.1188,clickbait,non-clickbait,"Nữ diễn viên Việt duy nhất đóng chính phim Hàn dài 150 tập, được cả đài quốc gia tung hô mới đáng nể"
+article_1214,Thanh Niên,0.5897,non-clickbait,clickbait,"Xổ số miền Nam 22.6: Trúng độc đắc, chàng trai gửi 20 triệu nhờ đại lý giúp người nghèo"
+article_1237,Thanh Niên,0.0308,clickbait,non-clickbait,"Tưởng bị phạt nguội, tài xế vượt đèn đỏ nhận thông báo không ngờ từ CSGT"
+article_1365,Báo Mới,0.7366,non-clickbait,clickbait,"Lịch chốt trả cổ tức, tuần từ ngày 23 đến 27/6 - Báo Nhân Dân"
+article_1540,SaoStar,0.772,non-clickbait,clickbait,Thủ môn Bùi Tiến Dũng quyết thắng Công Phượng
+article_1555,SaoStar,0.5676,non-clickbait,clickbait,Đáng khen cho Công Phượng
+article_1572,24h,0.0373,clickbait,non-clickbait,"Man City đại thắng đội bóng châu Á 6-0, vì sao HLV Guardiola & Haaland giận dữ?"
+article_1749,VnExpress,0.7965,non-clickbait,clickbait,Hướng dẫn dùng kem chống nắng đúng cách khi chạy bộ mùa hè
+article_1837,VietNamNet,0.5544,non-clickbait,clickbait,"Nghỉ việc lương cao để ở nhà chăm con, 'bố bỉm sữa' bị viêm khớp, trầm cảm"
+article_1896,24h,0.7093,non-clickbait,clickbait,VĐV marathon bị cấm suốt đời: Thi chạy bộ nhưng đi xe đạp trong cuộc đua
+article_1897,24h,0.5575,non-clickbait,clickbait,Nóng nhất thể thao chiều 23/6: Oklahoma City Thunder giành chức vô địch NBA đầu tiên
+article_1917,24h,0.9023,non-clickbait,clickbait,"Người đẹp bóng chuyền cao ngất ngưởng 2m05, tâm điểm ở giải thế giới VNL 2025"
+article_1971,VnExpress,0.8848,non-clickbait,clickbait,Ảnh thời bé của dàn 'Em xinh say hi'
+article_1987,VnExpress,0.6238,non-clickbait,clickbait,Hậu trường hóa trang 'ma giữ của' trong phim Út Lan
+article_2002,VnExpress,0.9071,non-clickbait,clickbait,Dấu ấn Xuân Hạnh khi giữ vương miện Miss Cosmo
+article_2005,VnExpress,0.8012,non-clickbait,clickbait,Tiết mục múa tái hiện báo chí trong môi trường số
+article_2177,Báo Mới,0.7396,non-clickbait,clickbait,Lịch chiếu phim Hoán Vũ - Báo VTC News
+article_2190,Báo Mới,0.8099,non-clickbait,clickbait,Hot face sao Việt: Con gái út Quyền Linh khoe dáng ở Paris - Báo Tri thức & Cuộc sống
+article_2210,Báo Mới,0.659,non-clickbait,clickbait,Á quân Tiếng hát Việt toàn cầu Đức Thoa: Mong góp giọng hát lan tỏa hình ảnh đất nước - Báo Hà Nội Mới
+article_2270,Tuổi Trẻ,0.8447,non-clickbait,clickbait,"Thời trang xa xỉ ngày càng xa tầm với, giới trẻ không còn thấy xấu hổ khi xài hàng giả"
+article_2282,Tuổi Trẻ,0.8307,non-clickbait,clickbait,Công Trí lại đưa lãnh Mỹ A lên bộ sưu tập mới
+article_2558,Tuổi Trẻ,0.6371,non-clickbait,clickbait,HLV Philippe Troussier: U22 Việt Nam có sức ép
+article_2585,Thanh Niên,0.5475,non-clickbait,clickbait,"Quang Anh 'Về nhà đi con' bật khóc nức nở, dừng chân ở show âm nhạc"
+article_2596,Thanh Niên,0.5771,non-clickbait,clickbait,Hoa hậu Khánh Vân: Tôi được chồng yêu chiều nên làm vợ cũng thoải mái
+article_2770,VnExpress,0.7372,non-clickbait,clickbait,"Cách làm nước rau má, đậu xanh giải nhiệt, làm đẹp"
+article_2892,VietNamNet,0.0407,clickbait,non-clickbait,Xe tiền tỷ 'hờn dỗi' không cho chủ xe vào trong: Khi người giàu cũng khóc
+article_2958,24h,0.6594,non-clickbait,clickbait,Mặt mộc của thí sinh Hoa hậu Việt Nam
+article_3109,Thanh Niên,0.0883,clickbait,non-clickbait,Chiến game trên One UI 8 sẽ 'đỉnh' hơn nhờ hai tính năng mới
+article_3119,Thanh Niên,0.5427,non-clickbait,clickbait,Apple hồi sinh màu sắc sang trọng trên iPhone 17
+article_3154,VietNamNet,0.141,clickbait,non-clickbait,"Vác mai đi đào khoai, tôi 'mắc kẹt' với mảnh đất 1,5 tỷ ở rìa thành phố"
+article_3271,Báo Mới,0.8218,non-clickbait,clickbait,Thoát chết trong gang tấc sau khi nhồi máu cơ tim cấp - Tạp chí Tri thức
+article_3377,Thanh Niên,0.7925,non-clickbait,clickbait,Số vụ trẻ em tử vong trong ô tô đang có chiều hướng gia tăng
+article_3445,24h,0.2756,clickbait,non-clickbait,"Kawasaki Z400RS ""hâm nóng"" thị trường với loạt thông tin bất ngờ!"
+article_3447,24h,0.0945,clickbait,non-clickbait,"Những mẫu xe máy ""đi mãi không hỏng"" được ưa chuộng ở Việt Nam"
+article_3518,Tuổi Trẻ,0.5919,non-clickbait,clickbait,"Lắp rào chắn trên đường Võ Chí Công, Phạm Văn Đồng gây ùn tắc, lãnh đạo Sở Xây dựng Hà Nội nói gì?"
+article_3580,24h,0.5385,non-clickbait,clickbait,Chọn xe MPV hợp lý trong tầm giá 600 triệu đồng
+article_3731,24h,0.7562,non-clickbait,clickbait,Cách làm chim bồ câu xào rau răm khử sạch mùi hôi và giữ được vị ngọt tự nhiên
+article_3737,24h,0.8445,non-clickbait,clickbait,Mâm cơm dân dã ngày hè với cá ngần
+article_3768,24h,0.5224,non-clickbait,clickbait,12 vườn hồng hút khách check in tại Nhật Bản
+article_3774,24h,0.812,non-clickbait,clickbait,"""Săn” bình minh ở Mũi Điện nơi mặt trời mọc đầu tiên"
+article_0142,Kênh14,0.2075,clickbait,non-clickbait,"Người đứng sau ""đế chế ăn vặt"" - Ăn Cùng Bà Tuyết vừa thông báo giải thể LÀ AI, GIÀU CỠ NÀO mà đóng thuế thu nhập hàng trăm triệu đồng?"
+article_0143,Kênh14,0.0644,clickbait,non-clickbait,"Bán chân gà doanh thu hơn 100 tỷ chỉ trên một sàn TMĐT, mẹ con Bà Tuyết Diamond vẫn tuyên bố sốc"
+article_0229,Báo Mới,0.0545,clickbait,non-clickbait,"Man City 'đánh tennis', đoạt vé sớm vào vòng 1/8 FIFA Club World Cup - Báo VietnamNet"
+article_0308,VnExpress,0.0422,clickbait,non-clickbait,Lý do ông Trump quyết định không kích Iran
+article_0330,Tuổi Trẻ,0.1324,clickbait,non-clickbait,Ông Trump có phạm luật khi ra lệnh đánh bom Iran?
+article_0428,SaoStar,0.2177,clickbait,non-clickbait,"Lại thêm vụ mất trắng 145 triệu đồng trong tài khoản: Bẫy cũ, nạn nhân mới"
+article_0448,SaoStar,0.0568,clickbait,non-clickbait,"Video: Con gái gọi về qua camera, cha nghe tiếng liền có hành động khiến ai cũng vui lây"
+article_0648,Thanh Niên,0.0805,clickbait,non-clickbait,Mỗi ngày có hơn 1.000 người thành triệu phú USD tại Mỹ
+article_0702,SaoStar,0.5796,non-clickbait,clickbait,Tịch thu balo chứa hơn 2 tỷ đồng tiền mặt của một hành khách khi xuất cảnh
+article_0722,SaoStar,0.222,clickbait,non-clickbait,"Phát hiện thằn lằn nguyên con trong bánh tiramisu, một gia đình bị ngộ độc"
+article_0725,SaoStar,0.1722,clickbait,non-clickbait,Xúc động nữ sinh gánh hành lý trở về nhà sau kỳ thi bằng chiếc sào tre
+article_0732,24h,0.2155,clickbait,non-clickbait,Xác định nguyên nhân thanh niên không mặc quần áo tử vong giữa đường ở TP Thủ Đức
+article_0738,24h,0.2531,clickbait,non-clickbait,"Nước mắt của người mẹ có đứa con trai trượt dài trên con đường 'cơm tù, áo số'"
+article_0756,24h,0.0298,clickbait,non-clickbait,Thủ đoạn gây sốc của nhóm nhân viên tài chính ghép ảnh khiêu dâm đòi nợ
+article_0814,Báo Mới,0.2638,clickbait,non-clickbait,Người dân chật vật di chuyển qua 'ngõ đau khổ' ở Thủ đô - Báo Tiền Phong
+article_0924,Thanh Niên,0.1906,clickbait,non-clickbait,"'Ông lớn' xăng dầu, cao su... mạnh tay chia cổ tức"
+article_0953,VietNamNet,0.0383,clickbait,non-clickbait,"HLV Nam Định nói lời xúc động, ôm hôn vợ sắp cưới cực xinh"
+article_1017,24h,0.3111,clickbait,non-clickbait,"Trở thành cầu thủ đắt giá nhất Premier League, tiền vệ Florian Wirtz của Liverpool giàu thế nào?"
+article_1018,24h,0.1622,clickbait,non-clickbait,Nơi đây có thêm 1.000 triệu phú mỗi ngày
+article_1019,24h,0.034,clickbait,non-clickbait,Tội phạm mạng thao túng tâm lý người trẻ như thế nào?
+article_1021,24h,0.0989,clickbait,non-clickbait,Bitcoin cắm đầu lao dốc do căng thẳng Mỹ - Iran
+article_1033,24h,0.0368,clickbait,non-clickbait,Elon Musk giàu nhất thế giới nhưng công ty vẫn thiếu tiền
+article_1075,Báo Mới,0.1174,clickbait,non-clickbait,Lời biển xưa còn vọng - Báo Văn hóa
+article_1117,VnExpress,0.2971,clickbait,non-clickbait,Bộ Xây dựng yêu cầu Vicem hoàn thiện tháp nghìn tỷ 'đắp chiếu' chục năm
+article_1184,Tuổi Trẻ,0.1466,clickbait,non-clickbait,Học ngoại ngữ qua app: Coi chừng chỉ là 'học cho có'
+article_1186,Tuổi Trẻ,0.0206,clickbait,non-clickbait,Cách vượt qua 'người gác cổng' AI khi tìm việc
+article_1209,Thanh Niên,0.0309,clickbait,non-clickbait,Nhớ tiết kiệm điện 'mọi lúc mọi nơi'
+article_1292,SaoStar,0.1762,clickbait,non-clickbait,"Top 5 phim Hoa Ngữ thành công nhất nửa đầu năm 2025: Tiêu Chiến bất bại, Bạch Lộc gây tranh cãi"
+article_1322,Báo Mới,0.3832,clickbait,non-clickbait,"Bán nhà phố về quê, khi hết tiền tôi phải chạy xe máy 40km để đi làm - Báo VTC News"
+article_1432,Tuổi Trẻ,0.0734,clickbait,non-clickbait,"Xe Lucid Air GT bất ngờ 'cấm cửa' chủ nhân, đến hãng cũng 'bó tay'"
+article_1846,VietNamNet,0.0515,clickbait,non-clickbait,"Chủ gara ô tô người Hàn si mê cô gái Việt, từ bỏ sự nghiệp để ‘sống vì tình yêu’"
+article_1847,VietNamNet,0.1375,clickbait,non-clickbait,"Khó mua nhà Hà Nội, vợ chồng trẻ cầm tiền tỷ về quê tậu đất, dựng căn nhà đẹp mê"
+article_2089,VietNamNet,0.2509,clickbait,non-clickbait,"Không chỉ HIUP, Chitose là hàng giả quảng cáo ‘nổ’ như thế nào?"
+article_2114,SaoStar,0.1864,clickbait,non-clickbait,3 câu cửa miệng của con mà phụ huynh phải đặc biệt chú ý
+article_2138,24h,0.3047,clickbait,non-clickbait,"Chế độ ẩn danh của Chrome không hề ""ẩn danh"" như bạn nghĩ, đây là sự thật"
+article_2160,24h,0.5942,non-clickbait,clickbait,'Cơn sốt' tạo video AI bằng Google Veo 3
+article_2163,24h,0.017,clickbait,non-clickbait,Vietnam GameVerse 2025: Cột mốc bùng nổ của ngành game Việt
+article_2164,24h,0.0405,clickbait,non-clickbait,Chiêm ngưỡng những video thật đến khó tin được tạo ra bởi AI Veo 3 của Google
+article_2178,Báo Mới,0.3643,clickbait,non-clickbait,Diễn viên Quang Anh bật khóc nức nở - Tạp chí Tri thức
+article_2182,Báo Mới,0.1233,clickbait,non-clickbait,Chiến sĩ mới tự tin chinh phục '3 tiếng nổ' - Báo Cao Bằng
+article_2323,Thanh Niên,0.454,clickbait,non-clickbait,Tiểu thuyết đầu tay của tác giả 'Không gia đình' ra mắt bản dịch mới
+article_2337,VietNamNet,0.2325,clickbait,non-clickbait,"Bỏ nghề MC truyền hình, cô gái Nùng làm ngô nếp bản địa bán cả triệu đồng/kg"
+article_2535,VnExpress,0.0943,clickbait,non-clickbait,"Tỉnh, thành mới nào có hệ thống cảng biển lớn nhất cả nước?"
+article_2537,VnExpress,0.0135,clickbait,non-clickbait,Học sinh Việt Nam đạt thành tích chưa từng có tại Olympic Vật lý châu Âu
+article_2542,Tuổi Trẻ,0.0702,clickbait,non-clickbait,Toan tính của FIFA
+article_2578,Thanh Niên,0.4566,clickbait,non-clickbait,Bức Tường mang rock Việt 'đốt cháy' trái tim kiều bào châu Âu
+article_2627,VietNamNet,0.0185,clickbait,non-clickbait,Cựu giao dịch viên ACB thành kẻ tham ô vì hoa mắt món tiền hoa hồng
+article_2728,Báo Mới,0.103,clickbait,non-clickbait,Pin ô tô điện có tuổi thọ cao hơn xe xăng - Chuyên trang Xe Giao Thông - Báo Xây Dựng
+article_2789,VnExpress,0.3838,clickbait,non-clickbait,Làm đám cưới giữa trại chó
+article_2794,VnExpress,0.2638,clickbait,non-clickbait,Chàng trai Gen Z làm nghề 'giữ đèn' nghĩa trang
+article_2804,Tuổi Trẻ,0.0153,clickbait,non-clickbait,Tuyển sinh lớp 10 ở TP.HCM: Bất ngờ điểm thi môn toán
+article_2805,Tuổi Trẻ,0.0162,clickbait,non-clickbait,"Phổ điểm thi lớp 10 ở TP.HCM: Lo lắng môn văn, kết quả thở phào"
+article_2840,Thanh Niên,0.0945,clickbait,non-clickbait,‘Đãi cát tìm vàng’ ở giải cầu lông các nhóm tuổi thiếu niên quốc gia
+article_2843,Thanh Niên,0.1649,clickbait,non-clickbait,"Người hùng thầm lặng phía sau chức vô địch V-League của Nam Định: Không có anh ấy, thì…"
+article_2899,VietNamNet,0.2773,clickbait,non-clickbait,"Mẹo chống mở trộm xe đơn giản, rẻ tiền nhưng hiệu quả không ngờ"
+article_2902,VietNamNet,0.1056,clickbait,non-clickbait,Mỗi tháng trả 12 triệu đồng thuê mặt tiền chỉ để nhìn ô tô đỗ kín lối vào!
+article_2925,SaoStar,0.3535,clickbait,non-clickbait,"Mùa hè này, đổi gió lên rừng xem sao?"
+article_2928,SaoStar,0.2621,clickbait,non-clickbait,Hà Giang hè này không chỉ có mùa tam giác mạch
+article_2968,Báo Mới,0.0717,clickbait,non-clickbait,Trục vớt du thuyền khiến 'Bill Gates nước Anh' tử nạn - Tạp chí Tri thức
+article_2997,Báo Mới,0.2435,clickbait,non-clickbait,Xác ướp 5.600 năm tuổi hé lộ bí mật khó tin - Báo Tri thức & Cuộc sống
+article_3013,Báo Mới,0.4372,clickbait,non-clickbait,Số người trên Trái Đất có thể bị đếm thiếu rất nhiều? - Báo Giáo Dục & Thời Đại
+article_3030,VnExpress,0.0163,clickbait,non-clickbait,Gần 1.000 người 'đổi xăng lấy điện' trong hai ngày
+article_3040,VnExpress,0.0113,clickbait,non-clickbait,Người dân háo hức đổi xe xăng lấy xe máy điện
+article_3129,VietNamNet,0.1361,clickbait,non-clickbait,"Đất có sổ đỏ nhưng chưa rõ mốc giới, đừng vội xây nhà"
+article_3130,VietNamNet,0.0806,clickbait,non-clickbait,"Cảnh khác lạ chưa từng có ở Quất Lâm; Hà Nội xuất hiện căn hộ 12,2 triệu đồng/m2"
+article_3144,VietNamNet,0.0246,clickbait,non-clickbait,"Kiên Giang cấp phép đầu tư 3 dự án 'siêu khủng', tổng vốn hơn 90.000 tỷ đồng"
+article_3157,VietNamNet,0.1704,clickbait,non-clickbait,"Có mảnh đất 200m2, làm thế nào để tách thửa, xây nhà ở trên 100m2?"
+article_3170,24h,0.1761,clickbait,non-clickbait,"Gã trai ""đẹp nhưng đểu"", sở hữu chiều cao ấn tượng, có vợ là Á hậu"
+article_3212,24h,0.0331,clickbait,non-clickbait,'Choáng' với kiểu cuồng thần tượng của fan Việt
+article_3217,24h,0.3015,clickbait,non-clickbait,"Biển người đổ về Hưng Yên ngày thứ 2, đằm trong mưa giông tầm tã"
+article_3231,24h,0.1292,clickbait,non-clickbait,"Khi Phan Mạnh Quỳnh ""buông mic"""
+article_3232,24h,0.2972,clickbait,non-clickbait,Lý do Vũ Cát Tường liên tục phải tầm soát ung thư
+article_3362,Tuổi Trẻ,0.2059,clickbait,non-clickbait,"Ẩn tinh hoàn có thể gây vô sinh, ung thư: Bác sĩ chỉ rõ dấu hiệu nhận biết"
+article_3416,VietNamNet,0.4015,clickbait,non-clickbait,"Đặc sản 'dưới bùn' ở Quảng Ninh nhìn kỳ dị, xào su hào ăn ngọt, ngon"
+article_3471,Báo Mới,0.0355,clickbait,non-clickbait,Gần 1.000 người đội nắng đổi xe máy xăng lấy xe điện - Chuyên trang Xe Giao Thông - Báo Xây Dựng
+article_3648,24h,0.1454,clickbait,non-clickbait,Cảng cá 280 tỷ đồng sắp hoạt động nhưng luồng lạch bồi lắng
+article_3654,24h,0.4386,clickbait,non-clickbait,"Hoảng hồn cảnh xe máy phóng như 'bay', va chạm xe tải khiến 3 người thương vong ở Hải Phòng"
+article_3682,24h,0.0568,clickbait,non-clickbait,"Khốc liệt cuộc đua Ngoại hạng Anh 2024/25, đội nào ""biến hóa” nhất về chiến thuật?"
+article_3759,24h,0.1862,clickbait,non-clickbait,"Núi lửa phun trào, du khách lao vào chụp hình chỉ cách ""cửa tử” 2 bước chân"
+article_3775,24h,0.3551,clickbait,non-clickbait,Eo Gió Quan Lạn thiên đường hoang sơ làm say lòng du khách

@@ -1,0 +1,63 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0339,Tuổi Trẻ,0.8785,non-clickbait,clickbait,Sự thật về video 'vụ nổ cơ sở hạt nhân Fordow' khi Mỹ tấn công
+article_0465,24h,0.9358,non-clickbait,clickbait,"Dân Iran, Israel lo lắng tột độ trước diễn biến chiến tranh"
+article_0657,Thanh Niên,0.8834,non-clickbait,clickbait,Cô gái Việt ghi danh trong ngành quảng cáo thế giới
+article_0933,Thanh Niên,0.8581,non-clickbait,clickbait,"Trồng khóm hữu cơ kết hợp nuôi ốc lác, nông dân miền Tây kiếm bộn tiền"
+article_1204,Thanh Niên,0.9344,non-clickbait,clickbait,Sabah – thiên đường bí mật của Malaysia dành cho người yêu thiên nhiên
+article_1413,VnExpress,0.9195,non-clickbait,clickbait,"Vì sao không nên chủ quan khi trẻ chơi cùng chó, mèo?"
+article_1505,VietNamNet,0.6579,non-clickbait,clickbait,"Mỹ tấn công cơ sở hạt nhân Iran, thế khó của cả ông Trump lẫn Tehran"
+article_1559,SaoStar,0.5604,non-clickbait,clickbait,"Chia tay HAGL, Minh Vương nghẹn ngào gửi lời đến bầu Đức"
+article_1807,Thanh Niên,0.8522,non-clickbait,clickbait,"Cha mẹ, thầy cô hát tặng sĩ tử trong lễ tri ân, nhiều người bật khóc"
+article_2010,Tuổi Trẻ,0.64,non-clickbait,clickbait,Bảo tàng Chăm ở Huế bao giờ thành hiện thực khi cổ vật vẫn nằm rải rác trong quán cà phê?
+article_2199,Báo Mới,0.928,non-clickbait,clickbait,Câu chuyện điện ảnh: 'Bí kíp luyện rồng' tiếp tục mê hoặc khán giả Bắc Mỹ - Pixar bất ngờ 'sẩy chân' - Báo Tin Tức TTXVN
+article_2585,Thanh Niên,0.9135,non-clickbait,clickbait,"Quang Anh 'Về nhà đi con' bật khóc nức nở, dừng chân ở show âm nhạc"
+article_2596,Thanh Niên,0.8597,non-clickbait,clickbait,Hoa hậu Khánh Vân: Tôi được chồng yêu chiều nên làm vợ cũng thoải mái
+article_2672,SaoStar,0.8702,non-clickbait,clickbait,Cảnh báo bảo mật nghiêm trọng với hơn 4 triệu người dùng Google Chrome
+article_2781,VnExpress,0.9283,non-clickbait,clickbait,Những người trẻ ngơ ngác vì được bảo bọc quá mức
+article_3072,Tuổi Trẻ,0.7832,non-clickbait,clickbait,Tranh cãi về nhà mini cho người trẻ đô thị ở Indonesia
+article_3193,24h,0.9278,non-clickbait,clickbait,"Ngủ gật khi lái xe, nam ca sĩ gặp tai nạn và bị thương nặng"
+article_3196,24h,0.9396,non-clickbait,clickbait,Bích Phương - Tăng Duy Tân bối rối khi bị hỏi chuyện tình cảm
+article_3278,Báo Mới,0.5957,non-clickbait,clickbait,Tài chính trong tình yêu: Chuyện khó nói nhưng rất cần nói - Báo Thời Báo Ngân Hàng
+article_3305,VnExpress,0.9033,non-clickbait,clickbait,"Ở đâu, ăn gì khi du lịch Đà Nẵng hè này"
+article_3318,VnExpress,0.9315,non-clickbait,clickbait,10 món bánh mì kẹp thịt ngon nhất thế giới
+article_3324,VnExpress,0.6004,non-clickbait,clickbait,10 hãng hàng không tốt nhất thế giới 2025
+article_0215,24h,0.7661,non-clickbait,clickbait,"Bắt người đàn ông ""tung cước"" làm nữ tài xế xe ôm công nghệ ngã nhào"
+article_0222,Báo Mới,0.128,clickbait,non-clickbait,Messi nói lời chân tình về Ronaldo - Báo Thế Giới & Việt Nam
+article_0231,Báo Mới,0.227,clickbait,non-clickbait,Inter Miami trước ngưỡng cửa lịch sử - Tạp chí Tri thức
+article_0232,Báo Mới,0.5561,non-clickbait,clickbait,Atletico dập tắt hy vọng của Liverpool - Tạp chí Tri thức
+article_0270,Báo Mới,0.0452,clickbait,non-clickbait,Đương kim vô địch Champions League tạo bất ngờ đầu tiên ở FIFA Club World Cup 2025 - Báo Quân Đội Nhân Dân
+article_0494,Báo Mới,0.0589,clickbait,non-clickbait,Nhiều quốc gia sẵn sàng cung cấp vũ khí hạt nhân cho Iran? - Chuyên trang Sài Gòn Đầu Tư Tài Chính - Báo Sài Gòn Giải Phóng
+article_0716,SaoStar,0.1942,clickbait,non-clickbait,Tỷ phú Nga công bố di chúc chia hơn 300 nghìn tỷ đồng cho 100 người con khắp thế giới
+article_0732,24h,0.1508,clickbait,non-clickbait,Xác định nguyên nhân thanh niên không mặc quần áo tử vong giữa đường ở TP Thủ Đức
+article_0848,VnExpress,0.1746,clickbait,non-clickbait,Mỹ khoét rỗng cả ngọn núi để săn tìm hạt ma
+article_1029,24h,0.3413,clickbait,non-clickbait,"Căn hộ áp mái tại tòa nhà ""mỏng nhất thế giới"" được rao bán với giá hơn 2.800 tỷ đồng"
+article_1032,24h,0.9419,non-clickbait,clickbait,"Tài sản của ""siêu nhân Hong Kong” Lý Gia Thành hiện còn bao nhiêu?"
+article_1190,Tuổi Trẻ,0.0343,clickbait,non-clickbait,Khi Gen Z dùng công nghệ lập trình nhịp sống số
+article_1197,Thanh Niên,0.0794,clickbait,non-clickbait,Bản hòa ca sắc màu trên sông Hàn: Vẽ ‘hành tinh xanh’ bằng pháo hoa
+article_1336,Báo Mới,0.3525,clickbait,non-clickbait,Ngân hàng nào đang cho vay mua nhà lãi suất thấp nhất tháng 6? - Tạp chí Doanh Nhân VN
+article_1386,VnExpress,0.464,clickbait,non-clickbait,Suy thận giai đoạn mấy phải chạy thận?
+article_1474,Thanh Niên,0.0898,clickbait,non-clickbait,Cảnh báo lạm dụng 'trục hàn' để chữa bệnh
+article_1622,24h,0.0419,clickbait,non-clickbait,"Inter Milan nhận bàn thua lịch sử ở Club World Cup, CLB Nhật Bản hiên ngang rời giải"
+article_1624,24h,0.0355,clickbait,non-clickbait,"Dự đoán tỷ số FIFA Club World Cup: Real Madrid ""trút giận"", Juventus tiếp đà thăng hoa"
+article_1785,Thanh Niên,0.1339,clickbait,non-clickbait,"Học tại Việt Nam, nhận bằng cử nhân Anh quốc có uy tín?"
+article_1874,SaoStar,0.8909,non-clickbait,clickbait,Diễn viên Ngân Hòa mắc suy thận giai đoạn cuối ở tuổi 29: Căn bệnh đáng báo động ở giới trẻ
+article_1886,SaoStar,0.0427,clickbait,non-clickbait,Chủ động tầm soát ung thư phổi từ sớm để không bỏ lỡ 'thời gian vàng' điều trị
+article_1937,Báo Mới,0.1105,clickbait,non-clickbait,Xuân Son tuyên bố tự tin trước ngày trở lại sân cỏ - Báo Giáo Dục & Thời Đại
+article_2106,VietNamNet,0.0366,clickbait,non-clickbait,Nam thanh niên ở Hà Nội nhập viện khẩn cấp sau buổi tập gym
+article_2137,24h,0.1964,clickbait,non-clickbait,"Mặt trận ""không bom đạn” nhưng vô cùng khốc liệt giữa Israel và Iran"
+article_2301,Thanh Niên,0.037,clickbait,non-clickbait,Chùa Dâu cổ nhất VN và cừu đá gần 2.000 năm tuổi
+article_2524,VnExpress,0.4115,clickbait,non-clickbait,Xu hướng nghề nghiệp dịch chuyển thế nào thời AI?
+article_2599,Thanh Niên,0.0456,clickbait,non-clickbait,Nhan sắc đời thường của tân Hoa hậu Hoàn vũ Việt Nam
+article_2815,Tuổi Trẻ,0.0559,clickbait,non-clickbait,Cuộc gặp định mệnh giữa giáo sư Hoàng Xuân Sính và thiên tài toán học Alexander Grothendi
+article_2840,Thanh Niên,0.0634,clickbait,non-clickbait,‘Đãi cát tìm vàng’ ở giải cầu lông các nhóm tuổi thiếu niên quốc gia
+article_2968,Báo Mới,0.0571,clickbait,non-clickbait,Trục vớt du thuyền khiến 'Bill Gates nước Anh' tử nạn - Tạp chí Tri thức
+article_3144,VietNamNet,0.2935,clickbait,non-clickbait,"Kiên Giang cấp phép đầu tư 3 dự án 'siêu khủng', tổng vốn hơn 90.000 tỷ đồng"
+article_3229,24h,0.2378,clickbait,non-clickbait,Anh Tài Quốc Thiên bị kiện
+article_3313,VnExpress,0.0868,clickbait,non-clickbait,"Trung Quốc hút khách bằng trải nghiệm nhập vai công chúa, hoàng tử"
+article_3372,Thanh Niên,0.0313,clickbait,non-clickbait,"Crossover cỡ trung: Đại lý 'cắn răng' chịu lỗ, Ford Territory lần đầu vượt Mazda CX-5"
+article_3393,Thanh Niên,0.297,clickbait,non-clickbait,BMW hé lộ vật liệu mới nhẹ hơn sợi carbon để trang bị trên ô tô
+article_3397,Thanh Niên,0.4343,clickbait,non-clickbait,Má phanh ô tô mòn cỡ nào cần phải thay thế?
+article_3400,Thanh Niên,0.3571,clickbait,non-clickbait,Có nên tin tưởng công nghệ đỗ xe tự động trên ô tô phổ thông?
+article_3479,Báo Mới,0.0586,clickbait,non-clickbait,Mitsubishi hé lộ mẫu xe mới bằng máy bay trực thăng - Báo Tiền Phong
+article_3515,Tuổi Trẻ,0.2585,clickbait,non-clickbait,Cuộc gọi cuối cùng của vợ chồng nghèo trước giờ bị lật vỏ lãi trên biển
+article_3566,24h,0.0299,clickbait,non-clickbait,Top xe SUV ăn khách bậc nhất tại Việt Nam 2025

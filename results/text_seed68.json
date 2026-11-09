@@ -1,0 +1,113 @@
+{
+  "mode": "text",
+  "seed": 68,
+  "split": "test",
+  "threshold": 0.5,
+  "checkpoint": "checkpoints\\text_seed68.pth",
+  "n_samples": 480,
+  "accuracy": 0.8333333333333334,
+  "macro_f1": 0.8081189662409307,
+  "per_class": {
+    "non-clickbait": {
+      "precision": 0.8803680981595092,
+      "recall": 0.875,
+      "f1": 0.8776758409785933,
+      "support": 328
+    },
+    "clickbait": {
+      "precision": 0.7337662337662337,
+      "recall": 0.743421052631579,
+      "f1": 0.738562091503268,
+      "support": 152
+    }
+  },
+  "confusion_matrix": [
+    [
+      287,
+      41
+    ],
+    [
+      39,
+      113
+    ]
+  ],
+  "by_source": {
+    "24h": {
+      "n_samples": 74,
+      "n_clickbait": 28,
+      "accuracy": 0.7432432432432432,
+      "macro_f1": 0.7289377289377289,
+      "f1_clickbait": 0.6666666666666666
+    },
+    "Báo Mới": {
+      "n_samples": 80,
+      "n_clickbait": 21,
+      "accuracy": 0.8125,
+      "macro_f1": 0.7363216875411998,
+      "f1_clickbait": 0.5945945945945946
+    },
+    "Kênh14": {
+      "n_samples": 6,
+      "n_clickbait": 5,
+      "accuracy": 0.8333333333333334,
+      "macro_f1": 0.45454545454545453,
+      "f1_clickbait": 0.9090909090909091
+    },
+    "SaoStar": {
+      "n_samples": 35,
+      "n_clickbait": 18,
+      "accuracy": 0.8285714285714286,
+      "macro_f1": 0.8284313725490196,
+      "f1_clickbait": 0.8333333333333334
+    },
+    "Thanh Niên": {
+      "n_samples": 89,
+      "n_clickbait": 28,
+      "accuracy": 0.797752808988764,
+      "macro_f1": 0.7698275862068966,
+      "f1_clickbait": 0.6896551724137931
+    },
+    "Tuổi Trẻ": {
+      "n_samples": 29,
+      "n_clickbait": 9,
+      "accuracy": 0.896551724137931,
+      "macro_f1": 0.8825910931174089,
+      "f1_clickbait": 0.8421052631578947
+    },
+    "VietNamNet": {
+      "n_samples": 54,
+      "n_clickbait": 21,
+      "accuracy": 0.9259259259259259,
+      "macro_f1": 0.922077922077922,
+      "f1_clickbait": 0.9047619047619048
+    },
+    "VnExpress": {
+      "n_samples": 113,
+      "n_clickbait": 22,
+      "accuracy": 0.8761061946902655,
+      "macro_f1": 0.8089371980676329,
+      "f1_clickbait": 0.6956521739130435
+    }
+  },
+  "hyperparameters": {
+    "epochs": 3,
+    "batch_size": 4,
+    "grad_accum": 1,
+    "lr": 2e-05,
+    "weight_decay": 0.01,
+    "scheduler": "linear_warmup",
+    "warmup_ratio": 0.1,
+    "warmup_steps": 168,
+    "total_steps": 1680,
+    "val_f1_constant": false,
+    "max_length": 48,
+    "fp16": true,
+    "n_train": 2237,
+    "n_val": 480,
+    "best_epoch": 1,
+    "best_val_macro_f1": 0.8666004962779157
+  },
+  "train_time_sec": 180.9145206999965,
+  "avg_step_sec": 0.10225992999400568,
+  "max_memory_allocated_gb": 3.0340418815612793
+}

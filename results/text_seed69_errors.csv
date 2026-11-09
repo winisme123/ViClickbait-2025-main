@@ -1,0 +1,69 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0055,Tuổi Trẻ,0.5995,non-clickbait,clickbait,Đà Nẵng dành những khu đất vàng nào cho Trung tâm tài chính quốc tế?
+article_0136,VietNamNet,0.7673,non-clickbait,clickbait,Bí thư Bà Rịa - Vũng Tàu nói lời 'gan ruột' trước thời khắc sáp nhập với TPHCM
+article_0184,24h,0.8212,non-clickbait,clickbait,Tài xế dừng xe ngủ trên cao tốc gây tai nạn kinh hoàng đối diện mức phạt nào?
+article_0334,Tuổi Trẻ,0.509,non-clickbait,clickbait,"Sau màn ném bom của Mỹ, Iran kiềm chế hay trả đũa?"
+article_0423,Kênh14,0.0466,clickbait,non-clickbait,"Đội bóng quê bầu Đức xuống hạng, lộ diện CLB đối đầu đội Công Phượng ở trận play-off V.League"
+article_0614,Tuổi Trẻ,0.5759,non-clickbait,clickbait,"Tổng giám đốc bỏ trốn sang Mỹ, căn cứ nào để viện kiểm sát buộc tội chủ mưu?"
+article_0758,Báo Mới,0.6195,non-clickbait,clickbait,Miền Bắc sắp đón 'tin vui' thời tiết sau chuỗi ngày mưa to sầm sập - Tạp chí Người Đưa Tin
+article_0844,VnExpress,0.8121,non-clickbait,clickbait,Camera lớn nhất thế giới hứa hẹn thay đổi ngành thiên văn
+article_0864,VnExpress,0.6224,non-clickbait,clickbait,Nghề SEO đứng trước 'ngã ba đường' vì AI
+article_0931,Thanh Niên,0.0518,clickbait,non-clickbait,Quét mã QR cho... dừa
+article_1028,24h,0.8929,non-clickbait,clickbait,"Vợ chồng Hà Nội rời phố về biển, chi tiền ""biến” nhà cũ thành homestay đẹp như mơ"
+article_1138,VnExpress,0.5304,non-clickbait,clickbait,Có nên bán nhà 40 m2 trong ngõ chuyển sang chung cư?
+article_1232,Thanh Niên,0.7209,non-clickbait,clickbait,Những ông bà cụ U.90 bươn chải nơi xóm vé số ở TP.HCM bất ngờ nhận quà ấm áp sau tết
+article_1297,24h,0.5255,non-clickbait,clickbait,"Khởi nghiệp từ loại rau mọc dại đầy đồng, 9x Quảng Ninh có thu nhập trên 50 triệu đồng/tháng"
+article_1421,VnExpress,0.5687,non-clickbait,clickbait,7 bước xây dựng thói quen ăn uống lành mạnh
+article_1479,Thanh Niên,0.683,non-clickbait,clickbait,Béo phì có phải là bệnh?
+article_1509,VietNamNet,0.59,non-clickbait,clickbait,Tướng Mỹ tiết lộ kế hoạch 'đánh lạc hướng' để tấn công Iran
+article_1837,VietNamNet,0.7996,non-clickbait,clickbait,"Nghỉ việc lương cao để ở nhà chăm con, 'bố bỉm sữa' bị viêm khớp, trầm cảm"
+article_1988,VnExpress,0.6918,non-clickbait,clickbait,Đội Phương Mỹ Chi 'bùng nổ' tại Em xinh say hi
+article_2033,Thanh Niên,0.7445,non-clickbait,clickbait,Khám phá 10 quốc gia có đường bờ biển dài nhất thế giới
+article_2102,VietNamNet,0.9175,non-clickbait,clickbait,Ca phẫu thuật khẩn từ lời nhắn cầu cứu của người phụ nữ xa lạ
+article_2345,VietNamNet,0.629,non-clickbait,clickbait,"B-2 Spirit + GBU-57, bộ đôi sát thủ công nghệ cao khiến cơ sở hạt nhân Iran ‘bay màu’"
+article_2354,VietNamNet,0.9144,non-clickbait,clickbait,Hãy kể những câu chuyện hay lay động lòng người
+article_2653,SaoStar,0.5703,non-clickbait,clickbait,Đẳng cấp chịu chi cỡ Phong Thần VNG: Tung TVC với bộ ba đại sứ triệu view SOOBIN - Tiến Linh - Jun Vũ
+article_2702,24h,0.5558,non-clickbait,clickbait,Ái nữ đại gia Minh 'Nhựa' xách túi tiền tỷ mừng sinh nhật
+article_2722,Báo Mới,0.5612,non-clickbait,clickbait,Nhà sáng lập Tesla đánh giá Grok: Quá nhiều nội dung vô dụng - Tạp chí SaoStar
+article_3196,24h,0.7163,non-clickbait,clickbait,Bích Phương - Tăng Duy Tân bối rối khi bị hỏi chuyện tình cảm
+article_3198,24h,0.6965,non-clickbait,clickbait,HuyR suýt bỏ concert 'Anh trai vượt ngàn chông gai' vì vợ cấp cứu giữa thai kỳ
+article_3213,24h,0.5681,non-clickbait,clickbait,Nghệ sĩ 'Anh trai vượt ngàn chông gai' diễn hơn 6 tiếng dưới mưa
+article_3430,VietNamNet,0.5177,non-clickbait,clickbait,Thót tim cảnh dù lượn chao đảo rồi rơi xuống biển ở Hạ Long
+article_3568,24h,0.7063,non-clickbait,clickbait,Top xe MPV từ giá rẻ đến hạng sang đáng chú ý hiện nay
+article_3576,24h,0.5027,non-clickbait,clickbait,Trên dưới 500 triệu đồng mua xe SUV cũ chọn xe nào?
+article_0218,24h,0.0734,clickbait,non-clickbait,Tiết lộ vai trò của Israel trong chiến dịch Mỹ dội bom chưa từng có vào cơ sở hạt nhân Iran
+article_0231,Báo Mới,0.4935,clickbait,non-clickbait,Inter Miami trước ngưỡng cửa lịch sử - Tạp chí Tri thức
+article_0395,VietNamNet,0.2697,clickbait,non-clickbait,"Làm rõ nguyên nhân vụ nam thanh niên loã thể, kêu cứu rồi gục chết ở TPHCM"
+article_0428,SaoStar,0.3967,clickbait,non-clickbait,"Lại thêm vụ mất trắng 145 triệu đồng trong tài khoản: Bẫy cũ, nạn nhân mới"
+article_0436,SaoStar,0.1116,clickbait,non-clickbait,Nhân thân bất hảo của thanh niên xé áo nữ tài xế taxi
+article_0517,Báo Mới,0.0666,clickbait,non-clickbait,Giá dầu tăng vọt khi xung đột Trung Đông tăng nhiệt - Tạp chí Người Đưa Tin
+article_0581,VnExpress,0.4596,clickbait,non-clickbait,Cách nào giảm thực chất những điều kiện kinh doanh cho doanh nghiệp?
+article_0924,Thanh Niên,0.2788,clickbait,non-clickbait,"'Ông lớn' xăng dầu, cao su... mạnh tay chia cổ tức"
+article_1021,24h,0.0763,clickbait,non-clickbait,Bitcoin cắm đầu lao dốc do căng thẳng Mỹ - Iran
+article_1164,VnExpress,0.0407,clickbait,non-clickbait,Đua mở mới khách sạn ven biển
+article_1167,VnExpress,0.1571,clickbait,non-clickbait,Nhà 65 m2 'cởi mở' cho gia chủ độc thân
+article_1222,Thanh Niên,0.4221,clickbait,non-clickbait,Nhà đẹp từ khoảng trống: Kiến trúc sư chỉ bí quyết để không gian thoáng mát
+article_1272,SaoStar,0.4168,clickbait,non-clickbait,Trương Tịnh Nghi - Chu Dực Nhiên thất bại với Hoán Vũ
+article_1443,Tuổi Trẻ,0.3002,clickbait,non-clickbait,Thủ tục đăng ký xe cho người dưới 18 tuổi ra sao?
+article_1624,24h,0.2085,clickbait,non-clickbait,"Dự đoán tỷ số FIFA Club World Cup: Real Madrid ""trút giận"", Juventus tiếp đà thăng hoa"
+article_1935,Báo Mới,0.2369,clickbait,non-clickbait,Bùi Tiến Dũng 'tuyên chiến' Công Phượng trước trận play-off giành vé dự V-League - Báo VietnamPlus
+article_2095,VietNamNet,0.1596,clickbait,non-clickbait,Ba không khi ăn rau dền
+article_2127,SaoStar,0.4963,clickbait,non-clickbait,"Học sinh viết văn tả bố, đọc câu nào ngán ngẩm câu đó"
+article_2137,24h,0.2017,clickbait,non-clickbait,"Mặt trận ""không bom đạn” nhưng vô cùng khốc liệt giữa Israel và Iran"
+article_2141,24h,0.4793,clickbait,non-clickbait,"Nvidia chấp nhận ""tự phế võ công"", tung bản RTX 5090DD siêu rút gọn"
+article_2285,Thanh Niên,0.1298,clickbait,non-clickbait,Gánh cỏ sông Hàn - tìm lại bản ngã dưới cờ nghĩa Lam Sơn
+article_2300,Thanh Niên,0.068,clickbait,non-clickbait,Nhàn đàm: Đường cày và con chữ
+article_2416,24h,0.3336,clickbait,non-clickbait,"iPhone đỉnh một thời nay có giá rẻ, camera zoom quang không kém iPhone mới"
+article_2627,VietNamNet,0.3612,clickbait,non-clickbait,Cựu giao dịch viên ACB thành kẻ tham ô vì hoa mắt món tiền hoa hồng
+article_2644,SaoStar,0.4732,clickbait,non-clickbait,Microsoft sẵn sàng 'đường ai nấy đi' với nhà sáng lập ChatGPT
+article_2687,24h,0.4139,clickbait,non-clickbait,Lọ Lem như tiểu thư quý tộc ở Paris với set đồ hơn 200 triệu đồng
+article_2764,VnExpress,0.3183,clickbait,non-clickbait,Vượt qua nỗi sợ có con
+article_2789,VnExpress,0.1251,clickbait,non-clickbait,Làm đám cưới giữa trại chó
+article_2930,SaoStar,0.0604,clickbait,non-clickbait,Hội An 2025: Khi phố cổ lên đèn và ký ức bừng sáng
+article_3073,Tuổi Trẻ,0.2739,clickbait,non-clickbait,Đất nền ‘đu đỉnh’ sau sáp nhập tỉnh thành
+article_3107,Thanh Niên,0.3211,clickbait,non-clickbait,Camera an ninh lưu trữ cảnh quay trong bao lâu?
+article_3171,24h,0.1219,clickbait,non-clickbait,Nam diễn viên thất bại nhất Trung Quốc năm 2025
+article_3323,VnExpress,0.048,clickbait,non-clickbait,Ý nghĩa của 81 chiếc đinh trên cổng chính Tử Cấm Thành
+article_3326,VnExpress,0.044,clickbait,non-clickbait,Hái mận ở Mộc Châu
+article_3458,24h,0.3916,clickbait,non-clickbait,"Clip: Phóng nhanh qua điểm giao cắt, cô gái lao thẳng xe vào đầu container"
+article_3658,24h,0.4198,clickbait,non-clickbait,Thấp thỏm quanh những cái ‘bẫy’ từ các mỏ vật liệu không hoàn thổ ở Hà Tĩnh

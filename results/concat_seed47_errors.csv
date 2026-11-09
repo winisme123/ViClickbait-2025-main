@@ -1,0 +1,83 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0184,24h,0.8173,non-clickbait,clickbait,Tài xế dừng xe ngủ trên cao tốc gây tai nạn kinh hoàng đối diện mức phạt nào?
+article_0225,Báo Mới,0.1879,clickbait,non-clickbait,Tình thế đảo ngược với tiền vệ Tuấn Anh - Tạp chí SaoStar
+article_0269,Báo Mới,0.2069,clickbait,non-clickbait,Sao Inter Milan dọa đánh fan PSG vì bị trêu chọc - Tạp chí Tri thức
+article_0334,Tuổi Trẻ,0.7,non-clickbait,clickbait,"Sau màn ném bom của Mỹ, Iran kiềm chế hay trả đũa?"
+article_0343,Tuổi Trẻ,0.7116,non-clickbait,clickbait,Nhìn lại lịch sử xung đột Israel - Iran: Cuộc không kích ngày 13-6 sẽ là bước ngoặt?
+article_0402,VietNamNet,0.6737,non-clickbait,clickbait,Nam thanh niên trốn bố mẹ bỏ nhà đi bộ 'về xuôi' bị lạc đường trên cao tốc
+article_0559,VnExpress,0.6856,non-clickbait,clickbait,Chuỗi cung ứng đất hiếm toàn cầu đã dịch chuyển ra sao?
+article_0578,VnExpress,0.7322,non-clickbait,clickbait,Kinh tế Israel có khả năng chống chịu chiến sự đến đâu?
+article_0615,Tuổi Trẻ,0.8102,non-clickbait,clickbait,"Tưởng đang 'thay trời hành đạo', nhóm 'bà chủ' truy hỏi, cưỡng đoạt tiền nhân viên"
+article_0703,SaoStar,0.7482,non-clickbait,clickbait,"Cặp vợ chồng ăn sáng bằng thịt chuột bắt trong vườn, ít ngày sau nhiễm bệnh nguy hiểm"
+article_0844,VnExpress,0.6441,non-clickbait,clickbait,Camera lớn nhất thế giới hứa hẹn thay đổi ngành thiên văn
+article_1170,Tuổi Trẻ,0.78,non-clickbait,clickbait,Làm việc hybrid working sao cho hiệu quả?
+article_1247,VietNamNet,0.5541,non-clickbait,clickbait,Đừng coi 'xếp mức lương cao nhất' cho nhà giáo là một ân huệ
+article_1382,VnExpress,0.9099,non-clickbait,clickbait,Ai có nguy cơ mắc ung thư tuyến giáp?
+article_1406,VnExpress,0.7894,non-clickbait,clickbait,Vì sao người trẻ chủ quan khi thận suy giai đoạn đầu?
+article_1415,VnExpress,0.7478,non-clickbait,clickbait,Điều gì xảy ra khi trẻ ngã từ giường xuống đất?
+article_1418,VnExpress,0.7758,non-clickbait,clickbait,Làm gì để kiểm soát trầm cảm?
+article_1421,VnExpress,0.6036,non-clickbait,clickbait,7 bước xây dựng thói quen ăn uống lành mạnh
+article_1478,Thanh Niên,0.8562,non-clickbait,clickbait,Có nên sử dụng miếng dán mụn?
+article_1522,VietNamNet,0.7515,non-clickbait,clickbait,Iran còn đủ tên lửa để tấn công Israel?
+article_1542,SaoStar,0.8836,non-clickbait,clickbait,Dancesport đang thay đổi diện mạo thể thao Việt như thế nào?
+article_1988,VnExpress,0.6347,non-clickbait,clickbait,Đội Phương Mỹ Chi 'bùng nổ' tại Em xinh say hi
+article_2199,Báo Mới,0.8742,non-clickbait,clickbait,Câu chuyện điện ảnh: 'Bí kíp luyện rồng' tiếp tục mê hoặc khán giả Bắc Mỹ - Pixar bất ngờ 'sẩy chân' - Báo Tin Tức TTXVN
+article_2259,VnExpress,0.5634,non-clickbait,clickbait,Chủ nhà hàng vướng lao lý vì 'chạy bảo kê'
+article_2581,Thanh Niên,0.6274,non-clickbait,clickbait,"Thua Tóc Tiên sát nút, Kay Trần bất lực loại đàn em khỏi show sống còn"
+article_2689,24h,0.8364,non-clickbait,clickbait,G-Dragon diện chiếc áo 'bà thím' suốt chuyến đi Việt Nam
+article_2694,24h,0.8409,non-clickbait,clickbait,"Nhan sắc quá khứ trái ngược của Tân Hoa, Á hậu Hoàn vũ Việt Nam: Người ngây thơ, người quyến rũ, cá tính"
+article_2741,Báo Mới,0.5396,non-clickbait,clickbait,Không phải iPhone nào cũng được hưởng trọn tính năng iOS 26 - Báo VietnamNet
+article_2866,Thanh Niên,0.865,non-clickbait,clickbait,"CLB Bình Định ‘chiến đấu’ kiên cường, vẫn thua đau Hà Nội: Rớt hạng, kết cục cay đắng!"
+article_3007,Báo Mới,0.771,non-clickbait,clickbait,Tận thấy răng cá mập Megalodon khổng lồ do bé trai phát hiện - Báo Tri thức & Cuộc sống
+article_3033,VnExpress,0.7756,non-clickbait,clickbait,Cubing - 'siêu xe' đắt giá nhất VinFast từng làm
+article_3188,24h,0.5147,non-clickbait,clickbait,Phùng Thiệu Phong hẹn hò người yêu mới
+article_3219,24h,0.5242,non-clickbait,clickbait,"Tùng Dương, Ngọc Anh khiến khán giả xúc động khi hát nhạc Phú Quang"
+article_3220,24h,0.8806,non-clickbait,clickbait,"Tự Long, Soobin khóc cười cùng với fan, 'quẩy' đến nửa đêm"
+article_3269,Báo Mới,0.6353,non-clickbait,clickbait,Sản phụ mất con vì hội chứng Budd–Chiari hiếm gặp - Báo Tri thức & Cuộc sống
+article_3297,VnExpress,0.7506,non-clickbait,clickbait,Chính sách visa mới nào khách Việt cần lưu ý khi đi du lịch nước ngoài?
+article_3396,Thanh Niên,0.7099,non-clickbait,clickbait,Xe máy Honda 'Made in Malaysia' về Việt Nam: Chọn Honda Wave 125i hay Honda Dash 125?
+article_3399,Thanh Niên,0.5095,non-clickbait,clickbait,3 nguyên tắc an toàn khi lái xe trên cao tốc có nhiều xe tải lớn
+article_3491,Báo Mới,0.5109,non-clickbait,clickbait,Ra mắt Benelli TNT 125 - thiết kế cực 'cháy' chỉ 66 triệu - Báo Tri thức & Cuộc sống
+article_3496,Báo Mới,0.7452,non-clickbait,clickbait,"Rò rỉ ảnh của Xiaomi YU7 bản hiệu suất cao, đâu cũng là carbon - Tạp chí Tri thức"
+article_3581,24h,0.7143,non-clickbait,clickbait,So sánh Toyota Vios E và Vios G: Chọn xe nào khi chênh nhau 57 triệu đồng?
+article_0224,Báo Mới,0.123,clickbait,non-clickbait,Vì sao Leicester City chưa sa thải Van Nistelrooy - Tạp chí Tri thức
+article_0307,VnExpress,0.0217,clickbait,non-clickbait,Khoảnh khắc ông Trump tuyên bố xóa sổ cơ sở hạt nhân Iran
+article_0458,24h,0.4644,clickbait,non-clickbait,"Iran ""nổi cơn thịnh nộ"" dội bão tên lửa tầm xa có sức công phá khủng khiếp xuống Israel"
+article_0461,24h,0.0671,clickbait,non-clickbait,Tên lửa đạn đạo siêu nặng Iran lần đầu tấn công Israel: Đòn đánh tạo chấn động vượt khỏi Trung Đông
+article_0623,Thanh Niên,0.0823,clickbait,non-clickbait,"Mỹ cảnh báo công dân khắp thế giới, ông Trump tuyên bố mập mờ về Iran"
+article_0645,Thanh Niên,0.0267,clickbait,non-clickbait,"Iran giáng cơn thịnh nộ, Israel thiệt hại nặng"
+article_0648,Thanh Niên,0.1408,clickbait,non-clickbait,Mỗi ngày có hơn 1.000 người thành triệu phú USD tại Mỹ
+article_0696,Kênh14,0.0823,clickbait,non-clickbait,Từ EDM Festival đến mega concert Kpop đưa G-Dragon về Việt Nam: Ravolution Asia bùng nổ bước chuyển mình chiến lược
+article_0814,Báo Mới,0.3092,clickbait,non-clickbait,Người dân chật vật di chuyển qua 'ngõ đau khổ' ở Thủ đô - Báo Tiền Phong
+article_0953,VietNamNet,0.4577,clickbait,non-clickbait,"HLV Nam Định nói lời xúc động, ôm hôn vợ sắp cưới cực xinh"
+article_0957,VietNamNet,0.187,clickbait,non-clickbait,CĐV 'đại náo' sân Thiên Trường ngày Nam Định nâng Cúp
+article_1018,24h,0.2507,clickbait,non-clickbait,Nơi đây có thêm 1.000 triệu phú mỗi ngày
+article_1033,24h,0.389,clickbait,non-clickbait,Elon Musk giàu nhất thế giới nhưng công ty vẫn thiếu tiền
+article_1074,Báo Mới,0.0232,clickbait,non-clickbait,Mở lối ký ức bằng tư duy hôm nay - Báo Văn hóa
+article_1075,Báo Mới,0.039,clickbait,non-clickbait,Lời biển xưa còn vọng - Báo Văn hóa
+article_1076,Báo Mới,0.0716,clickbait,non-clickbait,Người 'tiếp lửa' gia phong cho các thế hệ con cháu - Báo Văn hóa
+article_1190,Tuổi Trẻ,0.0538,clickbait,non-clickbait,Khi Gen Z dùng công nghệ lập trình nhịp sống số
+article_1267,SaoStar,0.1797,clickbait,non-clickbait,5 phim Hoa ngữ cổ trang đại bạo: Triệu Lệ Dĩnh đóng góp 2 phim
+article_1290,SaoStar,0.2811,clickbait,non-clickbait,Triệu Lệ Dĩnh lép vế trước Dương Mịch trong Tương Viên Lộng
+article_1937,Báo Mới,0.1936,clickbait,non-clickbait,Xuân Son tuyên bố tự tin trước ngày trở lại sân cỏ - Báo Giáo Dục & Thời Đại
+article_2245,VnExpress,0.0167,clickbait,non-clickbait,"Đánh mẹ, tấn công lực lượng an ninh cơ sở khi được can ngăn"
+article_2278,Tuổi Trẻ,0.3281,clickbait,non-clickbait,'Brokeback Mountain' vượt lên sự kỳ thị đồng tính để trở thành kiệt tác
+article_2285,Thanh Niên,0.0825,clickbait,non-clickbait,Gánh cỏ sông Hàn - tìm lại bản ngã dưới cờ nghĩa Lam Sơn
+article_2323,Thanh Niên,0.1612,clickbait,non-clickbait,Tiểu thuyết đầu tay của tác giả 'Không gia đình' ra mắt bản dịch mới
+article_2576,Thanh Niên,0.4767,clickbait,non-clickbait,‘Nữ hoàng wushu’ Thúy Hiền: Tôi dập tắt ước mơ ca hát của con khi ly hôn Tú Dưa
+article_2604,Thanh Niên,0.092,clickbait,non-clickbait,"Phương Bình: Mua nhà trả góp ở tuổi 52, chịu cảnh xa vợ hơn 30 năm"
+article_2634,VietNamNet,0.04,clickbait,non-clickbait,Bị bắt vì livestream bán hàng 72 tỷ đồng không nộp thuế
+article_2662,SaoStar,0.4241,clickbait,non-clickbait,Cha đẻ ChatGPT đưa ra lời khuyên giúp Gen Z không bị mất việc trong thời đại AI
+article_2725,Báo Mới,0.2815,clickbait,non-clickbait,Trang web bị hack trong ngày Bitcoin sập - Tạp chí Tri thức
+article_2728,Báo Mới,0.0388,clickbait,non-clickbait,Pin ô tô điện có tuổi thọ cao hơn xe xăng - Chuyên trang Xe Giao Thông - Báo Xây Dựng
+article_2764,VnExpress,0.4724,clickbait,non-clickbait,Vượt qua nỗi sợ có con
+article_2766,VnExpress,0.6621,non-clickbait,clickbait,Ước mơ lớn nhất của người thợ cắt tóc
+article_2920,SaoStar,0.6028,non-clickbait,clickbait,Có một Thảo Cầm Viên rất khác trong mắt trẻ thơ
+article_2968,Báo Mới,0.1043,clickbait,non-clickbait,Trục vớt du thuyền khiến 'Bill Gates nước Anh' tử nạn - Tạp chí Tri thức
+article_3084,Tuổi Trẻ,0.0683,clickbait,non-clickbait,Fiato Airport City ‘cất cánh’ cùng sân bay Long Thành
+article_3111,Thanh Niên,0.3359,clickbait,non-clickbait,Khám phá tính năng iOS 26 giúp sạc pin iPhone hiệu quả hơn
+article_3372,Thanh Niên,0.1144,clickbait,non-clickbait,"Crossover cỡ trung: Đại lý 'cắn răng' chịu lỗ, Ford Territory lần đầu vượt Mazda CX-5"
+article_3452,24h,0.4251,clickbait,non-clickbait,"Cận cảnh Honda Dream Thái 1997 còn nguyên bản có thể ""hóa rồng” khi tái xuất"
+article_3515,Tuổi Trẻ,0.2778,clickbait,non-clickbait,Cuộc gọi cuối cùng của vợ chồng nghèo trước giờ bị lật vỏ lãi trên biển
+article_3567,24h,0.0756,clickbait,non-clickbait,"Ford Territory - Khám phá ""lãnh thổ"" riêng trong thế giới crossover"
+article_3648,24h,0.0362,clickbait,non-clickbait,Cảng cá 280 tỷ đồng sắp hoạt động nhưng luồng lạch bồi lắng

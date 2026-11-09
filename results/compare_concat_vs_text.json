@@ -1,0 +1,99 @@
+{
+  "a": "concat",
+  "b": "text",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "per_seed": [
+    {
+      "seed": 42,
+      "macro_f1_concat": 0.8046650124069479,
+      "macro_f1_text": 0.793788979364084,
+      "diff": 0.010876033042863886,
+      "only_concat_correct": 17,
+      "only_text_correct": 12,
+      "mcnemar_p": 0.45825831964612007
+    },
+    {
+      "seed": 43,
+      "macro_f1_concat": 0.8432719984327199,
+      "macro_f1_text": 0.8411938116941795,
+      "diff": 0.002078186738540433,
+      "only_concat_correct": 14,
+      "only_text_correct": 12,
+      "mcnemar_p": 0.8450189828872681
+    },
+    {
+      "seed": 44,
+      "macro_f1_concat": 0.8101490145316136,
+      "macro_f1_text": 0.773855688036821,
+      "diff": 0.036293326494792555,
+      "only_concat_correct": 24,
+      "only_text_correct": 10,
+      "mcnemar_p": 0.024306510109454393
+    },
+    {
+      "seed": 45,
+      "macro_f1_concat": 0.8222318787621413,
+      "macro_f1_text": 0.8046650124069479,
+      "diff": 0.017566866355193445,
+      "only_concat_correct": 19,
+      "only_text_correct": 12,
+      "mcnemar_p": 0.28104151505976915
+    },
+    {
+      "seed": 46,
+      "macro_f1_concat": 0.835440641454017,
+      "macro_f1_text": 0.8299858321526794,
+      "diff": 0.005454809301337571,
+      "only_concat_correct": 21,
+      "only_text_correct": 20,
+      "mcnemar_p": 1.0
+    },
+    {
+      "seed": 47,
+      "macro_f1_concat": 0.8026315789473684,
+      "macro_f1_text": 0.7830018083182639,
+      "diff": 0.019629770629104426,
+      "only_concat_correct": 16,
+      "only_text_correct": 6,
+      "mcnemar_p": 0.052478790283203125
+    },
+    {
+      "seed": 48,
+      "macro_f1_concat": 0.818889552238806,
+      "macro_f1_text": 0.8145530836907457,
+      "diff": 0.004336468548060246,
+      "only_concat_correct": 16,
+      "only_text_correct": 16,
+      "mcnemar_p": 1.0
+    },
+    {
+      "seed": 49,
+      "macro_f1_concat": 0.8164214255520441,
+      "macro_f1_text": 0.8273070696168375,
+      "diff": -0.01088564406479342,
+      "only_concat_correct": 14,
+      "only_text_correct": 18,
+      "mcnemar_p": 0.5966148958541453
+    }
+  ],
+  "mean_diff": 0.010668727130637393,
+  "wins_a": 7,
+  "n_seeds": 8,
+  "wilcoxon_statistic": 5.0,
+  "wilcoxon_p": 0.078125,
+  "pooled_mcnemar": {
+    "only_concat_correct": 141,
+    "only_text_correct": 106,
+    "p": 0.0303058269806762
+  },
+  "verdict_protocol_v3": "chưa chứng minh được"
+}

@@ -1,0 +1,88 @@
+﻿id,source,prob_clickbait,true_label,pred_label,title
+article_0069,Tuổi Trẻ,0.2252,clickbait,non-clickbait,Nhiều bệnh viện phía Nam ngừng chụp PET/CT: Cái 'áo cơ chế' làm khổ người bệnh
+article_0151,SaoStar,0.1397,clickbait,non-clickbait,Diệp Lâm Anh gặp sự cố sức khoẻ
+article_0169,SaoStar,0.2321,clickbait,non-clickbait,"Quốc Trường phản ứng khi khán giả vây kín, kéo tay níu áo"
+article_0376,Thanh Niên,0.7715,non-clickbait,clickbait,Bán hàng online phải nộp những loại thuế gì?
+article_0699,SaoStar,0.2587,clickbait,non-clickbait,"Kiểm tra chiếc xe bán tải khả nghi trên cao tốc, sững sờ trước cảnh tượng bên trong"
+article_0862,VnExpress,0.6139,non-clickbait,clickbait,WhatsApp chia sẻ nhầm số điện thoại của người dùng
+article_0888,Tuổi Trẻ,0.558,non-clickbait,clickbait,Choáng vì hàng giả tinh vi như hàng thật
+article_1049,Báo Mới,0.6193,non-clickbait,clickbait,Du lịch Thái Lan hết cảnh đứng đầu Đông Nam Á - Tạp chí Tri thức
+article_1346,Báo Mới,0.7165,non-clickbait,clickbait,Những đợt phát hành trái phiếu kỳ hạn siêu dài đầy may rủi của Nhật Bản - Tạp chí VnEconomy
+article_1428,Tuổi Trẻ,0.5246,non-clickbait,clickbait,Pin xe điện còn 'trường thọ' hơn cả bản thân xe xăng
+article_1480,Thanh Niên,0.8449,non-clickbait,clickbait,Chuyên gia chỉ ra thực phẩm không nên ăn sống
+article_1495,Thanh Niên,0.5633,non-clickbait,clickbait,"Căng da mặt không sẹo, tương lai của trẻ hóa da mặt không dao kéo"
+article_1505,VietNamNet,0.5155,non-clickbait,clickbait,"Mỹ tấn công cơ sở hạt nhân Iran, thế khó của cả ông Trump lẫn Tehran"
+article_1563,SaoStar,0.1312,clickbait,non-clickbait,Tương lai của Đoàn Văn Hậu cuối cùng cũng ngã ngũ
+article_1564,SaoStar,0.0512,clickbait,non-clickbait,Dấu chấm hết cho Lương Xuân Trường
+article_1772,Tuổi Trẻ,0.7341,non-clickbait,clickbait,"Đẹp ngỡ ngàng mùa sen Trà Lý, du khách ùn ùn đến check-in"
+article_1856,VietNamNet,0.6223,non-clickbait,clickbait,"Chàng trai Tiền Giang cắt sầu riêng nhanh như chớp, nghe tiếng là biết quả già"
+article_1987,VnExpress,0.7899,non-clickbait,clickbait,Hậu trường hóa trang 'ma giữ của' trong phim Út Lan
+article_2102,VietNamNet,0.6437,non-clickbait,clickbait,Ca phẫu thuật khẩn từ lời nhắn cầu cứu của người phụ nữ xa lạ
+article_2133,SaoStar,0.5109,non-clickbait,clickbait,"Video: Nam sinh xin quả xoài qua camera, chủ nhà xem lại được phen cười ngất"
+article_2389,SaoStar,0.4178,clickbait,non-clickbait,Kịch bản khiến vàng nhẫn giảm hẳn 11 triệu đồng/lượng?
+article_2485,VnExpress,0.7686,non-clickbait,clickbait,Nam sinh giành 'cú đúp' thủ khoa lớp 10 chuyên Toán
+article_2585,Thanh Niên,0.9363,non-clickbait,clickbait,"Quang Anh 'Về nhà đi con' bật khóc nức nở, dừng chân ở show âm nhạc"
+article_2597,Thanh Niên,0.5961,non-clickbait,clickbait,"Bố mẹ Phương Linh là cán bộ về hưu, không nghĩ con gái đăng quang hoa hậu"
+article_2654,SaoStar,0.6073,non-clickbait,clickbait,"Không còn là hoàng tử ballad dịu dàng, SOOBIN hóa thân thành thái tử Na Tra cực ngầu trong Phong Thần VNG"
+article_2706,Báo Mới,0.838,non-clickbait,clickbait,Thương hiệu 'Ăn cùng Bà Tuyết' lên tiếng chính thức sau thông tin giải thể công ty - Chuyên trang Hoa Học Trò - Báo Tiền Phong
+article_2908,VietNamNet,0.4852,clickbait,non-clickbait,"Vật dụng thiết yếu trong xe hơi chứa đầy vi khuẩn, cảnh báo khẩn đến các tài xế"
+article_3176,24h,0.714,non-clickbait,clickbait,Dàn sao 'Tiếu ngạo giang hồ' sau 30 năm
+article_3178,24h,0.7452,non-clickbait,clickbait,"""Anh Long"" G-Dragon đội nón lá che kín mặt, lên đường ra sân bay về Hàn Quốc!"
+article_3215,24h,0.5358,non-clickbait,clickbait,Khán giả bỏ về vì concert 'Anh trai vượt ngàn chông gai' bị mất điện
+article_3222,24h,0.5959,non-clickbait,clickbait,"Sự trở lại của mỹ nam cao 1m86 đóng phim trăm tỷ của Trấn Thành, Victor Vũ"
+article_3276,Báo Mới,0.8826,non-clickbait,clickbait,"Lái xe đi nghỉ mát, cả gia đình được buổi 'xông hơi' vì điều hòa ô tô giở chứng - Báo VietnamNet"
+article_3300,VnExpress,0.9194,non-clickbait,clickbait,Mang ruốc thịt lợn khi đi du lịch Đài Loan có được không?
+article_3695,24h,0.3639,clickbait,non-clickbait,Liên tiếp 4 người trong 1 gia đình nhập viện cấp cứu vì mắc sai lầm này khi ăn món thịt bò 'đại bổ'
+article_3713,24h,0.7807,non-clickbait,clickbait,"Những cách khắc phục rối loạn cương dương ngay tại nhà, không hề dùng thuốc"
+article_0160,SaoStar,0.3689,clickbait,non-clickbait,"Vợ Đình Tú báo tin vui, dàn sao Vbiz nô nức chúc mừng"
+article_0224,Báo Mới,0.0362,clickbait,non-clickbait,Vì sao Leicester City chưa sa thải Van Nistelrooy - Tạp chí Tri thức
+article_0236,Báo Mới,0.4268,clickbait,non-clickbait,Không cá nhân nào lớn hơn tập thể - Báo Văn hóa
+article_0436,SaoStar,0.2144,clickbait,non-clickbait,Nhân thân bất hảo của thanh niên xé áo nữ tài xế taxi
+article_0469,24h,0.3929,clickbait,non-clickbait,Các cơ sở hạt nhân Iran chịu thiệt hại lớn đến mức nào sau đòn không kích dữ dội của Mỹ?
+article_0532,Báo Mới,0.4395,clickbait,non-clickbait,Điều gì xảy ra nếu Iran đóng cửa eo biển Hormuz? - Tạp chí VnEconomy
+article_0623,Thanh Niên,0.3064,clickbait,non-clickbait,"Mỹ cảnh báo công dân khắp thế giới, ông Trump tuyên bố mập mờ về Iran"
+article_0645,Thanh Niên,0.0327,clickbait,non-clickbait,"Iran giáng cơn thịnh nộ, Israel thiệt hại nặng"
+article_0659,Thanh Niên,0.1002,clickbait,non-clickbait,Tăng xác suất tiểu hành tinh tấn công mặt trăng
+article_0716,SaoStar,0.3171,clickbait,non-clickbait,Tỷ phú Nga công bố di chúc chia hơn 300 nghìn tỷ đồng cho 100 người con khắp thế giới
+article_0722,SaoStar,0.4624,clickbait,non-clickbait,"Phát hiện thằn lằn nguyên con trong bánh tiramisu, một gia đình bị ngộ độc"
+article_0726,SaoStar,0.1462,clickbait,non-clickbait,"Người đàn ông chơi dù lượn bị hút vào đám mây cao 8500 mét, toàn bộ cơ thể bị đông cứng"
+article_0848,VnExpress,0.1571,clickbait,non-clickbait,Mỹ khoét rỗng cả ngọn núi để săn tìm hạt ma
+article_0897,Thanh Niên,0.3785,clickbait,non-clickbait,Chủ tịch Vinatex tiết lộ chuyện lạ lần đầu xảy ra với xuất khẩu dệt may
+article_1018,24h,0.1048,clickbait,non-clickbait,Nơi đây có thêm 1.000 triệu phú mỗi ngày
+article_1096,Báo Mới,0.039,clickbait,non-clickbait,Làm báo Mặt trận - Báo Đại Đoàn Kết
+article_1251,VietNamNet,0.3428,clickbait,non-clickbait,"10 đại học hàng đầu thế giới, trường đứng số 1 giữ vững ngôi vị suốt 14 năm"
+article_1266,SaoStar,0.724,non-clickbait,clickbait,Tống Uy Long là nam diễn viên thất bại nhất nửa đầu năm 2025
+article_1273,SaoStar,0.2276,clickbait,non-clickbait,Quốc Sắc Phương Hoa 2 được dự đoán sẽ thất bại
+article_1541,SaoStar,0.2018,clickbait,non-clickbait,Chủ tịch CLB Hải Phòng lên tiếng về tin HLV Chu Đình Nghiêm chia tay
+article_1598,24h,0.2126,clickbait,non-clickbait,"Inter Milan thắng hú vía: HLV Chivu non tay, á quân cúp C1 sống thoi thóp nhờ siêu sao"
+article_1619,24h,0.0429,clickbait,non-clickbait,"Cazorla 40 tuổi tỏa sáng giúp đội tí hon lên hạng La Liga, chờ so tài Yamal & Mbappe"
+article_1622,24h,0.209,clickbait,non-clickbait,"Inter Milan nhận bàn thua lịch sử ở Club World Cup, CLB Nhật Bản hiên ngang rời giải"
+article_1624,24h,0.1452,clickbait,non-clickbait,"Dự đoán tỷ số FIFA Club World Cup: Real Madrid ""trút giận"", Juventus tiếp đà thăng hoa"
+article_1634,Báo Mới,0.1082,clickbait,non-clickbait,Điểm chuẩn lớp 10 vào 2 trường chuyên 'hot' ở TP.HCM biến động bất ngờ - Tạp chí Tri thức
+article_1797,Thanh Niên,0.3772,clickbait,non-clickbait,Người thầy ở tâm thế mới
+article_1865,Kênh14,0.173,clickbait,non-clickbait,"Loạt ""idol tài năng"" với điểm chứng chỉ tuyệt đối đăng ký vào Bách khoa, không sân khấu vẫn chói mắt như thường"
+article_2160,24h,0.6971,non-clickbait,clickbait,'Cơn sốt' tạo video AI bằng Google Veo 3
+article_2209,Báo Mới,0.1172,clickbait,non-clickbait,Hé lộ căn hộ sang trọng của Tân Hoa hậu Hoàn vũ Việt Nam Phương Linh - Tạp chí Thương Gia
+article_2416,24h,0.4841,clickbait,non-clickbait,"iPhone đỉnh một thời nay có giá rẻ, camera zoom quang không kém iPhone mới"
+article_2524,VnExpress,0.2037,clickbait,non-clickbait,Xu hướng nghề nghiệp dịch chuyển thế nào thời AI?
+article_2537,VnExpress,0.0981,clickbait,non-clickbait,Học sinh Việt Nam đạt thành tích chưa từng có tại Olympic Vật lý châu Âu
+article_2561,Tuổi Trẻ,0.311,clickbait,non-clickbait,"Sóng gió FIFA: Chủ tịch Infantino trễ họp vì ông Trump, đại biểu phẫn nộ bỏ về"
+article_2764,VnExpress,0.3299,clickbait,non-clickbait,Vượt qua nỗi sợ có con
+article_2783,VnExpress,0.2842,clickbait,non-clickbait,Loạt hoạt động 'tiếp tự tin' cho nam giới từ Romano Gen Z
+article_2815,Tuổi Trẻ,0.1043,clickbait,non-clickbait,Cuộc gặp định mệnh giữa giáo sư Hoàng Xuân Sính và thiên tài toán học Alexander Grothendi
+article_2854,Thanh Niên,0.4312,clickbait,non-clickbait,"Quảng Nam trụ hạng phút bù giờ, Đà Nẵng đá play-off: VPF chưa thể ‘nghỉ tay’ vì…"
+article_2944,SaoStar,0.3925,clickbait,non-clickbait,Bất ngờ 5 địa điểm du lịch gây thất vọng nhất thế giới
+article_2962,24h,0.068,clickbait,non-clickbait,Chuyên gia trang điểm Diệp Bùi chọn ngã rẽ mới để viết tiếp ước mơ
+article_2994,Báo Mới,0.4575,clickbait,non-clickbait,Vén màn bí mật bức phù điêu hình đại bàng vàng - Báo Tri thức & Cuộc sống
+article_3040,VnExpress,0.0843,clickbait,non-clickbait,Người dân háo hức đổi xe xăng lấy xe máy điện
+article_3086,Tuổi Trẻ,0.1906,clickbait,non-clickbait,7 thay đổi nhà bếp trước và sau khi cải tạo
+article_3144,VietNamNet,0.3176,clickbait,non-clickbait,"Kiên Giang cấp phép đầu tư 3 dự án 'siêu khủng', tổng vốn hơn 90.000 tỷ đồng"
+article_3212,24h,0.4536,clickbait,non-clickbait,'Choáng' với kiểu cuồng thần tượng của fan Việt
+article_3304,VnExpress,0.2851,clickbait,non-clickbait,10 tuyến tàu ngoạn mục nhất thế giới 2025
+article_3333,VnExpress,0.2111,clickbait,non-clickbait,9 thành phố châu Âu nên đến mùa hè này
+article_3372,Thanh Niên,0.1028,clickbait,non-clickbait,"Crossover cỡ trung: Đại lý 'cắn răng' chịu lỗ, Ford Territory lần đầu vượt Mazda CX-5"
+article_3384,Thanh Niên,0.2617,clickbait,non-clickbait,Vụ xe bán tải cán người trong bệnh viện: Làm sao để lùi xe an toàn?
+article_3408,VietNamNet,0.0282,clickbait,non-clickbait,"Cao nguyên cách Hà Nội 300km có biển mây, thác nước, khách rộn ràng reo vui"
+article_3509,Báo Mới,0.4583,clickbait,non-clickbait,"Gặp mưa to bất chợt, lái xe cần nằm lòng 6 quy tắc sống còn sau để đảm bảo an toàn - Báo VietnamNet"
+article_3749,24h,0.0233,clickbait,non-clickbait,Hé lộ thực đơn quốc yến đón khách quốc tế của Tổng thống Nga Putin
+article_3751,24h,0.1109,clickbait,non-clickbait,"Vương quốc kem với vị cá thu, than củi"
