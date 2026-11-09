@@ -15,12 +15,13 @@ transformers>=4.40
 tokenizers>=0.19
 safetensors>=0.4
 huggingface_hub>=0.23
-# torchvision>=0.17   # chỉ cần nếu bạn dùng thêm model ảnh của torchvision
+# torchvision>=0.17   # không bắt buộc
 
 # --- Xử lý dữ liệu / NLP tiếng Việt ---
 numpy>=1.26
 pandas>=2.2
 scikit-learn>=1.4
+scipy>=1.11
 pyvi>=0.1.1
 
 # --- Ảnh ---
