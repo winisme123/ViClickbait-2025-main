@@ -83,7 +83,7 @@ ClickBaitKLTN/
 
 ## Cài đặt
 
-Yêu cầu **Python 3.11**, GPU NVIDIA khuyến nghị (đã chạy trên RTX 3060 Laptop 6 GB).
+Yêu cầu **Python 3.11**, GPU NVIDIA khuyến nghị (đã chạy trên RTX 3060 Laptop 6 GB). Phiên bản đã kiểm thử: PyTorch 2.11.0 (CUDA 12.8), Transformers 5.22.1, Streamlit 1.66.1; danh sách đầy đủ trong `requirements-lock.txt`.
 
 ```powershell
 python -m venv venv
@@ -91,6 +91,7 @@ venv\Scripts\activate
 # Cài PyTorch bản CUDA trước cho khớp driver
 pip install torch --index-url https://download.pytorch.org/whl/cu128
 pip install -r requirements.txt
+# Hoặc cài đúng phiên bản đã kiểm thử: pip install -r requirements-lock.txt
 ```
 
 > Mọi lệnh bên dưới chạy từ **thư mục gốc** của repo.
@@ -185,11 +186,18 @@ Kiểm tra: tập chia không giao nhau, đúng kích thước 2237/480/480, ph�
 
 ## Nhóm thực hiện
 
-| | |
-|---|---|
-| Sinh viên | Nguyễn Hữu Thiện · Thi Lý Hữu Toàn · Trần Quốc Tuấn |
-| Giảng viên hướng dẫn | ThS. Trần Khải Thiện |
+| Họ tên | MSSV | Lớp |
+|---|---|---|
+| Nguyễn Hữu Thiện | 2001230925 | 14DHTH12 |
+| Thi Lý Hữu Toàn | 2001230828 | 14DHTH12 |
+| Trần Quốc Tuấn | 2001230865 | 14DHTH13 |
+
+Giảng viên hướng dẫn: ThS. Trần Khải Thiện. Khoa Công nghệ Thông tin, Trường Đại học Công Thương TP. Hồ Chí Minh.
 
 ## Bộ dữ liệu và giấy phép
 
-ViClickbait-2025: 3.414 tiêu đề từ 8 trang báo (Báo Mới, VnExpress, Thanh Niên, 24h, VietNamNet, SaoStar, Tuổi Trẻ, Kênh14). Dataset đang trong quá trình xét duyệt công bố, chưa có DOI; dự kiến phát hành theo CC BY 4.0. Mã nguồn phục vụ mục đích học thuật, phi thương mại.
+ViClickbait-2025: 3.414 tiêu đề từ 8 trang báo (Báo Mới, VnExpress, Thanh Niên, 24h, VietNamNet, SaoStar, Tuổi Trẻ, Kênh14). Bộ dữ liệu chỉ gồm văn bản và nhãn; ảnh thumbnail được nhóm tải lại từ bài gốc (`scripts/download_images.py`). Khi dùng bộ dữ liệu, trích dẫn bài báo gốc:
+
+> D. P. Nguyen, T. K. Tran, Y. M. Nguyen, B. Vo. *ViClickbait-2025: A comprehensive dataset for Vietnamese clickbait detection*. Data in Brief, vol. 63, art. 112164, 2025. <https://doi.org/10.1016/j.dib.2025.112164>
+
+Mã nguồn phục vụ mục đích học thuật, phi thương mại.

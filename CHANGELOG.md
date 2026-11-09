@@ -1,5 +1,15 @@
 # Lịch sử thay đổi
 
+## [0.8.1] - 2026-11-09
+
+### Sửa
+- `requirements.txt` thiếu `scipy` (dùng trong `scripts/compare_seeds.py`).
+- README: bộ dữ liệu ViClickbait-2025 đã công bố (Data in Brief, DOI 10.1016/j.dib.2025.112164); thêm MSSV và lớp của nhóm.
+- Chuẩn hóa comment và docstring trong mã nguồn (bỏ ghi chú mang tính lịch sử sửa đổi, sửa mô tả mô hình Co-Attention trong `experiments/`).
+
+### Thêm
+- `requirements-lock.txt`: phiên bản chính xác của môi trường đã chạy thực nghiệm.
+
 ## [0.8.0] - 2026-11-07
 
 ### Thêm
